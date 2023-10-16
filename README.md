@@ -7,16 +7,16 @@ This project provide accelerator for wealth integration services using
 
 ## Market News Integration Services
 
-* [market-news-clients README.md](./wealth-integration-service-accelerators/market-news-clients/README.md)
-* [market-news-service README.md](./wealth-integration-service-accelerators/market-news-service/README.md)
+* [market-news-clients README.md](./market-news-clients/README.md)
+* [market-news-service README.md](./market-news-service/README.md)
 
 ## Wealth Integration Services
   
-* [drive-news-clients README.md](./wealth-integration-service-accelerators/drive-wealth-clients/README.md)
-* [portfolio-instrument-integration-service README.md](./wealth-integration-service-accelerators/portfolio-instrument-integration-service/README.md)
-* [portfolio-outbound-integration README.md](./wealth-integration-service-accelerators/portfolio-outbound-integration/README.md)
-* [portfolio-trading-integration-service README.md](./wealth-integration-service-accelerators/portfolio-trading-integration-service/README.md)
-* [wealth-data-sync-service README.md](./wealth-integration-service-accelerators/wealth-data-sync-service/README.md)
+* [drive-news-clients README.md](./drive-wealth-clients/README.md)
+* [portfolio-instrument-integration-service README.md](./portfolio-instrument-integration-service/README.md)
+* [portfolio-outbound-integration README.md](./portfolio-outbound-integration/README.md)
+* [portfolio-trading-integration-service README.md](./portfolio-trading-integration-service/README.md)
+* [wealth-data-sync-service README.md](./wealth-data-sync-service/README.md)
 
 ## Documentation
 
