@@ -1,0 +1,136 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Market Data API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Market Data
+    description: Allow retrieval of market data
+paths:
+  /back-office/bars:
+    get:
+      tags:
+        - Market Data
+      summary: Get Historical Chart
+      operationId: getHistoricalChart
+      parameters:
+        - name: instrumentID
+          in: query
+          schema:
+            type: string
+          required: true
+        - name: compression
+          in: query
+          schema:
+            type: integer
+          required: true
+        - name: dateStart
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: dateEnd
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: tradingDays
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HistoricalChartResponse'
+  /back-office/quotes/vdr:
+    get:
+      tags:
+        - Market Data
+      summary: Get Consolidated Quote
+      operationId: getConsolidatedQuote
+      parameters:
+        - name: symbols
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/QuotesResponse'
+components:
+  schemas:
+    QuotesResponse:
+      type: object
+      properties:
+        symbol:
+          type: string
+        bid:
+          type: number
+        ask:
+          type: number
+        open:
+          type: number
+        high:
+          type: number
+        low:
+          type: number
+        timeOffset:
+          type: number
+        volume:
+          type: number
+        askSize:
+          type: number
+        bidSize:
+          type: number
+        change:
+          type: number
+        lastTradeExchange:
+          type: string
+        bestBidExchange:
+          type: string
+        bestAskExchange:
+          type: string
+        lastTrade:
+          type: number
+        lastTradeSize:
+          type: number
+        marketCondition:
+          type: string
+        tradeCount:
+          type: number
+        close:
+          type: number
+        priorClose:
+          type: number
+    HistoricalChartResponse:
+      type: object
+      properties:
+        instrumentID:
+          type: string
+        compression:
+          type: number
+        dateStart:
+          type: string
+          format: date-time
+        dateEnd:
+          type: string
+          format: date-time
+        data:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []

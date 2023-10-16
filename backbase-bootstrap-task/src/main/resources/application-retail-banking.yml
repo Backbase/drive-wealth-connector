@@ -1,0 +1,126 @@
+backbase:
+  stream:
+    bootstrap:
+      legal-entity:
+        bootstrapResourcesEnabled: true
+        location:
+          - classpath:le-hierarchy/le-base-structure.json
+          - classpath:le-hierarchy/retail-banking-le-hierarchy.json
+          - classpath:le-hierarchy/retail-banking-le-hierarchy-EUR.json
+          - classpath:le-hierarchy/digital-assist/retail-banking-rtc.json
+          - classpath:le-hierarchy/digital-assist/base.json
+          - classpath:le-hierarchy/digital-assist/rtc.json
+          - classpath:le-hierarchy/onboarding/retail-onboarding.json
+
+logging:
+  level:
+    ROOT: DEBUG
+    org.springframework.web.client.RestTemplate: TRACE
+
+marqeta:
+  cardUsers:
+    debitCard:
+      - $installation-$runtime-sara
+      - $installation-$runtime-ext1-sara
+      - $installation-$runtime-ext2-sara
+      - $installation-$runtime-ext3-sara
+      - $installation-$runtime-ext4-sara
+      - $installation-$runtime-ext5-sara
+      - $installation-$runtime-ext6-sara
+      - $installation-$runtime-ext7-sara
+      - $installation-$runtime-ext8-sara
+      - $installation-$runtime-ext9-sara
+      - $installation-$runtime-ext10-sara
+      - $installation-$runtime-ext11-sara
+      - $installation-$runtime-ext12-sara
+      - $installation-$runtime-ext13-sara
+      - $installation-$runtime-ext14-sara
+      - $installation-$runtime-ext15-sara
+      - $installation-$runtime-sara-autotest
+      - $installation-$runtime-john
+      - $installation-$runtime-ext1-john
+      - $installation-$runtime-ext2-john
+      - $installation-$runtime-ext3-john
+      - $installation-$runtime-ext4-john
+      - $installation-$runtime-ext5-john
+      - $installation-$runtime-ext6-john
+      - $installation-$runtime-ext7-john
+      - $installation-$runtime-ext8-john
+      - $installation-$runtime-ext9-john
+      - $installation-$runtime-ext10-john
+      - $installation-$runtime-ext11-john
+      - $installation-$runtime-ext12-john
+      - $installation-$runtime-ext13-john
+      - $installation-$runtime-ext14-john
+      - $installation-$runtime-ext15-john
+      - $installation-$runtime-paolo
+      - $installation-$runtime-ext1-paolo
+      - $installation-$runtime-ext2-paolo
+      - $installation-$runtime-ext3-paolo
+      - $installation-$runtime-ext4-paolo
+      - $installation-$runtime-ext5-paolo
+      - $installation-$runtime-ext6-paolo
+      - $installation-$runtime-ext7-paolo
+      - $installation-$runtime-ext8-paolo
+      - $installation-$runtime-ext9-paolo
+      - $installation-$runtime-ext10-paolo
+      - $installation-$runtime-ext11-paolo
+      - $installation-$runtime-ext12-paolo
+      - $installation-$runtime-ext13-paolo
+      - $installation-$runtime-ext14-paolo
+      - $installation-$runtime-ext15-paolo
+      - $installation-$runtime-paolo-autotest
+      - $installation-$runtime-matthew
+      - $installation-$runtime-ext1-matthew
+      - $installation-$runtime-ext2-matthew
+      - $installation-$runtime-ext3-matthew
+      - $installation-$runtime-ext4-matthew
+      - $installation-$runtime-ext5-matthew
+      - $installation-$runtime-ext6-matthew
+      - $installation-$runtime-ext7-matthew
+      - $installation-$runtime-ext8-matthew
+      - $installation-$runtime-ext9-matthew
+      - $installation-$runtime-ext10-matthew
+      - $installation-$runtime-ext11-matthew
+      - $installation-$runtime-ext12-matthew
+      - $installation-$runtime-ext13-matthew
+      - $installation-$runtime-ext14-matthew
+      - $installation-$runtime-ext15-matthew
+      - $installation-$runtime-emily-autotest
+      - $installation-$runtime-garuda
+      - $installation-$runtime-raghu
+    creditCard:
+      - $installation-$runtime-Emily
+      - $installation-$runtime-ext1-emily
+      - $installation-$runtime-ext2-emily
+      - $installation-$runtime-ext3-emily
+      - $installation-$runtime-ext4-emily
+      - $installation-$runtime-ext5-emily
+      - $installation-$runtime-ext6-emily
+      - $installation-$runtime-ext7-emily
+      - $installation-$runtime-ext8-emily
+      - $installation-$runtime-ext9-emily
+      - $installation-$runtime-ext10-emily
+      - $installation-$runtime-ext11-emily
+      - $installation-$runtime-ext12-emily
+      - $installation-$runtime-ext13-emily
+      - $installation-$runtime-ext14-emily
+      - $installation-$runtime-ext15-emily
+      - $installation-$runtime-kevin
+      - $installation-$runtime-ext1-kevin
+      - $installation-$runtime-ext2-kevin
+      - $installation-$runtime-ext3-kevin
+      - $installation-$runtime-ext4-kevin
+      - $installation-$runtime-ext5-kevin
+      - $installation-$runtime-ext6-kevin
+      - $installation-$runtime-ext7-kevin
+      - $installation-$runtime-ext8-kevin
+      - $installation-$runtime-ext9-kevin
+      - $installation-$runtime-ext10-kevin
+      - $installation-$runtime-ext11-kevin
+      - $installation-$runtime-ext12-kevin
+      - $installation-$runtime-ext13-kevin
+      - $installation-$runtime-ext14-kevin
+      - $installation-$runtime-ext15-kevin
+      - $installation-$runtime-Peter
+      - $installation-$runtime-rohit

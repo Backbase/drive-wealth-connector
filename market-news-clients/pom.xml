@@ -1,0 +1,147 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.backbase.marketnews</groupId>
+    <artifactId>market-news-clients</artifactId>
+    <version>0.1.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>Wealth Market News API Client Generator</name>
+    <description>Wealth Market News Client Generator</description>
+
+    <properties>
+        <openapi-generator-maven-plugin.outputBaseDir>${project.basedir}/generated-clients
+        </openapi-generator-maven-plugin.outputBaseDir>
+        <openapi-generator-maven-plugin.library>resttemplate</openapi-generator-maven-plugin.library>
+        <openapi-generator-maven-plugin.java8>true</openapi-generator-maven-plugin.java8>
+        <openapi-generator-maven-plugin.dateLibrary>java8</openapi-generator-maven-plugin.dateLibrary>
+        <openapi-generator-maven-plugin.hideGenerationTimestamp>true
+        </openapi-generator-maven-plugin.hideGenerationTimestamp>
+        <yahoo-api.version>v1.0</yahoo-api.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.backbase.marketnews</groupId>
+                <artifactId>market-news-client</artifactId>
+                <version>0.1.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>1.15.1</version>
+                <configuration>
+                    <installProject>false</installProject>
+                    <verbose>false</verbose>
+                    <gitFlowConfig>
+                        <productionBranch>${productionBranch}</productionBranch>
+                        <developmentBranch>develop</developmentBranch>
+                        <featureBranchPrefix>feature/</featureBranchPrefix>
+                        <releaseBranchPrefix>release/</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+                        <versionTagPrefix>v</versionTagPrefix>
+                        <origin>origin</origin>
+                    </gitFlowConfig>
+                    <commitMessages>
+                        <!-- since 1.2.1, see Customizing commit messages -->
+                        <releaseStartMessage>Update versions for release @{version}</releaseStartMessage>
+                        <releaseFinishMessage>Update for next development version @{version}</releaseFinishMessage>
+                        <releaseVersionUpdateMessage>Update for next development version @{version}
+                        </releaseVersionUpdateMessage>
+                    </commitMessages>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>generate-clients</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-clean-plugin</artifactId>
+                        <version>3.1.0</version>
+                        <configuration>
+                            <filesets>
+                                <fileset>
+                                    <directory>${openapi-generator-maven-plugin.outputBaseDir}</directory>
+                                    <followSymlinks>false</followSymlinks>
+                                </fileset>
+                            </filesets>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.openapitools</groupId>
+                        <artifactId>openapi-generator-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>generate-market-news-client</id>
+                                <goals>
+                                    <goal>generate</goal>
+                                </goals>
+                                <configuration>
+                                    <output>${openapi-generator-maven-plugin.outputBaseDir}/yahoo-finance-news-client</output>
+                                    <inputSpec>${project.basedir}/api/yahoo-finance-news-client.yml</inputSpec>
+                                    <groupId>com.backbase.marketnews</groupId>
+                                    <artifactId>yahoo-finance-news-client</artifactId>
+                                    <artifactVersion>${project.version}</artifactVersion>
+                                    <generatorName>java</generatorName>
+                                    <skipValidateSpec>true</skipValidateSpec>
+                                    <generateApis>true</generateApis>
+                                    <generateApiTests>false</generateApiTests>
+                                    <generateModelTests>false</generateModelTests>
+                                    <configOptions>
+                                        <library>${openapi-generator-maven-plugin.library}</library>
+                                        <java8>${openapi-generator-maven-plugin.java8}</java8>
+                                        <dateLibrary>${openapi-generator-maven-plugin.dateLibrary}</dateLibrary>
+                                        <apiPackage>com.backbase.yahoofinance.news.clients.api</apiPackage>
+                                        <modelPackage>com.backbase.yahoofinance.news.clients.model</modelPackage>
+                                        <hideGenerationTimestamp>true</hideGenerationTimestamp>
+                                        <skipOverwrite>false</skipOverwrite>
+                                        <additionalModelTypeAnnotations>
+                                            <![CDATA[@JsonInclude(JsonInclude.Include.NON_NULL)]]>
+                                        </additionalModelTypeAnnotations>
+                                    </configOptions>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>include-clients</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-install-plugin</artifactId>
+                        <inherited>false</inherited>
+                        <configuration>
+                            <skip>false</skip>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+            <modules>
+                <module>generated-clients/yahoo-finance-news-client</module>
+            </modules>
+        </profile>
+    </profiles>
+</project>

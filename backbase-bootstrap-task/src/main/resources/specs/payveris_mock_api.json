@@ -1,0 +1,244 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Payveris Mock API",
+    "description": "Payveris Mock API Operations",
+    "version": "3.0.0"
+  },
+  "tags": [
+    {
+      "name": "Mock"
+    }
+  ],
+  "paths": {
+    "/mock/reset": {
+      "post": {
+        "tags": [
+          "Mock"
+        ],
+        "summary": "Deletes the mock data from in-memory",
+        "operationId": "resetData",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {}
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/mock/users/{externalUserId}/profile": {
+      "post": {
+        "tags": [
+          "Mock"
+        ],
+        "summary": "Add profile to Payveris in-memory",
+        "operationId": "addProfile",
+        "parameters": [
+          {
+            "name": "externalUserId",
+            "in": "path",
+            "description": "External user id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/profile_holder_model"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {}
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "profile_holder_model": {
+        "type": "object",
+        "required": [
+          "profile"
+        ],
+        "properties": {
+          "profile": {
+            "$ref": "#/components/schemas/profile_model"
+          }
+        }
+      },
+      "profile_model": {
+        "type": "object",
+        "required": [
+          "firstName",
+          "lastName",
+          "customerCode",
+          "userCode"
+        ],
+        "properties": {
+          "customerType": {
+            "type": "string",
+            "default": "Personal"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "userRole": {
+            "type": "string",
+            "default": "PERSONAL"
+          },
+          "status": {
+            "type": "string",
+            "default": "Active"
+          },
+          "customerCode": {
+            "type": "string"
+          },
+          "userCode": {
+            "type": "string"
+          },
+          "emailAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "address": {
+            "$ref": "#/components/schemas/address_model"
+          },
+          "accounts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/account_model"
+            }
+          }
+        }
+      },
+      "account_model": {
+        "type": "object",
+        "required": [
+          "accountNumber",
+          "type"
+        ],
+        "properties": {
+          "accountCode": {
+            "type": "string",
+            "default": 1
+          },
+          "routingNumber": {
+            "type": "string",
+            "default": "021000021"
+          },
+          "accountNumber": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "accountStatus": {
+            "type": "string",
+            "default": "Active"
+          },
+          "accessRole": {
+            "type": "string",
+            "default": "Full"
+          },
+          "payBillsFrom": {
+            "type": "boolean",
+            "default": true
+          },
+          "primaryBillPaymentAccount": {
+            "type": "boolean",
+            "default": true
+          },
+          "transferFrom": {
+            "type": "boolean",
+            "default": true
+          },
+          "transferTo": {
+            "type": "boolean",
+            "default": true
+          }
+        }
+      },
+      "address_model": {
+        "type": "object",
+        "properties": {
+          "addressLine1": {
+            "type": "string",
+            "default": "252 Ashcraft Court"
+          },
+          "city": {
+            "type": "string",
+            "default": "LOS ANGELES"
+          },
+          "stateCode": {
+            "type": "string",
+            "default": "CA"
+          },
+          "zipCode": {
+            "type": "string",
+            "default": 90001
+          },
+          "country": {
+            "type": "string",
+            "default": "US"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}

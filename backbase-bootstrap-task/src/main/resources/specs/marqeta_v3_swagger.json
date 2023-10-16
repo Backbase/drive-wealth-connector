@@ -1,0 +1,3946 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Simplified management of your payment programs",
+    "version": "3.0.0",
+    "title": "Marqeta Core API"
+  },
+  "basePath": "/v3",
+  "tags": [
+    {
+      "name": "cards"
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/cards" : {
+      "post" : {
+        "tags" : [ "cards" ],
+        "summary" : "Creates a card",
+        "description" : "",
+        "operationId" : "postCards",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/card_request"
+          }
+        }, {
+          "name" : "show_cvv_number",
+          "in" : "query",
+          "description" : "Show CVV",
+          "required" : false,
+          "type" : "boolean",
+          "default" : false
+        }, {
+          "name" : "show_pan",
+          "in" : "query",
+          "description" : "Show PAN",
+          "required" : false,
+          "type" : "boolean",
+          "default" : false
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "Success",
+            "schema" : {
+              "$ref" : "#/definitions/card_response"
+            }
+          },
+          "400" : {
+            "description" : "User input error/Bad request"
+          },
+          "500" : {
+            "description" : "Server error"
+          },
+          "409" : {
+            "description" : "Token already associated with a different payload"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/cards/{token}": {
+      "get": {
+        "tags": [
+          "cards"
+        ],
+        "summary": "Returns a specific card",
+        "description": "",
+        "operationId": "getCardsToken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "Card token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "expand",
+            "in": "query",
+            "description": "Object to expand",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/card_response"
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "404": {
+            "description": "Card not found"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "cards"
+        ],
+        "summary": "Updates a specific card",
+        "description": "",
+        "operationId": "putCardsToken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "Card token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/card_update_request"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/card_response"
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/cardtransitions": {
+      "post": {
+        "tags": [
+          "card transitions"
+        ],
+        "summary": "Creates a card transition object",
+        "description": "",
+        "operationId": "postCardtransitions",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/card_transition_request"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/card_transition_response"
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request"
+          },
+          "422": {
+            "description": "Cardholder not active"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "409": {
+            "description": "Token already associated with a different payload"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/cards/{token}/showpan": {
+      "get": {
+        "tags": [
+          "cards"
+        ],
+        "summary": "Returns a specific card - PAN visible",
+        "description": "",
+        "operationId": "getCardsTokenShowpan",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "Card token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "show_cvv_number",
+            "in": "query",
+            "required": false,
+            "type": "boolean"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/card_response"
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "404": {
+            "description": "Card not found"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/pins/controltoken": {
+      "post": {
+        "tags": [
+          "pins"
+        ],
+        "summary": "Creates a new control token for a PIN",
+        "description": "Creates a new control token for a PIN, for the specified card for PIN debit or ATM transactions,or to allow for a pin to be revealed to authorized callers.",
+        "operationId": "postPinsControltoken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/control_token_request"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Control token created",
+            "schema": {
+              "$ref": "#/definitions/control_token_response"
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/pins": {
+      "put": {
+        "tags": [
+          "pins"
+        ],
+        "summary": "Updates the PIN control token",
+        "description": "Updates a PIN identified by its control token.",
+        "operationId": "putPins",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/pin_request"
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Bad request"
+          },
+          "412": {
+            "description": "Weak PIN"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "204": {
+            "description": "PIN was successfully set"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/velocitycontrols": {
+      "get": {
+        "tags": [
+          "velocity controls"
+        ],
+        "summary": "Queries velocity controls",
+        "description": "",
+        "operationId": "getVelocitycontrols",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "card_product",
+            "in": "query",
+            "description": "Card product token. Use \"null\" to get velocity controls that are not associated with any card product.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "user",
+            "in": "query",
+            "description": "User token. Use \"null\" to get velocity controls that are not associated with any user.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "in": "query",
+            "description": "Number of items to retrieve. Count can be between 1 - 10 items.",
+            "required": false,
+            "type": "integer",
+            "default": 5,
+            "format": "int32"
+          },
+          {
+            "name": "start_index",
+            "in": "query",
+            "description": "Indicates from what row to start returning data.",
+            "required": false,
+            "type": "integer",
+            "default": 0,
+            "format": "int32"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "description": "Field by which to sort the returned items. Use any field in the model, or system fields lastModifiedTime or createdTime.",
+            "required": false,
+            "type": "string",
+            "default": "-lastModifiedTime"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/VelocityControlListResponse"
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "velocity controls"
+        ],
+        "summary": "Creates a velocity control",
+        "description": "",
+        "operationId": "postVelocitycontrols",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Velocity control object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/velocity_control_request"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created",
+            "schema": {
+              "$ref": "#/definitions/velocity_control_response"
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "409": {
+            "description": "Token already associated with a different payload"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/velocitycontrols/user/{user_token}/available": {
+      "get": {
+        "tags": [
+          "velocity controls"
+        ],
+        "summary": "Queries a user's velocity control balances",
+        "description": "",
+        "operationId": "getVelocitycontrolsUserUsertokenAvailable",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "user_token",
+            "in": "path",
+            "description": "User token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "in": "query",
+            "description": "Number of items to retrieve. Count can be between 1 - 10 items.",
+            "required": false,
+            "type": "integer",
+            "default": 5,
+            "format": "int32"
+          },
+          {
+            "name": "start_index",
+            "in": "query",
+            "description": "Indicates from what row to start returning data.",
+            "required": false,
+            "type": "integer",
+            "default": 0,
+            "format": "int32"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sort_by",
+            "in": "query",
+            "description": "Field by which to sort the returned items. Use any field in the model, or system fields lastModifiedTime or createdTime.",
+            "required": false,
+            "type": "string",
+            "default": "-lastModifiedTime"
+          },
+          {
+            "name": "force_dto",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/VelocityControlBalanceListResponse"
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/velocitycontrols/{token}": {
+      "get": {
+        "tags": [
+          "velocity controls"
+        ],
+        "summary": "Returns a specific velocity control",
+        "description": "",
+        "operationId": "getVelocitycontrolsToken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "Velocity control token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/velocity_control_response"
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "404": {
+            "description": "Velocity control not found"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "velocity controls"
+        ],
+        "summary": "Updates a specific velocity control",
+        "description": "",
+        "operationId": "putVelocitycontrolsToken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "Velocity control token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Velocity control object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/velocity_control_update_request"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/velocity_control_response"
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/users/{token}": {
+      "get": {
+        "tags": [
+          "users"
+        ],
+        "summary": "Returns a specific user",
+        "description": "",
+        "operationId": "getUsersToken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "User token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/user_card_holder_response"
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          },
+          "404": {
+            "description": "Cardholder not found"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "users"
+        ],
+        "summary": "Updates a specific user",
+        "description": "",
+        "operationId": "putUsersToken",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "User token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "User object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserCardHolderUpdateModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/card_holder_model"
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/users/lookup" : {
+      "post" : {
+        "tags" : [ "users" ],
+        "summary" : "Lists all users",
+        "description" : "",
+        "operationId" : "postUsersLookup",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/user_card_holder_search_model"
+          }
+        }, {
+          "name" : "count",
+          "in" : "query",
+          "description" : "Number of users to retrieve",
+          "required" : false,
+          "type" : "integer",
+          "default" : 5,
+          "format" : "int32"
+        }, {
+          "name" : "start_index",
+          "in" : "query",
+          "description" : "Start index",
+          "required" : false,
+          "type" : "integer",
+          "default" : 0,
+          "format" : "int32"
+        }, {
+          "name" : "search_type",
+          "in" : "query",
+          "description" : "Search type",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "fields",
+          "in" : "query",
+          "description" : "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "sort_by",
+          "in" : "query",
+          "description" : "Sort order",
+          "required" : false,
+          "type" : "string",
+          "default" : "-lastModifiedTime"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "schema" : {
+              "$ref" : "#/definitions/UserCardHolderListResponse"
+            }
+          },
+          "400" : {
+            "description" : "Bad request"
+          },
+          "500" : {
+            "description" : "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/cards/user/{token}" : {
+      "get" : {
+        "tags" : [ "cards" ],
+        "summary" : "Lists all cards for a specific user",
+        "description" : "",
+        "operationId" : "getCardsUserToken",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "token",
+          "in" : "path",
+          "description" : "User token",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "count",
+          "in" : "query",
+          "description" : "Number of items to retrieve",
+          "required" : false,
+          "type" : "integer",
+          "default" : 5,
+          "format" : "int32"
+        }, {
+          "name" : "start_index",
+          "in" : "query",
+          "description" : "Start index",
+          "required" : false,
+          "type" : "integer",
+          "default" : 0,
+          "format" : "int32"
+        }, {
+          "name" : "fields",
+          "in" : "query",
+          "description" : "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "sort_by",
+          "in" : "query",
+          "description" : "Sort order",
+          "required" : false,
+          "type" : "string",
+          "default" : "-lastModifiedTime"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "schema" : {
+              "$ref" : "#/definitions/CardListResponse"
+            }
+          },
+          "400" : {
+            "description" : "User input error/Bad request"
+          },
+          "500" : {
+            "description" : "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/cardproducts" : {
+      "get" : {
+        "tags" : [ "card products" ],
+        "summary" : "Lists all card products",
+        "description" : "",
+        "operationId" : "getCardproducts",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "count",
+          "in" : "query",
+          "description" : "Number of items to retrieve. Count can be between 1 - 10 items.",
+          "required" : false,
+          "type" : "integer",
+          "default" : 5,
+          "format" : "int32"
+        }, {
+          "name" : "start_index",
+          "in" : "query",
+          "description" : "Indicates from what row to start returning data.",
+          "required" : false,
+          "type" : "integer",
+          "default" : 0,
+          "format" : "int32"
+        }, {
+          "name" : "sort_by",
+          "in" : "query",
+          "description" : "Sort order",
+          "required" : false,
+          "type" : "string",
+          "default" : "-createdTime"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "schema" : {
+              "$ref" : "#/definitions/CardProductListResponse"
+            }
+          },
+          "400" : {
+            "description" : "Bad request"
+          },
+          "500" : {
+            "description" : "Server error"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "card products" ],
+        "summary" : "Creates a card product",
+        "description" : "",
+        "operationId" : "postCardproducts",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "description" : "Card product object",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/card_product_request"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "Created",
+            "schema" : {
+              "$ref" : "#/definitions/card_product_response"
+            }
+          },
+          "400" : {
+            "description" : "Bad request"
+          },
+          "500" : {
+            "description" : "Server error"
+          },
+          "409" : {
+            "description" : "Token already associated with a different payload"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/users" : {
+      "get" : {
+        "tags" : [ "users" ],
+        "summary" : "Lists all users",
+        "description" : "",
+        "operationId" : "getUsers",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "count",
+          "in" : "query",
+          "description" : "Number of users to retrieve",
+          "required" : false,
+          "type" : "integer",
+          "default" : 5,
+          "format" : "int32"
+        }, {
+          "name" : "start_index",
+          "in" : "query",
+          "description" : "Start index",
+          "required" : false,
+          "type" : "integer",
+          "default" : 0,
+          "format" : "int32"
+        }, {
+          "name" : "search_type",
+          "in" : "query",
+          "description" : "Search type",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "fields",
+          "in" : "query",
+          "description" : "Comma-delimited list of fields to return (e.g. field_1,field_2,..). Leave blank to return all fields.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "sort_by",
+          "in" : "query",
+          "description" : "Sort order",
+          "required" : false,
+          "type" : "string",
+          "default" : "-lastModifiedTime"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "schema" : {
+              "$ref" : "#/definitions/UserCardHolderListResponse"
+            }
+          },
+          "400" : {
+            "description" : "Bad request"
+          },
+          "500" : {
+            "description" : "Server error"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      },
+      "post" : {
+        "tags" : [ "users" ],
+        "summary" : "Creates a user",
+        "description" : "",
+        "operationId" : "postUsers",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/card_holder_model"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "Success",
+            "schema" : {
+              "$ref" : "#/definitions/user_card_holder_response"
+            }
+          },
+          "400" : {
+            "description" : "User input error/Bad request"
+          },
+          "412" : {
+            "description" : "Pre-condition setup issue"
+          },
+          "500" : {
+            "description" : "Server error"
+          },
+          "409" : {
+            "description" : "Request already processed with a different payload"
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    }
+  },
+  "securityDefinitions": {
+    "basic": {
+      "description": "",
+      "type": "basic"
+    }
+  },
+  "definitions": {
+    "card_product_request" : {
+      "type" : "object",
+      "required" : [ "name", "start_date" ],
+      "properties" : {
+        "token" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 36
+        },
+        "name" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 40
+        },
+        "active" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "start_date" : {
+          "type" : "string"
+        },
+        "end_date" : {
+          "type" : "string",
+          "format" : "date-time"
+        },
+        "config" : {
+          "$ref" : "#/definitions/card_product_config"
+        }
+      },
+      "xml" : {
+        "name" : "card_product_request"
+      }
+    },
+    "CardProductListResponse" : {
+      "type" : "object",
+      "properties" : {
+        "count" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "start_index" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "end_index" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "is_more" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "data" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/card_product_response"
+          }
+        }
+      }
+    },
+    "card_product_response" : {
+      "type" : "object",
+      "required" : [ "created_time", "last_modified_time", "name", "start_date" ],
+      "properties" : {
+        "token" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 36
+        },
+        "name" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 40
+        },
+        "active" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "start_date" : {
+          "type" : "string"
+        },
+        "end_date" : {
+          "type" : "string",
+          "format" : "date-time"
+        },
+        "config" : {
+          "$ref" : "#/definitions/card_product_config"
+        },
+        "created_time" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "last_modified_time" : {
+          "type" : "string",
+          "format" : "date-time",
+          "description" : "yyyy-MM-ddTHH:mm:ssZ"
+        }
+      },
+      "xml" : {
+        "name" : "card_product_response"
+      }
+    },
+    "card_product_config" : {
+      "type" : "object",
+      "properties" : {
+        "poi" : {
+          "$ref" : "#/definitions/poi"
+        },
+        "transaction_controls" : {
+          "$ref" : "#/definitions/transaction_controls"
+        },
+        "selective_auth" : {
+          "$ref" : "#/definitions/selective_auth"
+        },
+        "special" : {
+          "$ref" : "#/definitions/special"
+        },
+        "card_life_cycle" : {
+          "$ref" : "#/definitions/card_life_cycle"
+        },
+        "clearing_and_settlement" : {
+          "$ref" : "#/definitions/clearing_and_settlement"
+        },
+        "jit_funding" : {
+          "$ref" : "#/definitions/jit_funding"
+        },
+        "digital_wallet_tokenization" : {
+          "$ref" : "#/definitions/digital_wallet_tokenization"
+        },
+        "fulfillment" : {
+          "$ref" : "#/definitions/card_product_fulfillment"
+        }
+      }
+    },
+    "card_product_fulfillment" : {
+      "type" : "object",
+      "required" : [ "card_personalization" ],
+      "properties" : {
+        "shipping" : {
+          "$ref" : "#/definitions/shipping"
+        },
+        "card_personalization" : {
+          "$ref" : "#/definitions/card_personalization"
+        },
+        "payment_instrument" : {
+          "type" : "string",
+          "enum" : [ "PHYSICAL_MSR", "PHYSICAL_ICC", "PHYSICAL_CONTACTLESS", "PHYSICAL_COMBO", "VIRTUAL_PAN" ],
+          "default" : "PHYSICAL_MSR"
+        },
+        "package_id" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 50,
+          "default" : "0"
+        },
+        "all_zero_card_security_code" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "bin_prefix" : {
+          "type" : "string"
+        },
+        "bulk_ship" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "pan_length" : {
+          "type" : "string",
+          "default" : "16"
+        },
+        "fulfillment_provider" : {
+          "type" : "string",
+          "enum" : [ "PERFECTPLASTIC", "ARROWEYE", "IDEMIA", "IDEMIA_UK", "IDEMIA_FR", "IDEMIA_CZ", "IDEMIA_APAC", "IDEMIA_PL", "IDEMIA_AU", "IDEMIA_LA", "GEMALTO", "NITECREST", "OBERTHUR", "ALLPAY" ],
+          "default" : "PERFECTPLASTIC"
+        },
+        "allow_card_creation" : {
+          "type" : "boolean",
+          "default" : true
+        },
+        "uppercase_name_lines" : {
+          "type" : "boolean",
+          "default" : true
+        },
+        "enable_offline_pin" : {
+          "type" : "boolean",
+          "default" : false
+        }
+      },
+      "xml" : {
+        "name" : "card_product_fulfillment"
+      }
+    },
+    "digital_wallet_tokenization" : {
+      "type" : "object",
+      "properties" : {
+        "provisioning_controls" : {
+          "$ref" : "#/definitions/provisioning_controls"
+        },
+        "card_art_id" : {
+          "type" : "string"
+        }
+      },
+      "xml" : {
+        "name" : "digital_wallet_tokenization"
+      }
+    },
+    "provisioning_controls" : {
+      "type" : "object",
+      "properties" : {
+        "manual_entry" : {
+          "$ref" : "#/definitions/manual_entry"
+        },
+        "wallet_provider_card_on_file" : {
+          "$ref" : "#/definitions/wallet_provider_card_on_file"
+        },
+        "in_app_provisioning" : {
+          "$ref" : "#/definitions/in_app_provisioning"
+        }
+      },
+      "xml" : {
+        "name" : "provisioning_controls"
+      }
+    },
+    "wallet_provider_card_on_file" : {
+      "type" : "object",
+      "properties" : {
+        "enabled" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "address_verification" : {
+          "$ref" : "#/definitions/digital_wallet_token_address_verification"
+        }
+      },
+      "xml" : {
+        "name" : "wallet_provider_card_on_file"
+      }
+    },
+    "digital_wallet_token_address_verification" : {
+      "type" : "object",
+      "properties" : {
+        "validate" : {
+          "type" : "boolean",
+          "default" : true
+        }
+      },
+      "xml" : {
+        "name" : "digital_wallet_token_address_verification"
+      }
+    },
+    "in_app_provisioning" : {
+      "type" : "object",
+      "properties" : {
+        "enabled" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "address_verification" : {
+          "$ref" : "#/definitions/digital_wallet_token_address_verification"
+        }
+      },
+      "xml" : {
+        "name" : "in_app_provisioning"
+      }
+    },
+    "manual_entry" : {
+      "type" : "object",
+      "properties" : {
+        "enabled" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "address_verification" : {
+          "$ref" : "#/definitions/digital_wallet_token_address_verification"
+        }
+      },
+      "xml" : {
+        "name" : "manual_entry"
+      }
+    },
+    "jit_funding_paymentcard_funding_source" : {
+      "type" : "object",
+      "properties" : {
+        "enabled" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "refunds_destination" : {
+          "type" : "string"
+        }
+      }
+    },
+    "jit_funding" : {
+      "type" : "object",
+      "properties" : {
+        "paymentcard_funding_source" : {
+          "$ref" : "#/definitions/jit_funding_paymentcard_funding_source"
+        },
+        "programgateway_funding_source" : {
+          "$ref" : "#/definitions/jit_funding_programgateway_funding_source"
+        },
+        "program_funding_source" : {
+          "$ref" : "#/definitions/jit_funding_program_funding_source"
+        }
+      }
+    },
+    "jit_funding_program_funding_source" : {
+      "type" : "object",
+      "properties" : {
+        "enabled" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "funding_source_token" : {
+          "type" : "string",
+          "description" : "required if enabled",
+          "minLength" : 0,
+          "maxLength" : 36
+        },
+        "refunds_destination" : {
+          "type" : "string"
+        }
+      }
+    },
+    "jit_funding_programgateway_funding_source" : {
+      "type" : "object",
+      "properties" : {
+        "enabled" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "funding_source_token" : {
+          "type" : "string"
+        },
+        "refunds_destination" : {
+          "type" : "string"
+        },
+        "always_fund" : {
+          "type" : "boolean",
+          "default" : false
+        }
+      }
+    },
+    "clearing_and_settlement" : {
+      "type" : "object",
+      "properties" : {
+        "overdraft_destination" : {
+          "type" : "string",
+          "description" : "Default value of GPA does not apply when JIT funding is enabled",
+          "enum" : [ "GPA", "MSA", "MERCHANT_CAMPAIGN_ACCOUNT", "GLOBAL_OVERDRAFT_ACCOUNT" ],
+          "default" : "GPA"
+        }
+      },
+      "xml" : {
+        "name" : "clearing_and_settlement"
+      }
+    },
+    "card_life_cycle" : {
+      "type" : "object",
+      "properties" : {
+        "activate_upon_issue" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "expiration_offset" : {
+          "$ref" : "#/definitions/expiration_offset_with_minimum"
+        },
+        "card_service_code" : {
+          "type" : "integer",
+          "format" : "int32",
+          "default" : 101
+        },
+        "update_expiration_upon_activation" : {
+          "type" : "boolean",
+          "default" : false
+        }
+      },
+      "xml" : {
+        "name" : "card_life_cycle"
+      }
+    },
+    "expiration_offset_with_minimum" : {
+      "type" : "object",
+      "properties" : {
+        "unit" : {
+          "type" : "string",
+          "description" : "specify if a value is provided; default is YEARS",
+          "enum" : [ "YEARS", "MONTHS", "DAYS", "HOURS", "MINUTES", "SECONDS" ]
+        },
+        "value" : {
+          "type" : "integer",
+          "format" : "int32",
+          "description" : "specify if unit is provided; default is 4"
+        },
+        "min_offset" : {
+          "$ref" : "#/definitions/min_offset"
+        }
+      },
+      "xml" : {
+        "name" : "expiration_offset_with_minimum"
+      }
+    },
+    "min_offset" : {
+      "type" : "object",
+      "properties" : {
+        "unit" : {
+          "type" : "string",
+          "description" : "specify if a value is provided; default is expiration_offset.unit",
+          "enum" : [ "YEARS", "MONTHS", "DAYS", "HOURS", "MINUTES", "SECONDS" ]
+        },
+        "value" : {
+          "type" : "integer",
+          "format" : "int32",
+          "description" : "specify if unit is provided; default is expiration_offset.value"
+        }
+      },
+      "xml" : {
+        "name" : "min_offset"
+      }
+    },
+    "special" : {
+      "type" : "object",
+      "properties" : {
+        "merchant_on_boarding" : {
+          "type" : "boolean",
+          "default" : false
+        }
+      },
+      "xml" : {
+        "name" : "special"
+      }
+    },
+    "selective_auth" : {
+      "type" : "object",
+      "properties" : {
+        "sa_mode" : {
+          "type" : "integer",
+          "format" : "int32",
+          "enum" : [ 0, 1, 2 ],
+          "default" : 1
+        },
+        "enable_regex_search_chain" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "dmd_location_sensitivity" : {
+          "type" : "integer",
+          "format" : "int32",
+          "enum" : [ 0, 1, 2, 3, 4 ],
+          "default" : 0
+        }
+      },
+      "xml" : {
+        "name" : "selective_auth"
+      }
+    },
+    "transaction_controls" : {
+      "type" : "object",
+      "properties" : {
+        "accepted_countries_token" : {
+          "type" : "string",
+          "description" : "50 char max (default = accept_us_only)"
+        },
+        "always_require_pin" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "always_require_icc" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "allow_gpa_auth" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "require_card_not_present_card_security_code" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "allow_mcc_group_authorization_controls" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "allow_first_pin_set_via_financial_transaction" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "ignore_card_suspended_state" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "allow_chip_fallback" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "allow_network_load" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "allow_network_load_card_activation" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "allow_quasi_cash" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "enable_partial_auth_approval" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "address_verification" : {
+          "$ref" : "#/definitions/avs_controls"
+        },
+        "notification_language" : {
+          "type" : "string"
+        },
+        "strong_customer_authentication_limits" : {
+          "$ref" : "#/definitions/strong_customer_authentication_limits"
+        }
+      }
+    },
+    "strong_customer_authentication_limits" : {
+      "type" : "object",
+      "properties" : {
+        "sca_contactless_transaction_limit" : {
+          "type" : "number",
+          "readOnly" : true
+        },
+        "sca_contactless_cumulative_amount_limit" : {
+          "type" : "number",
+          "readOnly" : true
+        },
+        "sca_contactless_transactions_count_limit" : {
+          "type" : "integer",
+          "format" : "int32",
+          "readOnly" : true
+        },
+        "sca_contactless_transactions_currency" : {
+          "type" : "string",
+          "readOnly" : true
+        }
+      }
+    },
+    "avs_control_options" : {
+      "type" : "object",
+      "properties" : {
+        "validate" : {
+          "type" : "boolean",
+          "default" : true
+        },
+        "decline_on_address_number_mismatch" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "decline_on_postal_code_mismatch" : {
+          "type" : "boolean",
+          "default" : true
+        }
+      },
+      "xml" : {
+        "name" : "avs_control_options"
+      }
+    },
+    "avs_controls" : {
+      "type" : "object",
+      "properties" : {
+        "av_messages" : {
+          "$ref" : "#/definitions/avs_control_options"
+        },
+        "auth_messages" : {
+          "$ref" : "#/definitions/avs_control_options"
+        }
+      },
+      "xml" : {
+        "name" : "avs_controls"
+      }
+    },
+    "poi" : {
+      "type" : "object",
+      "properties" : {
+        "other" : {
+          "$ref" : "#/definitions/other_poi"
+        },
+        "ecommerce" : {
+          "type" : "boolean",
+          "default" : true
+        },
+        "atm" : {
+          "type" : "boolean",
+          "description" : "Default = false",
+          "default" : false
+        }
+      }
+    },
+    "other_poi" : {
+      "type" : "object",
+      "properties" : {
+        "allow" : {
+          "type" : "boolean",
+          "default" : true
+        },
+        "card_presence_required" : {
+          "type" : "boolean",
+          "description" : "Default = false",
+          "default" : false
+        },
+        "cardholder_presence_required" : {
+          "type" : "boolean",
+          "description" : "Default = false",
+          "default" : false
+        }
+      }
+    },
+    "UserCardHolderListResponse" : {
+      "type" : "object",
+      "properties" : {
+        "count" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "start_index" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "end_index" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "is_more" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "data" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/card_holder_model"
+          }
+        }
+      }
+    },
+    "user_card_holder_search_model" : {
+      "type" : "object",
+      "properties" : {
+        "ssn" : {
+          "type" : "string"
+        },
+        "dda" : {
+          "type" : "string"
+        },
+        "first_name" : {
+          "type" : "string",
+          "minLength" : 0,
+          "maxLength" : 40
+        },
+        "last_name" : {
+          "type" : "string",
+          "minLength" : 0,
+          "maxLength" : 40
+        },
+        "phone" : {
+          "type" : "string",
+          "minLength" : 0,
+          "maxLength" : 255
+        },
+        "email" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 255
+        }
+      }
+    },
+    "expiration_offset" : {
+      "type" : "object",
+      "properties" : {
+        "unit" : {
+          "type" : "string",
+          "description" : "specify if a value is provided; default is card product expiration offset unit",
+          "enum" : [ "YEARS", "MONTHS", "DAYS", "HOURS", "MINUTES", "SECONDS" ]
+        },
+        "value" : {
+          "type" : "integer",
+          "format" : "int32",
+          "description" : "specify if unit is provided; default is card product expiration offset value"
+        }
+      },
+      "xml" : {
+        "name" : "expiration_offset"
+      }
+    },
+    "card_request" : {
+      "type" : "object",
+      "required" : [ "card_product_token", "user_token" ],
+      "properties" : {
+        "card_product_token" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 36
+        },
+        "expedite" : {
+          "type" : "boolean",
+          "default" : false
+        },
+        "metadata" : {
+          "type" : "object",
+          "additionalProperties" : {
+            "type" : "string"
+          }
+        },
+        "expiration_offset" : {
+          "$ref" : "#/definitions/expiration_offset"
+        },
+        "token" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 36
+        },
+        "user_token" : {
+          "type" : "string",
+          "minLength" : 1,
+          "maxLength" : 36
+        },
+        "fulfillment" : {
+          "$ref" : "#/definitions/fulfillment"
+        },
+        "reissue_pan_from_card_token" : {
+          "type" : "string",
+          "minLength" : 0,
+          "maxLength" : 36
+        },
+        "translate_pin_from_card_token" : {
+          "type" : "string",
+          "minLength" : 0,
+          "maxLength" : 36
+        },
+        "activation_actions" : {
+          "$ref" : "#/definitions/activation_actions"
+        },
+        "bulk_issuance_token" : {
+          "type" : "string"
+        }
+      }
+    },
+    "IdentificationResponseModel": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "readOnly": true,
+          "enum": [
+            "SSN",
+            "TIN",
+            "SIN",
+            "NIN",
+            "PASSPORT_NUMBER",
+            "DRIVERS_LICENSE",
+            "BUSINESS_NUMBER",
+            "BUSINESS_TAX_ID",
+            "TAXPAYER_REFERENCE"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "readOnly": true
+        },
+        "expiration_date": {
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "Authentication": {
+      "type": "object",
+      "properties": {
+        "last_password_update_channel": {
+          "type": "string",
+          "enum": [
+            "USER_CHANGE",
+            "USER_RESET"
+          ]
+        },
+        "last_password_update_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "email_verified": {
+          "type": "boolean",
+          "default": false
+        },
+        "email_verified_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-ddTHH:mm:ssZ"
+        }
+      }
+    },
+    "user_card_holder_response": {
+      "type": "object",
+      "required": [
+        "created_time",
+        "last_modified_time"
+      ],
+      "properties": {
+        "authentication": {
+          "$ref": "#/definitions/Authentication"
+        },
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "active": {
+          "type": "boolean",
+          "description": "Default is true",
+          "default": false
+        },
+        "honorific": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "gender": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 1,
+          "enum": [
+            "F",
+            "M"
+          ]
+        },
+        "first_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "middle_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "last_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "email": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255
+        },
+        "address1": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "address2": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "city": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "state": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 2
+        },
+        "zip": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "postal_code": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "country": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "phone": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "parent_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "uses_parent_account": {
+          "type": "boolean",
+          "description": "Default is false",
+          "default": false
+        },
+        "ssn": {
+          "type": "string"
+        },
+        "corporate_card_holder": {
+          "type": "boolean",
+          "default": false
+        },
+        "passport_number": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "id_card_number": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "nationality": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "company": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "ip_address": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 39
+        },
+        "password": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255
+        },
+        "created_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "last_modified_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "business_token": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "account_holder_group_token": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 36
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "UNVERIFIED",
+            "LIMITED",
+            "ACTIVE",
+            "SUSPENDED",
+            "CLOSED"
+          ]
+        },
+        "identifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentificationResponseModel"
+          }
+        },
+        "deposit_account": {
+          "$ref": "#/definitions/deposit_account"
+        },
+        "passport_expiration_date": {
+          "type": "string",
+          "readOnly": true
+        },
+        "birth_date": {
+          "type": "string",
+          "readOnly": true
+        },
+        "id_card_expiration_date": {
+          "type": "string",
+          "readOnly": true
+        }
+      },
+      "xml": {
+        "name": "user_card_holder_response"
+      }
+    },
+    "deposit_account": {
+      "type": "object",
+      "required": [
+        "account_number",
+        "routing_number",
+        "token"
+      ],
+      "properties": {
+        "token": {
+          "type": "string"
+        },
+        "user_token": {
+          "type": "string"
+        },
+        "business_token": {
+          "type": "string"
+        },
+        "account_number": {
+          "type": "string"
+        },
+        "routing_number": {
+          "type": "string"
+        },
+        "allow_immediate_credit": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "xml": {
+        "name": "deposit_account"
+      }
+    },
+    "UserCardHolderUpdateModel": {
+      "type": "object",
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "active": {
+          "type": "boolean",
+          "default": true
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "ip_address": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 39
+        },
+        "password": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "phone": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "account_holder_group_token": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 36
+        },
+        "identifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentificationRequestModel"
+          }
+        },
+        "honorific": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "gender": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 1,
+          "enum": [
+            "F",
+            "M"
+          ]
+        },
+        "first_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "middle_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "last_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "email": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255
+        },
+        "address1": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "address2": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "city": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "state": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 32
+        },
+        "country": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "birth_date": {
+          "type": "string"
+        },
+        "corporate_card_holder": {
+          "type": "boolean",
+          "default": false
+        },
+        "ssn": {
+          "type": "string"
+        },
+        "passport_number": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "passport_expiration_date": {
+          "type": "string"
+        },
+        "id_card_number": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "id_card_expiration_date": {
+          "type": "string"
+        },
+        "nationality": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "company": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "parent_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "uses_parent_account": {
+          "type": "boolean",
+          "description": "Default is false",
+          "default": false
+        },
+        "postal_code": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        }
+      }
+    },
+    "IdentificationRequestModel": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "readOnly": true,
+          "enum": [
+            "SSN",
+            "TIN",
+            "SIN",
+            "NIN",
+            "PASSPORT_NUMBER",
+            "DRIVERS_LICENSE",
+            "BUSINESS_NUMBER",
+            "BUSINESS_TAX_ID",
+            "TAXPAYER_REFERENCE"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "readOnly": true
+        },
+        "expiration_date": {
+          "type": "string"
+        }
+      }
+    },
+    "card_holder_model": {
+      "type": "object",
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "active": {
+          "type": "boolean",
+          "default": true
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "ip_address": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 39
+        },
+        "password": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "phone": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "account_holder_group_token": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 36
+        },
+        "identifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdentificationRequestModel"
+          }
+        },
+        "honorific": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "gender": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 1,
+          "enum": [
+            "F",
+            "M"
+          ]
+        },
+        "first_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "middle_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "last_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "email": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 255
+        },
+        "address1": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "address2": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "city": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "state": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 32
+        },
+        "country": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "birth_date": {
+          "type": "string"
+        },
+        "corporate_card_holder": {
+          "type": "boolean",
+          "default": false
+        },
+        "ssn": {
+          "type": "string"
+        },
+        "passport_number": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "passport_expiration_date": {
+          "type": "string"
+        },
+        "id_card_number": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "id_card_expiration_date": {
+          "type": "string"
+        },
+        "nationality": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "company": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "parent_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "uses_parent_account": {
+          "type": "boolean",
+          "description": "Default is false",
+          "default": false
+        },
+        "postal_code": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        }
+      },
+      "xml": {
+        "name": "card_holder_model"
+      }
+    },
+    "velocity_control_request": {
+      "type": "object",
+      "required": [
+        "amount_limit",
+        "currency_code",
+        "velocity_window"
+      ],
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "association": {
+          "$ref": "#/definitions/spend_control_association"
+        },
+        "merchant_scope": {
+          "$ref": "#/definitions/merchant_scope"
+        },
+        "usage_limit": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": -1.0
+        },
+        "approvals_only": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_purchases": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_withdrawals": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_transfers": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_cashback": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_credits": {
+          "type": "boolean",
+          "default": false
+        },
+        "currency_code": {
+          "type": "string"
+        },
+        "amount_limit": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "velocity_window": {
+          "type": "string",
+          "enum": [
+            "DAY",
+            "WEEK",
+            "MONTH",
+            "LIFETIME",
+            "TRANSACTION"
+          ]
+        },
+        "active": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "xml": {
+        "name": "velocity_control_request"
+      }
+    },
+    "velocity_control_balance_response": {
+      "type": "object",
+      "required": [
+        "amount_limit",
+        "available",
+        "currency_code",
+        "velocity_window"
+      ],
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "association": {
+          "$ref": "#/definitions/spend_control_association"
+        },
+        "merchant_scope": {
+          "$ref": "#/definitions/merchant_scope"
+        },
+        "usage_limit": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": -1.0
+        },
+        "approvals_only": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_purchases": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_withdrawals": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_transfers": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_cashback": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_credits": {
+          "type": "boolean",
+          "default": false
+        },
+        "currency_code": {
+          "type": "string"
+        },
+        "amount_limit": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "velocity_window": {
+          "type": "string",
+          "enum": [
+            "DAY",
+            "WEEK",
+            "MONTH",
+            "LIFETIME",
+            "TRANSACTION"
+          ]
+        },
+        "active": {
+          "type": "boolean",
+          "default": false
+        },
+        "available": {
+          "description": "Available balance",
+          "$ref": "#/definitions/available"
+        }
+      },
+      "xml": {
+        "name": "velocity_control_balance_response"
+      }
+    },
+    "available": {
+      "type": "object",
+      "required": [
+        "amount",
+        "uses"
+      ],
+      "properties": {
+        "uses": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Uses available",
+          "default": 0
+        },
+        "amount": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "days_remaining": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Days remaining"
+        }
+      },
+      "xml": {
+        "name": "available"
+      }
+    },
+    "VelocityControlBalanceListResponse": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "start_index": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "end_index": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "is_more": {
+          "type": "boolean",
+          "default": false
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/velocity_control_balance_response"
+          }
+        }
+      }
+    },
+    "velocity_control_update_request": {
+      "type": "object",
+      "required": [
+        "token"
+      ],
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "association": {
+          "$ref": "#/definitions/spend_control_association"
+        },
+        "merchant_scope": {
+          "$ref": "#/definitions/merchant_scope"
+        },
+        "usage_limit": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": -1.0
+        },
+        "approvals_only": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_purchases": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_withdrawals": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_transfers": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_cashback": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_credits": {
+          "type": "boolean",
+          "default": false
+        },
+        "currency_code": {
+          "type": "string"
+        },
+        "amount_limit": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "velocity_window": {
+          "type": "string",
+          "enum": [
+            "DAY",
+            "WEEK",
+            "MONTH",
+            "QUARTER",
+            "YEAR",
+            "LIFETIME",
+            "TRANSACTION"
+          ]
+        },
+        "active": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "xml": {
+        "name": "velocity_control_update_request"
+      }
+    },
+    "merchant_scope": {
+      "type": "object",
+      "properties": {
+        "mid": {
+          "type": "string",
+          "description": "36 char max"
+        },
+        "mcc": {
+          "type": "string",
+          "description": "4 char max"
+        },
+        "mcc_group": {
+          "type": "string",
+          "description": "36 char max"
+        }
+      },
+      "xml": {
+        "name": "merchant_scope"
+      }
+    },
+    "velocity_control_response": {
+      "type": "object",
+      "required": [
+        "amount_limit",
+        "currency_code",
+        "velocity_window"
+      ],
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "association": {
+          "$ref": "#/definitions/spend_control_association"
+        },
+        "merchant_scope": {
+          "$ref": "#/definitions/merchant_scope"
+        },
+        "usage_limit": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": -1.0
+        },
+        "approvals_only": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_purchases": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_withdrawals": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_transfers": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_cashback": {
+          "type": "boolean",
+          "default": false
+        },
+        "include_credits": {
+          "type": "boolean",
+          "default": false
+        },
+        "currency_code": {
+          "type": "string"
+        },
+        "amount_limit": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "velocity_window": {
+          "type": "string",
+          "enum": [
+            "DAY",
+            "WEEK",
+            "MONTH",
+            "LIFETIME",
+            "TRANSACTION"
+          ]
+        },
+        "active": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "xml": {
+        "name": "velocity_control_response"
+      }
+    },
+    "spend_control_association": {
+      "type": "object",
+      "properties": {
+        "card_product_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "user_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        }
+      },
+      "xml": {
+        "name": "spend_control_association"
+      }
+    },
+    "VelocityControlListResponse": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "start_index": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "end_index": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "is_more": {
+          "type": "boolean",
+          "default": false
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/velocity_control_response"
+          }
+        }
+      }
+    },
+    "control_token_response": {
+      "type": "object",
+      "required": [
+        "control_token"
+      ],
+      "properties": {
+        "control_token": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "control_token_response"
+      }
+    },
+    "control_token_request": {
+      "type": "object",
+      "required": [
+        "card_token"
+      ],
+      "properties": {
+        "card_token": {
+          "type": "string",
+          "description": "Token associated with the card",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "controltoken_type": {
+          "type": "string",
+          "description": "Type of control token required",
+          "enum": [
+            "SET_PIN",
+            "SHOW_PIN"
+          ]
+        }
+      }
+    },
+    "pin_request": {
+      "type": "object",
+      "required": [
+        "control_token",
+        "pin"
+      ],
+      "properties": {
+        "control_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "pin": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "pin_request"
+      }
+    },
+    "CardListResponse": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "start_index": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "end_index": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "is_more": {
+          "type": "boolean",
+          "default": false
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/card_response"
+          }
+        }
+      }
+    },
+    "activation_actions": {
+      "type": "object",
+      "properties": {
+        "terminate_reissued_source_card": {
+          "type": "boolean",
+          "default": true
+        },
+        "swap_digital_wallet_tokens_from_card_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        }
+      },
+      "xml": {
+        "name": "activation_actions"
+      }
+    },
+    "FulfillmentAddressResponse": {
+      "type": "object",
+      "properties": {
+        "first_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "middle_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "last_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "address1": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "address2": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "city": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "state": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 32
+        },
+        "zip": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "postal_code": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "country": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "phone": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 20
+        }
+      }
+    },
+    "text": {
+      "type": "object",
+      "required": [
+        "name_line_1"
+      ],
+      "properties": {
+        "name_line_1": {
+          "$ref": "#/definitions/text_value"
+        },
+        "name_line_2": {
+          "$ref": "#/definitions/text_value"
+        },
+        "name_line_3": {
+          "$ref": "#/definitions/text_value"
+        }
+      }
+    },
+    "text_value": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    "images_card": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "thermal_color": {
+          "type": "string"
+        }
+      }
+    },
+    "images_signature": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "images": {
+      "type": "object",
+      "properties": {
+        "card": {
+          "$ref": "#/definitions/images_card"
+        },
+        "carrier": {
+          "$ref": "#/definitions/ImagesCarrier"
+        },
+        "signature": {
+          "$ref": "#/definitions/images_signature"
+        },
+        "carrier_return_window": {
+          "$ref": "#/definitions/images_carrier_return_window"
+        }
+      }
+    },
+    "images_carrier_return_window": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "card_personalization": {
+      "type": "object",
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "$ref": "#/definitions/text"
+        },
+        "images": {
+          "$ref": "#/definitions/images"
+        },
+        "carrier": {
+          "$ref": "#/definitions/carrier"
+        },
+        "perso_type": {
+          "type": "string",
+          "enum": [
+            "EMBOSS",
+            "LASER",
+            "FLAT"
+          ]
+        }
+      }
+    },
+    "carrier": {
+      "type": "object",
+      "properties": {
+        "template_id": {
+          "type": "string"
+        },
+        "logo_file": {
+          "type": "string"
+        },
+        "logo_thumbnail_file": {
+          "type": "string"
+        },
+        "message_file": {
+          "type": "string"
+        },
+        "message_line": {
+          "type": "string"
+        }
+      }
+    },
+    "ImagesCarrier": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "message_1": {
+          "type": "string"
+        }
+      }
+    },
+    "ShippingInformationResponse": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "FEDEX_EXPEDITED",
+            "FEDEX_REGULAR",
+            "UPS_EXPEDITED",
+            "UPS_REGULAR",
+            "USPS_EXPEDITED",
+            "USPS_REGULAR"
+          ]
+        },
+        "return_address": {
+          "$ref": "#/definitions/FulfillmentAddressResponse"
+        },
+        "recipient_address": {
+          "$ref": "#/definitions/FulfillmentAddressResponse"
+        },
+        "care_of_line": {
+          "type": "string",
+          "description": "255 char max"
+        }
+      }
+    },
+    "CardFulfillmentResponse": {
+      "type": "object",
+      "required": [
+        "card_personalization"
+      ],
+      "properties": {
+        "shipping": {
+          "$ref": "#/definitions/ShippingInformationResponse"
+        },
+        "card_personalization": {
+          "$ref": "#/definitions/card_personalization"
+        },
+        "card_fulfillment_reason": {
+          "type": "string",
+          "enum": [
+            "NEW",
+            "LOST_STOLEN",
+            "EXPIRED"
+          ]
+        }
+      }
+    },
+    "card_transition_request": {
+      "type": "object",
+      "required": [
+        "card_token",
+        "channel",
+        "state"
+      ],
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "card_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "reason_code": {
+          "type": "string",
+          "enum": [
+            "00",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+          ]
+        },
+        "validations": {
+          "$ref": "#/definitions/ValidationsRequest"
+        },
+        "channel": {
+          "type": "string",
+          "enum": [
+            "API",
+            "IVR",
+            "FRAUD",
+            "ADMIN",
+            "SYSTEM"
+          ]
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "ACTIVE",
+            "SUSPENDED",
+            "TERMINATED"
+          ]
+        }
+      }
+    },
+    "ValidationsRequest": {
+      "type": "object",
+      "properties": {
+        "user": {
+          "$ref": "#/definitions/UserValidationRequest"
+        }
+      }
+    },
+    "UserValidationRequest": {
+      "type": "object",
+      "properties": {
+        "birth_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-dd"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Phone #",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "ssn": {
+          "type": "string",
+          "description": "Last four digits of SSN",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "random_name_line1_postfix": {
+          "type": "string",
+          "description": "Six-char random name postfix",
+          "minLength": 6,
+          "maxLength": 6
+        }
+      }
+    },
+    "card_transition_response": {
+      "type": "object",
+      "required": [
+        "barcode",
+        "card_product_token",
+        "card_token",
+        "channel",
+        "expiration",
+        "expiration_time",
+        "fulfillment_status",
+        "last_four",
+        "pan",
+        "pin_is_set",
+        "state",
+        "token",
+        "type",
+        "user_token"
+      ],
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "card_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "user_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "ACTIVE",
+            "SUSPENDED",
+            "TERMINATED",
+            "UNACTIVATED"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "reason_code": {
+          "type": "string",
+          "enum": [
+            "00",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23"
+          ]
+        },
+        "channel": {
+          "type": "string",
+          "enum": [
+            "API",
+            "IVR",
+            "FRAUD",
+            "ADMIN",
+            "SYSTEM"
+          ]
+        },
+        "fulfillment_status": {
+          "type": "string",
+          "enum": [
+            "ISSUED",
+            "ORDERED",
+            "REJECTED",
+            "SHIPPED",
+            "DELIVERED",
+            "DIGITALLY_PRESENTED"
+          ]
+        },
+        "validations": {
+          "$ref": "#/definitions/ValidationsResponse"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "fulfillment.issued",
+            "state.activated",
+            "state.suspended",
+            "state.reinstated",
+            "state.terminated",
+            "fulfillment.ordered",
+            "fulfillment.rejected",
+            "fulfillment.shipped",
+            "fulfillment.delivered",
+            "fulfillment.digitally_presented"
+          ]
+        },
+        "created_time": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "card_product_token": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 36
+        },
+        "last_four": {
+          "type": "string"
+        },
+        "pan": {
+          "type": "string"
+        },
+        "expiration": {
+          "type": "string"
+        },
+        "expiration_time": {
+          "type": "string"
+        },
+        "barcode": {
+          "type": "string"
+        },
+        "pin_is_set": {
+          "type": "boolean",
+          "default": false
+        },
+        "fulfillment": {
+          "$ref": "#/definitions/fulfillment"
+        },
+        "bulk_issuance_token": {
+          "type": "string"
+        },
+        "reissue_pan_from_card_token": {
+          "type": "string"
+        },
+        "user": {
+          "$ref": "#/definitions/cardholder_metadata"
+        },
+        "card": {
+          "$ref": "#/definitions/card_metadata"
+        },
+        "expedite": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "xml": {
+        "name": "card_transition_response"
+      }
+    },
+    "cardholder_metadata": {
+      "type": "object",
+      "properties": {
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "xml": {
+        "name": "cardholder_metadata"
+      }
+    },
+    "card_metadata": {
+      "type": "object",
+      "properties": {
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "xml": {
+        "name": "card_metadata"
+      }
+    },
+    "fulfillment": {
+      "type": "object",
+      "required": [
+        "card_personalization"
+      ],
+      "properties": {
+        "shipping": {
+          "$ref": "#/definitions/shipping"
+        },
+        "card_personalization": {
+          "$ref": "#/definitions/card_personalization"
+        },
+        "card_fulfillment_reason": {
+          "type": "string",
+          "enum": [
+            "NEW",
+            "LOST_STOLEN",
+            "EXPIRED"
+          ]
+        }
+      }
+    },
+    "ValidationsResponse": {
+      "type": "object",
+      "required": [
+        "user"
+      ],
+      "properties": {
+        "user": {
+          "$ref": "#/definitions/UserValidationResponse"
+        }
+      }
+    },
+    "UserValidationResponse": {
+      "type": "object",
+      "required": [
+        "birth_date",
+        "phone",
+        "random_name_line1_postfix",
+        "ssn"
+      ],
+      "properties": {
+        "birth_date": {
+          "type": "boolean",
+          "description": "yyyy-MM-dd",
+          "default": false
+        },
+        "phone": {
+          "type": "boolean",
+          "description": "10 char max, phone number",
+          "default": false
+        },
+        "ssn": {
+          "type": "boolean",
+          "description": "Last four digits of SSN",
+          "default": false
+        },
+        "random_name_line1_postfix": {
+          "type": "boolean",
+          "description": "Six-char random name postfix",
+          "default": false
+        }
+      }
+    },
+    "shipping": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "LOCAL_MAIL",
+            "GROUND",
+            "TWO_DAY",
+            "OVERNIGHT",
+            "INTERNATIONAL",
+            "FEDEX_EXPEDITED",
+            "FEDEX_REGULAR",
+            "UPS_EXPEDITED",
+            "UPS_REGULAR",
+            "USPS_EXPEDITED",
+            "USPS_REGULAR"
+          ]
+        },
+        "return_address": {
+          "$ref": "#/definitions/fulfillment_address_request"
+        },
+        "recipient_address": {
+          "$ref": "#/definitions/fulfillment_address_request"
+        },
+        "care_of_line": {
+          "type": "string",
+          "description": "255 char max"
+        }
+      },
+      "xml": {
+        "name": "shipping"
+      }
+    },
+    "card_update_request": {
+      "type": "object",
+      "required": [
+        "token"
+      ],
+      "properties": {
+        "token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "user_token": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 36
+        },
+        "fulfillment": {
+          "$ref": "#/definitions/fulfillment"
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "fulfillment_address_request": {
+      "type": "object",
+      "properties": {
+        "first_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "middle_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "last_name": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "address1": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "address2": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 255
+        },
+        "city": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "state": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 32
+        },
+        "zip": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        },
+        "country": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 40
+        },
+        "phone": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 20
+        },
+        "postal_code": {
+          "type": "string",
+          "minLength": 0,
+          "maxLength": 10
+        }
+      },
+      "xml": {
+        "name": "fulfillment_address_request"
+      }
+    },
+    "card_response": {
+      "type": "object",
+      "required": [
+        "barcode",
+        "card_product_token",
+        "created_time",
+        "expiration",
+        "expiration_time",
+        "fulfillment_status",
+        "last_four",
+        "last_modified_time",
+        "pan",
+        "pin_is_set",
+        "state",
+        "state_reason",
+        "token",
+        "user_token"
+      ],
+      "properties": {
+        "created_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "last_modified_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "token": {
+          "type": "string",
+          "description": "36 char max"
+        },
+        "user_token": {
+          "type": "string",
+          "description": "36 char max"
+        },
+        "card_product_token": {
+          "type": "string",
+          "description": "36 char max"
+        },
+        "last_four": {
+          "type": "string"
+        },
+        "pan": {
+          "type": "string"
+        },
+        "expiration": {
+          "type": "string"
+        },
+        "expiration_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "yyyy-MM-ddTHH:mm:ssZ"
+        },
+        "cvv_number": {
+          "type": "string"
+        },
+        "chip_cvv_number": {
+          "type": "string"
+        },
+        "barcode": {
+          "type": "string"
+        },
+        "pin_is_set": {
+          "type": "boolean",
+          "default": false
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "ACTIVE",
+            "SUSPENDED",
+            "TERMINATED",
+            "UNSUPPORTED",
+            "UNACTIVATED"
+          ]
+        },
+        "state_reason": {
+          "type": "string"
+        },
+        "fulfillment_status": {
+          "type": "string",
+          "enum": [
+            "ISSUED",
+            "ORDERED",
+            "REORDERED",
+            "REJECTED",
+            "SHIPPED",
+            "DELIVERED",
+            "DIGITALLY_PRESENTED"
+          ]
+        },
+        "reissue_pan_from_card_token": {
+          "type": "string"
+        },
+        "fulfillment": {
+          "$ref": "#/definitions/CardFulfillmentResponse"
+        },
+        "bulk_issuance_token": {
+          "type": "string"
+        },
+        "translate_pin_from_card_token": {
+          "type": "string"
+        },
+        "activation_actions": {
+          "$ref": "#/definitions/activation_actions"
+        },
+        "instrument_type": {
+          "type": "string",
+          "enum": [
+            "PHYSICAL_MSR",
+            "PHYSICAL_ICC",
+            "PHYSICAL_CONTACTLESS",
+            "PHYSICAL_COMBO",
+            "VIRTUAL_PAN"
+          ]
+        },
+        "expedite": {
+          "type": "boolean",
+          "default": false
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "contactless_exemption_counter": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "contactless_exemption_total_amount": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

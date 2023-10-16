@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: false
+
+eureka:
+  client:
+    enabled: false
+
+backbase:
+  security:
+    public:
+      paths: /client-api/v1/**
+
+drive-wealth:
+    baseUrl: https://bo-api.drivewealth.io
+    dwClientAppKey: testClientAppKey
+    clientID: testClientId
+    clientSecret: testClientSecret

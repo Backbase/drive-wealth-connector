@@ -1,0 +1,1762 @@
+{
+    "name": "Financial Institute Branch 1",
+    "realmName": "employee",
+    "externalId": "financial-institute-branch1",
+    "legalEntityType": "BANK",
+    "referenceJobRoles": [
+        {
+            "name": "Retail User - USA (RTC)",
+            "description": "Retail User Permissions for USA (RTC)",
+            "functionGroups": [
+                {
+                    "name": "Retail User - USA (RTC)",
+                    "functions": [
+                        {
+                            "functionId": "1112",
+                            "name": "RTC Support Request",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "subsidiaries": [
+        {
+          "name": "Sara",
+          "realmName": "customer",
+          "externalId": "sara",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "parentExternalId": "financial-institute-branch1",
+          "administrators": [
+            {
+              "externalId": "sara",
+              "fullName": "Sara Jones",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "sara@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "sara",
+                "fullName": "Sara Jones",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "sara@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "sara2@email.com"
+                    },
+                    {
+                      "value": "sara3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sara-autotest",
+          "realmName": "customer",
+          "externalId": "sara-autotest",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "sara-autotest",
+              "fullName": "sara-autotest Jones",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "sara-autotest@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "sara-autotest",
+                "fullName": "sara-autotest Jones",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "sara-autotest@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "sara-autotest2@email.com"
+                    },
+                    {
+                      "value": "sara-autotest3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "John",
+          "realmName": "customer",
+          "externalId": "john",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "john",
+              "fullName": "John Doe",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "john@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "john",
+                "fullName": "John Doe",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "john@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paolo",
+          "realmName": "customer",
+          "externalId": "paolo",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "paolo",
+              "fullName": "Paolo Doe",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "paolo@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "paolo",
+                "fullName": "Paolo Doe",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "paolo@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "paolo-autotest",
+          "realmName": "customer",
+          "externalId": "paolo-autotest",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "paolo-autotest",
+              "fullName": "paolo-autotest Doe",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "paolo-autotest@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "paolo-autotest",
+                "fullName": "paolo-autotest Doe",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "paolo-autotest@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Matthew",
+          "realmName": "customer",
+          "externalId": "matthew",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "matthew",
+              "fullName": "Matthew Doe",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "matthew@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "matthew",
+                "fullName": "Matthew Doe",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "matthew@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Emily",
+          "realmName": "customer",
+          "externalId": "Emily",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "emily",
+              "fullName": "Emily Jones",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "emily@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "emily",
+                "fullName": "Emily Jones",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "emily@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1985-12-30",
+                    "countryOfBirth": "Poland"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "emily2@email.com"
+                    },
+                    {
+                      "value": "emily3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "emily-autotest",
+          "realmName": "customer",
+          "externalId": "emily-autotest",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "emily-autotest",
+              "fullName": "emily-autotest Jones",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "emily-autotest@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "emily-autotest",
+                "fullName": "emily-autotest Jones",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "emily-autotest@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1985-12-30",
+                    "countryOfBirth": "Poland"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "emily-autotest2@email.com"
+                    },
+                    {
+                      "value": "emily-autotest3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kevin",
+          "realmName": "customer",
+          "externalId": "kevin",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "kevin",
+              "fullName": "Kevin Doe",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "kevin@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "kevin",
+                "fullName": "Kevin Doe",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "kevin@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Peter",
+          "realmName": "customer",
+          "externalId": "Peter",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "peter",
+              "fullName": "Peter Jones",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "peter@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "peter",
+                "fullName": "Peter Jones",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "peter@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1980-10-30",
+                    "countryOfBirth": "Poland"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "peter2@email.com"
+                    },
+                    {
+                      "value": "peter3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rohit",
+          "realmName": "customer",
+          "externalId": "rohit",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "rohit",
+              "fullName": "Rohit Mehra",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "rohitm@backbase.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "rohit",
+                "fullName": "Rohit Mehra",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "rohitm@backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sir",
+          "realmName": "customer",
+          "externalId": "sir",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "sir",
+              "fullName": "Sir Doe",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "sir@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "sir",
+                "fullName": "Sir Doe",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "sir@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "iOS US Automation",
+          "realmName": "customer",
+          "externalId": "ios-us",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "ios-us",
+              "fullName": "iOS US Automation",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "ios-us@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "ios-us",
+                "fullName": "iOS US Automation",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "ios-us@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1980-10-30",
+                    "countryOfBirth": "Poland"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "ios-us2@email.com"
+                    },
+                    {
+                      "value": "ios-us3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "iOS Universal Automation",
+          "realmName": "customer",
+          "externalId": "ios-uni",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "ios-uni",
+              "fullName": "iOS Universal Automation",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "ios-uni@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "ios-uni",
+                "fullName": "iOS Universal Automation",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "ios-uni@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1980-10-30",
+                    "countryOfBirth": "Poland"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "ios-uni2@email.com"
+                    },
+                    {
+                      "value": "ios-uni3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Utrecht",
+                      "country": "US",
+                      "type": "home",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Android US Automation",
+          "realmName": "customer",
+          "externalId": "and-us",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "and-us",
+              "fullName": "Android US Automation",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "and-us@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "and-us",
+                "fullName": "Android US Automation",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "and-us@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1980-10-30",
+                    "countryOfBirth": "Poland"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "and-us2@email.com"
+                    },
+                    {
+                      "value": "and-us3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Android Universal Automation",
+          "realmName": "customer",
+          "externalId": "and-uni",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "and-uni",
+              "fullName": "Android Universal Automation",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "and-uni@email.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "and-uni",
+                "fullName": "Android Universal Automation",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "and-uni@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Miss",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1980-10-30",
+                    "countryOfBirth": "Poland"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "and-uni2@email.com"
+                    },
+                    {
+                      "value": "and-uni3@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    },
+                    {
+                      "value": "01313713"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Utrecht",
+                      "country": "US",
+                      "type": "home",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Atlas",
+          "realmName": "customer",
+          "externalId": "atlas",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "atlas",
+              "fullName": "Mobile Auth Atlas",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "mobile-auth-atlas@backbase.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "atlas",
+                "fullName": "Mobile Auth Atlas",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "mobile-auth-atlas@backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Titan",
+          "realmName": "customer",
+          "externalId": "titan",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "titan",
+              "fullName": "Mobile Auth Titan",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "mobile-auth-titan@backbase.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "titan",
+                "fullName": "Mobile Auth Titan",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "mobile-auth-titan@backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Andrii Pitsyk",
+          "realmName": "customer",
+          "externalId": "andriip",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "andriip",
+              "fullName": "Andrii Pitsyk",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "andriip@backbase.com"
+              },
+              "mobileNumber": {
+                "number": "+380936828625"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "andriip",
+                "fullName": "Andrii Pitsyk",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "andriip@backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "+380936828625"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Utrecht",
+                      "country": "Netherlands",
+                      "type": "home",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Denys Ovcharuk",
+          "realmName": "customer",
+          "externalId": "denyso",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "denyso",
+              "fullName": "Denys Ovcharuk",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "denyso@backbase.com"
+              },
+              "mobileNumber": {
+                "number": "+380681277056"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "denyso",
+                "fullName": "Denys Ovcharuk",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "denyso@backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "+380681277056"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Utrecht",
+                      "country": "Netherlands",
+                      "type": "home",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Garuda",
+          "realmName": "customer",
+          "externalId": "garuda",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "garuda",
+              "fullName": "Garuda Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "ashok@backbase.com"
+              },
+              "mobileNumber": {
+                "number": "7337399906"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "garuda",
+                "fullName": "Garuda Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "ashok@backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "7337399906"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Raghuram",
+          "realmName": "customer",
+          "externalId": "raghu",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "raghu",
+              "fullName": "Raghuram Kappagantu",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "raghuram@backbase.com"
+              },
+              "mobileNumber": {
+                "number": "+917337399906"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "raghu",
+                "fullName": "Raghuram Kappagantu",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "raghuram@backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "+917337399906"
+                },
+                "userProfile": {
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Anna",
+          "realmName": "customer",
+          "externalId": "anna",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "administrators": [
+            {
+              "externalId": "anna",
+              "fullName": "Anna Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "anna@test.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "anna",
+                "fullName": "Anna Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "anna@test.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Anna-enroll",
+          "realmName": "customer",
+          "externalId": "anna-enroll",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "additions": {
+            "SKIP_LEGAL_ENTITY_SAGA": "true"
+          },
+          "administrators": [
+            {
+              "externalId": "anna-enroll",
+              "fullName": "Anna Enroll Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "anna-enroll@test.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "anna-enroll",
+                "fullName": "Anna Enroll Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "anna-enroll@test.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bob",
+          "realmName": "retail",
+          "externalId": "bob",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "additions": {
+            "SKIP_LEGAL_ENTITY_SAGA": "true"
+          },
+          "administrators": [
+            {
+              "externalId": "bob",
+              "fullName": "Bob Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "bob@test.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "bob",
+                "fullName": "Bob Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "bob@test.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1994-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cara",
+          "realmName": "retail",
+          "externalId": "cara",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "additions": {
+            "SKIP_LEGAL_ENTITY_SAGA": "true"
+          },
+          "administrators": [
+            {
+              "externalId": "cara",
+              "fullName": "Cara Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "cara@test.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "cara",
+                "fullName": "Cara Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "cara@test.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1997-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "David",
+          "realmName": "retail",
+          "externalId": "david",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "additions": {
+            "SKIP_LEGAL_ENTITY_SAGA": "true"
+          },
+          "administrators": [
+            {
+              "externalId": "david",
+              "fullName": "David Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "david@test.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "david",
+                "fullName": "David Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "david@test.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1998-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Eva",
+          "realmName": "retail",
+          "externalId": "eva",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "additions": {
+            "SKIP_LEGAL_ENTITY_SAGA": "true"
+          },
+          "administrators": [
+            {
+              "externalId": "eva",
+              "fullName": "Eva Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "eva@test.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "eva",
+                "fullName": "Eva Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "eva@test.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Eva-2",
+          "realmName": "retail",
+          "externalId": "eva-2",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "RETAIL",
+          "additions": {
+            "SKIP_LEGAL_ENTITY_SAGA": "true"
+          },
+          "administrators": [
+            {
+              "externalId": "eva-2",
+              "fullName": "Eva-2 Retail",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "eva-2@test.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "eva-2",
+                "fullName": "Eva-2 Retail",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "eva-2@test.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "Netherlands"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Boston",
+                      "country": "USA",
+                      "type": "home",
+                      "region": "MA",
+                      "postalCode": "02201",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Retail User - USA (RTC)"
+              ]
+            }
+          ]
+        }
+    ]
+}

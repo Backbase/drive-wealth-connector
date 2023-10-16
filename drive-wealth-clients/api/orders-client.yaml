@@ -1,0 +1,309 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Orders API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Orders
+    description: Orders API
+
+paths:
+  /back-office/orders/{orderId}:
+    get:
+      tags:
+        - Orders
+      summary: Retrieve Order
+      operationId: getOrderById
+      parameters:
+        - name: orderId
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+  /back-office/accounts/{accountID}/reports/order-history:
+    get:
+      tags:
+        - Orders
+      summary: Retrieve all Orders by Account
+      operationId: getOrderHistory
+      parameters:
+        - name: accountID
+          in: path
+          schema:
+            type: string
+          required: true
+        - name: from
+          in: query
+          schema:
+            type: string
+            format: date-time
+          required: true
+        - name: to
+          in: query
+          schema:
+            type: string
+            format: date-time
+          required: true
+        - name: limit
+          in: query
+          schema:
+            type: number
+          required: false
+        - name: offset
+          in: query
+          schema:
+            type: string
+          required: false
+        - name: direction
+          in: query
+          schema:
+            type: string
+          required: false
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrdersHistory'
+
+  /back-office/orders:
+    post:
+      tags:
+        - Orders
+      summary: Trade on asset
+      operationId: createOrder
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateOrderRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateOrderResponse'
+  /back-office/orders/{orderID}:
+    patch:
+      tags:
+        - Orders
+      summary: Update Order
+      operationId: updateOrder
+      parameters:
+        - name: orderID
+          in: path
+          schema:
+            type: string
+          required: true
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateOrderRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UpdateOrderResponse'
+
+components:
+  schemas:
+    UpdateOrderResponse:
+      type: object
+      properties:
+        orderId:
+          type: string
+        orderNo:
+          type: string
+    UpdateOrderRequest:
+      type: object
+      properties:
+        method:
+          type: string
+          required: true
+          default: "CANCEL"
+    Order:
+      type: object
+      properties:
+        id:
+          type: string
+        orderNo:
+          type: string
+        type:
+          type: string
+        side:
+          type: string
+        status:
+          type: string
+        statusMessage:
+          type: object
+          properties:
+            errorCode:
+              type: string
+            message:
+              type: string
+        symbol:
+          type: string
+        averagePrice:
+          type: number
+        averagePriceRaw:
+          type: number
+        totalOrderAmount:
+          type: number
+        cumulativeQuantity:
+          type: number
+        quantity:
+          type: number
+        price:
+          type: number
+        fees:
+          type: number
+        createdBy:
+          type: string
+        userID:
+          type: string
+        accountID:
+          type: string
+        accountNo:
+          type: string
+        created:
+          type: string
+          format: date-time
+        statusMessage.errorCode:
+          type: string
+        statusMessage.message:
+          type: string
+        statusMessage.reason:
+          type: string
+        amountCash:
+          type: number
+        OrderExpires:
+          type: string
+          format: date-time
+        lastExecuted:
+          type: string
+          format: date-time
+        quoteID:
+          type: number
+          format: nullable
+    OrdersHistory:
+      type: object
+      properties:
+        accountID:
+          type: string
+        accountNo:
+          type: string
+        tradingType:
+          type: string
+        updated:
+          type: string
+          format: date-time
+        orders:
+          type: array
+          items:
+            type: object
+            properties:
+              orderID:
+                type: string
+              orderNo:
+                type: string
+              createdWhen:
+                type: string
+                format: date-time
+              symbol:
+                type: string
+              cumQty:
+                type: number
+              orderStatus:
+                type: number
+              orderType:
+                type: string
+              orderQty:
+                type: number
+              isoTimeRestingOrderExpires:
+                type: string
+                format: date-time
+              limitPrice:
+                type: number
+                format: nullable
+              side:
+                type: string
+              mitTriggerPrice:
+                type: number
+              triggered:
+                type: number
+              averagePriceRaw:
+                type: number
+              orderCashAmt:
+                type: number
+                format: nullable
+              stopPrice:
+                type: number
+    CreateOrderRequest:
+      type: object
+      properties:
+        accountNo:
+          type: string
+          required: true
+        orderType:
+          type: string
+          required: true
+        symbol:
+          type: string
+          required: true
+        side:
+          type: string
+          required: true
+        quantity:
+          type: number
+          required: true
+        amountCash:
+          type: number
+          format: nullable
+        price:
+          type: number
+        commission:
+          type: number
+        clientNotes:
+          type: string
+        preventQueuing:
+          type: boolean
+        extendedHours:
+          type: boolean
+        metadata:
+          type: object
+          properties:
+            myCustomKey:
+              type: string
+        timeInForce:
+          type: string
+        expiration:
+          type: string
+          example: 2018-09-18
+    CreateOrderResponse:
+      type: object
+      properties:
+        orderID:
+          type: string
+        orderNo:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: [ ]

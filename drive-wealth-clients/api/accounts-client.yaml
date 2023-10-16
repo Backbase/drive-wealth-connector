@@ -1,0 +1,874 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Instrument API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Accounts
+    description: Create a new brokerage Account for a User.
+
+paths:
+  /back-office/users/{userid}/accounts:
+    get:
+      tags:
+        - Accounts
+      summary: List user Accounts
+      operationId: listUserAccounts
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: userid
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/account'
+  /back-office/accounts:
+    post:
+      tags:
+        - accounts
+      summary: Create Account
+      operationId: createAccount
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/createAccountRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/createAccountResponse'
+  /back-office/accounts/{accountID}:
+    get:
+      tags:
+        - accounts
+      summary: Get Account
+      operationId: getAccount
+      parameters:
+        - name: accountID
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getAccountResponse'
+  /back-office/users/{userID}/accounts:
+    get:
+      tags:
+        - accounts
+      summary: Get Account by UserId
+      operationId: getAccountByUserId
+      parameters:
+        - name: userID
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getAccountByUserIdResponse'
+  /back-office/accounts/{accountID}/summary:
+    get:
+      tags:
+        - accounts
+      summary: Get Account Summary by Account ID
+      operationId: getAccountSummaryById
+      parameters:
+        - name: accountID
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getAccountSummaryResponse'
+  /back-office/accounts/{accountID}/performance:
+    get:
+      tags:
+        - accounts
+      summary: Get Account Performance by Account ID
+      operationId: getAccountPerformanceById
+      parameters:
+        - name: accountID
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: period
+          in: query
+          required: false
+          schema:
+            type: string
+          description: "Used for relative date range, accepts a number and a unit of time (E.g: 3d - 3 Days, 2w - 2 Weeks, 1m - 1 Month)."
+        - name: from
+          in: query
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 20221222
+        - name: to
+          in: query
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 20221222
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getAccountPerformanceResponse'
+  /back-office/accounts/{accountID}/summary/money:
+    get:
+      tags:
+        - accounts
+      summary: Get Account Money Summary by Account ID
+      operationId: getAccountMoneySummaryById
+      parameters:
+        - name: accountID
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getAccountMoneySummaryResponse'
+
+components:
+  schemas:
+    account:
+      type: object
+      properties:
+        id:
+          type: string
+        accountNo:
+          type: string
+        accountType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        accountMgmtType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        status:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        tradingType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        leverage:
+          type: number
+        nickname:
+          type: string
+        parentIB:
+          type: object
+          properties:
+            id:
+              type: string
+            name:
+              type: string
+        taxProfile:
+          type: object
+          properties:
+            taxStatusCode:
+              type: string
+            taxRecipientCode:
+              type: string
+        commissionID:
+          type: string
+        beneficiaries:
+          type: boolean
+        userID:
+          type: string
+        restricted:
+          type: boolean
+        goodFaithViolations:
+          type: number
+        patternDayTrades:
+          type: number
+        freeTradeBalance:
+          type: number
+        gfvPdtExempt:
+          type: boolean
+        buyingPowerOverride:
+          type: boolean
+        bod:
+          type: object
+          properties:
+            moneyMarket:
+              type: number
+            equityValue:
+              type: number
+            cashAvailableForWithdrawal:
+              type: number
+            cashAvailableForTrading:
+              type: number
+            cashBalance:
+              type: number
+        sweepInd:
+          type: boolean
+        interestFree:
+          type: boolean
+        createdWhen:
+          type: string
+        openedWhen:
+          type: string
+          format: date-time
+        updatedWhen:
+          type: string
+        ignoreMarketHoursForTest:
+          type: boolean
+        metadata:
+          type: object
+          properties:
+            externalId:
+              type: string
+        flaggedForACATS:
+          type: boolean
+        extendedHoursEnrolled:
+          type: boolean
+    createAccountRequest:
+      type: object
+      properties:
+        userID:
+          type: string
+          example: cc07f91b-7ee1-4868-b8fc-823c70a1b932
+        accountType:
+          type: string
+          example: LIVE
+        accountManagementType:
+          type: string
+          example: SELF
+        tradingType:
+          type: string
+          example: CASH
+        riaID:
+          type: string
+          example: 66304da9-3h6f-2234-935f-ac6b7933d706
+        riaProductID:
+          type: string
+          example:
+        riaPortfolioID:
+          type: string
+          example: portfolio_87fec25f-c350-4a53-83a0-fc6be0c2989e
+        authorizedUsers:
+          type: array
+          items:
+            type: object
+            properties:
+              userID:
+                type: string
+                example: cc07f91b-7ee1-4868-b8fc-823c70a1b932
+              permissions:
+                type: array
+                items:
+                  type: string
+                  example: ORDERS_CREATE
+        ignoreBuyingPower:
+          type: boolean
+        violationsExempt:
+          type: boolean
+        ignoreMarketHoursForTest:
+          type: boolean
+        extendedHoursEnrolled:
+          type: boolean
+        metadata:
+          type: object
+          properties:
+            externalId:
+              type: string
+            myCustomKey:
+              type: string
+              example: myCustomValue
+        leverage:
+          type: integer
+          format: int32
+          example: 1
+    createAccountResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          example: cc07f91b-7ee1-4868-b8fc-823c70a1b932.1407775317759
+        accountNo:
+          type: string
+          example: DWBG000052
+        accountType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        accountMgmtType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        status:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        tradingType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        leverage:
+          type: integer
+          format: int32
+          example: 1
+        nickname:
+          type: string
+          example: Steve's Robo Advisor Managed Account
+        parentIB:
+          type: object
+          properties:
+            id:
+              type: string
+              example: 80f9b672-120d-4b73-9cc9-42fb3262c4b9
+            name:
+              type: string
+              example: Tendies Trading Company
+        taxProfile:
+          type: object
+          properties:
+            taxStatusCode:
+              type: string
+              example: W-9
+            taxRecipientCode:
+              type: string
+              example: INDIVIDUAL
+        commissionID:
+          type: string
+          example: b3e985dd-9679-63dc-5dd5-9bd7982efecd
+        beneficiaries:
+          type: boolean
+        userID:
+          type: string
+          example: cc07f91b-7ee1-4868-b8fc-823c70a1b932
+        restricted:
+          type: boolean
+        goodFaithViolations:
+          type: integer
+          format: int32
+          example: 0
+        patternDayTrades:
+          type: integer
+          format: int32
+          example: 0
+        freeTradeBalance:
+          type: integer
+          format: int32
+          example: 0
+        gfvPdtExempt:
+          type: boolean
+        buyingPowerOverride:
+          type: boolean
+        bod:
+          type: object
+          properties:
+            moneyMarket:
+              type: integer
+              format: int32
+              example: 0
+            equityValue:
+              type: integer
+              format: int32
+              example: 0
+            cashAvailableForWithdrawal:
+              type: integer
+              format: int32
+              example: 0
+            cashAvailableForTrading:
+              type: integer
+              format: int32
+              example: 0
+            cashBalance:
+              type: integer
+              format: int32
+              example: 0
+        ria:
+          type: object
+          properties:
+            advisorID:
+              type: string
+              example: 66304da9-3h6f-2234-935f-ac6b7933d706
+            productID:
+              type: string
+              example: product_b94c0b6a-5ac8-43e4-95d1-777051c0503b
+        sweepInd:
+          type: boolean
+        interestFree:
+          type: boolean
+        openedWhen:
+          type: string
+          format: date-time
+          example: 2022-12-22T06:07:41Z
+        ignoreMarketHoursForTest:
+          type: boolean
+        metadata:
+          type: object
+          properties:
+            externalId:
+              type: string
+        flaggedForACATS:
+          type: boolean
+    getAccountResponse:
+      type: object
+      properties:
+        account:
+          $ref: '#/components/schemas/account'
+    getAccountByUserIdResponse:
+      type: array
+      items:
+        $ref: '#/components/schemas/account'
+
+    getAccountSummaryResponse:
+      type: object
+      properties:
+        accountSummary:
+          type: object
+          properties:
+            accountID:
+              type: string
+              example: cc07f91b-7ee1-4868-b8fc-823c70a1b932.1407775317759
+            accountNo:
+              type: string
+              example: DWBG000052
+            tradingType:
+              type: string
+              example: CASH
+            lastUpdated:
+              type: string
+              example: 2017-06-16T15:35:30.617Z
+            cash:
+              type: object
+              properties:
+                cashAvailableForTrade:
+                  type: number
+                  example: 0
+                cashAvailableForWithdrawal:
+                  type: number
+                  example: 0
+                cashBalance:
+                  type: number
+                  example: -12043.23
+                noBuyingPowerReason:
+                  type: array
+                  items:
+                    type: string
+                    format: nullable
+                cashSettlement:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      utcTime:
+                        type: string
+                        example: 2021-04-26T13:30:00.001Z
+                      cash:
+                        type: number
+                        example: 439.7
+                pendingPaymentsAmount:
+                  type: integer
+                  format: int32
+                  example: 0
+            margin:
+              type: object
+              properties:
+                marginRequirement:
+                  type: integer
+                  format: int32
+                  example: 1
+                longMarketValue:
+                  type: integer
+                  format: int32
+                  example: 0
+                debitBalance:
+                  type: integer
+                  format: int32
+                  example: 0
+                equity:
+                  type: integer
+                  format: int32
+                  example: 0
+                equityFraction:
+                  type: integer
+                  format: int32
+                  example: 0
+                equityRequired:
+                  type: integer
+                  format: int32
+                  example: 1
+                accruedInterest:
+                  type: integer
+                  format: int32
+                  example: 0
+                patternDayTrader:
+                  type: boolean
+                restricted:
+                  type: boolean
+                daySMA:
+                  type: integer
+                  format: int32
+                  example: 0
+                rtExcessEquity:
+                  type: integer
+                  format: int32
+                  example: 0
+                effectiveSMA:
+                  type: integer
+                  format: int32
+                  example: 0
+                noBuyingPowerReason:
+                  type: string
+                  format: nullable
+                restingOrders:
+                  type: integer
+                  format: int32
+                  example: 0
+            equity:
+              type: object
+              properties:
+                equityValue:
+                  type: number
+                  example: 34275565.44
+                equityPositions:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      symbol:
+                        type: string
+                        example: MS
+                      instrumentID:
+                        type: string
+                        example: 3fb1e8a9-f7d5-4d90-95e2-43e7326b5636
+                      openQty:
+                        type: number
+                        example: 31.65120151
+                      costBasis:
+                        type: number
+                        example: 975.98
+                      marketValue:
+                        type: number
+                        example: 4540.36
+                      side:
+                        type: string
+                        example: B
+                      priorClose:
+                        type: number
+                        example: 144.29
+                      availableForTradingQty:
+                        type: number
+                        example: 31.65120151
+                      avgPrice:
+                        type: number
+                        example: 30.84
+                      mktPrice:
+                        type: number
+                        example: 143.45
+                      unrealizedPL:
+                        type: number
+                        example: 3564.38
+                      unrealizedDayPLPercent:
+                        type: number
+                        example: -0.58
+                      unrealizedDayPL:
+                        type: number
+                        example: -26.59
+            orders:
+              type: array
+              items:
+                type: object
+                properties:
+                  orderID:
+                    type: string
+                    example: IC.0e352bb7-9869-4233-9861-9673544efedd
+                  orderNo:
+                    type: string
+                    example: ICDU023727
+                  createdWhen:
+                    type: string
+                    example: 2022-12-11T22:28:21.810Z
+                  symbol:
+                    type: string
+                    example: MS
+                  cumQty:
+                    type: number
+                    example: 0.7219
+                  orderStatus:
+                    type: string
+                    example: FILLED
+                  orderType:
+                    type: string
+                    example: MARKET
+                  orderQty:
+                    type: number
+                    example: 0.7219
+                  isoTimeRestingOrderExpires:
+                    type: string
+                    format: nullable
+                  limitPrice:
+                    type: string
+                    format: nullable
+                  side:
+                    type: string
+                    example: B
+                  orderCashAmt:
+                    type: string
+                    format: nullable
+                  stopPrice:
+                    type: integer
+                    format: int32
+                    example: 200
+            transactions:
+              type: array
+              items:
+                type: object
+                properties:
+                  orderID:
+                    type: string
+                    example: IC.0e352bb7-9869-4233-9861-9673544efedd
+                  orderNo:
+                    type: string
+                    example: ICDU023727
+                  createdWhen:
+                    type: string
+                    example: 2022-12-11T22:28:21.810Z
+                  symbol:
+                    type: string
+                    example: MS
+                  cumQty:
+                    type: number
+                    example: 0.7219
+                  orderStatus:
+                    type: string
+                    example: FILLED
+                  orderType:
+                    type: string
+                    example: MARKET
+                  orderQty:
+                    type: number
+                    example: 0.7219
+                  isoTimeRestingOrderExpires:
+                    type: string
+                    format: nullable
+                  limitPrice:
+                    type: string
+                    format: nullable
+                  side:
+                    type: string
+                    example: B
+                  orderCashAmt:
+                    type: string
+                    format: nullable
+                  stopPrice:
+                    type: integer
+                    format: int32
+                    example: 200
+                  realizedPL:
+                    type: number
+                    example: 3564.38
+                  executedWhen:
+                    type: string
+                    example: 017-06-16T15:35:27.856Z
+                  updatedWhen:
+                    type: string
+                    example: 2017-06-16T15:35:30.617Z
+                  updatedReason:
+                    type: string
+                    example: market_order-buy-new
+                  commissions:
+                    type: integer
+                    format: int32
+                    example: 0
+                  commissionDesc:
+                    type: string
+                    example: Free
+    getAccountPerformanceResponse:
+      type: object
+      properties:
+        accountID:
+          type: string
+          example: cc07f91b-7ee1-4868-b8fc-823c70a1b932.1407775317759
+        accountNo:
+          type: string
+          example: DWBG000052
+        startDate:
+          type: string
+          format: date
+          example: 2017-09-18
+        endDate:
+          type: string
+          format: date
+          example: 2018-09-18
+        lastUpdated:
+          type: string
+          example: 2017-06-16T15:35:30.617Z
+        performance:
+          type: array
+          items:
+            type: object
+            properties:
+              realizedDayPL:
+                type: number
+                example: 100.5
+              unrealizedDayPL:
+                type: number
+                example: 3564.38
+              cumRealizedPL:
+                type: number
+                example: 10
+              date:
+                type: string
+                format: date
+                example: 2018-09-18
+              equity:
+                type: number
+                example: 9941.59
+              cash:
+                type: number
+                example: 439.7
+              deposits:
+                type: number
+                example: 0
+              withdrawals:
+                type: number
+                example: 0
+              fees:
+                type: number
+                example: 0
+    getAccountMoneySummaryResponse:
+      type: object
+      properties:
+        accountID:
+          type: string
+          example: cc07f91b-7ee1-4868-b8fc-823c70a1b932.1407775317759
+        accountNo:
+          type: string
+          example: DWBG000052
+        tradingType:
+          type: string
+          example: CASH
+        updated:
+          type: string
+          example: 2021-04-23T18:41:32.440Z
+        cash:
+          type: object
+          properties:
+            cashAvailableForTrade:
+              type: integer
+              format: int32
+              example: 0
+            cashAvailableForWithdrawal:
+              type: integer
+              format: int32
+              example: 0
+            cashBalance:
+              type: number
+              example: -12043.23
+            noBuyingPowerReason:
+              type: array
+              items:
+                type: string
+                format: nullable
+            cashSettlement:
+              type: array
+              items:
+                type: object
+                properties:
+                  utcTime:
+                    type: string
+                    example: 2021-04-26T13:30:00.001Z
+                  cash:
+                    type: number
+                    example: 439.7
+            pendingPaymentsAmount:
+              type: integer
+              format: int32
+              example: 0
+        payments:
+          type: object
+          properties:
+            buyingPower:
+              type: object
+              properties:
+                pendingDepositsAmountAvailable:
+                  type: number
+                  example: 20802.71
+                pendingDepositsAmountNotAvailable:
+                  type: integer
+                  format: int32
+                  example: 0
+            redemptions:
+              type: object
+              properties:
+                amountWithheldFromRedemptions:
+                  type: integer
+                  format: int32
+                  example: 60
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []

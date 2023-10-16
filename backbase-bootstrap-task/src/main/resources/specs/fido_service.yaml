@@ -1,0 +1,480 @@
+openapi: 3.0.1
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+  - url: http://localhost:8082/fido-service/
+    description: Generated server url
+paths:
+  /service-api/v1/applications/{id}:
+    put:
+      tags:
+        - application-controller
+      operationId: updateApplication
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int32
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateApplicationRequestBody'
+        required: true
+      responses:
+        '204':
+          description: No Content
+    delete:
+      tags:
+        - application-controller
+      operationId: deleteApplication
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '204':
+          description: No Content
+  /service-api/passcode/flag-verified:
+    put:
+      tags:
+        - passcode-controller
+      operationId: postAuthenticationResponse
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FlagPasscodeVerifiedRequestBody'
+        required: true
+      responses:
+        '204':
+          description: No Content
+  /service-api/v1/registration/clean:
+    post:
+      tags:
+        - registration-cleanup-controller
+      operationId: cleanupRegistrations
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegistrationCleanupRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+  /service-api/v1/applications:
+    get:
+      tags:
+        - application-controller
+      operationId: getApplications
+      responses:
+        '200':
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/GetApplicationsResponseBody'
+    post:
+      tags:
+        - application-controller
+      operationId: createApplication
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateApplicationRequestBody'
+        required: true
+      responses:
+        '201':
+          description: Created
+          content:
+            '*/*':
+              schema:
+                $ref: '#/components/schemas/CreateApplicationResponseBody'
+  /service-api/fido-uaf/registration:
+    post:
+      tags:
+        - registration-controller
+      operationId: getRegistrations
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BulkGetRegistrationsRequestBody'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RegistrationsResponseBody'
+  /service-api/fido-uaf/registration/response:
+    post:
+      tags:
+        - registration-controller
+      operationId: postRegistrationResponse
+      requestBody:
+        content:
+          application/fido+uaf; charset=utf-8:
+            schema:
+              $ref: '#/components/schemas/SendUafResponse'
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendUafResponse'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/fido+uaf; charset=utf-8:
+              schema:
+                $ref: '#/components/schemas/ServerResponse'
+  /service-api/fido-uaf/registration/request:
+    post:
+      tags:
+        - registration-controller
+      operationId: getRegistrationRequest
+      requestBody:
+        content:
+          application/fido+uaf; charset=utf-8:
+            schema:
+              $ref: '#/components/schemas/GetUafRequest'
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GetUafRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/fido+uaf; charset=utf-8:
+              schema:
+                $ref: '#/components/schemas/ReturnUafRequest'
+  /service-api/fido-uaf/authentication/response:
+    post:
+      tags:
+        - authentication-controller
+      operationId: postAuthenticationResponse_1
+      requestBody:
+        content:
+          application/fido+uaf; charset=utf-8:
+            schema:
+              $ref: '#/components/schemas/SendUafResponse'
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendUafResponse'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/fido+uaf; charset=utf-8:
+              schema:
+                $ref: '#/components/schemas/ServerResponse'
+  /service-api/fido-uaf/authentication/request:
+    post:
+      tags:
+        - authentication-controller
+      operationId: getAuthenticationRequest
+      requestBody:
+        content:
+          application/fido+uaf; charset=utf-8:
+            schema:
+              $ref: '#/components/schemas/GetUafRequest'
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GetUafRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/fido+uaf; charset=utf-8:
+              schema:
+                $ref: '#/components/schemas/ReturnUafRequest'
+  /service-api/fido-uaf/applications/{applicationKey}/facets:
+    get:
+      tags:
+        - trusted-facets-controller
+      operationId: getTrustedFacets
+      parameters:
+        - name: applicationKey
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/fido.trusted-apps+json:
+              schema:
+                $ref: '#/components/schemas/TrustedFacetsResponseBody'
+components:
+  schemas:
+    UpdateApplicationRequestBody:
+      required:
+        - appId
+        - appKey
+      type: object
+      properties:
+        appKey:
+          type: string
+        appId:
+          type: string
+        trustedFacetIds:
+          type: array
+          items:
+            type: string
+    FlagPasscodeVerifiedRequestBody:
+      required:
+        - challenge
+      type: object
+      properties:
+        challenge:
+          maxLength: 86
+          minLength: 1
+          type: string
+    RegistrationCleanupRequest:
+      required:
+        - aaid
+        - deviceId
+        - username
+      type: object
+      properties:
+        aaid:
+          type: string
+        deviceId:
+          type: string
+        username:
+          type: string
+    CreateApplicationRequestBody:
+      required:
+        - appId
+        - appKey
+      type: object
+      properties:
+        appKey:
+          type: string
+        appId:
+          type: string
+        trustedFacetIds:
+          type: array
+          items:
+            type: string
+    CreateApplicationResponseBody:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        appKey:
+          type: string
+        appId:
+          type: string
+        trustedFacetIds:
+          type: array
+          items:
+            type: string
+    BulkGetRegistrationsRequestBody:
+      type: object
+      properties:
+        deviceIds:
+          type: array
+          items:
+            type: string
+    Application:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        appKey:
+          type: string
+        appId:
+          type: string
+        trustedFacets:
+          $ref: '#/components/schemas/TrustedFacetsResponseBody'
+    Registration:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        application:
+          $ref: '#/components/schemas/Application'
+        keyId:
+          type: string
+        signatureCounter:
+          type: integer
+          format: int64
+        authenticatorVersion:
+          type: integer
+          format: int32
+        aaId:
+          type: string
+        deviceId:
+          type: string
+        userId:
+          type: string
+        username:
+          type: string
+    RegistrationsResponseBody:
+      type: object
+      properties:
+        registrations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Registration'
+    TrustedFacets:
+      type: object
+      properties:
+        version:
+          $ref: '#/components/schemas/Version'
+        ids:
+          type: array
+          items:
+            type: string
+    TrustedFacetsResponseBody:
+      type: object
+      properties:
+        trustedFacets:
+          type: array
+          items:
+            $ref: '#/components/schemas/TrustedFacets'
+    Version:
+      type: object
+      properties:
+        major:
+          type: integer
+          format: int32
+        minor:
+          type: integer
+          format: int32
+    SendUafResponse:
+      type: object
+      properties:
+        uafResponse:
+          type: string
+        context:
+          type: string
+    KeyRotationChallenge:
+      type: object
+      properties:
+        returnUafRequest:
+          $ref: '#/components/schemas/ReturnUafRequest'
+        deviceId:
+          type: string
+    ReturnUafRequest:
+      type: object
+      properties:
+        statusCode:
+          type: string
+          enum:
+            - '1200'
+            - '1202'
+            - '1400'
+            - '1401'
+            - '1403'
+            - '1404'
+            - '1408'
+            - '1480'
+            - '1481'
+            - '1490'
+            - '1491'
+            - '1492'
+            - '1493'
+            - '1494'
+            - '1495'
+            - '1496'
+            - '1497'
+            - '1498'
+            - '1500'
+        uafRequest:
+          type: string
+        op:
+          type: string
+          enum:
+            - Reg
+            - Auth
+            - Dereg
+        lifetimeMillis:
+          type: integer
+          format: int64
+    ServerResponse:
+      type: object
+      properties:
+        statusCode:
+          type: string
+          enum:
+            - '1200'
+            - '1202'
+            - '1400'
+            - '1401'
+            - '1403'
+            - '1404'
+            - '1408'
+            - '1480'
+            - '1481'
+            - '1490'
+            - '1491'
+            - '1492'
+            - '1493'
+            - '1494'
+            - '1495'
+            - '1496'
+            - '1497'
+            - '1498'
+            - '1500'
+        description:
+          type: string
+        processingErrorCode:
+          type: string
+          enum:
+            - '1000'
+            - '1001'
+            - '1002'
+        keyRotationChallenge:
+          $ref: '#/components/schemas/KeyRotationChallenge'
+    GetUafRequest:
+      type: object
+      properties:
+        op:
+          type: string
+          enum:
+            - Reg
+            - Auth
+            - Dereg
+        previousRequest:
+          type: string
+        context:
+          type: string
+    ApplicationDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        appKey:
+          type: string
+        appId:
+          type: string
+        trustedFacetIds:
+          type: array
+          items:
+            type: string
+    GetApplicationsResponseBody:
+      type: object
+      properties:
+        applications:
+          type: array
+          items:
+            $ref: '#/components/schemas/ApplicationDto'

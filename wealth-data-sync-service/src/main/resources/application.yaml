@@ -1,0 +1,152 @@
+server:
+  port: 8080
+
+spring:
+  jmx:
+    default-domain: ${spring.application.name}
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: true
+
+backbase:
+  communication:
+    consumer-options:
+      maxConcurrentConsumers: 25
+      concurrentConsumers: 5
+      maxMessagesPerTask: 100
+    http:
+      autowire-object-mapper: true
+    logRequests: true
+    logReplies: true
+
+cloud:
+  aws:
+    sqs:
+      listener:
+        auto-startup: false
+    region:
+      static: <>
+      auto: false
+    credentials:
+      access-key: <>
+      secret-key: <>
+    end-point:
+      uri: <>
+
+# Configure Internal JWT handler
+sso:
+  jwt:
+    internal:
+      signature:
+        key:
+          type: ENV
+          value: SIG_SECRET_KEY
+
+# Spring health monitoring
+management:
+  health:
+    jms:
+      enabled: false
+
+drive-wealth:
+  baseUrl: https://bo-api.drivewealth.io
+  auth:
+    scheduler:
+      fixedRate: "1800000"
+      initialDelay: "30000"
+    retry:
+      maxAttempts: 100
+      maxDelay: 10
+  transactions:
+    daysRefreshWindow:
+      - eventName: Attempt Login Authentication
+        period: 365
+      - eventName: Create Order
+        period: 1
+  orders:
+    monthsRefreshWindow:
+      - eventName: Attempt Login Authentication
+        period: 12
+      - eventName: Create Order
+        period: 1
+  dwClientAppKey: <>
+  clientID: <>
+  clientSecret: <>
+  portfolioManagers:
+    - id: "1234"
+      name: "Kevin Clark"
+      link: "kevinClarke@modelbank.com"
+  portfolioAttorneys:
+    - id: "123"
+      name: "John Doe"
+      link: "johnDoe@modelbank.com"
+  market-status:
+    open:
+      interval-in-cron: "* 30 13 * * 1-5"
+    close:
+      interval-in-cron: "* 00 20 * * 1-5"
+    public-holidays:
+      - day: 2
+        month: 1
+      - day: 16
+        month: 1
+      - day: 20
+        month: 2
+      - day: 7
+        month: 4
+      - day: 29
+        month: 5
+      - day: 19
+        month: 6
+      - day: 4
+        month: 7
+      - day: 4
+        month: 9
+      - day: 23
+        month: 12
+      - day: 25
+        month: 12
+    markets:
+      - id: icq
+        name: ICQ
+      - id: tlv
+        name: TLV
+      - id: asq
+        name: ASQ
+      - id: lse
+        name: LSE
+      - id: gsn
+        name: GSN
+      - id: otc
+        name: OTC
+      - id: nyq
+        name: NYQ
+      - id: lcn
+        name: LCN
+      - id: pse
+        name: PSE
+      - id: nys
+        name: NYS
+      - id: nmq
+        name: NMQ
+      - id: par
+        name: PAR
+      - id: msq
+        name: NSQ
+      - id: pnk
+        name: PNK
+      - id: btq
+        name: BTQ
+      - id: naq
+        name: NAQ
+      - id: pcq
+        name: PCQ
+      - id: sto
+        name: STO
+      - id: nyse
+        name: NYSE
+      - id: ger
+        name: GER
+      - id: mil
+        name: MIL

@@ -1,0 +1,1048 @@
+openapi: 3.0.0
+info:
+  title: Initiate DriveWealth with Customer Data
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+
+paths:
+  /back-office/bars:
+    get:
+      tags:
+        - default
+      summary: Get Historical Chart
+      operationId: getHistoricalChart
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: instrumentID
+          in: query
+          schema:
+            type: string
+          required: true
+        - name: compression
+          in: query
+          schema:
+            type: integer
+          required: true
+        - name: dateStart
+          in: query
+          schema:
+            type: string
+            format: String
+        - name: dateEnd
+          in: query
+          schema:
+            type: string
+            format: String
+        - name: tradingDays
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HistoricalChartResponse'
+  /back-office/auth/tokens:
+    post:
+      tags:
+        - default
+      summary: Login
+      operationId: getAuthToken
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+  /back-office/users/search:
+    get:
+      tags:
+        - default
+      summary: Search User by username
+      operationId: searchUserByUsername
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: username
+          in: query
+          schema:
+            type: string
+          example: Daryl
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchUserResponse'
+  /back-office/users:
+    post:
+      tags:
+        - default
+      summary: Create User
+      operationId: createUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserRequest'
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateUserResponse'
+  /back-office/users/{userid}:
+    patch:
+      tags:
+        - default
+      summary: Edit User with IRA user docs
+      operationId: editUserWithUserDocs
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                documents:
+                  - type: PERSONAL_INFO
+                    data:
+                      irsBackupWithholdings: true
+                  - type: DISCLOSURES
+                    data:
+                      iraAgreement: true
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: userid
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+    get:
+      tags:
+        - default
+      summary: Get User by ID
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: userid
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+  /back-office/users/{userid}/accounts:
+    get:
+      tags:
+        - default
+      summary: List user Accounts
+      operationId: listUserAccounts
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: userid
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Account'
+  /back-office/accounts:
+    post:
+      tags:
+        - default
+      summary: Create Account
+      operationId: createAccount
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateAccountRequest'
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateAccountResponse'
+  /back-office/funding/deposits:
+    post:
+      tags:
+        - default
+      summary: Deposit Funds
+      operationId: depositFunds
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DepositFundsRequest'
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DepositFundsResponse'
+  /back-office/funding/deposits/{deposit-id}:
+    get:
+      tags:
+        - default
+      summary: Get Deposit Details
+      operationId: getDepositDetails
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: deposit-id
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+  /back-office/instruments:
+    get:
+      tags:
+        - default
+      summary: Get All Instruments
+      operationId: getAllInstruments
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: status
+          in: query
+          schema:
+            type: string
+          example: ACTIVE
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Instrument'
+  /back-office/instruments/{instrumentId}?options=Fundamentals:
+    get:
+      tags:
+        - default
+      summary: Get Instrument Detail
+      operationId: getInstrumentById
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: instrumentId
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InstrumentDetail'
+  /back-office/orders:
+    post:
+      tags:
+        - default
+      summary: Trade on asset
+      operationId: createOrder
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateOrderRequest'
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateOrderResponse'
+  /back-office/accounts/{accountId}/summary:
+    get:
+      tags:
+        - default
+      summary: Get Account Summary
+      operationId: getAccountSummary
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: authorization
+          in: header
+          schema:
+            type: string
+        - name: accountId
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+components:
+  schemas:
+    CreateOrderRequest:
+      type: object
+      properties:
+        accountNo:
+          type: string
+        orderType:
+          type: string
+        symbol:
+          type: string
+        side:
+          type: string
+        quantity:
+          type: string
+    CreateOrderResponse:
+      type: object
+      properties:
+        orderID:
+          type: string
+        orderNo:
+          type: string
+    DepositFundsResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        accountNo:
+          type: string
+        category:
+          type: string
+        currency:
+          type: string
+        amount:
+          type: number
+        status:
+          type: object
+          properties:
+            id:
+              type: number
+            message:
+              type: string
+            updated:
+              type: string
+        source:
+          type: object
+          properties:
+            id:
+              type: string
+            brand:
+              type: string
+            meta_info:
+              type: string
+        created:
+          type: string
+        accountID:
+          type: string
+        userID:
+          type: string
+        transactionCode:
+          type: string
+        wlpFinTranTypeID:
+          type: string
+        batch:
+          type: boolean
+        account_number:
+          type: string
+    DepositFundsRequest:
+      type: object
+      properties:
+        accountNo:
+          type: string
+        amount:
+          type: number
+        currency:
+          type: string
+        type:
+          type: string
+        details:
+          type: object
+          properties:
+            accountHolderName:
+              type: string
+            bankAccountType:
+              type: string
+            bankAccountNumber:
+              type: string
+            bankRoutingNumber:
+              type: string
+            country:
+              type: string
+        note:
+          type: string
+    CreateAccountRequest:
+      type: object
+      properties:
+        userID:
+          type: string
+        accountType:
+          type: string
+        accountManagementType:
+          type: string
+        tradingType:
+          type: string
+        ignoreMarketHoursForTest:
+          type: boolean
+        metadata:
+          type: object
+          properties:
+            externalId:
+              type: string
+    CreateAccountResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        accountNo:
+          type: string
+        accountType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        accountMgmtType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        status:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        tradingType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        leverage:
+          type: number
+        nickname:
+          type: string
+        parentIB:
+          type: object
+          properties:
+            id:
+              type: string
+            name:
+              type: string
+        taxProfile:
+          type: object
+          properties:
+            taxStatusCode:
+              type: string
+            taxRecipientCode:
+              type: string
+        commissionID:
+          type: string
+        beneficiaries:
+          type: boolean
+        userID:
+          type: string
+        restricted:
+          type: boolean
+        goodFaithViolations:
+          type: number
+        patternDayTrades:
+          type: number
+        freeTradeBalance:
+          type: number
+        gfvPdtExempt:
+          type: boolean
+        buyingPowerOverride:
+          type: boolean
+        bod:
+          type: object
+          properties:
+            moneyMarket:
+              type: number
+            equityValue:
+              type: number
+            cashAvailableForWithdrawal:
+              type: number
+            cashAvailableForTrading:
+              type: number
+            cashBalance:
+              type: number
+        sweepInd:
+          type: boolean
+        interestFree:
+          type: boolean
+        openedWhen:
+          type: string
+          format: date-time
+        ignoreMarketHoursForTest:
+          type: boolean
+        metadata:
+          type: object
+          properties:
+            externalId:
+              type: string
+        flaggedForACATS:
+          type: boolean
+    Account:
+      type: object
+      properties:
+        id:
+          type: string
+        accountNo:
+          type: string
+        accountType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        accountMgmtType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        status:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        tradingType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        leverage:
+          type: number
+        nickname:
+          type: string
+        parentIB:
+          type: object
+          properties:
+            id:
+              type: string
+            name:
+              type: string
+        taxProfile:
+          type: object
+          properties:
+            taxStatusCode:
+              type: string
+            taxRecipientCode:
+              type: string
+        commissionID:
+          type: string
+        beneficiaries:
+          type: boolean
+        userID:
+          type: string
+        restricted:
+          type: boolean
+        goodFaithViolations:
+          type: number
+        patternDayTrades:
+          type: number
+        freeTradeBalance:
+          type: number
+        gfvPdtExempt:
+          type: boolean
+        buyingPowerOverride:
+          type: boolean
+        bod:
+          type: object
+          properties:
+            moneyMarket:
+              type: number
+            equityValue:
+              type: number
+            cashAvailableForWithdrawal:
+              type: number
+            cashAvailableForTrading:
+              type: number
+            cashBalance:
+              type: number
+        sweepInd:
+          type: boolean
+        interestFree:
+          type: boolean
+        createdWhen:
+          type: string
+        openedWhen:
+          type: string
+        updatedWhen:
+          type: string
+        ignoreMarketHoursForTest:
+          type: boolean
+        metadata:
+          type: object
+          properties:
+            externalId:
+              type: string
+        flaggedForACATS:
+          type: boolean
+        extendedHoursEnrolled:
+          type: boolean
+    HistoricalChartResponse:
+      type: object
+      properties:
+        instrumentID:
+          type: string
+        compression:
+          type: number
+        dateStart:
+          type: string
+          format: date-time
+        dateEnd:
+          type: string
+          format: date-time
+        data:
+          type: string
+    FundamentalDataModel:
+      type: object
+      properties:
+        instrumentID:
+          type: string
+        symbol:
+          type: string
+        openPrice:
+          type: number
+        bidPrice:
+          type: number
+        askPrice:
+          type: number
+        lowPrice:
+          type: number
+        highPrice:
+          type: number
+        fiftyTwoWeekLowPrice:
+          type: number
+        fiftyTwoWeekHighPrice:
+          type: number
+        cumulativeVolume:
+          type: number
+        marketCap:
+          type: number
+        peRatio:
+          type: number
+        dividendYield:
+          type: number
+        earningsPerShare:
+          type: number
+        dividend:
+          type: number
+        sharesOutstanding:
+          type: number
+        timeLastUpdate:
+          type: string
+        bookValuePerShare:
+          type: string
+        cashFlowPerShare:
+          type: string
+        operatingIncome:
+          type: string
+        pbRatio:
+          type: string
+        volumeMovingAverage10Day:
+          type: number
+        volumeMovingAverage25Day:
+          type: number
+        volumeMovingAverage50Day:
+          type: number
+        priceMovingAverage50Day:
+          type: number
+        priceMovingAverage150Day:
+          type: number
+        priceMovingAverage200Day:
+          type: number
+        roe:
+          type: string
+    SearchUserResponse:
+      type: object
+      properties:
+        resultSet:
+          type: array
+          items:
+            type: object
+            properties:
+              countryID:
+                type: string
+              emailAddress:
+                type: string
+              firstName:
+                type: string
+              lastName:
+                type: string
+              parentIB:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  name:
+                    type: string
+              phoneNumber:
+                type: string
+              userID:
+                type: string
+              username:
+                type: string
+              userType:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  description:
+                    type: string
+              approvedWhen:
+                type: string
+              approvedBy:
+                type: string
+        count:
+          type: number
+    CreateUserResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        userType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        status:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        parentIB:
+          type: object
+          properties:
+            id:
+              type: string
+            name:
+              type: string
+        documents:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+              data:
+                $ref: '#/components/schemas/data'
+              description:
+                type: string
+        wlpID:
+          type: string
+        referralCode:
+          type: string
+        createdWhen:
+          type: string
+        updatedWhen:
+          type: string
+    data:
+      type: object
+      properties:
+        firstName:
+          type: string
+        lastName:
+          type: string
+        country:
+          type: string
+        phone:
+          type: string
+        emailAddress:
+          type: string
+        language:
+          type: string
+        value:
+          type: string
+        type:
+          type: string
+        citizenship:
+          type: string
+        usTaxPayer:
+          type: boolean
+        birthDay:
+          type: integer
+          format: int32
+        birthMonth:
+          type: integer
+          format: int32
+        birthYear:
+          type: integer
+          format: int32
+        politicallyExposedNames:
+          type: string
+          format: nullable
+        street1:
+          type: string
+        city:
+          type: string
+        province:
+          type: string
+        postalCode:
+          type: string
+        status:
+          type: string
+        broker:
+          type: boolean
+        position:
+          type: string
+        investmentObjectives:
+          type: string
+        investmentExperience:
+          type: string
+        annualIncome:
+          type: integer
+          format: int32
+        networthLiquid:
+          type: integer
+          format: int32
+        networthTotal:
+          type: integer
+          format: int32
+        riskTolerance:
+          type: string
+        termsOfUse:
+          type: boolean
+        customerAgreement:
+          type: boolean
+        marketDataAgreement:
+          type: boolean
+        rule14b:
+          type: boolean
+        findersFee:
+          type: boolean
+        privacyPolicy:
+          type: boolean
+        dataSharing:
+          type: boolean
+        signedBy:
+          type: string
+    CreateUserRequest:
+      type: object
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+        userType:
+          type: string
+        documents:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+              data:
+                $ref: '#/components/schemas/data'
+    InstrumentDetail:
+      type: object
+      properties:
+        symbol:
+          type: string
+        reutersPrimaryRic:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        sector:
+          type: string
+        longOnly:
+          type: boolean
+        orderSizeMax:
+          type: integer
+          format: int32
+        orderSizeMin:
+          type: number
+        orderSizeStep:
+          type: number
+        exchangeNickelSpread:
+          type: boolean
+        close:
+          type: number
+        descriptionChinese:
+          type: string
+        enableExtendedHoursNotionalStatus:
+          type: string
+        id:
+          type: string
+        type:
+          type: string
+        exchange:
+          type: string
+        url:
+          type: string
+        status:
+          type: string
+        exchangeThresholdOverride:
+          type: number
+        closePrior:
+          type: number
+        image:
+          type: string
+        ISIN:
+          type: string
+        houseThresholdOverride:
+          type: string
+        fundamentalDataModel:
+          $ref: '#/components/schemas/FundamentalDataModel'
+    Instrument:
+      type: object
+      properties:
+        symbol:
+          type: string
+        name:
+          type: string
+        enableExtendedHoursNotionalStatus:
+          type: string
+        id:
+          type: string
+        type:
+          type: string
+        status:
+          type: string
+        ISIN:
+          type: string
+    GetInstrumentsResponse:
+      type: array
+      items:
+        $ref: '#/components/schemas/Instrument'
+    LoginRequest:
+      required:
+        - clientID
+        - clientSecret
+      type: object
+      properties:
+        clientID:
+          type: string
+        clientSecret:
+          type: string
+    LoginResponse:
+      required:
+        - token_type
+        - expires_in
+        - access_token
+        - scope
+      type: object
+      properties:
+        token_type:
+          type: string
+        expires_in:
+          type: string
+        access_token:
+          type: string
+        scope:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: apiKey
+      name: Authorization
+      in: header

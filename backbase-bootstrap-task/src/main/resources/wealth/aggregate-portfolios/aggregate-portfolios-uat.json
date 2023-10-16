@@ -1,0 +1,190 @@
+[
+  {
+    "id": "4",
+    "name": "35 Years Long Strategy",
+    "portfoliosCount": "2",
+    "riskLevel": "High-Low",
+    "valuation": {
+      "amount": 50000,
+      "currencyCode": "USD"
+    },
+    "ytdPerformance": 0,
+    "ytdPerformanceValue": {
+      "amount": 50000,
+      "currencyCode": "USD"
+    },
+    "mtdPerformance": 0,
+    "mtdPerformanceValue": {
+      "amount": 50000,
+      "currencyCode": "USD"
+    },
+    "inValue": {
+      "amount": 50000,
+      "currencyCode": "USD"
+    },
+    "outValue": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "netValue": {
+      "amount": 50000,
+      "currencyCode": "USD"
+    },
+    "portfolios": [
+      "741531316",
+      "471362585"
+    ],
+    "allocations": [
+      {
+        "name": "Equity",
+        "percentage": "75"
+      },
+      {
+        "name": "Cash",
+        "percentage": "25"
+      }
+    ],
+    "managers": [
+      {
+        "id": "123",
+        "name": "Kevin Clark",
+        "link": "kevinClarke@modelbank.com"
+      }
+    ],
+    "attorneys": [
+      {
+        "id": "456",
+        "name": "John Doe",
+        "link": "johnDoe@modelbank com"
+      }
+    ],
+    "valuationRefreshDate": "2023-01-12T01:30:00.000-05:00",
+    "additions": {
+    }
+  },
+  {
+    "id": "5",
+    "name": "35 Years Long Strategy",
+    "portfoliosCount": "1",
+    "riskLevel": "Medium-low",
+    "valuation": {
+      "amount": 100000,
+      "currencyCode": "USD"
+    },
+    "ytdPerformance": 0,
+    "ytdPerformanceValue": {
+      "amount": 100000,
+      "currencyCode": "USD"
+    },
+    "mtdPerformance": 0,
+    "mtdPerformanceValue": {
+      "amount": 100000,
+      "currencyCode": "USD"
+    },
+    "inValue": {
+      "amount": 100000,
+      "currencyCode": "USD"
+    },
+    "outValue": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "netValue": {
+      "amount": 100000,
+      "currencyCode": "USD"
+    },
+    "portfolios": [
+      "127105943"
+    ],
+    "allocations": [
+      {
+        "name": "Equity",
+        "percentage": "75"
+      },
+      {
+        "name": "Cash",
+        "percentage": "25"
+      }
+    ],
+    "managers": [
+      {
+        "id": "123",
+        "name": "Kevin Clark",
+        "link": "kevinClarke@modelbank.com"
+      }
+    ],
+    "attorneys": [
+      {
+        "id": "456",
+        "name": "John Doe",
+        "link": "johnDoe@modelbank com"
+      }
+    ],
+    "valuationRefreshDate": "2023-01-12T01:30:00.000-05:00",
+    "additions": {
+    }
+  },
+  {
+    "id": "6",
+    "name": "35 Years Long Strategy",
+    "portfoliosCount": "2",
+    "riskLevel": "Medium-low",
+    "valuation": {
+      "amount": 700000,
+      "currencyCode": "USD"
+    },
+    "ytdPerformance": 0,
+    "ytdPerformanceValue": {
+      "amount": 700000,
+      "currencyCode": "USD"
+    },
+    "mtdPerformance": 0,
+    "mtdPerformanceValue": {
+      "amount": 700000,
+      "currencyCode": "USD"
+    },
+    "inValue": {
+      "amount": 700000,
+      "currencyCode": "USD"
+    },
+    "outValue": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "netValue": {
+      "amount": 700000,
+      "currencyCode": "USD"
+    },
+    "portfolios": [
+      "595696898",
+      "864204256"
+    ],
+    "allocations": [
+      {
+        "name": "Equity",
+        "percentage": "75"
+      },
+      {
+        "name": "Cash",
+        "percentage": "25"
+      }
+    ],
+    "managers": [
+      {
+        "id": "123",
+        "name": "Kevin Clark",
+        "link": "kevinClarke@modelbank.com"
+      }
+    ],
+    "attorneys": [
+      {
+        "id": "456",
+        "name": "John Doe",
+        "link": "johnDoe@modelbank com"
+      }
+    ],
+    "valuationRefreshDate": "2023-01-12T01:30:00.000-05:00",
+    "additions": {
+    }
+  }
+]

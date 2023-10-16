@@ -1,0 +1,24 @@
+[
+  {
+    "role": "ROLE_REMOTE_CONFIG_ADMIN",
+    "users": [
+      "admin",
+      "daria"
+    ]
+  },
+  {
+    "role": "ROLE_REMOTE_CONFIG_MANAGER",
+    "users": [
+      "george",
+      "milad"
+    ]
+  },
+  {
+    "role": "ROLE_REMOTE_CONFIG_DEVELOPER",
+    "users": [
+      "tibor",
+      "ankit",
+      "eric"
+    ]
+  }
+]

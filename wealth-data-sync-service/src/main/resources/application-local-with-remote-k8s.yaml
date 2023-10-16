@@ -1,0 +1,44 @@
+spring:
+  config:
+    import: optional:drive-wealth.properties
+  cloud:
+    loadbalancer:
+      enabled: true
+    kubernetes:
+      enabled: false
+    discovery:
+      client:
+        simple:
+          instances:
+            #kubectl -n backbase port-forward "$(kubectl -n backbase get pods| grep '^oidc-token-converter' -m1 | cut -d' ' -f1)" 18080:8080 &
+            #kubectl -n backbase port-forward "$(kubectl -n backbase get pods| grep '^user-manager' -m1 | cut -d' ' -f1)" 18081:8080 &
+            #kubectl -n backbase port-forward "$(kubectl -n backbase get pods| grep '^portfolio' -m1 | cut -d' ' -f1)" 18082:8080 &
+            #kubectl -n backbase port-forward "$(kubectl -n backbase get pods| grep '^access-control' -m1 | cut -d' ' -f1)" 18083:8080
+            user-manager:
+              - uri: http://localhost:18081
+            token-converter:
+              - uri: http://localhost:18080
+            portfolio:
+              - uri: http://localhost:18082
+            arrangement-manager:
+              - uri: http://localhost:18083
+            access-control:
+              - uri: http://localhost:18084
+
+eureka:
+  client:
+    enabled: false
+
+logging:
+  level:
+    root: INFO
+    com.backbase: INFO
+    org.springframework: INFO
+    org.springframework.web.client.RestTemplate: INFO
+    org.apache.http: INFO
+    httpclient.wire: INFO
+    org.springframework.web.filter.CommonsRequestLoggingFilter: INFO
+backbase:
+  security:
+    public:
+      paths: /**

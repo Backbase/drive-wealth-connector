@@ -1,0 +1,163 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Positions API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Transactions
+    description: Allow retrieval of Account Transactions
+paths:
+  /back-office/accounts/{accountID}/summary/transactions:
+    get:
+      tags:
+        - Transactions
+      summary: Retrieve transaction summary by Account
+      operationId: getTransactionSummaryByAccount
+      parameters:
+        - name: accountID
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransactionSummaryResponse'
+  /back-office/accounts/{accountID}/transactions:
+    get:
+      tags:
+        - Transactions
+      summary: List Transactions by Account
+      operationId: getTransactionsByAccount
+      parameters:
+        - name: accountID
+          in: path
+          schema:
+            type: string
+          required: true
+        - name: from
+          in: query
+          schema:
+            type: string
+            format: date-time
+          required: true
+        - name: to
+          in: query
+          schema:
+            type: string
+            format: date-time
+          required: true
+        - name: limit
+          in: query
+          schema:
+            type: number
+          required: false
+        - name: offset
+          in: query
+          schema:
+            type: string
+          required: false
+        - name: direction
+          in: query
+          schema:
+            type: string
+          required: false
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransactionResponse'
+components:
+  schemas:
+    TransactionResponse:
+      type: array
+      items:
+        $ref: '#/components/schemas/Transaction'
+    TransactionSummaryResponse:
+      type: object
+      properties:
+        accountID:
+          type: string
+        accountNo:
+          type: string
+        tradingType:
+          type: string
+        updated:
+          type: string
+          format: date-time
+        transactions:
+          type: array
+          items:
+            $ref: '#/components/schemas/Transaction'
+    Transaction:
+      type: object
+      properties:
+        accountAmount:
+          type: number
+        accountBalance:
+          type: number
+        accountType:
+          type: string
+        comment:
+          type: string
+        dnb:
+          type: boolean
+        finTranID:
+          type: string
+        finTranTypeID:
+          type: string
+        feeSec:
+          type: number
+        feeTaf:
+          type: number
+        feeBase:
+          type: number
+        feeXtraShares:
+          type: number
+        feeExchange:
+          type: number
+        fillQty:
+          type: number
+        fillPx:
+          type: number
+        instrument:
+          type: object
+          properties:
+            id:
+              type: string
+            symbol:
+              type: string
+            name:
+              type: string
+        orderID:
+          type: string
+        orderNo:
+          type: string
+        sendCommissionToInteliclear:
+          type: boolean
+        systemAmount:
+          type: number
+        tranAmount:
+          type: number
+        tranSource:
+          type: string
+        tranWhen:
+          type: string
+          format: date-time
+        wlpAmount:
+          type: number
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []

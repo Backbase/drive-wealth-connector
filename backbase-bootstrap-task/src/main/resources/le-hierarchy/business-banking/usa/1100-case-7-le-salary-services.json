@@ -1,0 +1,837 @@
+{
+  "name": "Salary Services Ltd",
+  "realmName": "customer",
+  "externalId": "salary-services",
+  "legalEntityType": "CUSTOMER",
+  "customerCategory": "BUSINESS",
+  "parentExternalId": "financial-institute-branch1",
+  "users": [
+    {
+      "user": {
+        "externalId": "hhsa01",
+        "fullName": "Henk Hurry",
+        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+        "emailAddress": {
+          "address": "hhsa01@email.com"
+        },
+        "mobileNumber": {
+          "number": "1234567890"
+        },
+        "userProfile": {
+          "title": "Mr",
+          "personalInformation": {
+            "gender": "male",
+            "dateOfBirth": "1995-12-30",
+            "countryOfBirth": "USA"
+          },
+          "locale": "nl-NL",
+          "additionalEmails": [
+            {
+              "value": "hhsa01@email.com"
+            }
+          ],
+          "additionalPhoneNumbers": [
+            {
+              "value": "012121212"
+            }
+          ],
+          "addresses": [
+            {
+              "streetAddress": "Fake Street 123",
+              "locality": "Utrecht",
+              "country": "USA",
+              "type": "home",
+              "primary": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "user": {
+        "externalId": "fbsa02",
+        "fullName": "Frank Butterfly",
+        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+        "emailAddress": {
+          "address": "fbsa02@email.com"
+        },
+        "mobileNumber": {
+          "number": "1234567890"
+        },
+        "userProfile": {
+          "title": "Mr",
+          "personalInformation": {
+            "gender": "male",
+            "dateOfBirth": "1995-12-30",
+            "countryOfBirth": "USA"
+          },
+          "locale": "nl-NL",
+          "additionalEmails": [
+            {
+              "value": "fbsa02@email.com"
+            }
+          ],
+          "additionalPhoneNumbers": [
+            {
+              "value": "012121212"
+            }
+          ],
+          "addresses": [
+            {
+              "streetAddress": "Fake Street 123",
+              "locality": "Utrecht",
+              "country": "USA",
+              "type": "home",
+              "primary": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "user": {
+        "externalId": "joedclrk",
+        "fullName": "Joe Doe",
+        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+        "emailAddress": {
+          "address": "joedclrk@email.com"
+        },
+        "mobileNumber": {
+          "number": "1234567890"
+        },
+        "userProfile": {
+          "title": "Mr",
+          "personalInformation": {
+            "gender": "male",
+            "dateOfBirth": "1995-12-30",
+            "countryOfBirth": "USA"
+          },
+          "locale": "nl-NL",
+          "additionalEmails": [
+            {
+              "value": "joedclrk@email.com"
+            }
+          ],
+          "additionalPhoneNumbers": [
+            {
+              "value": "012121212"
+            }
+          ],
+          "addresses": [
+            {
+              "streetAddress": "Fake Street 123",
+              "locality": "Utrecht",
+              "country": "USA",
+              "type": "home",
+              "primary": "true"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "masterServiceAgreement": {
+    "externalId": "salary-service-sa",
+    "name": "Salary Service LTD",
+    "description": "Single Service Agreement for Salary Service LTD",
+    "status": "ENABLED",
+    "isMaster": true,
+    "participants": [
+      {
+        "externalId": "salary-services",
+        "sharingUsers": true,
+        "sharingAccounts": true,
+        "admins": [],
+        "users": []
+      }
+    ]
+  },
+  "subsidiaries": [
+    {
+      "name": "Bory Coffee Company Ltd",
+      "realmName": "customer",
+      "externalId": "bory-coffee-ltd",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "parentExternalId": "financial-institute-branch1",
+      "customServiceAgreement": {
+        "externalId": "salary_bory_csa",
+        "name": "Salary Services for Bory Coffee Company",
+        "description": "Custom Service Agreement Between Salary Services and Bory Coffee Company",
+        "status": "ENABLED",
+        "isMaster": "false",
+        "participants": [
+          {
+            "externalId": "bory-coffee-ltd",
+            "sharingUsers": false,
+            "sharingAccounts": true,
+            "admins": [
+              "kristelcfo"
+            ]
+          },
+          {
+            "externalId": "salary-services",
+            "sharingUsers": true,
+            "sharingAccounts": false,
+            "users": [
+              "hhsa01",
+              "fbsa02"
+            ]
+          }
+        ],
+        "contacts": [
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512001",
+            "addressLine1": "02 Meadows Dr,",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Troy M. Hazard",
+            "contactPerson": "N/A",
+            "phoneNumber": "530 676 5523",
+            "emailId": "Tr@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562001",
+                "name": "Checking USD 0022",
+                "alias": "",
+                "accountNumber": "2512948500122022",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512002",
+            "addressLine1": "99 Meadows Dr",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Carolyn G. Wilkerson",
+            "contactPerson": "N/A",
+            "phoneNumber": "760 775 2255",
+            "emailId": "Car@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562002",
+                "name": "Checking USD 0023",
+                "alias": "",
+                "accountNumber": "2513948500122023",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512003",
+            "addressLine1": "29 Meadows Dr",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Stan D. Nelson",
+            "contactPerson": "N/A",
+            "phoneNumber": "909 860 0212",
+            "emailId": "Stan@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562003",
+                "name": "Checking USD 0025",
+                "alias": "",
+                "accountNumber": "2514948500122025",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512004",
+            "addressLine1": "2544 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Judith B. Anderson",
+            "contactPerson": "N/A",
+            "phoneNumber": "415 452 0523",
+            "emailId": "Jud@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562004",
+                "name": "Checking USD 0026",
+                "alias": "",
+                "accountNumber": "2515948500122026",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512005",
+            "addressLine1": "9844 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Margaret J. McClellan",
+            "contactPerson": "N/A",
+            "phoneNumber": "620 325 2533",
+            "emailId": "Marg@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562005",
+                "name": "Checking USD 0028",
+                "alias": "",
+                "accountNumber": "2516948500122028",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512006",
+            "addressLine1": "3 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Judith J. Thomas",
+            "contactPerson": "N/A",
+            "phoneNumber": "801 450 1112",
+            "emailId": "Ju@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562006",
+                "name": "Checking USD 0016",
+                "alias": "",
+                "accountNumber": "2517948500122016",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512007",
+            "addressLine1": "9112 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Theodore B. Ward",
+            "contactPerson": "N/A",
+            "phoneNumber": "623 509 6232",
+            "emailId": "Theo@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562007",
+                "name": "Checking USD 0064",
+                "alias": "",
+                "accountNumber": "2518948500122064",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c512008",
+            "addressLine1": "92 Dream Avenue",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Jolyn A. Grayer",
+            "contactPerson": "N/A",
+            "phoneNumber": "843 705 3211",
+            "emailId": "Joylin@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d562008",
+                "name": "Checking USD 0075",
+                "alias": "",
+                "accountNumber": "2519948500122075",
+                "bankName": "Bank of America",
+                "bankAddressLine1": "50 Georgia St",
+                "bankAddressLine2": "",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "internalId": "bblicdag1",
+          "name": "My business salary account",
+          "description": "The account of my business I use for salary payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "hhsa01",
+                "fullName": "Henk Hurry",
+                "supportsLimit": true
+              },
+              "referenceJobRoleNames": [
+                "Domestic Payments"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "fbsa02",
+                "fullName": "Frank Butterfly",
+                "supportsLimit": true
+              },
+              "referenceJobRoleNames": [
+                "Domestic Payments"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "0185275918507299",
+              "BBAN": "0185275918507299",
+              "name": "Checking Account USD 7299",
+              "productTypeExternalId": "current-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 500000.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "USD",
+                "amount": 1000000.0
+              },
+              "accountHolderName": "Bory Coffee Company Ltd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jason & Sons Finance",
+      "realmName": "customer",
+      "externalId": "jandsfin",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "parentExternalId": "jandsih",
+      "customServiceAgreement": {
+        "externalId": "salary_jason_sons_csa",
+        "name": "Salary Services for Jason & Sons",
+        "description": "Custom Service Agreement Between Salary Services and Jason & Sons",
+        "status": "ENABLED",
+        "isMaster": "false",
+        "participants": [
+          {
+            "externalId": "jandsfin",
+            "sharingUsers": false,
+            "sharingAccounts": true,
+            "admins": [
+              "jsfinclerk1"
+            ]
+          },
+          {
+            "externalId": "salary-services",
+            "sharingUsers": true,
+            "sharingAccounts": false,
+            "users": [
+              "hhsa01",
+              "joedclrk"
+            ]
+          }
+        ],
+        "contacts": [
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c612001",
+            "addressLine1": "2050 Meadows Dr",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Edwina N. Markley",
+            "contactPerson": "N/A",
+            "phoneNumber": "530 676 8602",
+            "emailId": "ed@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d662001",
+                "name": "Checking USD 0019",
+                "alias": "",
+                "accountNumber": "2512948592850019",
+                "bankName": "",
+                "bankAddressLine1": "BOFAUS6H",
+                "bankAddressLine2": "50 Georgia St",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c612002",
+            "addressLine1": "9857 Meadows Dr",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Leroy T. Diaz",
+            "contactPerson": "N/A",
+            "phoneNumber": "760 775 6619",
+            "emailId": "le@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d662002",
+                "name": "Checking USD 0020",
+                "alias": "",
+                "accountNumber": "2512948592850020",
+                "bankName": "",
+                "bankAddressLine1": "BOFAUS6H",
+                "bankAddressLine2": "50 Georgia St",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c612003",
+            "addressLine1": "0029 Meadows Dr",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Floyd J. Oliveira",
+            "contactPerson": "N/A",
+            "phoneNumber": "909 860 0219",
+            "emailId": "fl@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d662003",
+                "name": "Checking USD 0021",
+                "alias": "",
+                "accountNumber": "2512948592850021",
+                "bankName": "",
+                "bankAddressLine1": "BOFAUS6H",
+                "bankAddressLine2": "50 Georgia St",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c612004",
+            "addressLine1": "25 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Patrick B. Johnson",
+            "contactPerson": "N/A",
+            "phoneNumber": "415 452 0533",
+            "emailId": "pat@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d662004",
+                "name": "Checking USD 0022",
+                "alias": "",
+                "accountNumber": "2512948592850022",
+                "bankName": "",
+                "bankAddressLine1": "BOFAUS6H",
+                "bankAddressLine2": "50 Georgia St",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c612005",
+            "addressLine1": "98 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "John L. Hypes",
+            "contactPerson": "N/A",
+            "phoneNumber": "620 325 2298",
+            "emailId": "jo@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d662005",
+                "name": "Checking USD 0023",
+                "alias": "",
+                "accountNumber": "2512948592850023",
+                "bankName": "",
+                "bankAddressLine1": "BOFAUS6H",
+                "bankAddressLine2": "50 Georgia St",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c612006",
+            "addressLine1": "335 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Tammy R. Thomas",
+            "contactPerson": "N/A",
+            "phoneNumber": "801 450 1564",
+            "emailId": "ta@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d662006",
+                "name": "Checking USD 0024",
+                "alias": "",
+                "accountNumber": "2512948592850024",
+                "bankName": "",
+                "bankAddressLine1": "BOFAUS6H",
+                "bankAddressLine2": "50 Georgia St",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          },
+          {
+            "category": "Employee",
+            "externalId": "a8141b9e06621c612007",
+            "addressLine1": "99 Isla Rd East",
+            "addressLine2": "",
+            "streetName": "",
+            "postCode": 30010,
+            "town": "Columbus",
+            "countrySubDivision": "GA",
+            "country": "US",
+            "name": "Neomi C. Barton",
+            "contactPerson": "N/A",
+            "phoneNumber": "623 509 6878",
+            "emailId": "ne@mail.com",
+            "accounts": [
+              {
+                "externalId": "a8141b9e06632d662007",
+                "name": "Checking USD 0025",
+                "alias": "",
+                "accountNumber": "2512948592850025",
+                "bankName": "",
+                "bankAddressLine1": "BOFAUS6H",
+                "bankAddressLine2": "50 Georgia St",
+                "bankStreetName": "",
+                "bankPostCode": "30102",
+                "bankTown": "Atlanta",
+                "bankCountrySubDivision": "GA",
+                "bankCountry": "US",
+                "BIC": "BOFAUS6H",
+                "accountType": "Checking",
+                "bankCode": "121000358"
+              }
+            ]
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "internalId": "ssjsfindag1",
+          "name": "Jason & Sons Finance business salary account",
+          "description": "The account of my business I use for salary payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "hhsa01",
+                "fullName": "Henk Hurry"
+              },
+              "referenceJobRoleNames": [
+                "Domestic Payments"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "joedclrk",
+                "fullName": "Joe Doe"
+              },
+              "referenceJobRoleNames": [
+                "Domestic Payments"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "0193495812451198",
+              "BBAN": "0193495812451198",
+              "name": "Checking Account USD 1198",
+              "productTypeExternalId": "current-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "USD",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Finance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

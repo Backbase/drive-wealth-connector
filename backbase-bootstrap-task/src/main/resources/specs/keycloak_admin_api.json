@@ -1,0 +1,526 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Keycloak Admin API",
+    "description": "Keycloak Admin API Operations",
+    "version": "3.0.0"
+  },
+  "servers": [
+    {
+      "url": "/auth"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Admin"
+    }
+  ],
+  "paths": {
+    "/realms/{realmName}/protocol/openid-connect/token": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Gets an access token",
+        "operationId": "getToken",
+        "parameters": [
+          {
+            "name": "realmName",
+            "in": "path",
+            "description": "Realm name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "properties": {
+                  "grant_type": {
+                    "type": "string",
+                    "default": "password"
+                  },
+                  "client_id": {
+                    "type": "string",
+                    "default": "admin-cli"
+                  },
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/access_token_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        }
+      }
+    },
+    "/admin/realms/{realmName}/users": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Gets available users in specific realm",
+        "operationId": "getAvailableUsers",
+        "parameters": [
+          {
+            "name": "realmName",
+            "in": "path",
+            "description": "Realm name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/user_list_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/realms/{realmName}/users/{userId}/role-mappings/realm/available": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Gets available roles for user in specific realm",
+        "operationId": "getAvailableRoles",
+        "parameters": [
+          {
+            "name": "realmName",
+            "in": "path",
+            "description": "Realm name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "User id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/role_list_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/admin/realms/{realmName}/users/{userId}": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Verifies user email",
+        "operationId": "verifyUserEmail",
+        "parameters": [
+          {
+            "name": "realmName",
+            "in": "path",
+            "description": "Realm name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "User id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/user_model"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Success",
+            "content": {}
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "x-codegen-request-body-name": "body"
+      }
+    },
+    "/admin/realms/{realmName}/users/{userId}/reset-password": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Resets user password",
+        "operationId": "resetPassword",
+        "parameters": [
+          {
+            "name": "realmName",
+            "in": "path",
+            "description": "Realm name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "User id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/password_model"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Success",
+            "content": {}
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "x-codegen-request-body-name": "body"
+      }
+    },
+    "/admin/realms/{realmName}/users/{userId}/role-mappings/realm": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Adds role for user",
+        "operationId": "addRole",
+        "parameters": [
+          {
+            "name": "realmName",
+            "in": "path",
+            "description": "Realm name",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "User id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/role_list_model"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "Success",
+            "content": {}
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "x-codegen-request-body-name": "body"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "role_list_model": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/role_model"
+        }
+      },
+      "role_model": {
+        "required": [
+          "clientRole",
+          "composite",
+          "containerId",
+          "id",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "composite": {
+            "type": "boolean"
+          },
+          "clientRole": {
+            "type": "boolean"
+          },
+          "containerId": {
+            "type": "string"
+          }
+        }
+      },
+      "password_model": {
+        "required": [
+          "temporary",
+          "type",
+          "value"
+        ],
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "default": "password"
+          },
+          "value": {
+            "type": "string",
+            "default": "Pass1234"
+          },
+          "temporary": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      },
+      "user_model": {
+        "required": [
+          "emailVerified"
+        ],
+        "type": "object",
+        "properties": {
+          "emailVerified": {
+            "type": "boolean",
+            "default": true
+          }
+        }
+      },
+      "role_list_response": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/role_response"
+        }
+      },
+      "role_response": {
+        "required": [
+          "clientRole",
+          "composite",
+          "containerId",
+          "id",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "composite": {
+            "type": "boolean"
+          },
+          "clientRole": {
+            "type": "boolean"
+          },
+          "containerId": {
+            "type": "string"
+          }
+        }
+      },
+      "user_list_response": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/user_response"
+        }
+      },
+      "user_response": {
+        "required": [
+          "id",
+          "username"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "username": {
+            "type": "string"
+          }
+        }
+      },
+      "access_token_response": {
+        "required": [
+          "access_token"
+        ],
+        "type": "object",
+        "properties": {
+          "access_token": {
+            "type": "string"
+          },
+          "session_state": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}

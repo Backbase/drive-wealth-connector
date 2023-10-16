@@ -1,0 +1,3427 @@
+{
+  "name": "Financial Institute Branch 1",
+  "realmName": "employee",
+  "externalId": "financial-institute-branch1",
+  "legalEntityType": "BANK",
+  "subsidiaries": [
+    {
+      "name": "Jason & Sons International Holding Ltd",
+      "realmName": "customer",
+      "externalId": "jandsih",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "parentExternalId": "financial-institute-branch1",
+      "administrators": [
+        {
+          "externalId": "jsihsa01",
+          "fullName": "Jsih Admin1",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "jsihsa01@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        },
+        {
+          "externalId": "jsihsa02",
+          "fullName": "Jsih Admin2",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "jsihsa02@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "jsihsa01",
+            "fullName": "Jsih Admin1",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jsihsa01@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "USA"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jsihsa01@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "USA",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "jsihsa02",
+            "fullName": "Jsih Admin2",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jsihsa02@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "USA"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jsihsa02@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "USA",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "fredsceo",
+            "fullName": "Fred Jason senior",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "fredsceo@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "USA"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jsihsa02@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "USA",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "jsihclerk1",
+            "fullName": "Jsih Clerk1",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jsihclerk1@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "USA"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jsihclerk1@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "USA",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "jsihclerk2",
+            "fullName": "Jsih Clerk2",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jsihclerk2@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "USA"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jsihclerk2@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "USA",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "masterServiceAgreement": {
+        "externalId": "jason_sons_international_holding_ltd",
+        "name": "Jason & Sons International Holding Ltd",
+        "description": "Single Service Agreement for Jason & Sons International Holding Ltd",
+        "status": "ENABLED",
+        "isMaster": true,
+        "jobRoles": [
+          {
+            "name": "Accounts and Payments Jason & Sons International Holding Ltd",
+            "description": "Accounts and Payments Jason & Sons International Holding Ltd",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1014",
+                    "name": "Manage Shadow Limits",
+                    "privileges": [
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1015",
+                    "name": "Intra Company Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1017",
+                    "name": "US Domestic Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "daily": 100000.00,
+                          "weekly": 400000.00,
+                          "transactional": 10000.00
+                        }
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "daily": 100000.00,
+                          "weekly": 400000.00,
+                          "transactional": 10000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "daily": 50000.00,
+                          "transactional": 5000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1021",
+                    "name": "US Billpay Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1022",
+                    "name": "US Billpay Payees",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1023",
+                    "name": "US Billpay Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1024",
+                    "name": "US Billpay Payees-Search",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1025",
+                    "name": "US Billpay Payees-Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1026",
+                    "name": "US Billpay Enrolment",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      },
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1041",
+                    "name": "ACH Credit Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "daily": 1000000,
+                          "transactional": 25000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1042",
+                    "name": "ACH Credit - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "daily": 3000000,
+                          "transactional": 50000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1044",
+                    "name": "US Domestic Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "daily": 300000,
+                          "transactional": 20000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "daily": 200000,
+                          "transactional": 15000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1046",
+                    "name": "ACH Debit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 10000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1051",
+                    "name": "Manage Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1053",
+                    "name": "A2A Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1064",
+                    "name": "Manage Task",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1065",
+                    "name": "Stop Checks",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1067",
+                    "name": "Batch - ACH Credit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 100000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1069",
+                    "name": "Batch - ACH Debit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 200000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1124",
+                    "name": "Batch - ACH Reversal",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 300000.00
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1070",
+                    "name": "P2P Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1081",
+                    "name": "Manage Positive Pay",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1082",
+                    "name": "Manage Arrangement Alias",
+                    "privileges": [
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1091",
+                    "name": "Remote Deposit Capture",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Payment Approver Jason & Sons International Holding Ltd",
+            "description": "Payment Approver Jason & Sons International Holding Ltd",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1014",
+                    "name": "Manage Shadow Limits",
+                    "privileges": [
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1015",
+                    "name": "Intra Company Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1017",
+                    "name": "US Domestic Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 20000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 10000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1021",
+                    "name": "US Billpay Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1022",
+                    "name": "US Billpay Payees",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1023",
+                    "name": "US Billpay Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1024",
+                    "name": "US Billpay Payees-Search",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1025",
+                    "name": "US Billpay Payees-Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1026",
+                    "name": "US Billpay Enrolment",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1041",
+                    "name": "ACH Credit Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 50000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1042",
+                    "name": "ACH Credit - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 100000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1044",
+                    "name": "US Domestic Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 45000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 30000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1046",
+                    "name": "ACH Debit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 30000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1053",
+                    "name": "A2A Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1064",
+                    "name": "Manage Task",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1065",
+                    "name": "Stop Checks",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1067",
+                    "name": "Batch - ACH Credit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 2500000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1069",
+                    "name": "Batch - ACH Debit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 5000000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1124",
+                    "name": "Batch - ACH Reversal",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "USD",
+                          "transactional": 7500000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1070",
+                    "name": "P2P Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1081",
+                    "name": "Manage Positive Pay",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1091",
+                    "name": "Remote Deposit Capture",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Payment Inputter Jason & Sons International Holding Ltd",
+            "description": "Payment Inputter Jason & Sons International Holding Ltd",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1014",
+                    "name": "Manage Shadow Limits",
+                    "privileges": [
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1015",
+                    "name": "Intra Company Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1017",
+                    "name": "US Domestic Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1021",
+                    "name": "US Billpay Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1022",
+                    "name": "US Billpay Payees",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1023",
+                    "name": "US Billpay Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1024",
+                    "name": "US Billpay Payees-Search",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1025",
+                    "name": "US Billpay Payees-Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1026",
+                    "name": "US Billpay Enrolment",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1041",
+                    "name": "ACH Credit Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1042",
+                    "name": "ACH Credit - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1044",
+                    "name": "US Domestic Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1046",
+                    "name": "ACH Debit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1051",
+                    "name": "Manage Devices",
+                    "privileges": [
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1053",
+                    "name": "A2A Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1064",
+                    "name": "Manage Task",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1065",
+                    "name": "Stop Checks",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1067",
+                    "name": "Batch - ACH Credit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1069",
+                    "name": "Batch - ACH Debit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1124",
+                    "name": "Batch - ACH Reversal",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1070",
+                    "name": "P2P Transfer",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1081",
+                    "name": "Manage Positive Pay",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1082",
+                    "name": "Manage Arrangement Alias",
+                    "privileges": [
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1091",
+                    "name": "Remote Deposit Capture",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Admin Jason & Sons International Holding Ltd",
+            "description": "Admin Jason & Sons International Holding Ltd",
+            "functionGroups": [
+              {
+                "name": "admin",
+                "functions": [
+                  {
+                    "functionId": "1007",
+                    "name": "Assign Users",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1009",
+                    "name": "Assign Permissions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1119",
+                    "name": "Manage Self-approve Permissions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1010",
+                    "name": "Manage Users",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1011",
+                    "name": "Manage Legal Entities",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1012",
+                    "name": "Manage Limits",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1013",
+                    "name": "Audit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1014",
+                    "name": "Manage Shadow Limits",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1019",
+                    "name": "Manage Data Groups",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1020",
+                    "name": "Manage Function Groups",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1027",
+                    "name": "Access Actions History",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1028",
+                    "name": "Manage Service Agreements",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1029",
+                    "name": "Manage Action Recipes",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1031",
+                    "name": "Manage Topics",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1032",
+                    "name": "Assign Approval Policies",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1033",
+                    "name": "Manage Approval Policy and Level",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1034",
+                    "name": "Manage Identities",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1035",
+                    "name": "Manage User Profiles",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1039",
+                    "name": "Supervise Messages",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1049",
+                    "name": "Lock User",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1050",
+                    "name": "Unlock User",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1051",
+                    "name": "Manage Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1066",
+                    "name": "Manage Other User's Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1078",
+                    "name": "Manage Authorized Users",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1114",
+                    "name": "Quick User Setup",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "internalId": "jsihdag1",
+          "name": "Jason & Sons International Holding Ltd salary account",
+          "description": "The account of Jason & Sons International Holding Ltd I use for salary payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "jsihsa01",
+                "fullName": "Jsih Admin1"
+              },
+              "referenceJobRoleNames": [
+                "Admin Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsihsa02",
+                "fullName": "Jsih Admin2"
+              },
+              "referenceJobRoleNames": [
+                "Admin Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "fredsceo",
+                "fullName": "Fred Jason senior"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsihclerk1",
+                "fullName": "Jsih Clerk1"
+              },
+              "referenceJobRoleNames": [
+                "Payment Inputter Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsihclerk2",
+                "fullName": "Jsih Clerk2"
+              },
+              "referenceJobRoleNames": [
+                "Payment Approver Jason & Sons International Holding Ltd"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "0193495812452468",
+              "BBAN": "0193495812452468",
+              "name": "Checking Account USD 2468",
+              "productTypeExternalId": "current-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "USD",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons International Holding Ltd"
+            }
+          ]
+        },
+        {
+          "internalId": "jsihdag2",
+          "name": "Jason & Sons International Holding Ltd expense account",
+          "description": "The account of Jason & Sons International Holding Ltd I use for expense payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "jsihsa01",
+                "fullName": "Jsih Admin1"
+              },
+              "referenceJobRoleNames": [
+                "Admin Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsihsa02",
+                "fullName": "Jsih Admin2"
+              },
+              "referenceJobRoleNames": [
+                "Admin Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "fredsceo",
+                "fullName": "Fred Jason senior"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsihclerk1",
+                "fullName": "Jsih Clerk1"
+              },
+              "referenceJobRoleNames": [
+                "Payment Inputter Jason & Sons International Holding Ltd"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsihclerk2",
+                "fullName": "Jsih Clerk2"
+              },
+              "referenceJobRoleNames": [
+                "Payment Approver Jason & Sons International Holding Ltd"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "0193495812452468",
+              "BBAN": "0193495812452468",
+              "name": "Checking Account USD 2468",
+              "productTypeExternalId": "current-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "USD",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons International Holding Ltd"
+            },
+            {
+              "externalId": "0193495812452467",
+              "BBAN": "0193495812452467",
+              "name": "Savings Account USD 2467",
+              "productTypeExternalId": "savings-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "USD",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons International Holding Ltd"
+            },
+            {
+              "externalId": "0193495812452469",
+              "BBAN": "0193495812452469",
+              "name": "Savings Account USD 2469",
+              "productTypeExternalId": "savings-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "USD",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons International Holding Ltd"
+            }
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712001",
+          "addressLine1": "3324 Ersel Street",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Agnes R. Ornelas",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 676 0202",
+          "emailId": "Agnes@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762001",
+              "name": "Checking USD 5957",
+              "alias": "Alias Account 1",
+              "accountNumber": "9928292850835957",
+              "accountType": "Checking",
+              "bankCode": 11103093,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712002",
+          "addressLine1": "4551 Stoney Lane",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Inez K. Wallace",
+          "contactPerson": "N/A",
+          "phoneNumber": "760 775 0193",
+          "emailId": "Inez@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762002",
+              "name": "Checking USD 0900",
+              "alias": "Alias Account 2",
+              "accountNumber": "1123194942560900",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712003",
+          "addressLine1": "5 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Gordon M. Newland",
+          "contactPerson": "N/A",
+          "phoneNumber": "761 775 4152",
+          "emailId": "Gordon@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762003",
+              "name": "Checking USD0901",
+              "alias": "Alias Account 3",
+              "accountNumber": "1124194942560901",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712004",
+          "addressLine1": "978 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Craig L. Burrowes",
+          "contactPerson": "N/A",
+          "phoneNumber": "762 775 4155",
+          "emailId": "Craig@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762004",
+              "name": "Checking USD0902",
+              "alias": "Alias Account 4",
+              "accountNumber": "1125194942560902",
+              "accountType": "Checking",
+              "bankCode": 340922460,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712005",
+          "addressLine1": "285 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "George L. Henry",
+          "contactPerson": "N/A",
+          "phoneNumber": "763 775 4156",
+          "emailId": "George@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762005",
+              "name": "Checking USD0903",
+              "alias": "Alias Account 5",
+              "accountNumber": "1126194942560903",
+              "accountType": "Checking",
+              "bankCode": 450862249,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712006",
+          "addressLine1": "164 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Karen R. Moss",
+          "contactPerson": "N/A",
+          "phoneNumber": "764 775 4158",
+          "emailId": "Karen@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762006",
+              "name": "Checking USD0904",
+              "alias": "Alias Account 6",
+              "accountNumber": "1127194942560904",
+              "accountType": "Checking",
+              "bankCode": 560802038,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712007",
+          "addressLine1": "858 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Jeffrey M. Goodman",
+          "contactPerson": "N/A",
+          "phoneNumber": "765 775 4134",
+          "emailId": "Jeffrey@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762007",
+              "name": "Checking USD0905",
+              "alias": "Alias Account 7",
+              "accountNumber": "1128194942560905",
+              "accountType": "Checking",
+              "bankCode": 670741827,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712008",
+          "addressLine1": "547 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Rick R. Riggs",
+          "contactPerson": "N/A",
+          "phoneNumber": "766 775 4156",
+          "emailId": "Rick@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762008",
+              "name": "Checking USD0906",
+              "alias": "Alias Account 8",
+              "accountNumber": "1129194942560906",
+              "accountType": "Checking",
+              "bankCode": 780681616,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712009",
+          "addressLine1": "329 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Harley J. Dent",
+          "contactPerson": "N/A",
+          "phoneNumber": "767 775 4187",
+          "emailId": "Harley@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762009",
+              "name": "Checking USD0907",
+              "alias": "Alias Account 9",
+              "accountNumber": "1130194942560907",
+              "accountType": "Checking",
+              "bankCode": 890621405,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712010",
+          "addressLine1": "623 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Frank K. Houghton",
+          "contactPerson": "N/A",
+          "phoneNumber": "768 775 4198",
+          "emailId": "Frank@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762010",
+              "name": "Checking USD0908",
+              "alias": "Alias Account 10",
+              "accountNumber": "1131194942560908",
+              "accountType": "Checking",
+              "bankCode": 1000561194,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712011",
+          "addressLine1": "702 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Daisy Z. Sewell",
+          "contactPerson": "N/A",
+          "phoneNumber": "769 775 4134",
+          "emailId": "Daisy@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762011",
+              "name": "Checking USD0909",
+              "alias": "Alias Account 11",
+              "accountNumber": "1132194942560909",
+              "accountType": "Checking",
+              "bankCode": 1110500983,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712012",
+          "addressLine1": "501 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Thomas I. Fewell",
+          "contactPerson": "N/A",
+          "phoneNumber": "770 775 4266",
+          "emailId": "Thomas@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762012",
+              "name": "Checking USD0910",
+              "alias": "Alias Account 12",
+              "accountNumber": "1133194942560910",
+              "accountType": "Checking",
+              "bankCode": 1220440772,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712013",
+          "addressLine1": "340 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Joan M. Brewer",
+          "contactPerson": "N/A",
+          "phoneNumber": "771 775 4486",
+          "emailId": "Joan@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762013",
+              "name": "Checking USD0911",
+              "alias": "Alias Account 13",
+              "accountNumber": "1134194942560911",
+              "accountType": "Checking",
+              "bankCode": 1330380561,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712014",
+          "addressLine1": "618 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Donald T. Jackson",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 676 0202",
+          "emailId": "Donald@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762014",
+              "name": "Checking USD0912",
+              "alias": "Alias Account 14",
+              "accountNumber": "1135194942560912",
+              "accountType": "Checking",
+              "bankCode": 144032035,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712015",
+          "addressLine1": "647 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Ken S. Edgar",
+          "contactPerson": "N/A",
+          "phoneNumber": "531 676 0203",
+          "emailId": "Ken@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762015",
+              "name": "Checking USD0913",
+              "alias": "Alias Account 15",
+              "accountNumber": "1136194942560913",
+              "accountType": "Checking",
+              "bankCode": 1550260139,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712016",
+          "addressLine1": "198 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "James M. Johnson",
+          "contactPerson": "N/A",
+          "phoneNumber": "532 676 0203",
+          "emailId": "James@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762016",
+              "name": "Checking USD0914",
+              "alias": "Alias Account 16",
+              "accountNumber": "1137194942560914",
+              "accountType": "Checking",
+              "bankCode": 1660199928,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712017",
+          "addressLine1": "387 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Bill G. Purvis",
+          "contactPerson": "N/A",
+          "phoneNumber": "533 676 0204",
+          "emailId": "Bill@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762017",
+              "name": "Checking USD0915",
+              "alias": "Alias Account 17",
+              "accountNumber": "1138194942560915",
+              "accountType": "Checking",
+              "bankCode": 1770139717,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712018",
+          "addressLine1": "509 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Linda T. Malloy",
+          "contactPerson": "N/A",
+          "phoneNumber": "534 676 0206",
+          "emailId": "Linda@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762018",
+              "name": "Checking USD0916",
+              "alias": "Alias Account 18",
+              "accountNumber": "1139194942560916",
+              "accountType": "Checking",
+              "bankCode": 1880079506,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712019",
+          "addressLine1": "128 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Ann A. Foster",
+          "contactPerson": "N/A",
+          "phoneNumber": "535 676 0207",
+          "emailId": "Ann@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762019",
+              "name": "Checking USD0917",
+              "alias": "Alias Account 19",
+              "accountNumber": "1140194942560917",
+              "accountType": "Checking",
+              "bankCode": 1990019295,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1720,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c712020",
+          "addressLine1": "336 Elle Building",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Rachel R. Pennington",
+          "contactPerson": "N/A",
+          "phoneNumber": "536 676 0208",
+          "emailId": "Rachel@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d762020",
+              "name": "Checking USD0918",
+              "alias": "Alias Account 20",
+              "accountNumber": "1141194942560918",
+              "accountType": "Checking",
+              "bankCode": 2099959084,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 30101,
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

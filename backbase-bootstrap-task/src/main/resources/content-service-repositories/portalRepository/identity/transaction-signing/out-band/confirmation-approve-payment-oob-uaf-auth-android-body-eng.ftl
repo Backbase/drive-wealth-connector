@@ -1,0 +1,1 @@
+Approve payment of ${currency} ${paymentAmount} to ${counter\-party\-name}

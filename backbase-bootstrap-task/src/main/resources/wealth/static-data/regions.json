@@ -1,0 +1,16 @@
+{
+  "regions": [
+    {
+      "region": {
+        "name": "North America",
+        "code": "na"
+      },
+      "countries": [
+        {
+          "name": "United States",
+          "code": "us"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Login API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Login
+    description: Allow Drive Wealth login
+
+paths:
+  /back-office/auth/tokens:
+    post:
+      tags:
+        - Login
+      summary: Login
+      operationId: getAuthToken
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+components:
+  schemas:
+    LoginRequest:
+      required:
+        - clientID
+        - clientSecret
+      type: object
+      properties:
+        clientID:
+          type: string
+        clientSecret:
+          type: string
+    LoginResponse:
+      required:
+        - token_type
+        - expires_in
+        - access_token
+        - scope
+      type: object
+      properties:
+        token_type:
+          type: string
+        expires_in:
+          type: string
+        access_token:
+          type: string
+        scope:
+          type: string

@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: true
+
+# Configure Internal JWT handler
+sso:
+  jwt:
+    internal:
+      signature:
+        key:
+          type: ENV
+          value: SIG_SECRET_KEY
+
+# Spring health monitoring
+management:
+  health:
+    jms:
+      enabled: false
+
+drive-wealth:
+  baseUrl: https://bo-api.drivewealth.io
+  dwClientAppKey: 
+  clientID: 
+  clientSecret: 
+  userId: 
+
+eureka:
+  client:
+    enabled: false

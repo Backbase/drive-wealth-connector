@@ -1,0 +1,3883 @@
+{
+  "name": "Jason & Sons International Holding Ltd (SEPA)",
+  "realmName": "customer",
+  "externalId": "jandsih-s",
+  "legalEntityType": "CUSTOMER",
+  "customerCategory": "BUSINESS",
+  "subsidiaries": [
+    {
+      "name": "Jason & Sons Finance (SEPA)",
+      "realmName": "customer",
+      "externalId": "jandsfin-s",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "parentExternalId": "jandsih-s",
+      "users": [
+        {
+          "user": {
+            "externalId": "mjmd-s",
+            "fullName": "Mary Jason (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "mjmd-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "mjmd-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "jsfinclerk1-s",
+            "fullName": "Jsfin Clerk1 (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jsfinclerk1-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jsfinclerk1-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "jsfinclerk2-s",
+            "fullName": "Jsfin Clerk2 (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jsfinclerk2-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jsfinclerk2-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "masterServiceAgreement": {
+        "externalId": "jason_sons_finance-s",
+        "name": "Jason & Sons Finance (SEPA)",
+        "description": "Single Service Agreement for Jason & Sons Finance (SEPA)",
+        "status": "ENABLED",
+        "isMaster": true,
+        "jobRoles": [
+          {
+            "name": "Accounts and Payments Jason & Sons Finance (SEPA)",
+            "description": "Accounts and Payments Jason & Sons Finance (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 100000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "daily": 200000,
+                          "transactional": 15000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1051",
+                    "name": "Manage Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1082",
+                    "name": "Manage Arrangement Alias",
+                    "privileges": [
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Payment Approver Jason & Sons Finance (SEPA)",
+            "description": "Payment Approver Jason & Sons Finance (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 10000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 100000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 30000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1068",
+                    "name": "Cash Flow Forecasting",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Payment Inputter Jason & Sons Finance (SEPA)",
+            "description": "Payment Inputter Jason & Sons Finance (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1082",
+                    "name": "Manage Arrangement Alias",
+                    "privileges": [
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1124",
+                    "name": "Batch - ACH Reversal",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "internalId": "jsfindag1-s",
+          "name": "Jason & Sons Finance (SEPA) salary account",
+          "description": "The account of Jason & Sons Finance (SEPA) I use for salary payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "mjmd-s",
+                "fullName": "Mary Jason (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Jason & Sons Finance (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsfinclerk1-s",
+                "fullName": "Jsfin Clerk1 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Inputter Jason & Sons Finance (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsfinclerk2-s",
+                "fullName": "Jsfin Clerk2 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Approver Jason & Sons Finance (SEPA)"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "5812451198",
+              "IBAN": "NL88BCKB5812451198",
+              "name": "Checking Account EUR 1198",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Finance (SEPA)"
+            }
+          ]
+        },
+        {
+          "internalId": "jsfindag2-s",
+          "name": "Jason & Sons Finance (SEPA) expense account",
+          "description": "The account of Jason & Sons Finance (SEPA) I use for expense payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "mjmd-s",
+                "fullName": "Mary Jason (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Jason & Sons Finance (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsfinclerk1-s",
+                "fullName": "Jsfin Clerk1 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Inputter Jason & Sons Finance (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jsfinclerk2-s",
+                "fullName": "Jsfin Clerk2 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Approver Jason & Sons Finance (SEPA)",
+                "Loan Management"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "5812451198",
+              "IBAN": "NL88BCKB5812451198",
+              "name": "Checking Account EUR 1198",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Finance (SEPA)"
+            },
+            {
+              "externalId": "5812451190",
+              "IBAN": "NL13BCKB5812451190",
+              "name": "Checking Account EUR 1190",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Finance (SEPA)"
+            },
+            {
+              "externalId": "6892381187",
+              "IBAN": "NL78BCKB6892381187",
+              "name": "Savings Account EUR 1187",
+              "productTypeExternalId": "savings-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Finance (SEPA)"
+            },
+            {
+              "externalId": "5812452280",
+              "IBAN": "NL71BCKB5812452280",
+              "name": "Checking Account EUR Salary 2280",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "842461373",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 240000.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Finance (SEPA)"
+            }
+          ],
+          "loans": [
+            {
+              "externalId": "8910251150",
+              "IBAN": "NL45BCKB8910251150",
+              "name": "Loan Account EUR 1150",
+              "productTypeExternalId": "loan",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "productNumber": "8a19a6878774bbed018775af39aa7d81",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "principalAmount": {
+                "currencyCode": "EUR",
+                "amount": 25000.0
+              },
+              "bookedBalance": {
+                "currencyCode": "EUR",
+                "amount": 10000.5
+              },
+              "interestSettlementAccount": "5812451198",
+              "accountInterestRate": 2.05,
+              "termUnit": "Monthly",
+              "termNumber": 36,
+              "accountHolderName": "Jason & Sons Finance (SEPA)"
+            }
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112001-s",
+          "addressLine1": "92 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Renee S. Menefee",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 416 4107",
+          "emailId": "Renee@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162001-s",
+              "name": "Checking USD6805",
+              "alias": "",
+              "accountNumber": "1124194942566805",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS36",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112002-s",
+          "addressLine1": "674 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Scarlett D. Ward",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 576 4469",
+          "emailId": "Scarlett@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162002-s",
+              "name": "Checking USD8407",
+              "alias": "",
+              "accountNumber": "1124194942568407",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS37",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112003-s",
+          "addressLine1": "259 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Carolyn D. Rupe",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 430 4418",
+          "emailId": "Carolyn@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162003-s",
+              "name": "Checking USD7572",
+              "alias": "",
+              "accountNumber": "1124194942567572",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS38",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112004-s",
+          "addressLine1": "381 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Michael P. Wareham",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 371 4650",
+          "emailId": "Michael@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162004-s",
+              "name": "Checking USD4947",
+              "alias": "",
+              "accountNumber": "1124194942564947",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS39",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112005-s",
+          "addressLine1": "88 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Glenda A. Estrada",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 386 4895",
+          "emailId": "Glenda@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162005-s",
+              "name": "Checking USD6217",
+              "alias": "",
+              "accountNumber": "1124194942566217",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS40",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112006-s",
+          "addressLine1": "166 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Martin M. Newkirk",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 690 4686",
+          "emailId": "Martin@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162006-s",
+              "name": "Checking USD1477",
+              "alias": "",
+              "accountNumber": "1124194942561477",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS41",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112007-s",
+          "addressLine1": "357 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Nancy E. Nelson",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 268 4768",
+          "emailId": "Nancy@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162007-s",
+              "name": "Checking USD9021",
+              "alias": "",
+              "accountNumber": "1124194942569021",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS42",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112008-s",
+          "addressLine1": "970 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Linda A. Guzik",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 242 4326",
+          "emailId": "Linda@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162008-s",
+              "name": "Checking USD2999",
+              "alias": "",
+              "accountNumber": "1124194942562999",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS43",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112009-s",
+          "addressLine1": "805 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Joseph C. Doby",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 593 4744",
+          "emailId": "Joseph@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162009-s",
+              "name": "Checking USD6080",
+              "alias": "",
+              "accountNumber": "1124194942566080",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112010-s",
+          "addressLine1": "312 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Barbara R. White",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 897 4313",
+          "emailId": "Barbara@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162010-s",
+              "name": "Checking USD8570",
+              "alias": "",
+              "accountNumber": "1124194942568570",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS45",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112011-s",
+          "addressLine1": "40 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Shane E. Madrigal",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 720 4948",
+          "emailId": "Shane@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162011-s",
+              "name": "Checking USD1873",
+              "alias": "",
+              "accountNumber": "1124194942561873",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS46",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112012-s",
+          "addressLine1": "876 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Jane J. Fouts",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 368 4481",
+          "emailId": "Jane@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162012-s",
+              "name": "Checking USD2436",
+              "alias": "",
+              "accountNumber": "1124194942562436",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS47",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112013-s",
+          "addressLine1": "431 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Max T. Carter",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 391 4670",
+          "emailId": "Max@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162013-s",
+              "name": "Checking USD1145",
+              "alias": "",
+              "accountNumber": "1124194942561145",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS48",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112014-s",
+          "addressLine1": "359 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Brenda P. Perez",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 568 4185",
+          "emailId": "Brenda@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162014-s",
+              "name": "Checking USD7482",
+              "alias": "",
+              "accountNumber": "1124194942567482",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS49",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112015-s",
+          "addressLine1": "594 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Judy E. Neri",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 370 4707",
+          "emailId": "Judy@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162015-s",
+              "name": "Checking USD8405",
+              "alias": "",
+              "accountNumber": "1124194942568405",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS50",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112016-s",
+          "addressLine1": "965 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Todd K. Williams",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 756 4519",
+          "emailId": "Todd@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162016-s",
+              "name": "Checking USD9455",
+              "alias": "",
+              "accountNumber": "1124194942569455",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS51",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112017-s",
+          "addressLine1": "510 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Edith J. Lara",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 122 4976",
+          "emailId": "Edith@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162017-s",
+              "name": "Checking USD5300",
+              "alias": "",
+              "accountNumber": "1124194942565300",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS52",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112018-s",
+          "addressLine1": "194 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Justin M. Rosales",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 309 4621",
+          "emailId": "Justin@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162018-s",
+              "name": "Checking USD1586",
+              "alias": "",
+              "accountNumber": "1124194942561586",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS53",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112019-s",
+          "addressLine1": "258 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Phillip K. Snyder",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 400 4594",
+          "emailId": "Phillip@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162019-s",
+              "name": "Checking USD1916",
+              "alias": "",
+              "accountNumber": "1124194942561916",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS54",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c1112020-s",
+          "addressLine1": "228 Acton Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 40401,
+          "town": "Radiator Springs",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Thomas G. Quezada",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 886 4229",
+          "emailId": "Thomas@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d1162020-s",
+              "name": "Checking USD2768",
+              "alias": "",
+              "accountNumber": "1124194942562768",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS55",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Redton",
+              "bankCountrySubDivision": "CO",
+              "bankCountry": "US"
+            }
+          ]
+        }
+      ],
+      "subsidiaries": [
+        {
+          "name": "Jason & Sons Finance (SEPA)",
+          "realmName": "customer",
+          "externalId": "jandsfin-s",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "BUSINESS",
+          "parentExternalId": "jandsih-s",
+          "customServiceAgreement": {
+            "externalId": "jason_sons_finance_access_all-s",
+            "name": "Jason & Sons Finance (SEPA) Access All",
+            "description": "Single Service Agreement Jason & Sons Finance (SEPA) to access all accounts of all companies in holding",
+            "status": "ENABLED",
+            "isMaster": "false",
+            "jobRoles": [
+              {
+                "name": "Accounts and Payments Jason & Sons International Holding Ltd (SEPA)",
+                "description": "Accounts and Payments Jason & Sons International Holding Ltd (SEPA)",
+                "functionGroups": [
+                  {
+                    "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                    "functions": [
+                      {
+                        "functionId": "1002",
+                        "name": "SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1003",
+                        "name": "Transactions",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1005",
+                        "name": "Contacts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1006",
+                        "name": "Product Summary",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1016",
+                        "name": "Manage Statements",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1037",
+                        "name": "Batch - SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 100000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1043",
+                        "name": "SEPA CT - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1045",
+                        "name": "US Foreign Wire - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "daily": 200000,
+                              "transactional": 15000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1051",
+                        "name": "Manage Devices",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1052",
+                        "name": "SEPA CT - closed",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1071",
+                        "name": "Payment Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1079",
+                        "name": "Batch - Intracompany Payments",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1082",
+                        "name": "Manage Arrangement Alias",
+                        "privileges": [
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1089",
+                        "name": "Manage Cards",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1090",
+                        "name": "Places",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1095",
+                        "name": "Batch Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1097",
+                        "name": "Manage Account Reconciliation",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1098",
+                        "name": "Batch - List Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1099",
+                        "name": "Batch - Manage Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "execute"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1115",
+                        "name": "Batch Upload Mappings",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1118",
+                        "name": "Manage External Accounts",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Accounts and Payments Jason & Sons Trade (SEPA)",
+                "description": "Accounts and Payments Jason & Sons Trade (SEPA)",
+                "functionGroups": [
+                  {
+                    "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                    "functions": [
+                      {
+                        "functionId": "1002",
+                        "name": "SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1003",
+                        "name": "Transactions",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1005",
+                        "name": "Contacts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1006",
+                        "name": "Product Summary",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1016",
+                        "name": "Manage Statements",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1037",
+                        "name": "Batch - SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 100000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1043",
+                        "name": "SEPA CT - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1045",
+                        "name": "US Foreign Wire - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "daily": 200000,
+                              "transactional": 15000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1051",
+                        "name": "Manage Devices",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1052",
+                        "name": "SEPA CT - closed",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1071",
+                        "name": "Payment Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1079",
+                        "name": "Batch - Intracompany Payments",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1082",
+                        "name": "Manage Arrangement Alias",
+                        "privileges": [
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1089",
+                        "name": "Manage Cards",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1090",
+                        "name": "Places",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1095",
+                        "name": "Batch Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1097",
+                        "name": "Manage Account Reconciliation",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1098",
+                        "name": "Batch - List Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1099",
+                        "name": "Batch - Manage Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "execute"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1115",
+                        "name": "Batch Upload Mappings",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1118",
+                        "name": "Manage External Accounts",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)",
+                "description": "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)",
+                "functionGroups": [
+                  {
+                    "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                    "functions": [
+                      {
+                        "functionId": "1002",
+                        "name": "SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1003",
+                        "name": "Transactions",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1005",
+                        "name": "Contacts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1006",
+                        "name": "Product Summary",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1016",
+                        "name": "Manage Statements",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1037",
+                        "name": "Batch - SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 100000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1043",
+                        "name": "SEPA CT - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1045",
+                        "name": "US Foreign Wire - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "daily": 200000,
+                              "transactional": 15000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1051",
+                        "name": "Manage Devices",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1052",
+                        "name": "SEPA CT - closed",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1071",
+                        "name": "Payment Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1079",
+                        "name": "Batch - Intracompany Payments",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1082",
+                        "name": "Manage Arrangement Alias",
+                        "privileges": [
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1089",
+                        "name": "Manage Cards",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1090",
+                        "name": "Places",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1095",
+                        "name": "Batch Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1097",
+                        "name": "Manage Account Reconciliation",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1098",
+                        "name": "Batch - List Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1099",
+                        "name": "Batch - Manage Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "execute"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1115",
+                        "name": "Batch Upload Mappings",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1118",
+                        "name": "Manage External Accounts",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Accounts and Payments Jason & Sons Transport Miami (SEPA)",
+                "description": "Accounts and Payments Jason & Sons Transport Miami (SEPA)",
+                "functionGroups": [
+                  {
+                    "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                    "functions": [
+                      {
+                        "functionId": "1002",
+                        "name": "SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1003",
+                        "name": "Transactions",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1005",
+                        "name": "Contacts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1006",
+                        "name": "Product Summary",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1016",
+                        "name": "Manage Statements",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1037",
+                        "name": "Batch - SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 100000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1043",
+                        "name": "SEPA CT - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1045",
+                        "name": "US Foreign Wire - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "daily": 200000,
+                              "transactional": 15000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1051",
+                        "name": "Manage Devices",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1052",
+                        "name": "SEPA CT - closed",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1071",
+                        "name": "Payment Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1079",
+                        "name": "Batch - Intracompany Payments",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1082",
+                        "name": "Manage Arrangement Alias",
+                        "privileges": [
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1089",
+                        "name": "Manage Cards",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1090",
+                        "name": "Places",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1095",
+                        "name": "Batch Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1097",
+                        "name": "Manage Account Reconciliation",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1098",
+                        "name": "Batch - List Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1099",
+                        "name": "Batch - Manage Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "execute"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1115",
+                        "name": "Batch Upload Mappings",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1118",
+                        "name": "Manage External Accounts",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "limit": {
+              "currencyCode": "EUR",
+              "daily": 20000000
+            },
+            "participants": [
+              {
+                "externalId": "jandsfin-s",
+                "sharingUsers": true,
+                "sharingAccounts": true,
+                "users": [
+                  "mjmd-s",
+                  "jsfinclerk1-s",
+                  "jsfinclerk2-s"
+                ]
+              },
+              {
+                "externalId": "jandsih-s",
+                "sharingUsers": false,
+                "sharingAccounts": true
+              },
+              {
+                "externalId": "jandstrd-s",
+                "sharingUsers": false,
+                "sharingAccounts": true
+              },
+              {
+                "externalId": "jandstra-s",
+                "sharingUsers": false,
+                "sharingAccounts": true,
+                "limit": {
+                  "currencyCode": "EUR",
+                  "daily": 500000
+                }
+              },
+              {
+                "externalId": "jandstrr-s",
+                "sharingUsers": false,
+                "sharingAccounts": true
+              }
+            ]
+          },
+          "productGroups": [
+            {
+              "internalId": "jsihdag1-s",
+              "name": "Jason & Sons International Holding Ltd (SEPA) salary account",
+              "description": "The account of Jason & Sons International Holding Ltd (SEPA) I use for salary payments",
+              "users": [
+                {
+                  "user": {
+                    "externalId": "mjmd-s",
+                    "fullName": "Mary Jason (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons International Holding Ltd (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk1-s",
+                    "fullName": "Jsfin Clerk1 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons International Holding Ltd (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk2-s",
+                    "fullName": "Jsfin Clerk2 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons International Holding Ltd (SEPA)"
+                  ]
+                }
+              ],
+              "currentAccounts": [
+                {
+                  "externalId": "5812452468",
+                  "IBAN": "NL39BCKB5812452468",
+                  "name": "Checking Account EUR 2468",
+                  "productTypeExternalId": "current-account",
+                  "BIC": "BCKB0618",
+                  "currency": "EUR",
+                  "bankBranchCode": "11103093",
+                  "externalTransferAllowed": true,
+                  "debitAccount": true,
+                  "creditAccount": true,
+                  "availableBalance": {
+                    "currencyCode": "EUR",
+                    "amount": 2400.0
+                  },
+                  "accruedInterest": 0,
+                  "creditLimit": {
+                    "currencyCode": "EUR",
+                    "amount": 3500.0
+                  },
+                  "accountHolderName": "Jason & Sons International Holding Ltd (SEPA)"
+                }
+              ]
+            },
+            {
+              "internalId": "jstrddag1-s",
+              "name": "Jason & Sons Trade (SEPA) salary account",
+              "description": "The account of Jason & Sons Trade (SEPA) I use for salary payments",
+              "users": [
+                {
+                  "user": {
+                    "externalId": "mjmd-s",
+                    "fullName": "Mary Jason (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Trade (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk1-s",
+                    "fullName": "Jsfin Clerk1 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Trade (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk2-s",
+                    "fullName": "Jsfin Clerk2 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Trade (SEPA)"
+                  ]
+                }
+              ],
+              "currentAccounts": [
+                {
+                  "externalId": "5812450019",
+                  "IBAN": "NL08BCKB5812450019",
+                  "name": "Checking Account EUR 0019",
+                  "productTypeExternalId": "current-account",
+                  "BIC": "BCKB0618",
+                  "currency": "EUR",
+                  "bankBranchCode": "11103093",
+                  "externalTransferAllowed": true,
+                  "debitAccount": true,
+                  "creditAccount": true,
+                  "availableBalance": {
+                    "currencyCode": "EUR",
+                    "amount": 2400.0
+                  },
+                  "accruedInterest": 0,
+                  "creditLimit": {
+                    "currencyCode": "EUR",
+                    "amount": 3500.0
+                  },
+                  "accountHolderName": "Jason & Sons Trade (SEPA)"
+                }
+              ]
+            },
+            {
+              "internalId": "jstradag1-s",
+              "name": "Jason & Sons Transport Atlanta (SEPA) salary account",
+              "description": "The account of Jason & Sons Transport Atlanta (SEPA) I use for salary payments",
+              "users": [
+                {
+                  "user": {
+                    "externalId": "mjmd-s",
+                    "fullName": "Mary Jason (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Transport Miami (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk1-s",
+                    "fullName": "Jsfin Clerk1 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Transport Miami (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk2-s",
+                    "fullName": "Jsfin Clerk2 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Transport Miami (SEPA)"
+                  ]
+                }
+              ],
+              "currentAccounts": [
+                {
+                  "externalId": "5812455012",
+                  "IBAN": "NL27BCKB5812455012",
+                  "name": "Checking Account EUR 5012",
+                  "productTypeExternalId": "current-account",
+                  "BIC": "BCKB0618",
+                  "currency": "EUR",
+                  "bankBranchCode": "11103093",
+                  "externalTransferAllowed": true,
+                  "debitAccount": true,
+                  "creditAccount": true,
+                  "availableBalance": {
+                    "currencyCode": "EUR",
+                    "amount": 2400.0
+                  },
+                  "accruedInterest": 0,
+                  "creditLimit": {
+                    "currencyCode": "EUR",
+                    "amount": 3500.0
+                  },
+                  "accountHolderName": "Jason & Sons Transport Atlanta (SEPA)"
+                }
+              ]
+            },
+            {
+              "internalId": "jstrrdag1-s",
+              "name": "Jason & Sons Transport Miami (SEPA) salary account",
+              "description": "The account of Jason & Sons Transport Miami (SEPA) I use for salary payments",
+              "users": [
+                {
+                  "user": {
+                    "externalId": "mjmd-s",
+                    "fullName": "Mary Jason (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk1-s",
+                    "fullName": "Jsfin Clerk1 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jsfinclerk2-s",
+                    "fullName": "Jsfin Clerk2 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)"
+                  ]
+                }
+              ],
+              "currentAccounts": [
+                {
+                  "externalId": "6892381123",
+                  "IBAN": "NL60BCKB6892381123",
+                  "name": "Savings Account EUR 1123",
+                  "productTypeExternalId": "savings-account",
+                  "BIC": "BCKB0618",
+                  "currency": "EUR",
+                  "bankBranchCode": "11103093",
+                  "externalTransferAllowed": true,
+                  "debitAccount": true,
+                  "creditAccount": true,
+                  "availableBalance": {
+                    "currencyCode": "EUR",
+                    "amount": 2400.0
+                  },
+                  "accruedInterest": 0,
+                  "creditLimit": {
+                    "currencyCode": "EUR",
+                    "amount": 3500.0
+                  },
+                  "accountHolderName": "Jason & Sons Transport Miami (SEPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

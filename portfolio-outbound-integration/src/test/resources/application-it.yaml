@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: false
+
+eureka:
+  client:
+    enabled: false
+
+backbase:
+  security:
+    public:
+      paths: /client-api/v1/**
+
+
+drive:
+  wealth:
+    baseUrl: https://bo-api.drivewealth.io
+    portfolioBenchMarkList:
+      - name: S&P 500 Vanguard ETF
+        uuid: 639247b6-cbcd-4616-841d-890dbb926575
+    auth:
+      scheduler:
+        cron: "* */10 * * * ?"
+      retry:
+        maxAttempts: 100
+        maxDelay: 10
+    dwClientAppKey: <>
+    clientID: <>
+    clientSecret: <>

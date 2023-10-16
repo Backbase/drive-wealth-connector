@@ -1,0 +1,354 @@
+@startuml
+
+title Portfolio Bundle, Orders, Trading Account, Position Bundle and Holdings
+autonumber
+skinparam maxMessageSize 600
+skinparam backgroundColor  #white
+
+
+box Custom
+    participant "Login event \nemitter" as lee
+end box
+
+box "Wealth Data Sync Service"
+    participant "Sync Process" as datasync
+end box
+
+box "Backbase"
+    participant "Identity" as identity
+    participant "DBS \nPortfolio" as portfolio
+    participant "DBS \nArrangement Manager" as arrangementManager
+    participant "DBS \nAccess Control" as accessControl
+end box
+
+box "Drive Wealth"
+    participant "Back Office" as bo
+end box
+
+box "Stream"
+    participant "Stream" as stream
+end box
+
+
+lee -> lee :  User Login Event or Create Order Event
+lee -> datasync : triggerSynchronization
+
+datasync -> identity : Get DW user Id \nGET /service-api/v2/users/identities/{internalId}
+
+identity -> datasync : dwUserId attribute
+
+datasync -> bo : Get User Accounts \nGET /back-office/users/{userID}/accounts
+activate bo
+return : List of Accounts
+
+datasync -> accessControl : Get User Arrangements with Manage Portfolio Permissions \nGET /service-api/v2/accessgroups/users/privileges/arrangements
+activate accessControl
+return : List of Arrangements
+
+loop for Each Arrangement
+
+  datasync -> arrangementManager : Get User's Arrangements \nGET /service-api/v2/arrangements/{id}
+  activate arrangementManager
+  return : BBAN of arrangement
+
+end
+
+datasync -> datasync : Account is in open state
+
+
+    == Upsert Portfolio Bundle ==
+
+loop For Each Account
+
+        datasync -> bo : Get Account Summary \nGet /back-office/accounts/{{accountID}}/summary
+        activate bo
+        return
+
+        datasync -> arrangementManager : Get Arrangement By ExternalId \n /service-api/v2/arrangements
+        activate arrangementManager
+        return : return arrangement
+
+        datasync -> portfolio : Update Portfolio Performance \nPUT /integration-api/v1/portfolios/{code}
+        activate portfolio
+        return
+
+
+        datasync -> datasync: mapPortfolioPerformance
+        datasync -> datasync: mapPortfolioAllocation
+        datasync -> datasync: mapPortfolioHierarchy
+        datasync -> datasync: create portfolio Bundle
+
+        datasync -> stream : Upsert Portfolio Bundle
+        activate stream
+        return
+
+end
+    == Update Portfolio Order ==
+
+loop For Each Account
+
+
+        datasync -> bo : Get Order Ids By AccountId
+        activate bo
+        return : order Ids
+
+        datasync -> bo : Get Individual Order detail
+        activate bo
+        return
+
+        datasync -> portfolio : Change Order Status\n PUT /integration-api/v1/external-trade-orders/{orderId}/status
+        datasync -> datasync : Check the status
+          alt status is 404
+          datasync -> portfolio : Create Order\n POST /integration-api/v1/external-trade-orders
+          activate portfolio
+          return
+          end
+
+
+end
+
+    == Update Portfolio Trading Account ==
+
+loop For Each Account
+
+        datasync -> datasync : Map Trading account
+        datasync -> Portfolio : Update Trading account \nPUT /integration-api/v1/portfolios/{id}/trading-accounts
+        activate Portfolio
+        return
+
+end
+
+
+    == Update Position Bundle ==
+
+loop For Each Account
+
+     par Update Portfolio Positions
+
+        datasync -> bo : Get Portfolio Positions \nGET /back-office/accounts/{accountID}/summary
+        activate bo
+        return
+    end
+
+    par Update Portfolio Transactions
+
+        datasync -> bo : Get Portfolio Transactions \nGET /back-office/accounts/{accountID}/transactions
+        activate bo
+        return
+    end
+
+        datasync -> datasync : Map Position Bundle
+
+        datasync -> stream : Upsert Portfolio Positions bundle
+        activate stream
+        return
+
+end
+
+
+
+    == Update Instrument Holdings ==
+
+loop For Each Account
+
+    datasync -> bo : Get Account Summary \nGet /back-office/accounts/{{accountID}}/summary
+            activate bo
+            return
+
+        datasync -> datasync : Calculate Instruments Holdings
+        datasync -> portfolio : Update Instruments Holdings \nPOST /integration-api/v1/instrument-holdings
+        activate portfolio
+        return
+
+end
+
+scale max 1000 width
+skinparam backgroundColor white
+skinparam Shadowing false
+skinparam BoundaryBackgroundColor transparent
+skinparam BoundaryBorderColor #1281ac
+skinparam DiagramBorderColor #1281ac
+skinparam defaultTextAlignment center
+skinparam SequenceMessageAlign center
+skinparam ReferenceBorderThickness 2
+
+skinparam sequence {
+    ActorBorderThickness 3
+    ActorBorderColor #1281ac
+    ActorBackgroundColor transparent
+    ActorFontColor #1281ac
+    ActorFontName Roboto
+    ActorFontStyle bold
+    ActorFontSize 14
+    AgentBackgroundColor #1281ac
+    ArrowFontColor #1281ac
+    ArrowFontSize 14
+    ArrowFontStyle bold
+    ArrowColor #1281ac
+    ArrowThickness 2
+    RectangleBorderThickness 3
+    BoxBackgroundColor #f3f3f3
+    BoxBorderColor #1281ac
+    BoxFontColor #1281ac
+    BoxFontName Roboto
+    BoxFontStyle bold
+    BoxFontSize 16
+    BoundaryBackgroundColor #1281ac
+    BoundaryBorderColor #1281ac
+    BoundaryFontColor #1281ac
+    BoundryFontName Roboto
+    BoundaryStereotypeFontColor #1281ac
+    ClassBorderColor #1281ac
+    ComponentBorderColor #1281ac
+    DividerBackgroundColor white
+    DividerBorderColor #1281ac
+    DividerBorderThickness 3
+    DividerFontColor #1281ac
+    DividerFontName Roboto
+    DividerFontSize bold
+    DividerFontStyle 14
+    GroupBorderColor #1281ac
+    GroupBorderThickness 2
+    GroupFontName Roboto
+    GroupFontSize 14
+    GroupFontColor #1281ac
+    GroupHeaderFontColor #1281ac
+    GroupHeaderFontName Roboto
+    GroupHeaderFontSize 14
+    GroupHeaderFontStyle bold
+    LifeLineBorderColor #black
+    LifeLineBackgroundColor #white
+    LifeLineFontColor  #1281ac
+    ParticipantBorderColor #1281ac
+    ParticipantBackgroundColor white
+    ParticipantFontSize 14
+    ParticipantFontStyle bold
+    ParticipantFontName Roboto
+    ParticipantFontColor #1281ac
+    ParticipantBorderThickness 2
+    ReferenceBorderThickness 2
+    SwimlaneBorderThickness 2
+    TitleFontColor #1281ac
+    TitleFontName Roboto
+    TitleFontSize 18
+    TitleBorderThickness 5
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam activity {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam cloud {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam component {
+  BackgroundColor  #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam database {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam frame {
+  ArrowColor #1281ac
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 4
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam node {
+  ArrowColor #1281ac
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam package {
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam partition {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+
+
+@enduml

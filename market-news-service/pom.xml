@@ -1,0 +1,248 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- The simplest way to build a service with service-sdk-starter-core 
+        is to use it as a parent in your project’s POM file, alternatively if you 
+        don’t want to use service-sdk-starter-core as your project’s parent, you 
+        can declare it as a dependency instead, see pom-as-dependency.xml -->
+    <parent>
+        <groupId>com.backbase.buildingblocks</groupId>
+        <version>15.2.0</version>
+        <artifactId>service-sdk-starter-core</artifactId>
+        <relativePath/>
+    </parent>
+
+
+    <groupId>com.backbase.modelbank</groupId>
+    <artifactId>market-news-service</artifactId>
+    <version>0.6.0</version>
+
+    <packaging>jar</packaging>
+
+    <name>Backbase :: Market News Service</name>
+
+    <properties>
+        <java.version>17</java.version>
+
+        <!-- Docker configuration -->
+        <!--suppress UnresolvedMavenProperty -->
+        <docker.repo.url>${DEVOPS_CICD_ECR_BASE_URL}</docker.repo.url>
+        <docker.image.name>${docker.repo.url}/${project.artifactId}</docker.image.name>
+        <docker.distroless.war.latest.skip>true</docker.distroless.war.latest.skip>
+        <jib.to.image>${docker.image.name}:${backbase-bom.version}-${project.version}</jib.to.image>
+
+        <!-- Dependencies -->
+        <market-news-clients.version>LATEST</market-news-clients.version>
+        <mapstruct.version>1.5.3.Final</mapstruct.version>
+        <backbase-bom.version>2023.06</backbase-bom.version>
+        <version.infinispan>13.0.12.Final</version.infinispan>
+
+        <!-- Plugin version -->
+        <boat-maven-plugin.version>0.16.1</boat-maven-plugin.version>
+        <gitflow-maven-plugin.version>1.18.0</gitflow-maven-plugin.version>
+        <!-- Sonar -->
+        <!--suppress UnresolvedMavenProperty -->
+        <sonar.projectKey>${SONAR_PROJECT_KEY}</sonar.projectKey>
+        <!--suppress UnresolvedMavenProperty -->
+        <sonar.organization>${SONAR_ORGANIZATION}</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.exclusions>**/model/**</sonar.exclusions>
+        <sonar.coverage.exclusions>**/model/**</sonar.coverage.exclusions>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.backbase.marketnews</groupId>
+                <artifactId>market-news-clients</artifactId>
+                <version>${market-news-clients.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.backbase</groupId>
+                <artifactId>backbase-bom</artifactId>
+                <version>${backbase-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.infinispan</groupId>
+                <artifactId>infinispan-bom</artifactId>
+                <version>${version.infinispan}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.infinispan</groupId>
+                <artifactId>infinispan-spring-boot-starter</artifactId>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.backbase.marketnews</groupId>
+            <artifactId>yahoo-finance-news-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.infinispan</groupId>
+            <artifactId>infinispan-spring-boot-starter-embedded</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.infinispan.protostream</groupId>
+            <artifactId>protostream-processor</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.backbase.buildingblocks</groupId>
+            <artifactId>service-sdk-starter-mapping</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.backbase.buildingblocks</groupId>
+            <artifactId>service-sdk-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.awaitility</groupId>
+            <artifactId>awaitility</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.mapstruct</groupId>
+                            <artifactId>mapstruct-processor</artifactId>
+                            <version>${mapstruct.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>${gitflow-maven-plugin.version}</version>
+                <configuration>
+                    <installProject>false</installProject>
+                    <verbose>false</verbose>
+                    <gitFlowConfig>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <productionBranch>${productionBranch}</productionBranch>
+                        <developmentBranch>develop</developmentBranch>
+                        <featureBranchPrefix>feature/</featureBranchPrefix>
+                        <releaseBranchPrefix>release/</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+                        <versionTagPrefix>v</versionTagPrefix>
+                        <origin>origin</origin>
+                    </gitFlowConfig>
+                    <commitMessages>
+                        <!-- since 1.2.1, see Customizing commit messages -->
+                        <releaseStartMessage>Update versions for release @{version}</releaseStartMessage>
+                        <releaseFinishMessage>Update for next development version @{version}</releaseFinishMessage>
+                        <releaseVersionUpdateMessage>Update for next development version @{version}
+                        </releaseVersionUpdateMessage>
+                    </commitMessages>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>unpack</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>unpack</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>com.backbase</groupId>
+                                    <artifactId>portfolio</artifactId>
+                                    <classifier>api</classifier>
+                                    <type>zip</type>
+                                    <outputDirectory>${project.build.directory}</outputDirectory>
+                                    <overWrite>true</overWrite>
+                                </artifactItem>
+                            </artifactItems>
+                            <includes>**/*.yaml, **/*.json</includes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.backbase.oss</groupId>
+                <artifactId>boat-maven-plugin</artifactId>
+                <version>${boat-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>generate-code-from-market-news-client-api</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>
+                                ${project.build.directory}/portfolio/market-news-client-api-v*.yaml
+                            </inputSpec>
+                            <output>${project.build.directory}/generated-sources/openapi</output>
+                            <generateSupportingFiles>true</generateSupportingFiles>
+                            <generatorName>spring</generatorName>
+                            <strictSpec>true</strictSpec>
+                            <generateApiTests>false</generateApiTests>
+                            <generateModelTests>false</generateModelTests>
+                            <configOptions>
+                                <library>spring-boot</library>
+                                <dateLibrary>java8</dateLibrary>
+                                <interfaceOnly>true</interfaceOnly>
+                                <addServletRequest>true</addServletRequest>
+                                <skipDefaultInterface>true</skipDefaultInterface>
+                                <useBeanValidation>true</useBeanValidation>
+                                <generateAliasAsModel>true</generateAliasAsModel>
+                                <useClassLevelBeanValidation>true</useClassLevelBeanValidation>
+                                <useTags>true</useTags>
+                                <java8>true</java8>
+                                <bigDecimalAsString>true</bigDecimalAsString>
+                                <useOptional>false</useOptional>
+                                <apiPackage>com.backbase.dbs.portfolio.client.marketnews.rest.spec.api</apiPackage>
+                                <modelPackage>com.backbase.dbs.portfolio.client.marketnews.rest.spec.model
+                                </modelPackage>
+                                <sourceFolder>/</sourceFolder>
+                            </configOptions>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

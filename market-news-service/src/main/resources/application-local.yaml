@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: false
+
+eureka:
+  client:
+    enabled: false
+
+logging:
+  level:
+    root: INFO
+    com.backbase: DEBUG
+    org.springframework: DEBUG
+
+backbase:
+  security:
+    public:
+      paths: /client-api/v1/**

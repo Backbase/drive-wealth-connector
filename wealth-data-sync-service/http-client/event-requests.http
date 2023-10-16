@@ -1,0 +1,22 @@
+### Send Order Updated Event
+POST http://admin:admin@{{host}}:8161/api/message?destination=queue%3A%2F%2FConsumer.wealth-data-sync-service_updated.VirtualTopic.orders.updated
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=m3hookj0a9vd1ub6dh4pj5gu9
+
+bbEventType=com.backbase.drivewealth.sqs.event.spec.v1.OrdersUpdatedEvent&body={"id":"event_3d58725f-e03d-4e6f-b4d9-a79be97e6daa","type":"orders.updated","timestamp":"2023-05-22T19:26:15.452840985Z","payload":{"id":"KE.522f4a13-29ce-44b6-aa9e-627668cd3f32","orderNo":"KETA012383","type":"MARKET","side":"BUY","status":"PARTIAL_FILL","symbol":"HL","averagePrice":5.43,"averagePriceRaw":5.43,"totalOrderAmount":434.4,"cumulativeQuantity":80,"quantity":179,"fees":0,"orderExpires":"2023-05-22T20:00:00.000Z","createdBy":"a65e42a2-b937-47d6-9976-2404134945e6","userID":"a65e42a2-b937-47d6-9976-2404134945e6","accountID":"a65e42a2-b937-47d6-9976-2404134945e6.1682172748507","accountNo":"UKDB000001","created":"2023-05-22T19:26:12.363Z","lastExecuted":"2023-05-22T19:26:15.441Z","lastPrice":5.43,"lastShares":20,"lastMarket":"TH"}}
+
+
+### Send Order Created Event
+POST http://admin:admin@{{host}}:8161/api/message?destination=queue%3A%2F%2FConsumer.wealth-data-sync-service_created.VirtualTopic.orders.created
+Cookie: JSESSIONID=m3hookj0a9vd1ub6dh4pj5gu9
+Content-Type: application/x-www-form-urlencoded
+
+bbEventType=com.backbase.drivewealth.sqs.event.spec.v1.OrdersCreatedEvent&body=%7B%22id%22%3A+%22event_dcadb7df-a677-4ba6-8a06-15005d4a491d%22%2C%22type%22%3A+%22orders.created%22%2C%22timestamp%22%3A+%222019-03-28T22%3A40%3A03.260922189Z%22%2C%22extendedHours%22%3A+false%2C%22timeInForce%22%3A+null%2C%22payload%22%3A+%7B%22id%22%3A+%22GC.f7590a52-75c7-4f3a-92c7-6b03e02dc44f%22%2C%22orderNo%22%3A+%22GCWS000039%22%2C%22type%22%3A+%22MARKET%22%2C%22side%22%3A+%22BUY%22%2C%22status%22%3A+%22NEW%22%2C%22symbol%22%3A+%22AAPL%22%2C%22averagePrice%22%3A+0%2C%22cumulativeQuantity%22%3A+0%2C%22quantity%22%3A+1%2C%22fees%22%3A+0%2C%22orderExpires%22%3A+%222019-03-29T20%3A00%3A00.000Z%22%2C%22createdBy%22%3A+%22b25f0d36-b4e4-41f8-b3d9-9249e46402cd%22%2C%22userID%22%3A+%22b25f0d36-b4e4-41f8-b3d9-9249e46402cd%22%2C%22accountID%22%3A+%22b25f0d36-b4e4-41f8-b3d9-9249e46402cd.1403540676095%22%2C%22accountNo%22%3A+%22DWZR000001%22%2C%22created%22%3A+%222019-03-28T22%3A40%3A03.240Z%22%7D%7D
+
+
+### Send Order Completed Event
+POST http://admin:admin@{{host}}:8161/api/message?destination=queue%3A%2F%2FConsumer.wealth-data-sync-service_completed.VirtualTopic.orders.completed
+Cookie: JSESSIONID=m3hookj0a9vd1ub6dh4pj5gu9
+Content-Type: application/x-www-form-urlencoded
+
+bbEventType=com.backbase.drivewealth.sqs.event.spec.v1.OrdersCompletedEvent&body={"id":"event_ce45161e-47e3-462e-a91b-c0420e018e92","type":"orders.completed","timestamp":"2023-05-22T19:26:20.461901328Z","payload":{"id":"KE.522f4a13-29ce-44b6-aa9e-627668cd3f32","orderNo":"KETA012383","type":"MARKET","side":"BUY","status":"FILLED","symbol":"HL","averagePrice":5.43,"averagePriceRaw":5.43,"totalOrderAmount":971.97,"cumulativeQuantity":179,"quantity":179,"fees":0,"orderExpires":"2023-05-22T20:00:00.000Z","createdBy":"a65e42a2-b937-47d6-9976-2404134945e6","userID":"a65e42a2-b937-47d6-9976-2404134945e6","accountID":"a65e42a2-b937-47d6-9976-2404134945e6.1682172748507","accountNo":"UKDB000001","created":"2023-05-22T19:26:12.363Z","lastExecuted":"2023-05-22T19:26:20.442Z","lastPrice":5.43,"lastShares":19,"lastMarket":"TH"}}

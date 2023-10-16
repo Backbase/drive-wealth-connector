@@ -1,0 +1,625 @@
+{
+  "name": "Financial Institute Branch 1",
+  "realmName": "employee",
+  "externalId": "financial-institute-branch1",
+  "legalEntityType": "BANK",
+  "subsidiaries": [
+    {
+      "name": "Mary's WebShop (SEPA)",
+      "realmName": "customer",
+      "externalId": "mary-web-shop-s",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "parentExternalId": "financial-institute-branch1",
+      "administrators": [
+        {
+          "externalId": "mwssa01-s",
+          "fullName": "MWSSA01 Jones (SEPA)",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "mwssa01-s@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        },
+        {
+          "externalId": "mwssa02-s",
+          "fullName": "MWSSA02 Jones (SEPA)",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "mwssa02-s@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "mwssa01-s",
+            "fullName": "MWSSA01 Jones (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "mwssa01-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "wsdsa01-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "admin",
+            "Accounts and Payments (SEPA)"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "mwssa02-s",
+            "fullName": "MWSSA02 Jones (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "mwssa02-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "wsdsa01-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "admin"
+          ]
+        }
+      ],
+      "masterServiceAgreement": {
+        "externalId": "mary-web-shop-sa-s",
+        "name": "Mary Web Shop (SEPA)",
+        "description": "Single Service Agreement for Mary Web Shop (SEPA)",
+        "status": "ENABLED",
+        "isMaster": true,
+        "participants": [
+          {
+            "externalId": "mary-web-shop-s",
+            "sharingUsers": true,
+            "sharingAccounts": true,
+            "admins": [
+              "mwssa01-s",
+              "mwssa02-s"
+            ],
+            "users": []
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "internalId": "mwsdag1-s",
+          "name": "mwsdag1-s",
+          "description": "Product group containing Mary's Web Shop (SEPA) Arrangements",
+          "currentAccounts": [
+            {
+              "externalId": "5812458822",
+              "IBAN": "NL74BCKB5812458822",
+              "name": "Checking Account EUR 8822",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 4456.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 5802.2
+              },
+              "accountHolderName": "Mary's WebShop (SEPA)"
+            }
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312001-s",
+          "addressLine1": "410 7th St",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 93950,
+          "town": "Pacific Grove",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Beatrice D. Ma",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 676 8602",
+          "emailId": "be@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362001-s",
+              "name": "Checking USD 2247",
+              "alias": "My account",
+              "accountNumber": "9948772699182247",
+              "accountType": "Checking",
+              "bankCode": 11103093,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01720",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312002",
+          "addressLine1": "4 Ontare Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91006,
+          "town": "Arcadia",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Donald I. Moore",
+          "contactPerson": "N/A",
+          "phoneNumber": "760 775 6619",
+          "emailId": "do@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362002-s",
+              "name": "Checking USD 8282",
+              "alias": "Quick payments",
+              "accountNumber": "7746882990198282",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30101",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312003-s",
+          "addressLine1": "864 Alta Loma Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 94080,
+          "town": "South San Francisco",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Howard E. Gregory",
+          "contactPerson": "N/A",
+          "phoneNumber": "909 860 0219",
+          "emailId": "ho@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362003-s",
+              "name": "Checking USD 3098",
+              "alias": "Howgarts ",
+              "accountNumber": "9394198450893098",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312004-s",
+          "addressLine1": "4626 Eucalyptus Ave",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91710,
+          "town": "Chino",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "John B. Grant",
+          "contactPerson": "N/A",
+          "phoneNumber": "415 452 0533",
+          "emailId": "jo@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362004-s",
+              "name": "Checking USD 2305",
+              "alias": "John B. Goode",
+              "accountNumber": "0923489010982305",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312005-s",
+          "addressLine1": "110 Constitution Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 94025,
+          "town": "Menlo Park",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Monica K. Greenwalt",
+          "contactPerson": "N/A",
+          "phoneNumber": "620 325 2298",
+          "emailId": "mo@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362005-s",
+              "name": "Checking USD 9875",
+              "alias": "Pay account ",
+              "accountNumber": "0983509812359875",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30101",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "KS",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312006-s",
+          "addressLine1": "8833 Sunset Blvd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 90069,
+          "town": "West Hollywood",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Don I. Nolan",
+          "contactPerson": "N/A",
+          "phoneNumber": "801 450 1564",
+          "emailId": "don@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362006-s",
+              "name": "Checking USD 0928",
+              "alias": "Use this card",
+              "accountNumber": "8762589519870928",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312007-s",
+          "addressLine1": "487 E Middlefield Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 94043,
+          "town": "Mountain View",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Willie L. Clark",
+          "contactPerson": "N/A",
+          "phoneNumber": "623 509 6878",
+          "emailId": "wil@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362007-s",
+              "name": "Checking USD 1098",
+              "alias": "Payroll",
+              "accountNumber": "0459098428791098",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Columbia",
+              "bankCountrySubDivision": "SC",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312008-s",
+          "addressLine1": "505 W Lambert Rdm",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 92821,
+          "town": "Brea",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Sang L. Major",
+          "contactPerson": "N/A",
+          "phoneNumber": "843 705 1234",
+          "emailId": "sa@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362008-s",
+              "name": "Checking USD 1598",
+              "alias": "Sang Acc.",
+              "accountNumber": "5088276810891598",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "24095",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "OH",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312009-s",
+          "addressLine1": "318 Elk Creek Road",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30201,
+          "town": "Alpharetta",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Alicia K. Price",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 992 5325",
+          "emailId": "al@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362009-s",
+              "name": "Checking USD 0025",
+              "alias": "Alicia2 ",
+              "accountNumber": "0040509829850025",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312010-s",
+          "addressLine1": "3646 Neuport Lane",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30201,
+          "town": "Alpharetta",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Amanda B. Doss",
+          "contactPerson": "N/A",
+          "phoneNumber": "843 705 6342",
+          "emailId": "am@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362010-s",
+              "name": "Checking USD 1239",
+              "alias": "Amanda good one ",
+              "accountNumber": "8791589910981239",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "29401",
+              "bankTown": "Charleston",
+              "bankCountrySubDivision": "SC",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312011-s",
+          "addressLine1": "3760 Edington Drive",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30201,
+          "town": "Alpharetta",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Jasmine B. Nelson",
+          "contactPerson": "N/A",
+          "phoneNumber": "627 509 7517",
+          "emailId": "jas@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362011-s",
+              "name": "Checking USD 0987",
+              "alias": "Jasmine",
+              "accountNumber": "0985978587560987",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Louisiana",
+              "bankCountrySubDivision": "LA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312012-s",
+          "addressLine1": "1617 Miracosta Cir",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91913,
+          "town": "Chula Vista",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Sarah J. Ortega",
+          "contactPerson": "N/A",
+          "phoneNumber": "628 509 2256",
+          "emailId": "sar@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362012-s",
+              "name": "Checking USD 0001",
+              "alias": "Ortega1",
+              "accountNumber": "1235876512350001",
+              "accountType": "Checking",
+              "bankCode": 11103093,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c312013-s",
+          "addressLine1": "2642 Silver Sage Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91915,
+          "town": "Chula Vista",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Irma K. Brock",
+          "contactPerson": "N/A",
+          "phoneNumber": "628 509 7477",
+          "emailId": "Ir@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d362013-s",
+              "name": "Checking USD 0890",
+              "alias": "Irma Account 2 ",
+              "accountNumber": "5868091891870890",
+              "accountType": "Checking",
+              "bankCode": 11103093,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="736.8065px" preserveAspectRatio="none" style="width:1000px;height:736px;background:#FFFFFF;" version="1.1" viewBox="0 0 1000 736" width="1000.6766px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="735.7559" style="stroke:#1281AC;stroke-width:0.6765899864682002;" width="999.3234" x="0" y="0"/><text fill="#000000" font-family="sans-serif" font-size="9.4723" font-weight="bold" lengthAdjust="spacing" textLength="163.7348" x="415.7645" y="19.3066">Instrument Outbound Integration</text><rect fill="#F3F3F3" height="703.6258" style="stroke:#1281AC;stroke-width:0.3382949932341001;" width="54.8038" x="10.8254" y="29.4237"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="42.6252" x="16.9147" y="37.9274">Backbase</text><rect fill="#F3F3F3" height="703.6258" style="stroke:#1281AC;stroke-width:0.3382949932341001;" width="117.0501" x="310.5548" y="29.4237"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="87.9567" x="325.1015" y="37.9274">Custom Integration</text><rect fill="#F3F3F3" height="703.6258" style="stroke:#1281AC;stroke-width:0.3382949932341001;" width="65.6292" x="919.4858" y="29.4237"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="58.1867" x="923.207" y="37.9274">Drive Wealth</text><rect fill="#1281AC" height="127.783" style="stroke:#1281AC;stroke-width:0.6765899864682002;" width="6.7659" x="365.6969" y="249.1609"/><rect fill="#1281AC" height="127.1064" style="stroke:#1281AC;stroke-width:0.6765899864682002;" width="6.7659" x="365.6969" y="554.5382"/><rect fill="none" height="159.3264" style="stroke:#000000;stroke-width:1.0148849797023003;" width="982.4087" x="6.7659" y="223.0302"/><rect fill="none" height="158.6498" style="stroke:#000000;stroke-width:1.0148849797023003;" width="982.4087" x="6.7659" y="528.4075"/><line style="stroke:#1281AC;stroke-width:0.3382949932341001;stroke-dasharray:5.0,5.0;" x1="37.889" x2="37.889" y1="74.9495" y2="698.5593"/><line style="stroke:#1281AC;stroke-width:0.3382949932341001;stroke-dasharray:5.0,5.0;" x1="368.7415" x2="368.7415" y1="74.9495" y2="698.5593"/><line style="stroke:#1281AC;stroke-width:0.3382949932341001;stroke-dasharray:5.0,5.0;" x1="951.9621" x2="951.9621" y1="74.9495" y2="698.5593"/><rect fill="#ADD8E6" height="31.7839" rx="1.6915" ry="1.6915" style="stroke:#181818;stroke-width:0.3382949932341001;" width="49.3911" x="13.5318" y="42.4891"/><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="17.5913" x="28.0785" y="56.3829">DBS</text><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="39.9188" x="18.2679" y="67.5387">Portfolio</text><rect fill="#ADD8E6" height="31.7839" rx="1.6915" ry="1.6915" style="stroke:#181818;stroke-width:0.3382949932341001;" width="49.3911" x="13.5318" y="697.8827"/><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="17.5913" x="28.0785" y="711.7766">DBS</text><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="39.9188" x="18.2679" y="722.9324">Portfolio</text><rect fill="#ADD8E6" height="20.6281" rx="1.6915" ry="1.6915" style="stroke:#181818;stroke-width:0.3382949932341001;" width="111.6373" x="313.2612" y="53.6449"/><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="102.1651" x="317.9973" y="67.5387">instrument-outbound</text><rect fill="#ADD8E6" height="20.6281" rx="1.6915" ry="1.6915" style="stroke:#181818;stroke-width:0.3382949932341001;" width="111.6373" x="313.2612" y="697.8827"/><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="102.1651" x="317.9973" y="711.7766">instrument-outbound</text><rect fill="#ADD8E6" height="20.6281" rx="1.6915" ry="1.6915" style="stroke:#181818;stroke-width:0.3382949932341001;" width="60.2165" x="922.1922" y="53.6449"/><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="50.7442" x="926.9283" y="67.5387">Back Office</text><rect fill="#ADD8E6" height="20.6281" rx="1.6915" ry="1.6915" style="stroke:#181818;stroke-width:0.3382949932341001;" width="60.2165" x="922.1922" y="697.8827"/><text fill="#000000" font-family="sans-serif" font-size="9.4723" lengthAdjust="spacing" textLength="50.7442" x="926.9283" y="711.7766">Back Office</text><rect fill="#1281AC" height="127.783" style="stroke:#1281AC;stroke-width:0.6765899864682002;" width="6.7659" x="365.6969" y="249.1609"/><rect fill="#1281AC" height="127.1064" style="stroke:#1281AC;stroke-width:0.6765899864682002;" width="6.7659" x="365.6969" y="554.5382"/><rect fill="#EEEEEE" height="2.0298" style="stroke:#EEEEEE;stroke-width:0.6765899864682002;" width="995.9405" x="0" y="95.6906"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="95.6906" y2="95.6906"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="97.7203" y2="97.7203"/><rect fill="#EEEEEE" height="15.7717" style="stroke:#000000;stroke-width:1.3531799729364005;" width="188.7686" x="403.5859" y="88.4813"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="173.8836" x="407.6455" y="99.6913">Instrument Details Outbound Enabled</text><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.2273" x2="66.6441" y1="125.4374" y2="125.4374"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="66.6441" x2="66.6441" y1="125.4374" y2="134.2331"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.9039" x2="66.6441" y1="134.2331" y2="134.2331"/><polygon fill="#181818" points="45.6698,131.5267,38.9039,134.2331,45.6698,136.9394,42.9635,134.2331" style="stroke:#181818;stroke-width:0.6765899864682002;"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="42.9635" y="122.2289">1</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="292.9635" x="51.7591" y="122.2289">If "backbase.portfolio.instruments.outbound-details.enabled" is true</text><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.2273" x2="66.6441" y1="174.7822" y2="174.7822"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="66.6441" x2="66.6441" y1="174.7822" y2="183.5779"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.9039" x2="66.6441" y1="183.5779" y2="183.5779"/><polygon fill="#181818" points="45.6698,180.8715,38.9039,183.5779,45.6698,186.2843,42.9635,183.5779" style="stroke:#181818;stroke-width:0.6765899864682002;"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="42.9635" y="161.2147">2</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="127.8755" x="51.7591" y="150.8558">get Service Id of outbound i.e.</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="290.2571" x="51.7591" y="161.2147">"backbase.portfolio.communication.services.instruments.serviceId":</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="183.3559" x="51.7591" y="171.5737">"portfolio-instrument-integration-service"</text><rect fill="#EEEEEE" height="2.0298" style="stroke:#EEEEEE;stroke-width:0.6765899864682002;" width="995.9405" x="0" y="202.9658"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="202.9658" y2="202.9658"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="204.9955" y2="204.9955"/><rect fill="#EEEEEE" height="15.7717" style="stroke:#000000;stroke-width:1.3531799729364005;" width="165.7645" x="415.088" y="195.7565"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="153.5859" x="419.1475" y="206.9665">Instrument Outbound Integration</text><path d="M6.7659,223.0302 L121.7862,223.0302 L121.7862,227.9765 L115.0203,234.7424 L6.7659,234.7424 L6.7659,223.0302 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0148849797023003;"/><rect fill="none" height="159.3264" style="stroke:#000000;stroke-width:1.0148849797023003;" width="982.4087" x="6.7659" y="223.0302"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="84.5737" x="16.9147" y="232.2104">Instrument Details</text><polygon fill="#181818" points="357.5778,246.4545,364.3437,249.1609,357.5778,251.8672,360.2842,249.1609" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.2273" x2="361.6373" y1="249.1609" y2="249.1609"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="59.8782" y="245.9524">3</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="275.3721" x="68.6739" y="245.9524">GET /service-api/v1/instruments/{externalInstrumentId}/details</text><polygon fill="#181818" points="944.1813,266.2857,950.9472,268.9921,944.1813,271.6985,946.8877,268.9921" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="372.4628" x2="948.2409" y1="268.9921" y2="268.9921"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="543.3018" y="265.7836">4</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="229.364" x="552.0974" y="265.7836">GET /back-office/instruments/{externalInstrumentId}</text><polygon fill="#181818" points="379.9053,286.117,373.1394,288.8233,379.9053,291.5297,377.1989,288.8233" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="375.8457" x2="951.6238" y1="288.8233" y2="288.8233"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="622.1245" y="285.6148">5</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="71.7185" x="630.9202" y="285.6148">InstrumentDetail</text><polygon fill="#181818" points="944.1813,305.9482,950.9472,308.6545,944.1813,311.3609,946.8877,308.6545" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="372.4628" x2="948.2409" y1="308.6545" y2="308.6545"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="516.5765" y="305.446">6</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="282.8146" x="525.3721" y="305.446">GET /back-office/quotes/vdr?symbols={InstrumentDetail.symbol}</text><polygon fill="#181818" points="379.9053,325.7794,373.1394,328.4858,379.9053,331.1921,377.1989,328.4858" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="375.8457" x2="951.6238" y1="328.4858" y2="328.4858"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="607.9161" y="325.2772">7</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="100.1353" x="616.7118" y="325.2772">List&lt;QuotesResponse&gt;</text><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="372.4628" x2="400.8796" y1="348.317" y2="348.317"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="400.8796" x2="400.8796" y1="348.317" y2="357.1127"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="373.1394" x2="400.8796" y1="357.1127" y2="357.1127"/><polygon fill="#181818" points="379.9053,354.4063,373.1394,357.1127,379.9053,359.819,377.1989,357.1127" style="stroke:#181818;stroke-width:0.6765899864682002;"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="377.1989" y="345.1085">8</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="232.747" x="385.9946" y="345.1085">Map Quotes, InstrumentDetail to InstrumentDetailsGet</text><polygon fill="#181818" points="45.6698,374.2375,38.9039,376.9439,45.6698,379.6502,42.9635,376.9439" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;stroke-dasharray:2.0,2.0;" x1="41.6103" x2="368.4032" y1="376.9439" y2="376.9439"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="6.0893" x="151.2179" y="373.7354">9</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="96.0758" x="160.0135" y="373.7354">: InstrumentDetailsGet</text><rect fill="#EEEEEE" height="2.0298" style="stroke:#EEEEEE;stroke-width:0.6765899864682002;" width="995.9405" x="0" y="401.0679"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="401.0679" y2="401.0679"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="403.0976" y2="403.0976"/><rect fill="#EEEEEE" height="15.7717" style="stroke:#000000;stroke-width:1.3531799729364005;" width="207.7131" x="394.1137" y="393.8586"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="192.8281" x="398.1732" y="405.0686">Instrument Chart Price Outbound Enabled</text><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.2273" x2="66.6441" y1="430.8147" y2="430.8147"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="66.6441" x2="66.6441" y1="430.8147" y2="439.6104"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.9039" x2="66.6441" y1="439.6104" y2="439.6104"/><polygon fill="#181818" points="45.6698,436.904,38.9039,439.6104,45.6698,442.3167,42.9635,439.6104" style="stroke:#181818;stroke-width:0.6765899864682002;"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="42.9635" y="427.6062">10</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="270.636" x="57.8484" y="427.6062">If "backbase.portfolio.instruments.chart-prices.enabled" is true</text><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.2273" x2="66.6441" y1="480.1595" y2="480.1595"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="66.6441" x2="66.6441" y1="480.1595" y2="488.9552"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.9039" x2="66.6441" y1="488.9552" y2="488.9552"/><polygon fill="#181818" points="45.6698,486.2488,38.9039,488.9552,45.6698,491.6616,42.9635,488.9552" style="stroke:#181818;stroke-width:0.6765899864682002;"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="42.9635" y="466.592">11</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="127.8755" x="57.8484" y="456.2331">get Service Id of outbound i.e.</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="290.2571" x="57.8484" y="466.592">"backbase.portfolio.communication.services.instruments.serviceId":</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="183.3559" x="57.8484" y="476.951">"portfolio-instrument-integration-service"</text><rect fill="#EEEEEE" height="2.0298" style="stroke:#EEEEEE;stroke-width:0.6765899864682002;" width="995.9405" x="0" y="508.3431"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="508.3431" y2="508.3431"/><line style="stroke:#000000;stroke-width:0.6765899864682002;" x1="0" x2="995.9405" y1="510.3728" y2="510.3728"/><rect fill="#EEEEEE" height="15.7717" style="stroke:#000000;stroke-width:1.3531799729364005;" width="165.7645" x="415.088" y="501.1338"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="153.5859" x="419.1475" y="512.3438">Instrument Outbound Integration</text><path d="M6.7659,528.4075 L139.3775,528.4075 L139.3775,533.3538 L132.6116,540.1197 L6.7659,540.1197 L6.7659,528.4075 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0148849797023003;"/><rect fill="none" height="158.6498" style="stroke:#000000;stroke-width:1.0148849797023003;" width="982.4087" x="6.7659" y="528.4075"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="102.1651" x="16.9147" y="537.5877">Instrument Chart Data</text><polygon fill="#181818" points="357.5778,551.8318,364.3437,554.5382,357.5778,557.2445,360.2842,554.5382" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="38.2273" x2="361.6373" y1="554.5382" y2="554.5382"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="44.6549" y="551.3297">12</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="299.7294" x="59.5399" y="551.3297">GET /service-api/v1/instruments/{externalInstrumentId}/chart-prices</text><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="372.4628" x2="400.8796" y1="574.3694" y2="574.3694"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="400.8796" x2="400.8796" y1="574.3694" y2="583.1651"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="373.1394" x2="400.8796" y1="583.1651" y2="583.1651"/><polygon fill="#181818" points="379.9053,580.4587,373.1394,583.1651,379.9053,585.8714,377.1989,583.1651" style="stroke:#181818;stroke-width:0.6765899864682002;"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="377.1989" y="571.1609">13</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="165.088" x="392.0839" y="571.1609">Calculate Compression based on dates</text><polygon fill="#181818" points="944.1813,610.6489,950.9472,613.3553,944.1813,616.0616,946.8877,613.3553" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="372.4628" x2="948.2409" y1="613.3553" y2="613.3553"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="380.5819" y="604.9673">14</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="16.2382" x="395.4668" y="599.7878">GET</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="548.7145" x="395.4668" y="610.1467">/back-office/bars?instrumentID={externalInstrumentId}&amp;compression={calculatedCompression}&amp;dateStart={from}&amp;dateEnd={to}</text><polygon fill="#181818" points="379.9053,630.4801,373.1394,633.1865,379.9053,635.8928,377.1989,633.1865" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="375.8457" x2="951.6238" y1="633.1865" y2="633.1865"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="602.5034" y="629.978">15</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="104.8714" x="617.3884" y="629.978">HistoricalChartResponse</text><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="372.4628" x2="400.8796" y1="653.0177" y2="653.0177"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="400.8796" x2="400.8796" y1="653.0177" y2="661.8134"/><line style="stroke:#181818;stroke-width:0.6765899864682002;" x1="373.1394" x2="400.8796" y1="661.8134" y2="661.8134"/><polygon fill="#181818" points="379.9053,659.107,373.1394,661.8134,379.9053,664.5197,377.1989,661.8134" style="stroke:#181818;stroke-width:0.6765899864682002;"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="377.1989" y="649.8092">16</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="262.5169" x="392.0839" y="649.8092">Map HistoricalChartResponse to InstrumentViewChartDataGet</text><polygon fill="#181818" points="45.6698,678.9382,38.9039,681.6446,45.6698,684.3509,42.9635,681.6446" style="stroke:#181818;stroke-width:0.6765899864682002;"/><line style="stroke:#181818;stroke-width:0.6765899864682002;stroke-dasharray:2.0,2.0;" x1="41.6103" x2="368.4032" y1="681.6446" y2="681.6446"/><text fill="#000000" font-family="sans-serif" font-size="8.7957" font-weight="bold" lengthAdjust="spacing" textLength="12.1786" x="131.935" y="678.4361">17</text><text fill="#000000" font-family="sans-serif" font-size="8.7957" lengthAdjust="spacing" textLength="128.5521" x="146.82" y="678.4361">: InstrumentViewChartDataGet</text><!--MD5=[be53c3dd2a3567c4a76a94020674c235]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title "Instrument Outbound Integration"
+autonumber
+skinparam maxMessageSize 600
+skinparam backgroundColor  #white
+
+
+box "Backbase"
+    participant "DBS \nPortfolio" as dbs #lightblue
+end box
+
+box "Custom Integration"
+    participant "instrument-outbound" as outbound #lightblue
+end box
+
+box "Drive Wealth"
+    participant "Back Office" as bo #lightblue
+end box
+
+== Instrument Details Outbound Enabled  ==
+
+dbs -> dbs : If "backbase.portfolio.instruments.outbound-details.enabled" is true
+dbs -> dbs : get Service Id of outbound i.e. "backbase.portfolio.communication.services.instruments.serviceId": "portfolio-instrument-integration-service"
+
+== Instrument Outbound Integration ==
+
+group Instrument Details
+    dbs -> outbound: GET /service-api/v1/instruments/{externalInstrumentId}/details
+    activate outbound
+        outbound -> bo: GET /back-office/instruments/{externalInstrumentId}
+        bo -> outbound : InstrumentDetail
+        outbound -> bo : GET /back-office/quotes/vdr?symbols={InstrumentDetail.symbol}
+        bo -> outbound : List<QuotesResponse>
+        outbound -> outbound : Map Quotes, InstrumentDetail to InstrumentDetailsGet
+    return : InstrumentDetailsGet
+end
+
+== Instrument Chart Price Outbound Enabled  ==
+
+dbs -> dbs : If "backbase.portfolio.instruments.chart-prices.enabled" is true
+dbs -> dbs : get Service Id of outbound i.e. "backbase.portfolio.communication.services.instruments.serviceId": "portfolio-instrument-integration-service"
+
+== Instrument Outbound Integration ==
+
+group Instrument Chart Data
+    dbs -> outbound: GET /service-api/v1/instruments/{externalInstrumentId}/chart-prices
+    activate outbound
+        outbound -> outbound : Calculate Compression based on dates
+        outbound -> bo: GET /back-office/bars?instrumentID={externalInstrumentId}&compression={calculatedCompression}&dateStart={from}&dateEnd={to}
+        bo -> outbound : HistoricalChartResponse
+        outbound -> outbound : Map HistoricalChartResponse to InstrumentViewChartDataGet
+    return : InstrumentViewChartDataGet
+end
+
+scale max 1000 width
+skinparam backgroundColor white
+skinparam Shadowing false
+skinparam BoundaryBackgroundColor transparent
+skinparam BoundaryBorderColor #1281ac
+skinparam DiagramBorderColor #1281ac
+skinparam defaultTextAlignment center
+skinparam SequenceMessageAlign center
+skinparam ReferenceBorderThickness 2
+
+skinparam sequence {
+'Users and boundries (DBS for example)
+    ActorBorderThickness 3
+    ActorBorderColor #1281ac
+    ActorBackgroundColor transparent
+    ActorFontColor #1281ac
+    ActorFontName Roboto
+    ActorFontStyle bold
+    ActorFontSize 14
+    AgentBackgroundColor #1281ac
+'Arrows
+    ArrowFontColor #1281ac
+    ArrowFontSize 14
+    ArrowFontStyle bold
+    ArrowColor #1281ac
+    ArrowThickness 2
+    RectangleBorderThickness 3
+    BoxBackgroundColor #f3f3f3
+    BoxBorderColor #1281ac
+'Capability
+    BoxFontColor #1281ac
+    BoxFontName Roboto
+    BoxFontStyle bold
+    BoxFontSize 16
+    BoundaryBackgroundColor #1281ac
+    BoundaryBorderColor #1281ac
+    BoundaryFontColor #1281ac
+    BoundryFontName Roboto
+    BoundaryStereotypeFontColor #1281ac
+    ClassBorderColor #1281ac
+    ComponentBorderColor #1281ac
+    DividerBackgroundColor white
+    DividerBorderColor #1281ac
+    DividerBorderThickness 3
+    DividerFontColor #1281ac
+    DividerFontName Roboto
+    DividerFontSize bold
+    DividerFontStyle 14
+' Loops but not the title text
+    GroupBorderColor #1281ac
+    GroupBorderThickness 2
+    GroupFontName Roboto
+    GroupFontSize 14
+    GroupFontColor #1281ac
+'Title text for loops
+    GroupHeaderFontColor #1281ac
+    GroupHeaderFontName Roboto
+    GroupHeaderFontSize 14
+    GroupHeaderFontStyle bold
+    LifeLineBorderColor #1281ac
+    LifeLineBackgroundColor #1281ac
+    LifeLineFontColor  #1281ac
+'Services
+    ParticipantBorderColor #1281ac
+    ParticipantBackgroundColor white
+    ParticipantFontSize 14
+    ParticipantFontStyle bold
+    ParticipantFontName Roboto
+    ParticipantFontColor #1281ac
+    ParticipantBorderThickness 2
+    ReferenceBorderThickness 2
+    '   SwimlaneBorderThickness 2
+    TitleFontColor #1281ac
+    TitleFontName Roboto
+    TitleFontSize 18
+    TitleBorderThickness 5
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam activity {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam cloud {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+'For services
+skinparam component {
+  BackgroundColor  #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+'databases
+skinparam database {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+'For Capabilities
+skinparam frame {
+  ArrowColor #1281ac
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 4
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+' External systems in architecture diagrams
+skinparam node {
+  ArrowColor #1281ac
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam package {
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+' Activity diagrams, for different capabilities
+skinparam partition {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+
+@enduml
+
+@startuml
+
+title "Instrument Outbound Integration"
+autonumber
+skinparam maxMessageSize 600
+skinparam backgroundColor  #white
+
+
+box "Backbase"
+    participant "DBS \nPortfolio" as dbs #lightblue
+end box
+
+box "Custom Integration"
+    participant "instrument-outbound" as outbound #lightblue
+end box
+
+box "Drive Wealth"
+    participant "Back Office" as bo #lightblue
+end box
+
+== Instrument Details Outbound Enabled  ==
+
+dbs -> dbs : If "backbase.portfolio.instruments.outbound-details.enabled" is true
+dbs -> dbs : get Service Id of outbound i.e. "backbase.portfolio.communication.services.instruments.serviceId": "portfolio-instrument-integration-service"
+
+== Instrument Outbound Integration ==
+
+group Instrument Details
+    dbs -> outbound: GET /service-api/v1/instruments/{externalInstrumentId}/details
+    activate outbound
+        outbound -> bo: GET /back-office/instruments/{externalInstrumentId}
+        bo -> outbound : InstrumentDetail
+        outbound -> bo : GET /back-office/quotes/vdr?symbols={InstrumentDetail.symbol}
+        bo -> outbound : List<QuotesResponse>
+        outbound -> outbound : Map Quotes, InstrumentDetail to InstrumentDetailsGet
+    return : InstrumentDetailsGet
+end
+
+== Instrument Chart Price Outbound Enabled  ==
+
+dbs -> dbs : If "backbase.portfolio.instruments.chart-prices.enabled" is true
+dbs -> dbs : get Service Id of outbound i.e. "backbase.portfolio.communication.services.instruments.serviceId": "portfolio-instrument-integration-service"
+
+== Instrument Outbound Integration ==
+
+group Instrument Chart Data
+    dbs -> outbound: GET /service-api/v1/instruments/{externalInstrumentId}/chart-prices
+    activate outbound
+        outbound -> outbound : Calculate Compression based on dates
+        outbound -> bo: GET /back-office/bars?instrumentID={externalInstrumentId}&compression={calculatedCompression}&dateStart={from}&dateEnd={to}
+        bo -> outbound : HistoricalChartResponse
+        outbound -> outbound : Map HistoricalChartResponse to InstrumentViewChartDataGet
+    return : InstrumentViewChartDataGet
+end
+
+scale max 1000 width
+skinparam backgroundColor white
+skinparam Shadowing false
+skinparam BoundaryBackgroundColor transparent
+skinparam BoundaryBorderColor #1281ac
+skinparam DiagramBorderColor #1281ac
+skinparam defaultTextAlignment center
+skinparam SequenceMessageAlign center
+skinparam ReferenceBorderThickness 2
+
+skinparam sequence {
+    ActorBorderThickness 3
+    ActorBorderColor #1281ac
+    ActorBackgroundColor transparent
+    ActorFontColor #1281ac
+    ActorFontName Roboto
+    ActorFontStyle bold
+    ActorFontSize 14
+    AgentBackgroundColor #1281ac
+    ArrowFontColor #1281ac
+    ArrowFontSize 14
+    ArrowFontStyle bold
+    ArrowColor #1281ac
+    ArrowThickness 2
+    RectangleBorderThickness 3
+    BoxBackgroundColor #f3f3f3
+    BoxBorderColor #1281ac
+    BoxFontColor #1281ac
+    BoxFontName Roboto
+    BoxFontStyle bold
+    BoxFontSize 16
+    BoundaryBackgroundColor #1281ac
+    BoundaryBorderColor #1281ac
+    BoundaryFontColor #1281ac
+    BoundryFontName Roboto
+    BoundaryStereotypeFontColor #1281ac
+    ClassBorderColor #1281ac
+    ComponentBorderColor #1281ac
+    DividerBackgroundColor white
+    DividerBorderColor #1281ac
+    DividerBorderThickness 3
+    DividerFontColor #1281ac
+    DividerFontName Roboto
+    DividerFontSize bold
+    DividerFontStyle 14
+    GroupBorderColor #1281ac
+    GroupBorderThickness 2
+    GroupFontName Roboto
+    GroupFontSize 14
+    GroupFontColor #1281ac
+    GroupHeaderFontColor #1281ac
+    GroupHeaderFontName Roboto
+    GroupHeaderFontSize 14
+    GroupHeaderFontStyle bold
+    LifeLineBorderColor #1281ac
+    LifeLineBackgroundColor #1281ac
+    LifeLineFontColor  #1281ac
+    ParticipantBorderColor #1281ac
+    ParticipantBackgroundColor white
+    ParticipantFontSize 14
+    ParticipantFontStyle bold
+    ParticipantFontName Roboto
+    ParticipantFontColor #1281ac
+    ParticipantBorderThickness 2
+    ReferenceBorderThickness 2
+    TitleFontColor #1281ac
+    TitleFontName Roboto
+    TitleFontSize 18
+    TitleBorderThickness 5
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam activity {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam cloud {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam component {
+  BackgroundColor  #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam database {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam frame {
+  ArrowColor #1281ac
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 4
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam node {
+  ArrowColor #1281ac
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam package {
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam partition {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+
+@enduml
+
+PlantUML version 1.2022.13(Sat Nov 19 14:22:17 CET 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

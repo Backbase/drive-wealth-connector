@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "AAPL",
+    "bid": 134.7,
+    "ask": 134.71,
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "timeOffset": 1673845200229,
+    "volume": 0,
+    "askSize": 0,
+    "bidSize": 0,
+    "lastTradeExchange": "PA",
+    "bestBidExchange": "UNK",
+    "bestAskExchange": "UNK",
+    "lastTrade": 134.76,
+    "lastTradeSize": 5,
+    "marketCondition": "NORMAL",
+    "tradeCount": 0,
+    "close": 134.76,
+    "priorClose": 133.41
+  }
+]

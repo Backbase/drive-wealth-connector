@@ -1,0 +1,6754 @@
+{
+  "positions": [
+    {
+      "externalId": "1",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "2",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "3",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "4",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "5",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "6",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "7",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "8",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "9",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "10",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "11",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "12",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "13",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "641531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "14",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "641531316",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "15",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "641531316",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "16",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "17",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "18",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "19",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "20",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "21",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "22",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "23",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "24",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "25",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "26",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "27",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "28",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "027105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "29",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "027105943",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "30",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "027105943",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "116",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "117",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "118",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "119",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "120",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "121",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "122",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "123",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "124",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "125",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "126",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "127",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "128",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "127105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "129",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "127105943",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "130",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "127105943",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "216",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "217",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "218",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "219",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "220",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "221",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "222",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "223",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "224",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "225",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "226",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "227",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "228",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "227105943",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "229",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "227105943",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "230",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "227105943",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "316",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "317",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "318",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "319",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "320",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "321",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "322",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "323",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "324",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "325",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "326",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "327",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "328",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "371362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "329",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "371362585",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "330",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "371362585",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "416",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "417",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "418",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "419",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "420",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "421",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "422",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "423",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "424",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "425",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "426",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "427",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "428",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "471362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "429",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "471362585",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "430",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "471362585",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "516",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "517",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "518",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "519",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "520",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "521",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "522",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "523",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "524",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "525",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "526",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "527",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "528",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "495696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "529",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "495696898",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "530",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "495696898",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "616",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "617",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "618",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "619",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "620",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "621",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "622",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "623",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "624",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "625",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "626",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "627",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "628",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "571362585",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "629",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "571362585",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "630",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "571362585",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "716",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "717",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "718",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "719",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "720",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "721",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "722",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "723",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "724",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "725",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "726",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "727",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "728",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "595696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "729",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "595696898",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "730",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "595696898",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "816",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "817",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "818",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "819",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "820",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "821",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "822",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "823",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "824",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "825",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "826",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "827",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "828",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "695696898",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "829",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "695696898",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "830",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "695696898",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "916",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "917",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "918",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "919",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "920",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "921",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "922",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "923",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "924",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "925",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "926",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "927",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "928",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "741531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "929",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "741531316",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "930",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "741531316",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1016",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1017",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1018",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1019",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1020",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1021",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1022",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1023",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1024",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1025",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1026",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1027",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1028",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "764204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1029",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "764204256",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1030",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "764204256",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1116",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1117",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1118",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1119",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1120",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1121",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1122",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1123",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1124",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1125",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1126",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1127",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1128",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "841531316",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1129",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "841531316",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1130",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "841531316",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1216",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1217",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1218",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1219",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1220",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1221",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1222",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1223",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1224",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1225",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1226",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1227",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1228",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "864204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1229",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "864204256",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1230",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "864204256",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1316",
+      "instrumentId": "5b85fabb-d57c-44e6-a7f6-a3efc760226c",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -20,
+      "unrealizedPL": {
+        "amount": -30,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1317",
+      "instrumentId": "e234cc98-cd08-4b04-a388-fe5c822beea6",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": -150,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1318",
+      "instrumentId": "f5d33698-92d3-4d3c-be3a-5161e8f579b7",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 110,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 10,
+      "unrealizedPL": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1319",
+      "instrumentId": "06926627-e950-48f3-9c53-b679f61120ec",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1320",
+      "instrumentId": "a67422af-8504-43df-9e63-7361eb0bd99e",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1321",
+      "instrumentId": "8c04a620-d99e-4b5e-adb5-f5228a3af799",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 100,
+      "unrealizedPL": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1322",
+      "instrumentId": "79184742-c9a0-4757-8ebb-dd416fd8ad0c",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1323",
+      "instrumentId": "18c68a43-c948-4c13-a0fb-1061645047af",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 33.3,
+      "unrealizedPL": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1324",
+      "instrumentId": "7fffb3c0-f401-4a8a-9233-18f56517a0f7",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 600,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 400,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 50,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1325",
+      "instrumentId": "6830ca80-81e8-11e2-9e96-0800200c9a66",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 150,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -25,
+      "unrealizedPL": {
+        "amount": -50,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1326",
+      "instrumentId": "a18de4c7-f21f-4c88-b78d-289660773208",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 500,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -500,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1327",
+      "instrumentId": "ca33741d-19e5-41fa-bf30-d303ec9c71be",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -50,
+      "unrealizedPL": {
+        "amount": -100,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1328",
+      "instrumentId": "067e00c6-b55a-4576-b6cd-e699add6ead5",
+      "portfolioCode": "964204256",
+      "quantity": 1,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 300,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 0,
+      "unrealizedPL": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1329",
+      "instrumentId": "639247b6-cbcd-4616-841d-890dbb926575",
+      "portfolioCode": "964204256",
+      "quantity": 3,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 1200,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 1000,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": 20,
+      "unrealizedPL": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    },
+    {
+      "externalId": "1330",
+      "instrumentId": "a5aeb6ee-49cd-48de-b12a-4f4c64958cd5",
+      "portfolioCode": "964204256",
+      "quantity": 10,
+      "absolutePerformance": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "relativePerformance": 0,
+      "valuation": {
+        "amount": 90,
+        "currencyCode": "USD"
+      },
+      "purchasePrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "costPrice": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "unrealizedPLPct": -10,
+      "unrealizedPL": {
+        "amount": -10,
+        "currencyCode": "USD"
+      },
+      "percentPortfolio": 0,
+      "positionType": "cash"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Model & Ingest Product Catalog (accounts) json in bootstrap
+
+## Table of Contents 
+ -- [User Story](#user-story)
+-- [Sequence Diagram](#sequence-diagram)
+-- [Ingest Product Catalog](#ingest-product-catalog)
+-- [Pull Request](#pull-request)
+## User Story
+
+[https://backbase.atlassian.net/browse/MWM-36](https://backbase.atlassian.net/browse/MWM-36) 
+
+## Sequence Diagram
+
+![tLXHJ-D647xthnXn3scbXW17JoUaguu4w9t4jOZGfxOFOtlYh5ZlkhjZI5hrltVjEC6PB5GdeHF220lDDplpVJEptXKVFQFZkjJ9OCvS-PFHgD9e6ij-PikHfxzgCXaDSuM5mp99MB4c65lBdXrMSELiNcSyGKPj2r06piRJ16ksfYvJSec_LQR2i1PAN7mXxx6WgVgRuDt1GPAaTW5xAMQtANeQfkkmGqP_kvTS1N8gKrLW-20221228-10263](./attachments/tLXHJ-D647xthnXn3scbXW17JoUaguu4w9t4jOZGfxOFOtlYh5ZlkhjZI5hrltVjEC6PB5GdeHF220lDDplpVJEptXKVFQFZkjJ9OCvS-PFHgD9e6ij-PikHfxzgCXaDSuM5mp99MB4c65lBdXrMSELiNcSyGKPj2r06piRJ16ksfYvJSec_LQR2i1PAN7mXxx6WgVgRuDt1GPAaTW5xAMQtANeQfkkmGqP_kvTS1N8gKrLW-20221228-10263)
+PlantUML Server URL: [http://www.plantuml.com/plantuml/uml/tLZRRkCs47tNLmoo3sw1EhTD5ui0Mo1saku2sJQ8qgUs3vGqjeb8f4fIYRr5_xr3tKpHb1UB1aKG6mu2dk7CESCPaj9aPKofpu-Eofm9KnNvOIgB8ur_LIXId6QSBHKheiXmaoFCf3JQA5R2hP9PbPevCooNI-02BcTnn2eZHLKag2Bzm4N9Q2uKRFqPjMPBZFaNX7V7nr6Ko3KS92nzI9Z6QTAvdHgc7mwYMwOCJtb9ZE0WHbELDxXa-PKW5fkF71LJwMepbsB1bvLYXajn04o39eflShvScIIlC4AH0GLgeytQQ10RXQpmefG3FJ6gHvvYxRHCzTUTUjue5_27k52AYIKMI4EVcQ04gDfZbeGzMlhJdseLvp1VOVe0dnRmUvUcGrqJF-opTTYIdgODworoXrfMAaLz9LYIOmOVFi2zgl3FYEK6FX4fRPC6BTn5jbBFGTk43zStiWWPMERdK4fjMboJpDjVutkWagbJDcKbFteyFMgfwLeT1ILrAQCeL0nmSdny34yyCokdIgpAfPALoEOobmgULjoWWyShbiadBfQmOBbsaPcTnDHcvdcWH0XD9fJ-aBLK6Qh6yit9wViJbZfMbqtTxpVASC6gtDpZsbpGSefweLFwCoZ_kEsbjWTgorshEroWicPDoFiLJny4pO3JoB7g-XB-ZYQ_KSOriBfuI9BYgE4xMtWB8ejhLfGvVXy1VIvI8vNlzwqF3LLkmJrPxOskfJ0Zyotq2oiGxcGYZHm2iTbGJIGopxnnkr6Sd3M3Imhbi-Z2JAZ7v9Dk3Es_8qmwQE2u7_HOsF4H7-wwsC4xJ0trU8xXzCxaUeVvugtzzd0WzvCvArd2SzhiEhEmh1RmqziEUxAwqJe3xzgXSESCOuptYukFCRIbkGcpR2R6r0WepQR4i8jvphGUYpwNHIc5BP0HWql-o0cO1NSNr-0hyuFBsu9XtWxeItUWUZdwDNA1UlMeL2Tm8sMf8QaC26d0h12QqzZGnbDF-vcKbMCA7D2ltXeA4Um1jr_wGQzQxtiozTQJMxRR2H-HZQR8CmYosC8xN1neMEetV84tNE1OIdfyJzrtDblcMyNjzQ1HwHpyO_5Saz52T8nyjJuqLEkXVXOzU3-xO9diEPiiFA5V_CGBka2EMDGL4WxUGpxj7cWIyNuxwCVuCVh7EIAfHUpnIFkBlxZNzSSYmMNotPxGM6meDpk6R6VkrMu5XUJkwXokjBUuhYoM6jeRpEPPf9szA6cgEqDVeROqbrNsAdNHeVngscnoJVDrjwaxAhlRHL3fDqizVJQ-6JsMsKT2bsmt5bwL_jRvVrErgUtlitp0UA6i9qitUEN-hnhEdaq3NAtfaYfO3dgZ3HRQlk-mxo3ex4vDfH3QzoHwS11b-yG54lwjhVJCFLrIU7f0RUhdfT2Rs8V2vkJhSln3VStC-AA-bT0JTxYwIdkjgTzolAY6-1S0](http://www.plantuml.com/plantuml/uml/tLZRRkCs47tNLmoo3sw1EhTD5ui0Mo1saku2sJQ8qgUs3vGqjeb8f4fIYRr5_xr3tKpHb1UB1aKG6mu2dk7CESCPaj9aPKofpu-Eofm9KnNvOIgB8ur_LIXId6QSBHKheiXmaoFCf3JQA5R2hP9PbPevCooNI-02BcTnn2eZHLKag2Bzm4N9Q2uKRFqPjMPBZFaNX7V7nr6Ko3KS92nzI9Z6QTAvdHgc7mwYMwOCJtb9ZE0WHbELDxXa-PKW5fkF71LJwMepbsB1bvLYXajn04o39eflShvScIIlC4AH0GLgeytQQ10RXQpmefG3FJ6gHvvYxRHCzTUTUjue5_27k52AYIKMI4EVcQ04gDfZbeGzMlhJdseLvp1VOVe0dnRmUvUcGrqJF-opTTYIdgODworoXrfMAaLz9LYIOmOVFi2zgl3FYEK6FX4fRPC6BTn5jbBFGTk43zStiWWPMERdK4fjMboJpDjVutkWagbJDcKbFteyFMgfwLeT1ILrAQCeL0nmSdny34yyCokdIgpAfPALoEOobmgULjoWWyShbiadBfQmOBbsaPcTnDHcvdcWH0XD9fJ-aBLK6Qh6yit9wViJbZfMbqtTxpVASC6gtDpZsbpGSefweLFwCoZ_kEsbjWTgorshEroWicPDoFiLJny4pO3JoB7g-XB-ZYQ_KSOriBfuI9BYgE4xMtWB8ejhLfGvVXy1VIvI8vNlzwqF3LLkmJrPxOskfJ0Zyotq2oiGxcGYZHm2iTbGJIGopxnnkr6Sd3M3Imhbi-Z2JAZ7v9Dk3Es_8qmwQE2u7_HOsF4H7-wwsC4xJ0trU8xXzCxaUeVvugtzzd0WzvCvArd2SzhiEhEmh1RmqziEUxAwqJe3xzgXSESCOuptYukFCRIbkGcpR2R6r0WepQR4i8jvphGUYpwNHIc5BP0HWql-o0cO1NSNr-0hyuFBsu9XtWxeItUWUZdwDNA1UlMeL2Tm8sMf8QaC26d0h12QqzZGnbDF-vcKbMCA7D2ltXeA4Um1jr_wGQzQxtiozTQJMxRR2H-HZQR8CmYosC8xN1neMEetV84tNE1OIdfyJzrtDblcMyNjzQ1HwHpyO_5Saz52T8nyjJuqLEkXVXOzU3-xO9diEPiiFA5V_CGBka2EMDGL4WxUGpxj7cWIyNuxwCVuCVh7EIAfHUpnIFkBlxZNzSSYmMNotPxGM6meDpk6R6VkrMu5XUJkwXokjBUuhYoM6jeRpEPPf9szA6cgEqDVeROqbrNsAdNHeVngscnoJVDrjwaxAhlRHL3fDqizVJQ-6JsMsKT2bsmt5bwL_jRvVrErgUtlitp0UA6i9qitUEN-hnhEdaq3NAtfaYfO3dgZ3HRQlk-mxo3ex4vDfH3QzoHwS11b-yG54lwjhVJCFLrIU7f0RUhdfT2Rs8V2vkJhSln3VStC-AA-bT0JTxYwIdkjgTzolAY6-1S0)  
+
+## Ingest Product Catalog
+
+Ingest the below product types
+
+| External Kind Name     | External Product Kind ID |
+| ---------------------- | ------------------------ |
+| `investment-``account` | `kind8`                  |
+
+
+
+> Stream Product Catelog Example
+>
+> ```json 
+> {
+>       "externalProductId": "investment-account",
+>       "externalProductKindId": "kind6",
+>       "externalProductTypeId": "investment-account",
+>       "typeName": "Investment Account"
+> }
+> ```
+
+## Pull Request
+
+[https://github.com/baas-devops-reference/backbase-bootstrap-task/pull/260](https://github.com/baas-devops-reference/backbase-bootstrap-task/pull/260) 

@@ -1,0 +1,10 @@
+.idea
+target
+*.iml
+telepresence.log
+.DS_Store
+
+.settings
+.classpath
+.factorypath
+.project
