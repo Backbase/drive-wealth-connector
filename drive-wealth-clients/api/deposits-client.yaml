@@ -1,0 +1,111 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Deposits API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Deposits
+    description: Deposits API
+
+paths:
+  /back-office/funding/deposits:
+    post:
+      tags:
+        - Deposits
+      summary: Deposit Funds
+      operationId: depositFunds
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DepositFundsRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DepositFundsResponse'
+
+components:
+  schemas:
+    DepositFundsRequest:
+      type: object
+      properties:
+        accountNo:
+          type: string
+        amount:
+          type: number
+        currency:
+          type: string
+        type:
+          type: string
+        details:
+          type: object
+          properties:
+            accountHolderName:
+              type: string
+            bankAccountType:
+              type: string
+            bankAccountNumber:
+              type: string
+            bankRoutingNumber:
+              type: string
+            country:
+              type: string
+        note:
+          type: string
+    DepositFundsResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        accountNo:
+          type: string
+        category:
+          type: string
+        currency:
+          type: string
+        amount:
+          type: number
+        status:
+          type: object
+          properties:
+            id:
+              type: number
+            message:
+              type: string
+            updated:
+              type: string
+        source:
+          type: object
+          properties:
+            id:
+              type: string
+            brand:
+              type: string
+            meta_info:
+              type: string
+        created:
+          type: string
+        accountID:
+          type: string
+        userID:
+          type: string
+        transactionCode:
+          type: string
+        wlpFinTranTypeID:
+          type: string
+        batch:
+          type: boolean
+        account_number:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: [ ]

@@ -1,0 +1,60 @@
+{
+  "assetClasses": [
+    {
+      "assetClass": {
+        "name": "Equity",
+        "code": "1"
+      },
+      "subAssetClasses": [
+        {
+          "name": "Equity",
+          "code": "EQUITY"
+        },
+        {
+          "name": "ETF",
+          "code": "ETF"
+        },
+        {
+          "name": "ADR",
+          "code": "ADR"
+        }
+      ]
+    },
+    {
+      "assetClass": {
+        "name": "CRYPTO",
+        "code": "2"
+      },
+      "subAssetClasses": [
+        {
+          "name": "CRYPTO",
+          "code": "CRYPTO"
+        }
+      ]
+    },
+    {
+      "assetClass": {
+        "name": "Cash",
+        "code": "3"
+      },
+      "subAssetClasses": [
+        {
+          "name": "Cash",
+          "code": "cash"
+        }
+      ]
+    },
+    {
+      "assetClass": {
+        "name": "Other",
+        "code": "4"
+      },
+      "subAssetClasses": [
+        {
+          "name": "Other",
+          "code": "other"
+        }
+      ]
+    }
+  ]
+}

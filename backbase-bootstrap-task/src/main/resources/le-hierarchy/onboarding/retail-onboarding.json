@@ -1,0 +1,907 @@
+{
+  "name": "Financial Institute Head Office",
+  "externalId": "financial-institute-head-office",
+  "realmName": "employee",
+  "legalEntityType": "BANK",
+  "administrators": [
+    {
+      "externalId": "admin",
+      "fullName": "Admin",
+      "identityLinkStrategy": "CREATE_IN_IDENTITY",
+      "emailAddress": {
+        "address": "admin@email.com"
+      },
+      "mobileNumber": {
+        "number": "1234567890"
+      }
+    }
+  ],
+  "users": [
+    {
+      "user": {
+        "externalId": "admin",
+        "fullName": "Admin",
+        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+        "emailAddress": {
+          "address": "admin@email.com"
+        },
+        "mobileNumber": {
+          "number": "1234567890"
+        }
+      },
+      "referenceJobRoleNames": [
+        "admin"
+      ]
+    }
+  ],
+  "productGroups": [],
+  "referenceJobRoles": [
+    {
+      "name": "admin",
+      "description": "Admin",
+      "functionGroups": [
+        {
+          "name": "admin",
+          "functions": [
+            {
+              "functionId": "1007",
+              "name": "Assign Users",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "edit"
+                }
+              ]
+            },
+            {
+              "functionId": "1009",
+              "name": "Assign Permissions",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1119",
+              "name": "Manage Self-approve Permissions",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1010",
+              "name": "Manage Users",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1011",
+              "name": "Manage Legal Entities",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1013",
+              "name": "Audit",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1019",
+              "name": "Manage Data Groups",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1020",
+              "name": "Manage Function Groups",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1028",
+              "name": "Manage Service Agreements",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1034",
+              "name": "Manage Identities",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1035",
+              "name": "Manage User Profiles",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1049",
+              "name": "Lock User",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1050",
+              "name": "Unlock User",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "approve"
+                }
+              ]
+            },
+            {
+              "functionId": "1051",
+              "name": "Manage Devices",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1066",
+              "name": "Manage Other User's Devices",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1078",
+              "name": "Manage Authorized Users",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                }
+              ]
+            },
+            {
+              "functionId": "1012",
+              "name": "Manage Limits",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1109",
+              "name": "Customer Support - Live Chat",
+              "privileges": [
+                {
+                  "privilege": "execute"
+                },
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1121",
+              "name": "Manage Chat Queues",
+              "privileges": [
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1122",
+              "name": "Manage Chat Queue Assignments",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "metadata" : {"wizard_label": "limited_access"}
+    },
+    {
+      "name": "Case Manager - All permissions",
+      "description": "Case Manager - All permissions",
+      "functionGroups": [
+        {
+          "name": "Case Manager - All permissions",
+          "functions": [
+            {
+              "functionId": "1035",
+              "name": "Manage User Profiles",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1054",
+              "name": "Manage Case",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1055",
+              "name": "Archive Case",
+              "privileges": [
+                {
+                  "privilege": "execute"
+                }
+              ]
+            },
+            {
+              "functionId": "1056",
+              "name": "Manage Case Documents",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1057",
+              "name": "Manage Case Comments",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1058",
+              "name": "Access Case Changelog",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1059",
+              "name": "Access Case Statistics",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1060",
+              "name": "Access Journey Statistics",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1061",
+              "name": "Access Journey Definitions",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1062",
+              "name": "Assign Task",
+              "privileges": [
+                {
+                  "privilege": "execute"
+                }
+              ]
+            },
+            {
+              "functionId": "1063",
+              "name": "Manage Task Dates",
+              "privileges": [
+                {
+                  "privilege": "view"
+                },
+                {
+                  "privilege": "edit"
+                },
+                {
+                  "privilege": "create"
+                },
+                {
+                  "privilege": "delete"
+                }
+              ]
+            },
+            {
+              "functionId": "1064",
+              "name": "Manage Task",
+              "privileges": [
+                {
+                  "privilege": "execute"
+                },
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1072",
+              "name": "Access Task Statistics",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1077",
+              "name": "Access Collections",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Case Manager - Read only permissions",
+      "description": "Case Manager - Read only permissions",
+      "functionGroups": [
+        {
+          "name": "Case Manager - Read only permissions",
+          "functions": [
+            {
+              "functionId": "1035",
+              "name": "Manage User Profiles",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1054",
+              "name": "Manage Case",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1056",
+              "name": "Manage Case Documents",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1057",
+              "name": "Manage Case Comments",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1058",
+              "name": "Access Case Changelog",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1059",
+              "name": "Access Case Statistics",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1060",
+              "name": "Access Journey Statistics",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1061",
+              "name": "Access Journey Definitions",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1063",
+              "name": "Manage Task Dates",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1064",
+              "name": "Manage Task",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1072",
+              "name": "Access Task Statistics",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            },
+            {
+              "functionId": "1077",
+              "name": "Access Collections",
+              "privileges": [
+                {
+                  "privilege": "view"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsidiaries": [
+    {
+      "name": "Financial Institute Branch 1",
+      "realmName": "employee",
+      "externalId": "financial-institute-branch1",
+      "legalEntityType": "BANK",
+      "administrators": [
+        {
+          "externalId": "fib1sa01",
+          "fullName": "Lisa Morelli",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "fib1sa01@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        },
+        {
+          "externalId": "fib1sa02",
+          "fullName": "Bert Right",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "fib1sa02@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "fib1sa01",
+            "fullName": "Lisa Morelli",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "fib1sa01@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "fib1sa02",
+            "fullName": "Bert Right",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "fib1sa02@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "jbranch",
+            "fullName": "Jane Branch",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jbranch@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "pwilcox",
+            "fullName": "Paul Wilcox",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "pwilcox@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "pduke",
+            "fullName": "Philip Duke",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "pduke@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "gmorrison",
+            "fullName": "Gayle Morrison",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "gmorrison@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "fib1amelia",
+            "fullName": "Amelia Longhurst",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "fib1amelia@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "fib1dikshant",
+            "fullName": "Dikshant Bhatia",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "fib1dikshant@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "fib1ramya",
+            "fullName": "Ramya Kappini",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "fib1ramyak@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "fib1elwin",
+            "fullName": "Elwin Lau",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "fib1elwin@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Case Manager - All permissions"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "name": "Retail Onboarding - Definitions",
+          "description": "Retail Onboarding - Definitions",
+          "productGroupType": "CUSTOM",
+          "customDataGroupItems": [
+            {
+              "internalId": "case-definition:onboarding"
+            },
+            {
+              "internalId": "process-definition:us-onboarding"
+            },
+            {
+              "internalId": "process-definition:aml"
+            },
+            {
+              "internalId": "process-definition:idv"
+            },
+            {
+              "internalId": "process-definition:archive-case"
+            },
+            {
+              "internalId": "process-definition:citizenship"
+            },
+            {
+              "internalId": "process-definition:data-gat-complete"
+            },
+            {
+              "internalId": "process-definition:co-applicant"
+            },
+            {
+              "internalId": "decision-definition:age-verification"
+            },
+            {
+              "internalId": "decision-definition:aml-check"
+            },
+            {
+              "internalId": "decision-definition:idv-check-full"
+            },
+            {
+              "internalId": "decision-definition:idv-check-id"
+            },
+            {
+              "internalId": "decision-definition:kyx-check-full"
+            },
+            {
+              "internalId": "decision-definition:kyx-check-id"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial Institute Branch 2",
+      "realmName": "employee",
+      "externalId": "financial-institute-branch2",
+      "legalEntityType": "BANK",
+      "administrators": [],
+      "users": [],
+      "productGroups": []
+    }
+  ]
+}

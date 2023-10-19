@@ -1,0 +1,845 @@
+[
+  {
+    "portfolio": {
+      "code": "227105943",
+      "arrangementId": "227105943",
+      "name": "Trading Portfolio",
+      "alias": "Trading Portfolio",
+      "iban": "227105943",
+      "valuation": {
+        "amount": 100000,
+        "currencyCode": "USD"
+      },
+      "ytdPerformance": 0,
+      "ytdPerformanceValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "mtdPerformanceValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "inValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "outValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "netValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "valuationRefreshDate": "2023-01-09T00:00:00.000Z",
+      "managers": [
+        {
+          "id": "1234",
+          "name": "Kevin Clark",
+          "link": "kevinClarke@modelbank.com"
+        }
+      ],
+      "attorneys": [
+        {
+          "id": "123",
+          "name": "John Doe",
+          "link": "johnDoe@modelbank.com"
+        }
+      ]
+    },
+    "allocations": [
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Equity",
+        "allocationPct": 75,
+        "valuation": {
+          "amount": 75000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 75000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Cash",
+        "allocationPct": 25,
+        "valuation": {
+          "amount": 25000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 25000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_REGION",
+        "classifierType": "REGION",
+        "classifierName": "North America",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 100000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "COUNTRY",
+            "classifierName": "US",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 100000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_CURRENCY",
+        "classifierType": "CURRENCY",
+        "classifierName": "USD",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 100000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Equity",
+            "allocationPct": 75,
+            "valuation": {
+              "amount": 75000,
+              "currencyCode": "USD"
+            }
+          },
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Cash",
+            "allocationPct": 25,
+            "valuation": {
+              "amount": 25000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      }
+    ],
+    "hierarchies": [
+      {
+        "itemType": "ASSET_CLASS",
+        "externalId": "1",
+        "name": "Equity",
+        "percentOfParent": 100,
+        "percentOfPortfolio": 75,
+        "performance": 0,
+        "unrealizedPL": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "valuation": {
+          "amount": 75000,
+          "currencyCode": "USD"
+        },
+        "accruedInterest": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "items": [
+          {
+            "itemType": "REGION",
+            "externalId": "na",
+            "name": "North America",
+            "percentOfParent": "100",
+            "percentOfPortfolio": 75,
+            "performance": 0,
+            "unrealizedPL": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "valuation": {
+              "amount": 75000,
+              "currencyCode": "USD"
+            },
+            "accruedInterest": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "items": [
+              {
+                "itemType": "COUNTRY",
+                "externalId": "us",
+                "name": "United States",
+                "percentOfParent": "100",
+                "percentOfPortfolio": 75,
+                "performance": 0,
+                "unrealizedPL": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                },
+                "valuation": {
+                  "amount": 75000,
+                  "currencyCode": "USD"
+                },
+                "accruedInterest": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "portfolio": {
+      "code": "571362585",
+      "arrangementId": "571362585",
+      "name": "Retirement Portfolio",
+      "alias": "Retirement Portfolio",
+      "iban": "571362585",
+      "riskLevel": "Medium",
+      "valuation": {
+        "amount": 40000,
+        "currencyCode": "USD"
+      },
+      "ytdPerformance": 0,
+      "ytdPerformanceValue": {
+        "amount": 40000,
+        "currencyCode": "USD"
+      },
+      "mtdPerformanceValue": {
+        "amount": 40000,
+        "currencyCode": "USD"
+      },
+      "inValue": {
+        "amount": 40000,
+        "currencyCode": "USD"
+      },
+      "outValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "netValue": {
+        "amount": 40000,
+        "currencyCode": "USD"
+      },
+      "valuationRefreshDate": "2023-01-09T00:00:00.000Z",
+      "managers": [
+        {
+          "id": "1234",
+          "name": "Kevin Clark",
+          "link": "kevinClarke@modelbank.com"
+        }
+      ],
+      "attorneys": [
+        {
+          "id": "123",
+          "name": "John Doe",
+          "link": "johnDoe@modelbank com"
+        }
+      ]
+    },
+    "allocations": [
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Equity",
+        "allocationPct": 75,
+        "valuation": {
+          "amount": 30000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 30000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Cash",
+        "allocationPct": 25,
+        "valuation": {
+          "amount": 10000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 10000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_REGION",
+        "classifierType": "REGION",
+        "classifierName": "North America",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 40000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "COUNTRY",
+            "classifierName": "US",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 40000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_CURRENCY",
+        "classifierType": "CURRENCY",
+        "classifierName": "USD",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 40000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Equity",
+            "allocationPct": 75,
+            "valuation": {
+              "amount": 30000,
+              "currencyCode": "USD"
+            }
+          },
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Cash",
+            "allocationPct": 25,
+            "valuation": {
+              "amount": 10000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      }
+    ],
+    "hierarchies": [
+      {
+        "itemType": "ASSET_CLASS",
+        "externalId": "1",
+        "name": "Equity",
+        "percentOfParent": 100,
+        "percentOfPortfolio": 75,
+        "performance": 0,
+        "unrealizedPL": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "valuation": {
+          "amount": 30000,
+          "currencyCode": "USD"
+        },
+        "accruedInterest": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "items": [
+          {
+            "itemType": "REGION",
+            "externalId": "na",
+            "name": "North America",
+            "percentOfParent": "100",
+            "percentOfPortfolio": 75,
+            "performance": 0,
+            "unrealizedPL": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "valuation": {
+              "amount": 30000,
+              "currencyCode": "USD"
+            },
+            "accruedInterest": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "items": [
+              {
+                "itemType": "COUNTRY",
+                "externalId": "us",
+                "name": "United States",
+                "percentOfParent": "100",
+                "percentOfPortfolio": 75,
+                "performance": 0,
+                "unrealizedPL": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                },
+                "valuation": {
+                  "amount": 30000,
+                  "currencyCode": "USD"
+                },
+                "accruedInterest": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "portfolio": {
+      "code": "695696898",
+      "arrangementId": "695696898",
+      "name": "Investment Portfolio",
+      "alias": "Investment Portfolio",
+      "iban": "695696898",
+      "riskLevel": "Medium",
+      "valuation": {
+        "amount": 200000,
+        "currencyCode": "USD"
+      },
+      "ytdPerformance": 0,
+      "ytdPerformanceValue": {
+        "amount": 200000,
+        "currencyCode": "USD"
+      },
+      "mtdPerformanceValue": {
+        "amount": 200000,
+        "currencyCode": "USD"
+      },
+      "inValue": {
+        "amount": 200000,
+        "currencyCode": "USD"
+      },
+      "outValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "netValue": {
+        "amount": 200000,
+        "currencyCode": "USD"
+      },
+      "valuationRefreshDate": "2023-01-09T00:00:00.000Z",
+      "managers": [
+        {
+          "id": "1234",
+          "name": "Kevin Clark",
+          "link": "kevinClarke@modelbank.com"
+        }
+      ],
+      "attorneys": [
+        {
+          "id": "123",
+          "name": "John Doe",
+          "link": "johnDoe@modelbank com"
+        }
+      ]
+    },
+    "allocations": [
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Equity",
+        "allocationPct": 75,
+        "valuation": {
+          "amount": 150000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 150000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Cash",
+        "allocationPct": 25,
+        "valuation": {
+          "amount": 50000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 50000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_REGION",
+        "classifierType": "REGION",
+        "classifierName": "North America",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 200000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "COUNTRY",
+            "classifierName": "US",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 200000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_CURRENCY",
+        "classifierType": "CURRENCY",
+        "classifierName": "USD",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 200000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Equity",
+            "allocationPct": 75,
+            "valuation": {
+              "amount": 150000,
+              "currencyCode": "USD"
+            }
+          },
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Cash",
+            "allocationPct": 25,
+            "valuation": {
+              "amount": 50000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      }
+    ],
+    "hierarchies": [
+      {
+        "itemType": "ASSET_CLASS",
+        "externalId": "1",
+        "name": "Equity",
+        "percentOfParent": 100,
+        "percentOfPortfolio": 75,
+        "performance": 0,
+        "unrealizedPL": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "valuation": {
+          "amount": 150000,
+          "currencyCode": "USD"
+        },
+        "accruedInterest": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "items": [
+          {
+            "itemType": "REGION",
+            "externalId": "na",
+            "name": "North America",
+            "percentOfParent": "100",
+            "percentOfPortfolio": 75,
+            "performance": 0,
+            "unrealizedPL": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "valuation": {
+              "amount": 150000,
+              "currencyCode": "USD"
+            },
+            "accruedInterest": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "items": [
+              {
+                "itemType": "COUNTRY",
+                "externalId": "us",
+                "name": "United States",
+                "percentOfParent": "100",
+                "percentOfPortfolio": 75,
+                "performance": 0,
+                "unrealizedPL": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                },
+                "valuation": {
+                  "amount": 150000,
+                  "currencyCode": "USD"
+                },
+                "accruedInterest": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "portfolio": {
+      "code": "841531316",
+      "arrangementId": "841531316",
+      "name": "College Portfolio",
+      "alias": "College Portfolio",
+      "iban": "841531316",
+      "riskLevel": "",
+      "valuation": {
+        "amount": 10000,
+        "currencyCode": "USD"
+      },
+      "ytdPerformance": 0,
+      "ytdPerformanceValue": {
+        "amount": 10000,
+        "currencyCode": "USD"
+      },
+      "mtdPerformanceValue": {
+        "amount": 10000,
+        "currencyCode": "USD"
+      },
+      "inValue": {
+        "amount": 10000,
+        "currencyCode": "USD"
+      },
+      "outValue": {
+        "amount": 0,
+        "currencyCode": "USD"
+      },
+      "netValue": {
+        "amount": 10000,
+        "currencyCode": "USD"
+      },
+      "valuationRefreshDate": "2023-01-09T00:00:00.000Z",
+      "managers": [
+        {
+          "id": "1234",
+          "name": "Kevin Clark",
+          "link": "kevinClarke@modelbank.com"
+        }
+      ],
+      "attorneys": [
+        {
+          "id": "123",
+          "name": "John Doe",
+          "link": "johnDoe@modelbank com"
+        }
+      ]
+    },
+    "allocations": [
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Equity",
+        "allocationPct": 75,
+        "valuation": {
+          "amount": 7500,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 7500,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_ASSET_CLASS",
+        "classifierType": "ASSET_CLASS",
+        "classifierName": "Cash",
+        "allocationPct": 25,
+        "valuation": {
+          "amount": 2500,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "CURRENCY",
+            "classifierName": "USD",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 2500,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_REGION",
+        "classifierType": "REGION",
+        "classifierName": "North America",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 10000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "COUNTRY",
+            "classifierName": "US",
+            "allocationPct": 100,
+            "valuation": {
+              "amount": 10000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "allocationType": "BY_CURRENCY",
+        "classifierType": "CURRENCY",
+        "classifierName": "USD",
+        "allocationPct": 100,
+        "valuation": {
+          "amount": 10000,
+          "currencyCode": "USD"
+        },
+        "allocations": [
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Equity",
+            "allocationPct": 75,
+            "valuation": {
+              "amount": 7500,
+              "currencyCode": "USD"
+            }
+          },
+          {
+            "classifierType": "ASSET_CLASS",
+            "classifierName": "Cash",
+            "allocationPct": 25,
+            "valuation": {
+              "amount": 2500,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      }
+    ],
+    "hierarchies": [
+      {
+        "itemType": "ASSET_CLASS",
+        "externalId": "1",
+        "name": "Equity",
+        "percentOfParent": 100,
+        "percentOfPortfolio": 75,
+        "performance": 0,
+        "unrealizedPL": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "valuation": {
+          "amount": 7500,
+          "currencyCode": "USD"
+        },
+        "accruedInterest": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "items": [
+          {
+            "itemType": "REGION",
+            "externalId": "na",
+            "name": "North America",
+            "percentOfParent": "100",
+            "percentOfPortfolio": 75,
+            "performance": 0,
+            "unrealizedPL": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "valuation": {
+              "amount": 7500,
+              "currencyCode": "USD"
+            },
+            "accruedInterest": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "items": [
+              {
+                "itemType": "COUNTRY",
+                "externalId": "us",
+                "name": "United States",
+                "percentOfParent": "100",
+                "percentOfPortfolio": 75,
+                "performance": 0,
+                "unrealizedPL": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                },
+                "valuation": {
+                  "amount": 7500,
+                  "currencyCode": "USD"
+                },
+                "accruedInterest": {
+                  "amount": 0,
+                  "currencyCode": "USD"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

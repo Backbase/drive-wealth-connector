@@ -1,0 +1,48 @@
+{
+  "arrangementId": null,
+  "name": null,
+  "alias": null,
+  "riskLevel": null,
+  "valuation": {
+    "amount": 15266.71,
+    "currencyCode": "USD"
+  },
+  "ytdPerformance": 0.0,
+  "ytdPerformanceValue": {
+    "amount": 0.0,
+    "currencyCode": "USD"
+  },
+  "mtdPerformance": 0.0,
+  "mtdPerformanceValue": {
+    "amount": 0.0,
+    "currencyCode": "USD"
+  },
+  "inValue": {
+    "amount": 0.0,
+    "currencyCode": "USD"
+  },
+  "outValue": {
+    "amount": 0.0,
+    "currencyCode": "USD"
+  },
+  "netValue": {
+    "amount": 0.0,
+    "currencyCode": "USD"
+  },
+  "managers": [
+    {
+      "id": null,
+      "name": "Test Manager Name",
+      "link": null
+    }
+  ],
+  "attorneys": [
+    {
+      "id": null,
+      "name": "Test Attorney Name",
+      "link": null
+    }
+  ],
+  "valuationRefreshDate": 1679578650.673577000,
+  "additions": null
+}

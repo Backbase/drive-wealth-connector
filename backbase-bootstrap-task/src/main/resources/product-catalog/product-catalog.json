@@ -1,0 +1,40 @@
+{
+  "productTypes": [
+    {
+      "externalProductId": "current-account",
+      "externalProductKindId": "kind1",
+      "externalProductTypeId": "current-account",
+      "typeName": "Current Account"
+    },
+    {
+      "externalProductId": "savings-account",
+      "externalProductKindId": "kind2",
+      "externalProductTypeId": "savings-account",
+      "typeName": "Savings Account"
+    },
+    {
+      "externalProductId": "debit-card",
+      "externalProductKindId": "kind3",
+      "externalProductTypeId": "debit-card",
+      "typeName": "Debit Card"
+    },
+    {
+      "externalProductId": "credit-card",
+      "externalProductKindId": "kind4",
+      "externalProductTypeId": "credit-card",
+      "typeName": "Credit Card"
+    },
+    {
+      "externalProductId": "loan",
+      "externalProductKindId": "kind5",
+      "externalProductTypeId": "loan",
+      "typeName": "Loan"
+    },
+    {
+      "externalProductId": "investment-account",
+      "externalProductKindId": "kind7",
+      "externalProductTypeId": "investment-account",
+      "typeName": "Investment Account"
+    }
+  ]
+}

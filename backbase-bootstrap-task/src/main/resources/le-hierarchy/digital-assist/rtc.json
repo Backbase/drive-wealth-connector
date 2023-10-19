@@ -1,0 +1,337 @@
+{
+    "name": "Financial Institute Head Office",
+    "externalId": "financial-institute-head-office",
+    "realmName": "employee",
+    "legalEntityType": "BANK",
+    "administrators": [
+        {
+            "externalId": "admin",
+            "fullName": "Admin",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+                "address": "admin@email.com"
+            },
+            "mobileNumber": {
+                "number": "1234567890"
+            }
+        }
+    ],
+    "users": [
+        {
+            "user": {
+                "externalId": "admin",
+                "fullName": "Admin",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "admin@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": []
+        },
+        {
+            "user": {
+                "externalId": "fisa01",
+                "fullName": "Wilma Croft",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "fisa01@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Admin - RTC"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "fisa02",
+                "fullName": "Brian Wislon",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "fisa02@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Admin - RTC"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "jbank",
+                "fullName": "John Bank",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "jbank@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - RTC"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "ahead",
+                "fullName": "Anna Head",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "ahead@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - RTC"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "fhanson",
+                "fullName": "Fritz Hanson",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "fhanson@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - RTC"
+            ]
+        }
+    ],
+    "productGroups": [],
+    "referenceJobRoles": [
+        {
+            "name": "Bank Admin - RTC",
+            "description": "RTC Permissions for Bank Admins",
+            "functionGroups": [
+                {
+                    "name": "Bank Admin - RTC",
+                    "functions": [
+                        {
+                            "functionId": "1109", 
+                            "name": "Customer Support - Live Chat",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                },
+                                {
+                                    "privilege": "view"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1110", 
+                            "name": "Customer Support - Voice Call",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1123",
+                            "name": "Transfer Chat",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1121",
+                            "name": "Manage Chat Queues",
+                            "privileges": [
+                                {
+                                    "privilege": "view"
+                                },
+                                {
+                                    "privilege": "create"
+                                },
+                                {
+                                    "privilege": "edit"
+                                },
+                                {
+                                    "privilege": "delete"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1122",
+                            "name": "Manage Chat Queue Assignments",
+                            "privileges": [
+                                {
+                                    "privilege": "view"
+                                },
+                                {
+                                    "privilege": "edit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bank Employee - RTC",
+            "description": "RTC Permissions for Bank Employees",
+            "functionGroups": [
+                {
+                    "name": "Bank Employee - RTC",
+                    "functions": [
+                        {
+                            "functionId": "1109", 
+                            "name": "Customer Support - Live Chat",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                },
+                                {
+                                    "privilege": "view"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1110", 
+                            "name": "Customer Support - Voice Call",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1123",
+                            "name": "Transfer Chat",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "subsidiaries": [
+        {
+            "name": "Financial Institute Branch 1",
+            "realmName": "employee",
+            "externalId": "financial-institute-branch1",
+            "legalEntityType": "BANK",
+            "users": [
+                {
+                    "user": {
+                        "externalId": "fib1sa01",
+                        "fullName": "Lisa Morelli",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "fib1sa01@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Admin - RTC"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "fib1sa02",
+                        "fullName": "Bert Right",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "fib1sa02@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Admin - RTC"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "jbranch",
+                        "fullName": "Jane Branch",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "jbranch@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - RTC"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "pwilcox",
+                        "fullName": "Paul Wilcox",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "pwilcox@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - RTC"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "pduke",
+                        "fullName": "Philip Duke",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "pduke@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - RTC"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "gmorrison",
+                        "fullName": "Gayle Morrison",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "gmorrison@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - RTC"
+                    ]
+                }
+            ],
+            "productGroups": []
+        }
+    ]
+}

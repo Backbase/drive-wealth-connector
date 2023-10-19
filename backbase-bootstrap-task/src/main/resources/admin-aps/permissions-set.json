@@ -1,0 +1,154 @@
+{
+  "name": "Modelbank Admin APS",
+  "description": "ADMIN user Assignable Permission Set",
+  "permissions": [
+    {
+      "functionId": "1007",
+      "privileges": [
+        "view",
+        "create",
+        "edit"
+      ]
+    },
+    {
+      "functionId": "1009",
+      "privileges": [
+        "approve",
+        "create",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1010",
+      "privileges": [
+        "view"
+      ]
+    },
+    {
+      "functionId": "1011",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1012",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1013",
+      "privileges": [
+        "view"
+      ]
+    },
+    {
+      "functionId": "1019",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1020",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1032",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1033",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1038",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1039",
+      "privileges": [
+        "approve",
+        "create",
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1051",
+      "privileges": [
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1066",
+      "privileges": [
+        "delete",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1114",
+      "privileges": [
+        "approve",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1119",
+      "privileges": [
+        "approve",
+        "edit",
+        "view"
+      ]
+    },
+    {
+      "functionId": "1028",
+      "privileges": [
+        "view",
+        "edit"
+      ]
+    }
+  ]
+}

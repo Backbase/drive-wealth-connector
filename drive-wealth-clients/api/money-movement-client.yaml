@@ -1,0 +1,234 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Money Movement API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Money
+    description: Money Movement API.
+  - name: Deposits
+    description: Deposits API.
+  - name: Withdrawals
+    description: Withdrawals API.
+
+paths:
+  /back-office/accounts/{accountID}/funding/deposits:
+    get:
+      tags:
+        - Deposits
+      summary: List Account Deposits
+      operationId: listAccountDeposits
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: accountID
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getAccountDepositsResponse'
+
+  /back-office/accounts/{accountID}/funding/redemptions:
+    get:
+      tags:
+        - Withdrawals
+      summary: List Account Withdrawals
+      operationId: listAccountWithdrawals
+      security:
+        - bearerAuth: [ ]
+      parameters:
+        - name: accountID
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getAccountWithdrawalsResponse'
+
+
+components:
+  schemas:
+    getAccountDepositsResponse:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: string
+            example: DSBF000001-1676993122779-DOCZU
+          paymentID:
+            type: string
+            example: DSBF000001-1676993122779-DOCZU
+          type:
+            type: string
+            example: INSTANT_FUNDING
+          amount:
+            type: number
+            example: 1000
+          currency:
+            type: object
+            properties:
+              name:
+                type: string
+                example: USD
+              description:
+                type: string
+                example: US Dollar
+              symbol:
+                type: string
+                example: $
+          status:
+            type: object
+            properties:
+              id:
+                type: integer
+                format: int32
+                example: 14
+              message:
+                type: string
+                example: Approved
+              comment:
+                type: string
+                example: Valid Instant Funding deposit. Auto-move to Approved. Waiting on net settlement.
+              updated:
+                type: string
+                example: 2023-02-21T15:25:22.899Z
+          wlpFinTranTypeID:
+            type: string
+            example: bf26576a-b1d6-45b8-a4ca-98a5691b4c58
+          note:
+            type: string
+            example: Initial FUnd
+          timestamp:
+            type: string
+            format: date-time
+            example: 2023-02-21T15:25:22.779Z
+    getAccountWithdrawalsResponse:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: string
+            example: DWUV000006-1593451797743-R8CC7
+          paymentID:
+            type: string
+            example: DWUV000006-1593451797743-R8CC7
+          amount:
+            type: number
+            example: 250.25
+          currency:
+            type: object
+            properties:
+              name:
+                type: string
+                example: USD
+              description:
+                type: string
+                example: US Dollar
+              symbol:
+                type: string
+                example: $
+          status:
+            type: object
+            properties:
+              id:
+                type: integer
+                format: int32
+                example: 1
+              message:
+                type: string
+                example: PENDING
+              updated:
+                type: string
+                example: 2022-12-11T22:28:21.810Z
+          accountDetails:
+            type: object
+            properties:
+              accountID:
+                type: string
+                example: cc07f91b-7ee1-4868-b8fc-823c70a1b932.1407775317759
+              accountNo:
+                type: string
+                example: DWBG000052
+              accountType:
+                type: object
+                properties:
+                  name:
+                    type: string
+                    example: LIVE
+                  description:
+                    type: string
+                    example: Live Account
+              accountManagementType:
+                type: object
+                properties:
+                  name:
+                    type: string
+                    example: SELF
+                  description:
+                    type: string
+                    example: Self Directed Account
+          fees:
+            type: array
+            items:
+              type: object
+              properties:
+                type:
+                  type: string
+                  example: FEE_ACH
+                description:
+                  type: string
+                  example: Fee - ACH
+                amount:
+                  type: number
+                  example: -5.99
+                wlpFinTranTypeID:
+                  type: string
+                  example: c43bab85-2916-4831-a0db-66215150a6e4
+                transactionCode:
+                  type: string
+                  example: JOURNAL
+                finTranReference:
+                  type: string
+                  example: HG.cd22a78a-8a48-441c-89d2-ea400964a34b
+                created:
+                  type: string
+                  example: 2022-12-11T22:28:21.810Z
+                currency:
+                  type: string
+                  example: USD
+                symbol:
+                  type: string
+                  example: $
+          wlpFinTranTypeID:
+            type: string
+            example: c43bab85-2916-4831-a0db-66215150a6e4
+          finTranReference:
+            type: string
+            example: HG.cd22a78a-8a48-441c-89d2-ea400964a34b
+          timestamp:
+            type: string
+            format: date-time
+            example: 2022-12-11T22:28:21.810Z
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []

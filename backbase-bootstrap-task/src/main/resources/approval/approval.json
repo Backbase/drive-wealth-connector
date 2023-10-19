@@ -1,0 +1,1318 @@
+{
+  "name": "high level approvals",
+  "approvalTypes": [
+    {
+      "name": "Level A",
+      "description": "Level A Approvals",
+      "rank": 1
+    },
+    {
+      "name": "Level B",
+      "description": "Level B Approvals",
+      "rank": 2
+    },
+    {
+      "name": "Level C",
+      "description": "Level C Approvals",
+      "rank": 3
+    }
+  ],
+  "policies": [
+    {
+      "name": "Single Control",
+      "description": "Single Control Policy",
+      "logicalItems": [
+        {
+          "rank": 1,
+          "items": [
+            {
+              "approvalTypeName": "Level A",
+              "numberOfApprovals": 1
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "operator": "OR",
+          "items": [
+            {
+              "approvalTypeName": "Level B",
+              "numberOfApprovals": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dual Control",
+      "description": "Dual Control Policy",
+      "logicalItems": [
+        {
+          "rank": 1,
+          "operator": "OR",
+          "items": [
+            {
+              "approvalTypeName": "Level A",
+              "numberOfApprovals": 2
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "operator": "OR",
+          "items": [
+            {
+              "approvalTypeName": "Level B",
+              "numberOfApprovals": 2
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "operator": "OR",
+          "items": [
+            {
+              "approvalTypeName": "Level A",
+              "numberOfApprovals": 1
+            },
+            {
+              "approvalTypeName": "Level B",
+              "numberOfApprovals": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enhanced Dual Control",
+      "description": "Enhanced Dual Control Policy",
+      "logicalItems": [
+        {
+          "rank": 1,
+          "operator": "OR",
+          "items": [
+            {
+              "approvalTypeName": "Level A",
+              "numberOfApprovals": 1
+            },
+            {
+              "approvalTypeName": "Level B",
+              "numberOfApprovals": 1
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "operator": "OR",
+          "items": [
+            {
+              "approvalTypeName": "Level C",
+              "numberOfApprovals": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "policyAssignments": [
+    {
+      "externalServiceAgreementId": "financial-institute-head-office",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Assign Approval Policies",
+            "Manage Approval Policy and Level",
+            "Assign Permissions",
+            "Batch - SEPA CT",
+            "Manage Messages",
+            "Supervise Messages",
+            "Manage Global Limits",
+            "Manage Notifications",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "SEPA CT - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "US Foreign Wire - Intracompany",
+            "Manage Legal Entities",
+            "ACH Debit",
+            "Manage Shadow Limits",
+            "Manage Limits",
+            "Lock User",
+            "Unlock User",
+            "Manage Identities",
+            "SEPA CT - closed",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "UK CHAPS",
+            "UK Faster Payments",
+            "Batch - Intracompany Payments",
+            "Manage Engagement Events",
+            "Manage Portfolio",
+            "Manage Order",
+            "Manage Aggregate Portfolio",
+            "Batch Templates",
+            "Loans Payment",
+            "Loans Advance",
+            "Manage User Profiles",
+            "Manage Own Profile",
+            "Intra Company Payments",
+            "Quick User Setup",
+            "Manage Configurations",
+            "US Domestic Wire",
+            "US Foreign Wire",
+            "SEPA CT",
+            "Manage Data Groups",
+            "Manage Function Groups",
+            "Manage Service Agreements",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "Custom Engagements"
+          ],
+          "bounds": [
+            {
+              "policyName": "Single Control"
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "admin"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Domestic Payments"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Domestic Payments (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Domestic Payment Approver"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Foreign Payments"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Foreign Payments Approver"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Batch Management"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "All"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Retail Customer"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Bank Employee"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Loan Management"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName":"Foreign Payments High Value Approver"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName":"Payee Management"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Custom Engagement Approver"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Custom Engagement Approver B"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Custom Engagement Super User"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "financial-institute-branch1",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Assign Approval Policies",
+            "Manage Approval Policy and Level",
+            "Assign Permissions",
+            "Batch - SEPA CT",
+            "Manage Messages",
+            "Supervise Messages",
+            "Manage Global Limits",
+            "Manage Notifications",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "SEPA CT - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "US Foreign Wire - Intracompany",
+            "Manage Legal Entities",
+            "ACH Debit",
+            "Manage Shadow Limits",
+            "Manage Limits",
+            "Lock User",
+            "Unlock User",
+            "Manage Identities",
+            "SEPA CT - closed",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "UK CHAPS",
+            "UK Faster Payments",
+            "Batch - Intracompany Payments",
+            "Manage Engagement Events",
+            "Manage Portfolio",
+            "Manage Order",
+            "Manage Aggregate Portfolio",
+            "Batch Templates",
+            "Loans Payment",
+            "Loans Advance",
+            "Manage User Profiles",
+            "Manage Own Profile",
+            "Intra Company Payments",
+            "Quick User Setup",
+            "Manage Configurations",
+            "US Domestic Wire",
+            "US Foreign Wire",
+            "SEPA CT",
+            "Manage Data Groups",
+            "Manage Function Groups",
+            "Manage Service Agreements",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },{
+          "functions": [
+            "Custom Engagements"
+          ],
+          "bounds": [
+            {
+              "policyName": "Single Control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "financial-institute-branch2",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Assign Approval Policies",
+            "Manage Approval Policy and Level",
+            "Assign Permissions",
+            "Batch - SEPA CT",
+            "Manage Messages",
+            "Supervise Messages",
+            "Manage Global Limits",
+            "Manage Notifications",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "SEPA CT - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "US Foreign Wire - Intracompany",
+            "Manage Legal Entities",
+            "ACH Debit",
+            "Manage Shadow Limits",
+            "Manage Limits",
+            "Lock User",
+            "Unlock User",
+            "Manage Identities",
+            "SEPA CT - closed",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "UK CHAPS",
+            "UK Faster Payments",
+            "Batch - Intracompany Payments",
+            "Manage Engagement Events",
+            "Manage Portfolio",
+            "Manage Order",
+            "Manage Aggregate Portfolio",
+            "Batch Templates",
+            "Loans Payment",
+            "Loans Advance",
+            "Manage User Profiles",
+            "Manage Own Profile",
+            "Intra Company Payments",
+            "Quick User Setup",
+            "Manage Configurations",
+            "US Domestic Wire",
+            "US Foreign Wire",
+            "SEPA CT",
+            "Manage Data Groups",
+            "Manage Function Groups",
+            "Manage Service Agreements",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },{
+          "functions": [
+            "Custom Engagements"
+          ],
+          "bounds": [
+            {
+              "policyName": "Single Control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "salary_bory_csa",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "salary_bory_csa-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "salary_jason_sons_csa",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "salary_jason_sons_csa-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT",
+            "US Foreign Wire - Intracompany",
+            "US Foreign Wire"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "bory_coffee_company",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Assign Approval Policies",
+            "Manage Approval Policy and Level",
+            "Assign Permissions",
+            "Batch - SEPA CT",
+            "Manage Messages",
+            "Supervise Messages",
+            "Manage Global Limits",
+            "Manage Notifications",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "SEPA CT - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "US Foreign Wire - Intracompany",
+            "Manage Legal Entities",
+            "ACH Debit",
+            "Manage Shadow Limits",
+            "Manage Limits",
+            "Lock User",
+            "Unlock User",
+            "Manage Identities",
+            "SEPA CT - closed",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "UK CHAPS",
+            "UK Faster Payments",
+            "Batch - Intracompany Payments",
+            "Manage Engagement Events",
+            "Manage Portfolio",
+            "Manage Order",
+            "Manage Aggregate Portfolio",
+            "Batch Templates",
+            "Loans Payment",
+            "Loans Advance",
+            "Manage User Profiles",
+            "Manage Own Profile",
+            "Intra Company Payments",
+            "Quick User Setup",
+            "Manage Configurations",
+            "US Domestic Wire",
+            "US Foreign Wire",
+            "SEPA CT",
+            "Manage Data Groups",
+            "Manage Function Groups",
+            "Manage Service Agreements",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Bory Coffee Company Ltd"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Payment Approver Bory Coffee Company Ltd"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "bory_coffee_company-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Assign Approval Policies",
+            "Manage Approval Policy and Level",
+            "Assign Permissions",
+            "Batch - SEPA CT",
+            "Manage Messages",
+            "Supervise Messages",
+            "Manage Global Limits",
+            "Manage Notifications",
+            "SEPA CT - Intracompany",
+            "US Foreign Wire - Intracompany",
+            "Manage Legal Entities",
+            "Manage Shadow Limits",
+            "Manage Limits",
+            "Lock User",
+            "Unlock User",
+            "Manage Identities",
+            "SEPA CT - closed",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Manage Engagement Events",
+            "Manage Portfolio",
+            "Manage Order",
+            "Manage Aggregate Portfolio",
+            "Batch Templates",
+            "Loans Payment",
+            "Loans Advance",
+            "Manage User Profiles",
+            "Manage Own Profile",
+            "Intra Company Payments",
+            "Quick User Setup",
+            "Manage Configurations",
+            "US Foreign Wire",
+            "SEPA CT",
+            "Manage Data Groups",
+            "Manage Function Groups",
+            "Manage Service Agreements",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Bory Coffee Company Ltd (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Payment Approver Bory Coffee Company Ltd (SEPA)"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_international_holding_ltd",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "USD"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons International Holding Ltd"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons International Holding Ltd"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_international_holding_ltd-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "EUR"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons International Holding Ltd (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons International Holding Ltd (SEPA)"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_trade",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Manage Messages",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "USD"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Trade"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons Trade"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_trade-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "EUR"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Trade (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons Trade (SEPA)"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_transport_atlanta",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Manage Messages",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "USD"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Atlanta"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Transport Atlanta"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_transport_atlanta-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "EUR"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Transport Atlanta (SEPA)"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_transport_miami",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Manage Messages",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "USD"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Transport Miami"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Miami"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_transport_miami-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "EUR"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Transport Miami (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Miami (SEPA)"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_finance",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Manage Messages",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "USD"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Finance"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons Finance"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_finance-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "EUR"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Payment Approver Jason & Sons Finance (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons Finance (SEPA)"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_finance_access_all",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Manage Messages",
+            "ACH Credit Transfer",
+            "ACH Credit - Intracompany",
+            "US Domestic Wire - Intracompany",
+            "ACH Debit",
+            "A2A Transfer",
+            "Stop Checks",
+            "Batch - ACH Credit",
+            "Batch - ACH Debit",
+            "Batch - ACH Reversal",
+            "P2P Transfer",
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "US Domestic Wire",
+            "Contacts"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "USD"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Trade"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Atlanta"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Miami"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons International Holding Ltd"
+        }
+      ]
+    },
+    {
+      "externalServiceAgreementId": "jason_sons_finance_access_all-s",
+      "policyAssignmentItems": [
+        {
+          "functions": [
+            "Payment Templates",
+            "Batch - Intracompany Payments",
+            "Intra Company Payments",
+            "Contacts",
+            "Batch - SEPA CT",
+            "SEPA CT - Intracompany",
+            "SEPA CT - closed",
+            "SEPA CT"
+          ],
+          "bounds": [
+            {
+              "policyName": "Dual Control"
+            }
+          ]
+        },
+        {
+          "functions": [
+            "US Foreign Wire",
+            "US Foreign Wire - Intracompany"
+          ],
+          "bounds": [
+            {
+              "policyName": "Enhanced Dual Control"
+            },
+            {
+              "policyName": "Dual Control",
+              "upperBound": {
+                "amount": 10000,
+                "currencyCode": "EUR"
+              }
+            }
+          ]
+        }
+      ],
+      "approvalTypeAssignments": [
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Trade (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level A",
+          "jobProfileName": "Accounts and Payments Jason & Sons Transport Miami (SEPA)"
+        },
+        {
+          "approvalTypeName": "Level B",
+          "jobProfileName": "Accounts and Payments Jason & Sons International Holding Ltd (SEPA)"
+        }
+      ]
+    }
+  ]
+}

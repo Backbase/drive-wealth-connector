@@ -1,0 +1,242 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title "Portfolio Trading Integration"
+autonumber
+skinparam maxMessageSize 600
+skinparam backgroundColor  #white
+
+
+box "Backbase"
+    participant "DBS \nPortfolio" as dbs #lightblue
+end box
+
+box "Custom Integration"
+    participant "portfolio-trading-outbound" as outbound #lightblue
+end box
+
+box "Drive Wealth"
+    participant "Back Office" as bo #lightblue
+end box
+
+group Create Order
+    dbs -> outbound: POST /service-api/v1/trade-orders
+    activate outbound
+        outbound -> bo: GET /back-office/instruments/{instrumentId}?options=Fundamentals
+        bo -> outbound : InstrumentDetail
+        outbound -> outbound : PlaceOrderRequest, InstrumentDetail to CreateOrderRequest
+        outbound -> bo : POST /back-office/orders
+        bo -> outbound : CreateOrderResponse
+        outbound -> outbound : CreateOrderResponse to PlaceOrderResponse
+    return : PlaceOrderResponse
+end
+
+group Cancel Order
+    dbs -> outbound: POST /service-api/v1/trade-orders/{id}/cancel
+    activate outbound
+        outbound -> bo: PATCH /back-office/orders/{orderID}
+        bo -> outbound : UpdateOrderResponse
+        outbound -> outbound : Map UpdateOrderResponse to PlaceOrderResponse
+    return : PlaceOrderResponse
+end
+
+scale max 1000 width
+skinparam backgroundColor white
+skinparam Shadowing false
+skinparam BoundaryBackgroundColor transparent
+skinparam BoundaryBorderColor #1281ac
+skinparam DiagramBorderColor #1281ac
+skinparam defaultTextAlignment center
+skinparam SequenceMessageAlign center
+skinparam ReferenceBorderThickness 2
+
+skinparam sequence {
+'Users and boundries (DBS for example)
+    ActorBorderThickness 3
+    ActorBorderColor #1281ac
+    ActorBackgroundColor transparent
+    ActorFontColor #1281ac
+    ActorFontName Roboto
+    ActorFontStyle bold
+    ActorFontSize 14
+    AgentBackgroundColor #1281ac
+'Arrows
+    ArrowFontColor #1281ac
+    ArrowFontSize 14
+    ArrowFontStyle bold
+    ArrowColor #1281ac
+    ArrowThickness 2
+    RectangleBorderThickness 3
+    BoxBackgroundColor #f3f3f3
+    BoxBorderColor #1281ac
+'Capability
+    BoxFontColor #1281ac
+    BoxFontName Roboto
+    BoxFontStyle bold
+    BoxFontSize 16
+    BoundaryBackgroundColor #1281ac
+    BoundaryBorderColor #1281ac
+    BoundaryFontColor #1281ac
+    BoundryFontName Roboto
+    BoundaryStereotypeFontColor #1281ac
+    ClassBorderColor #1281ac
+    ComponentBorderColor #1281ac
+    DividerBackgroundColor white
+    DividerBorderColor #1281ac
+    DividerBorderThickness 3
+    DividerFontColor #1281ac
+    DividerFontName Roboto
+    DividerFontSize bold
+    DividerFontStyle 14
+' Loops but not the title text
+    GroupBorderColor #1281ac
+    GroupBorderThickness 2
+    GroupFontName Roboto
+    GroupFontSize 14
+    GroupFontColor #1281ac
+'Title text for loops
+    GroupHeaderFontColor #1281ac
+    GroupHeaderFontName Roboto
+    GroupHeaderFontSize 14
+    GroupHeaderFontStyle bold
+    LifeLineBorderColor #1281ac
+    LifeLineBackgroundColor #1281ac
+    LifeLineFontColor  #1281ac
+'Services
+    ParticipantBorderColor #1281ac
+    ParticipantBackgroundColor white
+    ParticipantFontSize 14
+    ParticipantFontStyle bold
+    ParticipantFontName Roboto
+    ParticipantFontColor #1281ac
+    ParticipantBorderThickness 2
+    ReferenceBorderThickness 2
+    '   SwimlaneBorderThickness 2
+    TitleFontColor #1281ac
+    TitleFontName Roboto
+    TitleFontSize 18
+    TitleBorderThickness 5
+}
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam activity {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam cloud {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 4
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 1
+  StartColor #1281ac
+  BarColor #1281ac
+  EndColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+'For services
+skinparam component {
+  BackgroundColor  #FFFFFF
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+'databases
+skinparam database {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+'For Capabilities
+skinparam frame {
+  ArrowColor #1281ac
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 4
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+' External systems in architecture diagrams
+skinparam node {
+  ArrowColor #1281ac
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+skinparam package {
+  BorderThickness 2
+  BackgroundColor #FFFFFF
+  BorderColor #1281ac
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+' Activity diagrams, for different capabilities
+skinparam partition {
+  BackgroundColor #f3f3f3
+  BorderColor #1281ac
+  BorderThickness 2
+  FontColor #1281ac
+  FontName Roboto
+  FontSize 14
+  FontStyle bold
+}
+
+@enduml

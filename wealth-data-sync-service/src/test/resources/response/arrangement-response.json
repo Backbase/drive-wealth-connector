@@ -1,0 +1,41 @@
+{
+  "totalElements": 1,
+  "arrangementElements": [
+    {
+      "additions": {
+        "ignoreMarketHoursForTest": "true"
+      },
+      "name": "Trading Portfolio",
+      "BBAN": "e2c1a3c7-3bc9-4c34-8b26-b588ef54e153.1676277609599",
+      "BIC": "CITIUS33",
+      "currency": "USD",
+      "currentInvestmentValue": 100000.00000,
+      "accountOpeningDate": "2023-02-13T08:40:09.646Z",
+      "accountHolderNames": "Amos B",
+      "accountHolderCountry": "US",
+      "debitCards": [],
+      "id": "079a2d92-3a74-498d-983c-573e7230d9a0",
+      "productKindName": "Investment Account",
+      "visible": true,
+      "legalEntityIds": [
+        "8a9681c9874cd1ac01874cf1de1a0049"
+      ],
+      "productId": "f6fdd882-67b4-4822-9962-c798c6fde382",
+      "productTypeName": "Investment Account",
+      "externalProductId": "investment-account",
+      "externalArrangementId": "DSCX000001",
+      "product": {
+        "externalId": "investment-account",
+        "externalTypeId": "investment-account",
+        "typeName": "Investment Account",
+        "productKind": {
+          "externalKindId": "kind7",
+          "kindName": "Investment Account",
+          "kindUri": "investment-account"
+        },
+        "id": "f6fdd882-67b4-4822-9962-c798c6fde382",
+        "translations": []
+      }
+    }
+  ]
+}

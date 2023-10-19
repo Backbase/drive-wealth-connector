@@ -1,0 +1,108 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Settlement API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Settlements
+    description: Settlements API
+
+paths:
+  /back-office/funding/settlements/instant-funding:
+    get:
+      tags:
+        - Settlements
+      summary: List all bulk settlements
+      operationId: listAllBulkSettlements
+      parameters:
+        - name: category
+          in: query
+          schema:
+            type: string
+          example: Daryl
+        - name: from
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: to
+          in: query
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Settlements'
+  /back-office/funding/settlements/instant-funding/{settlementId}:
+    patch:
+      tags:
+        - Settlements
+      summary: Do Settlement
+      operationId: doSettlement
+      parameters:
+        - name: settlementId
+          in: path
+          schema:
+            type: string
+          example: DP_ee05a58a-d27b-45c4-ab38-e142494b3ceb_20230419
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SettlementRequest'
+      responses:
+        '200':
+          description: OK
+
+components:
+  schemas:
+    SettlementRequest:
+      type: object
+      properties:
+        status:
+          type: string
+          default: Successful
+    Settlements:
+      type: array
+      items:
+        $ref: '#/components/schemas/Settlement'
+    Settlement:
+      type: object
+      properties:
+        id:
+          type: string
+        date:
+          type: string
+          format: date
+        partnerID:
+          type: string
+        status:
+          type: string
+        statusComment:
+          type: string
+        totalAmount:
+          type: number
+        created:
+          type: string
+          format: date-time
+        updated:
+          type: string
+          format: date-time
+        updatedBy:
+          type: string
+        category:
+          type: string
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: [ ]

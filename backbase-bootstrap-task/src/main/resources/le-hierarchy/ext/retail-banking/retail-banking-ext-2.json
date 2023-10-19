@@ -1,0 +1,1269 @@
+{
+  "name": "Financial Institute Branch 1",
+  "realmName": "employee",
+  "externalId": "financial-institute-branch1",
+  "legalEntityType": "BANK",
+  "subsidiaries": [
+    {
+      "name": "Ext2Sara",
+      "realmName": "customer",
+      "externalId": "ext2-sara",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "RETAIL",
+      "parentExternalId": "financial-institute-branch1",
+      "administrators": [
+        {
+          "externalId": "ext2-sara",
+          "fullName": "Ext2Sara Jones",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "ext2sara@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "ext2-sara",
+            "fullName": "Ext2Sara Jones",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext2sara@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Miss",
+              "personalInformation": {
+                "gender": "female",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "Netherlands"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "ext2sara2@email.com"
+                },
+                {
+                  "value": "ext2sara3@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                },
+                {
+                  "value": "01313713"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Boston",
+                  "country": "USA",
+                  "type": "home",
+                  "region": "MA",
+                  "postalCode": "02201",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Retail User - USA",
+            "Retail User - USA (RTC)"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "name": "ext2-sara-arrangements",
+          "description": "Product group containing user arrangements",
+          "currentAccounts": [
+            {
+              "externalId": "021020025",
+              "BBAN": "021020025",
+              "name": "Ext2Sara's Current Account",
+              "productTypeExternalId": "current-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 1055.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 1055.5
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ],
+          "savingAccounts": [
+            {
+              "externalId": "021020026",
+              "BBAN": "021020026",
+              "name": "Ext2Sara's Savings Account 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 3820.2
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 3820.2
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "021020027",
+              "BBAN": "021020027",
+              "name": "Ext2Sara's Savings Account 2",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 155.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 155.5
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "021020028",
+              "BBAN": "021020028",
+              "name": "Ext2Sara's Savings LOCK 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "LOCK"
+              }
+            },
+            {
+              "externalId": "021020029",
+              "BBAN": "021020029",
+              "name": "Ext2Sara's Savings CLOSE 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "CLOSE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ext2John",
+      "realmName": "customer",
+      "externalId": "ext2-john",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "RETAIL",
+      "administrators": [
+        {
+          "externalId": "ext2-john",
+          "fullName": "Ext2John Doe",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "ext2john@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "ext2-john",
+            "fullName": "Ext2John Doe",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext2john@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Boston",
+                  "country": "USA",
+                  "type": "home",
+                  "region": "MA",
+                  "postalCode": "02201",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Retail User - USA",
+            "Retail User - USA (RTC)"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "name": "ext2-john-arrangements",
+          "description": "Product group containing user arrangements",
+          "currentAccounts": [
+            {
+              "externalId": "031020025",
+              "BBAN": "031020025",
+              "name": "Ext2John's Current Account",
+              "productTypeExternalId": "current-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2055.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2055.5
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ],
+          "savingAccounts": [
+            {
+              "externalId": "031020026",
+              "BBAN": "031020026",
+              "name": "Ext2John's Savings Account 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 13820.2
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 13820.2
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "031020027",
+              "BBAN": "031020027",
+              "name": "Ext2John's Savings Account 2",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 1155.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 1155.5
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "031020028",
+              "BBAN": "031020028",
+              "name": "Ext2John's Savings LOCK 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "LOCK"
+              }
+            },
+            {
+              "externalId": "031020029",
+              "BBAN": "031020029",
+              "name": "Ext2John's Savings CLOSE 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "CLOSE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ext2Paolo",
+      "realmName": "customer",
+      "externalId": "ext2-paolo",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "RETAIL",
+      "administrators": [
+        {
+          "externalId": "ext2-paolo",
+          "fullName": "Ext2Paolo Doe",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "ext2paolo@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "ext2-paolo",
+            "fullName": "Ext2Paolo Doe",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext2paolo@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Boston",
+                  "country": "USA",
+                  "type": "home",
+                  "region": "MA",
+                  "postalCode": "02201",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Retail User - USA",
+            "Retail User - USA (RTC)"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "name": "ext2-paolo-arrangements",
+          "description": "Product group containing user arrangements",
+          "currentAccounts": [
+            {
+              "externalId": "091020025",
+              "BBAN": "091020025",
+              "name": "Ext2Paolo's Current Account",
+              "productTypeExternalId": "current-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 551055.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 551055.5
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ],
+          "savingAccounts": [
+            {
+              "externalId": "091020026",
+              "BBAN": "091020026",
+              "name": "Ext2Paolo's Savings Account 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 3838820.2
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 3838820.2
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "091020027",
+              "BBAN": "091020027",
+              "name": "Ext2Paolo's Savings Account 2",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 155.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 155.5
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "091020028",
+              "BBAN": "091020028",
+              "name": "Ext2Paolo's Savings LOCK 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "LOCK"
+              }
+            },
+            {
+              "externalId": "0910220029",
+              "BBAN": "091020029",
+              "name": "Ext2Paolo's Savings CLOSE 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "CLOSE"
+              }
+            }
+          ],
+          "loans": [
+            {
+              "externalId": "0582858932254456",
+              "BBAN": "0582858932254456",
+              "name": "Loan Account USD 4456",
+              "productTypeExternalId": "loan",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": false,
+              "productNumber": "8a19a72d805b946701805b988deb0cdf",
+              "creditAccount": true,
+              "principalAmount": {
+                "currencyCode": "USD",
+                "amount": 25000.0
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 10000.5
+              },
+              "interestSettlementAccount": "091020027",
+              "accountInterestRate": 2.05,
+              "termUnit": "Monthly",
+              "termNumber": 36
+            },
+            {
+              "externalId": "0582858932255456",
+              "BBAN": "0582858932255456",
+              "name": "Loan Account USD 5456",
+              "productTypeExternalId": "loan",
+              "currency": "USD",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": false,
+              "productNumber": "8a19cd5681aa98e40181b3914a3e6846",
+              "creditAccount": true,
+              "principalAmount": {
+                "currencyCode": "USD",
+                "amount": 450000.0
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 10000.5
+              },
+              "interestSettlementAccount": "091020027",
+              "accountInterestRate": 2.05,
+              "termUnit": "Monthly",
+              "termNumber": 36
+            },
+            {
+              "externalId": "3994293832399929",
+              "BBAN": "3994293832399929",
+              "name": "Mortgage USD 9929",
+              "productTypeExternalId": "loan",
+              "currency": "USD",
+              "bankBranchCode": "67014822",
+              "productNumber": "8a19a72d805b946701805b988deb0cdf",
+              "externalTransferAllowed": true,
+              "debitAccount": false,
+              "creditAccount": true,
+              "principalAmount": {
+                "currencyCode": "USD",
+                "amount": 230000.0
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 150.0
+              },
+              "interestSettlementAccount": "091020027",
+              "accountInterestRate": 2.05,
+              "termUnit": "Monthly",
+              "termNumber": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ext2Matthew",
+      "realmName": "customer",
+      "externalId": "ext2-matthew",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "RETAIL",
+      "administrators": [
+        {
+          "externalId": "ext2-matthew",
+          "fullName": "Ext2Matthew Doe",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "ext2matthew@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "ext2-matthew",
+            "fullName": "Ext2Matthew Doe",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext2matthew@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Boston",
+                  "country": "USA",
+                  "type": "home",
+                  "region": "MA",
+                  "postalCode": "02201",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Retail User - USA Limited (No Payments)",
+            "Retail User - USA (RTC)"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "name": "ext2-matthew-arrangements",
+          "description": "Product group containing user arrangements",
+          "currentAccounts": [
+            {
+              "externalId": "191020025",
+              "BBAN": "191020025",
+              "name": "Ext2Matthew's Current Account",
+              "productTypeExternalId": "current-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 551055.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 551055.5
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ],
+          "savingAccounts": [
+            {
+              "externalId": "191020026",
+              "BBAN": "191020026",
+              "name": "Ext2Matthew's Savings Account 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 3838820.2
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 3838820.2
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "191020027",
+              "BBAN": "191020027",
+              "name": "Ext2Matthew's Savings Account 2",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 155.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 155.5
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "191020028",
+              "BBAN": "191020028",
+              "name": "Ext2Matthew's Savings LOCK 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "LOCK"
+              }
+            },
+            {
+              "externalId": "191020029",
+              "BBAN": "191020029",
+              "name": "Ext2Matthew's Savings CLOSE 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "CLOSE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ext2Emily",
+      "realmName": "customer",
+      "externalId": "ext2-emily",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "RETAIL",
+      "administrators": [
+        {
+          "externalId": "ext2-emily",
+          "fullName": "Ext2Emily Jones",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "ext2emily@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "ext2-emily",
+            "fullName": "Ext2Emily Jones",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext2emily@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Miss",
+              "personalInformation": {
+                "gender": "female",
+                "dateOfBirth": "1985-12-30",
+                "countryOfBirth": "Poland"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "ext2emily2@email.com"
+                },
+                {
+                  "value": "ext2emily3@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                },
+                {
+                  "value": "01313713"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Boston",
+                  "country": "USA",
+                  "type": "home",
+                  "region": "MA",
+                  "postalCode": "02201",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Retail User - USA",
+            "Retail User - USA (RTC)"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "name": "ext2-emily-arrangements",
+          "description": "Product group containing user arrangements",
+          "currentAccounts": [
+            {
+              "externalId": "021020035",
+              "BBAN": "021020035",
+              "name": "Ext2Emily's Current Account",
+              "productTypeExternalId": "current-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 10505.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 100055.5
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ],
+          "savingAccounts": [
+            {
+              "externalId": "021020036",
+              "BBAN": "021020036",
+              "name": "Ext2Emily's Savings Account 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 5820.2
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 5820.2
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "021020037",
+              "BBAN": "021020037",
+              "name": "Ext2Emily's Savings Account 2",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 955.5
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 955.5
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "021020038",
+              "BBAN": "021020038",
+              "name": "Ext2Emily's Savings LOCK 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "LOCK"
+              }
+            },
+            {
+              "externalId": "021020039",
+              "BBAN": "021020039",
+              "name": "Ext2Emily's Savings CLOSE 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "CLOSE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ext2Kevin",
+      "realmName": "customer",
+      "externalId": "ext2-kevin",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "RETAIL",
+      "administrators": [
+        {
+          "externalId": "ext2-kevin",
+          "fullName": "Ext2Kevin Doe",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "ext2kevin@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "ext2-kevin",
+            "fullName": "Ext2Kevin Doe",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext2kevin@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Boston",
+                  "country": "USA",
+                  "type": "home",
+                  "region": "MA",
+                  "postalCode": "02201",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Retail User - USA",
+            "Retail User - USA (RTC)"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "name": "ext2-kevin-arrangements",
+          "description": "Product group containing user arrangements",
+          "currentAccounts": [
+            {
+              "externalId": "011020025",
+              "BBAN": "011020025",
+              "name": "Ext2Kevin's Current Account",
+              "productTypeExternalId": "current-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 10000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 10000
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ],
+          "savingAccounts": [
+            {
+              "externalId": "011020026",
+              "BBAN": "011020026",
+              "name": "Ext2Kevin's Savings Account 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 1000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 1000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "011020027",
+              "BBAN": "011020027",
+              "name": "Ext2Kevin's Savings Account 2",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "011020028",
+              "BBAN": "011020028",
+              "name": "Ext2Kevin's Savings LOCK 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "LOCK"
+              }
+            },
+            {
+              "externalId": "011020029",
+              "BBAN": "011020029",
+              "name": "Ext2Kevin's Savings CLOSE 1",
+              "productTypeExternalId": "savings-account",
+              "currency": "USD",
+              "bankBranchCode": "111000025",
+              "BIC": "WFBIUS6S",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "bookedBalance": {
+                "currencyCode": "USD",
+                "amount": 2000000
+              },
+              "accountInterestRate": 0.05,
+              "termUnit": "Quarterly",
+              "state": {
+                "externalStateId": "Inactive",
+                "state": "CLOSE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

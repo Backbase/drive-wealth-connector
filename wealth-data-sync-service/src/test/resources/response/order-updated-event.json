@@ -1,0 +1,29 @@
+{
+  "id":"event_3d58725f-e03d-4e6f-b4d9-a79be97e6daa",
+  "type":"orders.updated",
+  "timestamp":"2023-05-22T19:26:15.452840985Z",
+  "payload":{
+    "id":"KE.af58d122-04b3-41d5-977f-cebfb5f434a9",
+    "orderNo":"KEWM010806",
+    "type":"MARKET",
+    "side":"BUY",
+    "status":"PARTIAL_FILL",
+    "symbol":"HL",
+    "averagePrice":5.43,
+    "averagePriceRaw":5.43,
+    "totalOrderAmount":434.4,
+    "cumulativeQuantity":80,
+    "quantity":179,
+    "fees":0,
+    "orderExpires":"2023-05-22T20:00:00.000Z",
+    "createdBy":"a65e42a2-b937-47d6-9976-2404134945e6",
+    "userID":"a65e42a2-b937-47d6-9976-2404134945e6",
+    "accountID":"a65e42a2-b937-47d6-9976-2404134945e6.1682172748507",
+    "accountNo":"UKDB000001",
+    "created":"2023-05-22T19:26:12.363Z",
+    "lastExecuted":"2023-05-22T19:26:15.441Z",
+    "lastPrice":5.43,
+    "lastShares":20,
+    "lastMarket":"TH"
+  }
+}

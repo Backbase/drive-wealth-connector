@@ -1,0 +1,29 @@
+{
+  "id": "event_e455dbf0-12dc-4252-aaed-5d6bee8941af",
+  "type": "orders.completed",
+  "timestamp": "2023-05-20T19:55:42.402236998Z",
+  "payload": {
+    "id": "KE.331e560c-b19c-4eeb-8932-b2aeb7fe757f",
+    "orderNo": "KENX009053",
+    "type": "MARKET",
+    "side": "BUY",
+    "status": "FILLED",
+    "symbol": "AAPL",
+    "averagePrice": 175.21,
+    "averagePriceRaw": 175.21,
+    "totalOrderAmount": 175.21,
+    "cumulativeQuantity": 1,
+    "quantity": 1,
+    "fees": 0,
+    "orderExpires": "2023-05-22T20:00:00.000Z",
+    "createdBy": "00e10fc7-e266-45d8-9152-460c0be38ce5",
+    "userID": "00e10fc7-e266-45d8-9152-460c0be38ce5",
+    "accountID": "00e10fc7-e266-45d8-9152-460c0be38ce5.1682172946462",
+    "accountNo": "UKRG000001",
+    "created": "2023-05-20T19:55:42.384Z",
+    "lastExecuted": "2023-05-20T19:55:42.386Z",
+    "lastPrice": 175.21,
+    "lastShares": 1,
+    "lastMarket": "DWJO"
+  }
+}

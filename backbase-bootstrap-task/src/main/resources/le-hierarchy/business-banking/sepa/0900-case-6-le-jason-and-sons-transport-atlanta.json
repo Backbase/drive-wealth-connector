@@ -1,0 +1,4001 @@
+{
+  "name": "Jason & Sons International Holding Ltd (SEPA)",
+  "realmName": "customer",
+  "externalId": "jandsih-s",
+  "legalEntityType": "CUSTOMER",
+  "customerCategory": "BUSINESS",
+  "subsidiaries": [
+    {
+      "name": "Jason & Sons Transport Atlanta (SEPA)",
+      "realmName": "customer",
+      "externalId": "jandstra-s",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "parentExternalId": "jandsih-s",
+      "users": [
+        {
+          "user": {
+            "externalId": "jacobmd-s",
+            "fullName": "Jacob Jason (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jacobmd-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jacobmd-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "jstraclerk1-s",
+            "fullName": "Jstra Clerk1 (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jstraclerk1-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jstraclerk1-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "jstraclerk2-s",
+            "fullName": "Jstra Clerk2 (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "jstraclerk2-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "jstraclerk2-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "masterServiceAgreement": {
+        "externalId": "jason_sons_transport_atlanta-s",
+        "name": "Jason & Sons Transport Atlanta (SEPA)",
+        "description": "Single Service Agreement for Jason & Sons Transport Atlanta (SEPA)",
+        "status": "ENABLED",
+        "isMaster": true,
+        "jobRoles": [
+          {
+            "name": "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)",
+            "description": "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 100000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "daily": 200000,
+                          "transactional": 15000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1051",
+                    "name": "Manage Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1082",
+                    "name": "Manage Arrangement Alias",
+                    "privileges": [
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Payment Approver Jason & Sons Transport Atlanta (SEPA)",
+            "description": "Payment Approver Jason & Sons Transport Atlanta (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 10000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 100000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 30000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1068",
+                    "name": "Cash Flow Forecasting",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Payment Inputter Jason & Sons Transport Atlanta (SEPA)",
+            "description": "Payment Inputter Jason & Sons Transport Atlanta (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1082",
+                    "name": "Manage Arrangement Alias",
+                    "privileges": [
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1124",
+                    "name": "Batch - ACH Reversal",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "internalId": "jstradag1-s",
+          "name": "Jason & Sons Transport Atlanta (SEPA) salary account",
+          "description": "The account of Jason & Sons Transport Atlanta (SEPA) I use for salary payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "jacobmd-s",
+                "fullName": "Jacob Jason (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jstraclerk1-s",
+                "fullName": "Jstra Clerk1 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Inputter Jason & Sons Transport Atlanta (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jstraclerk2-s",
+                "fullName": "Jstra Clerk2 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Approver Jason & Sons Transport Atlanta (SEPA)"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "5812455012",
+              "IBAN": "NL27BCKB5812455012",
+              "name": "Checking Account EUR 5012",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Transport Atlanta (SEPA)"
+            }
+          ]
+        },
+        {
+          "internalId": "jstradag2-s",
+          "name": "Jason & Sons Transport Atlanta (SEPA) bill payment account",
+          "description": "The account of Jason & Sons Transport Atlanta (SEPA) I use for bill payments",
+          "users": [
+            {
+              "user": {
+                "externalId": "jacobmd-s",
+                "fullName": "Jacob Jason (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Jason & Sons Transport Atlanta (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jstraclerk1-s",
+                "fullName": "Jstra Clerk1 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Inputter Jason & Sons Transport Atlanta (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "jstraclerk2-s",
+                "fullName": "Jstra Clerk2 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Payment Approver Jason & Sons Transport Atlanta (SEPA)"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "5812455012",
+              "IBAN": "NL27BCKB5812455012",
+              "name": "Checking Account EUR 5012",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Transport Atlanta (SEPA)"
+            },
+            {
+              "externalId": "5812455013",
+              "IBAN": "NL97BCKB5812455013",
+              "name": "Checking Account EUR 5013",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Jason & Sons Transport Atlanta (SEPA)"
+            }
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912001-s",
+          "addressLine1": "434 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Kathryn R. Callahan",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 390 4826",
+          "emailId": "Kathryn@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962001-s",
+              "name": "Checking USD2478",
+              "alias": "",
+              "accountNumber": "1124194942562478",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS35",
+              "bankAddressLine1": "738 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1721,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912002-s",
+          "addressLine1": "901 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Pamela J. Felix",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 838 4531",
+          "emailId": "Pamela@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962002-s",
+              "name": "Checking USD3434",
+              "alias": "",
+              "accountNumber": "1124194942563434",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS36",
+              "bankAddressLine1": "739 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1722,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912003-s",
+          "addressLine1": "229 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Cynthia J. Gray",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 285 4595",
+          "emailId": "Cynthia@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962003-s",
+              "name": "Checking USD2149",
+              "alias": "",
+              "accountNumber": "1124194942562149",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS37",
+              "bankAddressLine1": "740 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1723,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912004-s",
+          "addressLine1": "258 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Joel C. McLaughlin",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 520 4849",
+          "emailId": "Joel@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962004-s",
+              "name": "Checking USD3196",
+              "alias": "",
+              "accountNumber": "1124194942563196",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS38",
+              "bankAddressLine1": "741 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1724,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912005-s",
+          "addressLine1": "351 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "William J. Reed",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 142 4095",
+          "emailId": "William@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962005-s",
+              "name": "Checking USD8897",
+              "alias": "",
+              "accountNumber": "1124194942568897",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS39",
+              "bankAddressLine1": "742 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1725,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912006-s",
+          "addressLine1": "440 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Tony S. Burt",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 810 4466",
+          "emailId": "Tony@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962006-s",
+              "name": "Checking USD6330",
+              "alias": "",
+              "accountNumber": "1124194942566330",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS40",
+              "bankAddressLine1": "743 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1726,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912007-s",
+          "addressLine1": "424 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Billy R. Packard",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 126 4673",
+          "emailId": "Billy@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962007-s",
+              "name": "Checking USD8508",
+              "alias": "",
+              "accountNumber": "1124194942568508",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS41",
+              "bankAddressLine1": "744 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1727,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912008-s",
+          "addressLine1": "811 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Barbara G. Plumb",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 663 4377",
+          "emailId": "Barbara@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962008-s",
+              "name": "Checking USD7273",
+              "alias": "",
+              "accountNumber": "1124194942567273",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS42",
+              "bankAddressLine1": "745 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1728,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912009-s",
+          "addressLine1": "807 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Rachael J. Lovelace",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 890 4494",
+          "emailId": "Rachael@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962009-s",
+              "name": "Checking USD6986",
+              "alias": "",
+              "accountNumber": "1124194942566986",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS43",
+              "bankAddressLine1": "746 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1729,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912010-s",
+          "addressLine1": "763 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Scott B. Singer",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 962 4097",
+          "emailId": "Scott@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962010-s",
+              "name": "Checking USD4041",
+              "alias": "",
+              "accountNumber": "1124194942564041",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1730,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912011-s",
+          "addressLine1": "725 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Manuel M. Trumble",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 855 4511",
+          "emailId": "Manuel@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962011-s",
+              "name": "Checking USD4932",
+              "alias": "",
+              "accountNumber": "1124194942564932",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS45",
+              "bankAddressLine1": "748 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1731,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912012-s",
+          "addressLine1": "654 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Clarence A. Meads",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 836 4186",
+          "emailId": "Clarence@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962012-s",
+              "name": "Checking USD1685",
+              "alias": "",
+              "accountNumber": "1124194942561685",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS46",
+              "bankAddressLine1": "749 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1732,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912013-s",
+          "addressLine1": "778 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Billy E. Munoz",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 915 4545",
+          "emailId": "Billy@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962013-s",
+              "name": "Checking USD7144",
+              "alias": "",
+              "accountNumber": "1124194942567144",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS47",
+              "bankAddressLine1": "750 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1733,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912014-s",
+          "addressLine1": "627 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Kristen W. Dotson",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 768 4209",
+          "emailId": "Kristen@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962014-s",
+              "name": "Checking USD6390",
+              "alias": "",
+              "accountNumber": "1124194942566390",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS48",
+              "bankAddressLine1": "751 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1734,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912015-s",
+          "addressLine1": "740 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Phyllis J. Martin",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 711 4285",
+          "emailId": "Phyllis@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962015-s",
+              "name": "Checking USD3259",
+              "alias": "",
+              "accountNumber": "1124194942563259",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS49",
+              "bankAddressLine1": "752 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1735,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912016-s",
+          "addressLine1": "806 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Diane J. Page",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 129 4864",
+          "emailId": "Diane@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962016-s",
+              "name": "Checking USD8244",
+              "alias": "",
+              "accountNumber": "1124194942568244",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS50",
+              "bankAddressLine1": "753 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1736,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912017-s",
+          "addressLine1": "212 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Laura J. Ratliff",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 962 4154",
+          "emailId": "Laura@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962017-s",
+              "name": "Checking USD4143",
+              "alias": "",
+              "accountNumber": "1124194942564143",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS51",
+              "bankAddressLine1": "754 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1737,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912018-s",
+          "addressLine1": "51 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Kerri R. Hemingway",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 343 4159",
+          "emailId": "Kerri@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962018-s",
+              "name": "Checking USD8761",
+              "alias": "",
+              "accountNumber": "1124194942568761",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS52",
+              "bankAddressLine1": "755 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1738,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912019-s",
+          "addressLine1": "180 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Helen P. Foster",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 269 4363",
+          "emailId": "Helen@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962019-s",
+              "name": "Checking USD1131",
+              "alias": "",
+              "accountNumber": "1124194942561131",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS53",
+              "bankAddressLine1": "756 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1739,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912020-s",
+          "addressLine1": "827 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Shanna R. Bush",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 764 4879",
+          "emailId": "Shanna@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962020-s",
+              "name": "Checking USD7628",
+              "alias": "",
+              "accountNumber": "1124194942567628",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS54",
+              "bankAddressLine1": "757 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1740,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912021-s",
+          "addressLine1": "391 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Mary B. Frias",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 422 4900",
+          "emailId": "Mary@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962021-s",
+              "name": "Checking USD7619",
+              "alias": "",
+              "accountNumber": "1124194942567619",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS55",
+              "bankAddressLine1": "758 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1741,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912022-s",
+          "addressLine1": "862 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "James M. Estrada",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 376 4260",
+          "emailId": "James@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962022-s",
+              "name": "Checking USD8055",
+              "alias": "",
+              "accountNumber": "1124194942568055",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS56",
+              "bankAddressLine1": "759 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1742,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c912023-s",
+          "addressLine1": "896 Wall-e Street Apartments",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Otay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Della S. Pineda",
+          "contactPerson": "N/A",
+          "phoneNumber": "916 517 4816",
+          "emailId": "Della@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d962023-s",
+              "name": "Checking USD5273",
+              "alias": "",
+              "accountNumber": "1124194942565273",
+              "accountType": "Checking",
+              "bankCode": 230982671,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS57",
+              "bankAddressLine1": "760 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": 1743,
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        }
+      ],
+      "subsidiaries": [
+        {
+          "name": "Jason & Sons Transport Miami (SEPA)",
+          "realmName": "customer",
+          "externalId": "jandstrr-s",
+          "legalEntityType": "CUSTOMER",
+          "customerCategory": "BUSINESS",
+          "parentExternalId": "jandstra-s",
+          "users": [
+            {
+              "user": {
+                "externalId": "frankmd-s",
+                "fullName": "Frank Wolscraft (SEPA)",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "frankmd-s@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Mr",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "NL"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "frankmd-s@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Utrecht",
+                      "country": "NL",
+                      "type": "home",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "user": {
+                "externalId": "jstrrclerk1-s",
+                "fullName": "Jstrr Clerk1 (SEPA)",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "jstrrclerk1-s@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Mr",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "NL"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "jstrrclerk1-s@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Utrecht",
+                      "country": "NL",
+                      "type": "home",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "user": {
+                "externalId": "jstrrclerk2-s",
+                "fullName": "Jstrr Clerk2 (SEPA)",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "jstrrclerk2-s@email.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "title": "Mr",
+                  "personalInformation": {
+                    "gender": "male",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "NL"
+                  },
+                  "locale": "nl-NL",
+                  "additionalEmails": [
+                    {
+                      "value": "jstrrclerk2-s@email.com"
+                    }
+                  ],
+                  "additionalPhoneNumbers": [
+                    {
+                      "value": "012121212"
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "streetAddress": "Fake Street 123",
+                      "locality": "Utrecht",
+                      "country": "NL",
+                      "type": "home",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "masterServiceAgreement": {
+            "externalId": "jason_sons_transport_miami-s",
+            "name": "Jason & Sons Transport Miami (SEPA)",
+            "description": "Single Service Agreement for Jason & Sons Transport Miami (SEPA)",
+            "status": "ENABLED",
+            "isMaster": true,
+            "jobRoles": [
+              {
+                "name": "Accounts and Payments Jason & Sons Transport Miami (SEPA)",
+                "description": "Accounts and Payments Jason & Sons Transport Miami (SEPA)",
+                "functionGroups": [
+                  {
+                    "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                    "functions": [
+                      {
+                        "functionId": "1002",
+                        "name": "SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1003",
+                        "name": "Transactions",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1005",
+                        "name": "Contacts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1006",
+                        "name": "Product Summary",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1016",
+                        "name": "Manage Statements",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1037",
+                        "name": "Batch - SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 100000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1043",
+                        "name": "SEPA CT - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1045",
+                        "name": "US Foreign Wire - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "daily": 200000,
+                              "transactional": 15000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1051",
+                        "name": "Manage Devices",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1052",
+                        "name": "SEPA CT - closed",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1071",
+                        "name": "Payment Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1079",
+                        "name": "Batch - Intracompany Payments",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1082",
+                        "name": "Manage Arrangement Alias",
+                        "privileges": [
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1089",
+                        "name": "Manage Cards",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1090",
+                        "name": "Places",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1095",
+                        "name": "Batch Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1097",
+                        "name": "Manage Account Reconciliation",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1098",
+                        "name": "Batch - List Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1099",
+                        "name": "Batch - Manage Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "execute"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1115",
+                        "name": "Batch Upload Mappings",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1118",
+                        "name": "Manage External Accounts",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Payment Approver Jason & Sons Transport Miami (SEPA)",
+                "description": "Payment Approver Jason & Sons Transport Miami (SEPA)",
+                "functionGroups": [
+                  {
+                    "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                    "functions": [
+                      {
+                        "functionId": "1002",
+                        "name": "SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1003",
+                        "name": "Transactions",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1005",
+                        "name": "Contacts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1006",
+                        "name": "Product Summary",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1016",
+                        "name": "Manage Statements",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1018",
+                        "name": "US Foreign Wire",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 10000.00
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1037",
+                        "name": "Batch - SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 100000.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1043",
+                        "name": "SEPA CT - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1045",
+                        "name": "US Foreign Wire - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 30000.00
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1052",
+                        "name": "SEPA CT - closed",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve",
+                            "limit": {
+                              "currencyCode": "EUR",
+                              "transactional": 200000.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1068",
+                        "name": "Cash Flow Forecasting",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1071",
+                        "name": "Payment Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1079",
+                        "name": "Batch - Intracompany Payments",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1089",
+                        "name": "Manage Cards",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1090",
+                        "name": "Places",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1095",
+                        "name": "Batch Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "approve"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1097",
+                        "name": "Manage Account Reconciliation",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1098",
+                        "name": "Batch - List Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1099",
+                        "name": "Batch - Manage Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "execute"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1115",
+                        "name": "Batch Upload Mappings",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1118",
+                        "name": "Manage External Accounts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Payment Inputter Jason & Sons Transport Miami (SEPA)",
+                "description": "Payment Inputter Jason & Sons Transport Miami (SEPA)",
+                "functionGroups": [
+                  {
+                    "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                    "functions": [
+                      {
+                        "functionId": "1002",
+                        "name": "SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1003",
+                        "name": "Transactions",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1005",
+                        "name": "Contacts",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1006",
+                        "name": "Product Summary",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1016",
+                        "name": "Manage Statements",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1018",
+                        "name": "US Foreign Wire",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1037",
+                        "name": "Batch - SEPA CT",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1043",
+                        "name": "SEPA CT - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1045",
+                        "name": "US Foreign Wire - Intracompany",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1052",
+                        "name": "SEPA CT - closed",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1071",
+                        "name": "Payment Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1079",
+                        "name": "Batch - Intracompany Payments",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1082",
+                        "name": "Manage Arrangement Alias",
+                        "privileges": [
+                          {
+                            "privilege": "edit"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1089",
+                        "name": "Manage Cards",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1090",
+                        "name": "Places",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1095",
+                        "name": "Batch Templates",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1097",
+                        "name": "Manage Account Reconciliation",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1124",
+                        "name": "Batch - ACH Reversal",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "delete"
+                          },
+                          {
+                            "privilege": "cancel"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1098",
+                        "name": "Batch - List Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1099",
+                        "name": "Batch - Manage Confidential",
+                        "privileges": [
+                          {
+                            "privilege": "execute"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1115",
+                        "name": "Batch Upload Mappings",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "edit"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      },
+                      {
+                        "functionId": "1118",
+                        "name": "Manage External Accounts",
+                        "privileges": [
+                          {
+                            "privilege": "create"
+                          },
+                          {
+                            "privilege": "view"
+                          },
+                          {
+                            "privilege": "delete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "productGroups": [
+            {
+              "internalId": "jstrrdag1-s",
+              "name": "Jason & Sons Transport Miami (SEPA) salary account",
+              "description": "The account of Jason & Sons Transport Miami (SEPA) I use for salary payments",
+              "users": [
+                {
+                  "user": {
+                    "externalId": "frankmd-s",
+                    "fullName": "Frank Wolscraft (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Accounts and Payments Jason & Sons Transport Miami (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jstrrclerk1-s",
+                    "fullName": "Jstrr Clerk1 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Payment Inputter Jason & Sons Transport Miami (SEPA)"
+                  ]
+                },
+                {
+                  "user": {
+                    "externalId": "jstrrclerk1-s",
+                    "fullName": "Jstrr Clerk1 (SEPA)"
+                  },
+                  "referenceJobRoleNames": [
+                    "Payment Approver Jason & Sons Transport Miami (SEPA)"
+                  ]
+                }
+              ],
+              "currentAccounts": [
+                {
+                  "externalId": "6892381123",
+                  "IBAN": "NL60BCKB6892381123",
+                  "name": "Savings Account EUR 1123",
+                  "productTypeExternalId": "savings-account",
+                  "BIC": "BCKB0618",
+                  "currency": "EUR",
+                  "bankBranchCode": "11103093",
+                  "externalTransferAllowed": true,
+                  "debitAccount": true,
+                  "creditAccount": true,
+                  "availableBalance": {
+                    "currencyCode": "EUR",
+                    "amount": 2400.0
+                  },
+                  "accruedInterest": 0,
+                  "creditLimit": {
+                    "currencyCode": "EUR",
+                    "amount": 3500.0
+                  },
+                  "accountHolderName": "Jason & Sons Transport Miami (SEPA)"
+                }
+              ]
+            }
+          ],
+          "contacts": [
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012001-s",
+              "addressLine1": "519 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Renee S. Menefee",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 798 4819",
+              "emailId": "Renee@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062001-s",
+                  "name": "Checking USD2067",
+                  "alias": "",
+                  "accountNumber": "1124194942562067",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS36",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012002-s",
+              "addressLine1": "622 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Terrence E. Buxton",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 802 4409",
+              "emailId": "Terrence@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062002-s",
+                  "name": "Checking USD1417",
+                  "alias": "",
+                  "accountNumber": "1124194942561417",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS37",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012003-s",
+              "addressLine1": "465 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Candace W. Bailey",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 882 4810",
+              "emailId": "Candace@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062003-s",
+                  "name": "Checking USD8996",
+                  "alias": "",
+                  "accountNumber": "1124194942568996",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS38",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012004-s",
+              "addressLine1": "174 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Connie W. Harvey",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 765 4047",
+              "emailId": "Connie@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062004-s",
+                  "name": "Checking USD3804",
+                  "alias": "",
+                  "accountNumber": "1124194942563804",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS39",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012005-s",
+              "addressLine1": "22 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Elliot H. Weaver",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 201 4534",
+              "emailId": "Elliot@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062005-s",
+                  "name": "Checking USD3048",
+                  "alias": "",
+                  "accountNumber": "1124194942563048",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS40",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012006-s",
+              "addressLine1": "559 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Alvin B. Rios; Austin",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 941 4514",
+              "emailId": "Alvin@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062006-s",
+                  "name": "Checking USD5101",
+                  "alias": "",
+                  "accountNumber": "1124194942565101",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS41",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012007-s",
+              "addressLine1": "170 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Jeannie M. Felten",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 496 4967",
+              "emailId": "Jeannie@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062007-s",
+                  "name": "Checking USD8979",
+                  "alias": "",
+                  "accountNumber": "1124194942568979",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS42",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012008-s",
+              "addressLine1": "228 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Meghan D. Ray",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 908 4840",
+              "emailId": "Meghan@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062008-s",
+                  "name": "Checking USD2625",
+                  "alias": "",
+                  "accountNumber": "1124194942562625",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS43",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012009-s",
+              "addressLine1": "298 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Joyce T. Crum",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 624 4646",
+              "emailId": "Joyce@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062009-s",
+                  "name": "Checking USD8236",
+                  "alias": "",
+                  "accountNumber": "1124194942568236",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS44",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012010-s",
+              "addressLine1": "423 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Thomas C. Harris",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 153 4272",
+              "emailId": "Thomas@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062010-s",
+                  "name": "Checking USD8426",
+                  "alias": "",
+                  "accountNumber": "1124194942568426",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS45",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012011-s",
+              "addressLine1": "39 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Ambrose C. Clark",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 286 4343",
+              "emailId": "Ambrose@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062011-s",
+                  "name": "Checking USD8167",
+                  "alias": "",
+                  "accountNumber": "1124194942568167",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS46",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012012-s",
+              "addressLine1": "805 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Marylin S. Ballinger",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 182 4638",
+              "emailId": "Marylin@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062012-s",
+                  "name": "Checking USD6409",
+                  "alias": "",
+                  "accountNumber": "1124194942566409",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS47",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012013-s",
+              "addressLine1": "93 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Charlie C. Curtis",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 152 4450",
+              "emailId": "Charlie@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062013-s",
+                  "name": "Checking USD5989",
+                  "alias": "",
+                  "accountNumber": "1124194942565989",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS48",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012014-s",
+              "addressLine1": "2 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Harvey F. Jackson",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 734 4257",
+              "emailId": "Harvey@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062014-s",
+                  "name": "Checking USD7773",
+                  "alias": "",
+                  "accountNumber": "1124194942567773",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS49",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012015-s",
+              "addressLine1": "793 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Sara R. Timmons",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 465 4474",
+              "emailId": "Sara@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062015-s",
+                  "name": "Checking USD5219",
+                  "alias": "",
+                  "accountNumber": "1124194942565219",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS50",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012016-s",
+              "addressLine1": "789 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Betsy R. Woodrum",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 254 4180",
+              "emailId": "Betsy@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062016-s",
+                  "name": "Checking USD3077",
+                  "alias": "",
+                  "accountNumber": "1124194942563077",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS51",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012017-s",
+              "addressLine1": "942 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Lewis A. Zacarias",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 319 4267",
+              "emailId": "Lewis@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062017-s",
+                  "name": "Checking USD9297",
+                  "alias": "",
+                  "accountNumber": "1124194942569297",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS52",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012018-s",
+              "addressLine1": "30 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Melissa F. James",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 105 4131",
+              "emailId": "Melissa@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062018-s",
+                  "name": "Checking USD5562",
+                  "alias": "",
+                  "accountNumber": "1124194942565562",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS53",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012019-s",
+              "addressLine1": "967 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Roger D. McFarlin",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 532 4935",
+              "emailId": "Roger@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062019-s",
+                  "name": "Checking USD1086",
+                  "alias": "",
+                  "accountNumber": "1124194942561086",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS54",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012020-s",
+              "addressLine1": "864 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "William G. Miles",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 124 4899",
+              "emailId": "William@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062020-s",
+                  "name": "Checking USD6266",
+                  "alias": "",
+                  "accountNumber": "1124194942566266",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS55",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            },
+            {
+              "category": "Employee",
+              "externalId": "a8141b9e06621c1012021-s",
+              "addressLine1": "895 Wall-e Street Apartments",
+              "addressLine2": "",
+              "streetName": "",
+              "postCode": 91974,
+              "town": "East Lake",
+              "countrySubDivision": "CA",
+              "country": "US",
+              "name": "Russ J. Webster",
+              "contactPerson": "N/A",
+              "phoneNumber": "916 416 4546",
+              "emailId": "Russ@mail.com",
+              "accounts": [
+                {
+                  "externalId": "a8141b9e06632d1062021-s",
+                  "name": "Checking USD3484",
+                  "alias": "",
+                  "accountNumber": "1124194942563484",
+                  "accountType": "Checking",
+                  "bankCode": 230982671,
+                  "bankName": "CitiBank",
+                  "BIC": "CITIUS56",
+                  "bankAddressLine1": "738 Levy Court",
+                  "bankAddressLine2": "",
+                  "bankStreetName": "",
+                  "bankPostCode": 1721,
+                  "bankTown": "Acton",
+                  "bankCountrySubDivision": "CA",
+                  "bankCountry": "US"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

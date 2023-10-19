@@ -1,0 +1,234 @@
+# Stream config
+spring:
+  cloud:
+    kubernetes:
+      config:
+        enabled: false
+      discovery:
+        enabled: true
+    config:
+      enabled: false
+  zipkin:
+    enabled: false
+  security:
+    oauth2:
+      client:
+        registration:
+          bb:
+            authorization-grant-type: client_credentials
+            client-id: bb-client
+            client-secret: bb-secret
+            client-authentication-method: post
+        provider:
+          bb:
+            token-uri: http://token-converter:8080/oauth/token
+
+backbase:
+  stream:
+    bootstrap:
+      fido-applications:
+        bootstrapResourcesEnabled: false
+        applications:
+          - appKey: ""
+            appId: ""
+            trustedFacetIds: ""
+      product-catalog:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:product-catalog/product-catalog.json
+      legal-entity:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:le-hierarchy/le-base-structure.json
+          # DO NOT ADD OTHER FILES HERE.
+          # All the additional files are runtime-specific, so they must be defined via TopStack, runtime configuration, etc.
+      message:
+        bootstrapResourcesEnabled: false
+        topics: Inquire Topic,Dispute Topic,Other
+      global-limits:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:limits/global-limits.json
+      approvals:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:approval/approval.json
+      adminAps:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:admin-aps/permissions-set.json
+      contentRepository:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:content-service-repositories/payments/
+          - classpath:content-service-repositories/portalRepository/
+      pushIntegration:
+        bootstrapResourcesEnabled: false
+        certificates:
+          - platform: IOS
+            isProduction: false
+            apnsTopic: com.backbase.modelbank.businessbankingapp
+            appName: model-bank
+            location: <path-to-ios-certificate>
+          - platform: ANDROID
+            isProduction: false
+            appName: model-bank
+            location: <path-to-ios-certificate>
+      asset-classes:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:wealth/static-data/asset-classes.json
+      regions:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:wealth/static-data/regions.json
+      transaction-categories:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:wealth/static-data/transaction-categories.json
+      instrument-bundles:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:wealth/static-data/instrument-bundles.json
+      portfolio-bundles:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:wealth/portfolio-bundles/portfolio-bundles.json
+          - classpath:wealth/portfolio-bundles/portfolio-bundles-uat.json
+          - classpath:wealth/portfolio-bundles/portfolio-bundles-automation.json
+      aggregate-portfolios:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:wealth/aggregate-portfolios/aggregate-portfolios.json
+          - classpath:wealth/aggregate-portfolios/aggregate-portfolios-uat.json
+          - classpath:wealth/aggregate-portfolios/aggregate-portfolios-automation.json
+      position-bundles:
+        bootstrapResourcesEnabled: false
+        location:
+          - classpath:wealth/position-bundles/position-bundles.json
+    legalentity:
+      sink:
+        buffer-size: 1
+        useIdentityIntegration: true
+        userProfileEnabled: false
+    dbs:
+      user-manager-base-url: http://user-manager:8080
+      access-control-base-url: http://access-control:8080
+      arrangement-manager-base-url: http://arrangement-manager:8080
+      transaction-manager-base-url: http://transaction-manager:8080
+      messages-service-base-url: http://messages-service:8080
+      limits-manager-base-url:  http://limit:8080
+      contact-manager-base-url: http://contact-manager:8080
+      approvals-base-url: http://approval-service:8080
+      portfolio-base-url: http://portfolio:8080
+    identity:
+      fido-service-url: http://fido-service:8080
+      identityIntegrationBaseUrl: http://identity-integration-service:8080
+    cxp:
+      content-service-url: http://contentservices:8080
+    mobile:
+      push-integration-service-url: http://edge:8080/api/push-integration-service
+    audiences:
+      segmentation:
+        user-kind:
+          enabled: false
+logging:
+  level:
+    root: INFO
+
+global-limits:
+  bootstrapResourcesEnabled: false
+  baasHeader:
+  accessControlUrl:
+  limitsUrl:
+
+# Mambu config (loaded from env vars)
+mambu:
+  bootstrapResourcesEnabled: false
+  baseUrl:
+  username:
+  password:
+  branchKey:
+  currentAccountProductKey:
+  savingsAccountProductKey:
+  creditCardAccountProductKey:
+  transactionsBeneficiaryAccountKey:
+  ingestPlacesData: false
+  placesDataFile: places/places-data.json
+  currentAccountProductKeys:
+    USD:
+    EUR:
+  savingsAccountProductKeys:
+    USD:
+    EUR:
+  transactionsBeneficiaryAccountKeys:
+    USD:
+    EUR:
+
+# Marqeta config (loaded from env vars)
+marqeta:
+  bootstrapResourcesEnabled: false
+  baseUrl:
+  username:
+  password:
+  debugEnabled: true
+  debitCard:
+    name: " Black Card"
+    currencyCode: USD
+    usageLimit: 10
+    amountLimit: 5000
+    metaData:
+      atmMaxAmount: 10000
+      atmMinAmount: 0
+      brand: mastercard
+      currency: USD
+      onlineMaxAmount: 10000
+      onlineMinAmount: 0
+      replacementStatus: NotUnderReplacement
+      subType: ATM
+      type: Debit
+  creditCard:
+    name: " Gold Card"
+    currencyCode: USD
+    usageLimit: 20
+    amountLimit: 6000
+    metaData:
+      atmMaxAmount: 20000
+      atmMinAmount: 0
+      brand: mastercard
+      currency: USD
+      onlineMaxAmount: 20000
+      onlineMinAmount: 0
+      replacementStatus: NotUnderReplacement
+      subType: ATM
+      type: Credit
+
+# Drive Wealth configuration
+drive-wealth:
+  bootstrapResourcesEnabled: false
+  baseUrl: https://bo-api.drivewealth.io
+  dwClientAppKey:
+  clientID:
+  clientSecret:
+
+# Admin config (loaded from env vars)
+admin:
+  bootstrapManualStepsEnabled: false
+  baseUrl:
+  username:
+  password:
+  defaultUserPassword:
+  remoteConfigUsersLocation: classpath:remote-config-users.json
+
+# Payveris Mock config (loaded from env vars)
+payveris:
+  bootstrapPayverisMockEnabled: false
+  payverisBaseUrl:
+
+environment:
+  enrichment:
+    exclude-list: ACH, admin
+  installation:
+  runtime:
+
+enableExperimentalUniversalSupport: false

@@ -1,0 +1,397 @@
+{
+    "name": "Financial Institute Head Office",
+    "externalId": "financial-institute-head-office",
+    "realmName": "employee",
+    "legalEntityType": "BANK",
+    "administrators": [
+        {
+            "externalId": "admin",
+            "fullName": "Admin",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+                "address": "admin@email.com"
+            },
+            "mobileNumber": {
+                "number": "1234567890"
+            }
+        }
+    ],
+    "users": [
+        {
+            "user": {
+                "externalId": "admin",
+                "fullName": "Admin",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "admin@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": []
+        },
+        {
+            "user": {
+                "externalId": "fisa01",
+                "fullName": "Wilma Croft",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "fisa01@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - Emulation",
+                "Bank Admin - Conversation History",
+                "Bank Employee - Conversation History Insights",
+                "Bank Employee - Conversation History Export"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "fisa02",
+                "fullName": "Brian Wislon",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "fisa02@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - Emulation",
+                "Bank Admin - Conversation History",
+                "Bank Employee - Conversation History Insights",
+                "Bank Employee - Conversation History Export"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "jbank",
+                "fullName": "John Bank",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "jbank@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - Emulation",
+                "Bank Employee - Conversation History",
+                "Bank Employee - Conversation History Insights",
+                "Bank Employee - Conversation History Export"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "ahead",
+                "fullName": "Anna Head",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "ahead@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - Emulation",
+                "Bank Employee - Conversation History",
+                "Bank Employee - Conversation History Insights",
+                "Bank Employee - Conversation History Export"
+            ]
+        },
+        {
+            "user": {
+                "externalId": "fhanson",
+                "fullName": "Fritz Hanson",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                    "address": "fhanson@email.com"
+                },
+                "mobileNumber": {
+                    "number": "1234567890"
+                }
+            },
+            "referenceJobRoleNames": [
+                "Bank Employee - Emulation",
+                "Bank Employee - Conversation History",
+                "Bank Employee - Conversation History Insights",
+                "Bank Employee - Conversation History Export"
+            ]
+        }
+    ],
+    "productGroups": [],
+    "referenceJobRoles": [
+        {
+            "name": "Bank Employee - Emulation",
+            "description": "Emulation Permissions for Bank Employees",
+            "functionGroups": [
+                {
+                    "name": "Bank Employee - Emulation",
+                    "functions": [
+                        {
+                            "functionId": "1075",
+                            "name": "Emulate",
+                            "privileges": [
+                                {
+                                    "privilege": "view"
+                                },
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1076",
+                            "name": "Act on behalf of",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bank Admin - Conversation History",
+            "description": "Conversation History Permissions for Bank Admins",
+            "functionGroups": [
+                {
+                    "name": "Bank Admin - Conversation History",
+                    "functions": [
+                        {
+                            "functionId": "1125",
+                            "name": "Conversation History",
+                            "privileges": [
+                                {
+                                    "privilege": "create"
+                                },
+                                {
+                                    "privilege": "view"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1126",
+                            "name": "Conversation History Configuration",
+                            "privileges": [
+                                {
+                                    "privilege": "view"
+                                },
+                                {
+                                    "privilege": "edit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bank Employee - Conversation History",
+            "description": "Conversation History Permissions for Bank Employees",
+            "functionGroups": [
+                {
+                    "name": "Bank Employee - Conversation History",
+                    "functions": [
+                        {
+                            "functionId": "1125",
+                            "name": "Conversation History",
+                            "privileges": [
+                                {
+                                    "privilege": "create"
+                                },
+                                {
+                                    "privilege": "view"
+                                }
+                            ]
+                        },
+                        {
+                            "functionId": "1126",
+                            "name": "Conversation History Configuration",
+                            "privileges": [
+                                {
+                                    "privilege": "view"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bank Employee - Conversation History Insights",
+            "description": "Conversation History Insights Permissions for Bank Employees",
+            "functionGroups": [
+                {
+                    "name": "Bank Employee - Conversation History Insights",
+                    "functions": [
+                        {
+                            "functionId": "1131",
+                            "name": "Conversation History Insights",
+                            "privileges": [
+                                {
+                                    "privilege": "view"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bank Employee - Conversation History Export",
+            "description": "Conversation History Export Permissions for Bank Employees",
+            "functionGroups": [
+                {
+                    "name": "Bank Employee - Conversation History Export",
+                    "functions": [
+                        {
+                            "functionId": "1132",
+                            "name": "Conversation History Export",
+                            "privileges": [
+                                {
+                                    "privilege": "execute"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "subsidiaries": [
+        {
+            "name": "Financial Institute Branch 1",
+            "realmName": "employee",
+            "externalId": "financial-institute-branch1",
+            "legalEntityType": "BANK",
+            "users": [
+                {
+                    "user": {
+                        "externalId": "fib1sa01",
+                        "fullName": "Lisa Morelli",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "fib1sa01@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - Emulation",
+                        "Bank Admin - Conversation History",
+                        "Bank Employee - Conversation History Insights",
+                        "Bank Employee - Conversation History Export"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "fib1sa02",
+                        "fullName": "Bert Right",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "fib1sa02@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - Emulation",
+                        "Bank Admin - Conversation History",
+                        "Bank Employee - Conversation History Insights",
+                        "Bank Employee - Conversation History Export"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "jbranch",
+                        "fullName": "Jane Branch",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "jbranch@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - Emulation",
+                        "Bank Employee - Conversation History",
+                        "Bank Employee - Conversation History Insights",
+                        "Bank Employee - Conversation History Export"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "pwilcox",
+                        "fullName": "Paul Wilcox",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "pwilcox@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - Emulation",
+                        "Bank Employee - Conversation History",
+                        "Bank Employee - Conversation History Insights",
+                        "Bank Employee - Conversation History Export"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "pduke",
+                        "fullName": "Philip Duke",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "pduke@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - Emulation",
+                        "Bank Employee - Conversation History",
+                        "Bank Employee - Conversation History Insights",
+                        "Bank Employee - Conversation History Export"
+                    ]
+                },
+                {
+                    "user": {
+                        "externalId": "gmorrison",
+                        "fullName": "Gayle Morrison",
+                        "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                        "emailAddress": {
+                            "address": "gmorrison@email.com"
+                        },
+                        "mobileNumber": {
+                            "number": "1234567890"
+                        }
+                    },
+                    "referenceJobRoleNames": [
+                        "Bank Employee - Emulation",
+                        "Bank Employee - Conversation History",
+                        "Bank Employee - Conversation History Insights",
+                        "Bank Employee - Conversation History Export"
+                    ]
+                }
+            ],
+            "productGroups": []
+        }
+    ]
+}

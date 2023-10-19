@@ -1,0 +1,16 @@
+drive-wealth:
+  baseUrl:
+  dwClientAppKey:
+  clientID:
+  clientSecret:
+  userId:
+
+eureka:
+  client:
+    enabled: false
+
+dwToken:
+  initial:
+    delay: 0
+  fixed:
+    delay: 0

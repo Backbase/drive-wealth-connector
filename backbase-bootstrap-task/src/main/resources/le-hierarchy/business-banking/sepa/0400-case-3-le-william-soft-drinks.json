@@ -1,0 +1,1552 @@
+{
+  "name": "Financial Institute Branch 1",
+  "realmName": "employee",
+  "externalId": "financial-institute-branch1",
+  "legalEntityType": "BANK",
+  "subsidiaries": [
+    {
+      "name": "William Soft Drinks (SEPA)",
+      "realmName": "customer",
+      "externalId": "william-sd-s",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "administrators": [
+        {
+          "externalId": "wsdsa01-s",
+          "fullName": "WSDSA01 Jones (SEPA)",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "wsdsa01-s@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        },
+        {
+          "externalId": "wsdsa02-s",
+          "fullName": "WSDSA02 Jones (SEPA)",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "wsdsa02-s@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "wsdsa01-s",
+            "fullName": "WSDSA01 Jones (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "wsdsa01-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "wsdsa01-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "wsdsa02-s",
+            "fullName": "WSDSA02 Jones (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "wsdsa02-s@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "wsdsa02-s@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "wsdsa01-s-at1",
+            "fullName": "WSDSA01 Jones Autotest01 (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "wsdsa01-s-at1ac@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "wsdsa01-sb-at1ac@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "wsdsa01-s-at2",
+            "fullName": "WSDSA01 Jones Autotest02 (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "wsdsa01-s-at2c@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "wsdsa01-sb-at2c@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "wsdsa01-s-at3",
+            "fullName": "WSDSA01 Jones Autotest03 (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "wsdsa01-s-at3c@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "wsdsa01-sb-at3c@email.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "masterServiceAgreement": {
+        "externalId": "william-soft-drinks-s",
+        "name": "William Soft Drinks (SEPA)",
+        "description": "Single Service Agreement for William Soft Drinks (SEPA)",
+        "status": "ENABLED",
+        "isMaster": true,
+        "jobRoles": [
+          {
+            "name": "Admin William Soft Drinks (SEPA)",
+            "description": "Admin William Soft Drinks (SEPA)",
+            "functionGroups": [
+              {
+                "name": "admin",
+                "functions": [
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1007",
+                    "name": "Assign Users",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1009",
+                    "name": "Assign Permissions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1010",
+                    "name": "Manage Users",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1011",
+                    "name": "Manage Legal Entities",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1012",
+                    "name": "Manage Limits",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1013",
+                    "name": "Audit",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1014",
+                    "name": "Manage Shadow Limits",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1019",
+                    "name": "Manage Data Groups",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1020",
+                    "name": "Manage Function Groups",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1027",
+                    "name": "Access Actions History",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1028",
+                    "name": "Manage Service Agreements",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1029",
+                    "name": "Manage Action Recipes",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1031",
+                    "name": "Manage Topics",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1032",
+                    "name": "Assign Approval Policies",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1033",
+                    "name": "Manage Approval Policy and Level",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1034",
+                    "name": "Manage Identities",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1035",
+                    "name": "Manage User Profiles",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1039",
+                    "name": "Supervise Messages",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1049",
+                    "name": "Lock User",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1050",
+                    "name": "Unlock User",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1051",
+                    "name": "Manage Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1066",
+                    "name": "Manage Other User's Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1078",
+                    "name": "Manage Authorized Users",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1114",
+                    "name": "Quick User Setup",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1119",
+                    "name": "Manage Self-approve Permissions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "name": "wsddag1-s",
+          "description": "WSDDAG1 (SEPA)",
+          "users": [
+            {
+              "user": {
+                "externalId": "wsdsa01-s",
+                "fullName": "WSDSA01 Jones (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Admin William Soft Drinks (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "wsdsa02-s",
+                "fullName": "WSDSA02 Jones (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Admin William Soft Drinks (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "wsdsa01-s-at1",
+                "fullName": "WSDSA01 Jones Autotest01 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Admin William Soft Drinks (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "wsdsa01-s-at2",
+                "fullName": "WSDSA01 Jones Autotest02 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Admin William Soft Drinks (SEPA)"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "wsdsa01-s-at3",
+                "fullName": "WSDSA01 Jones Autotest03 (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Admin William Soft Drinks (SEPA)"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "2048571123",
+              "IBAN": "NL90BCKB2048571123",
+              "name": "Checking Account EUR 1123",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 30.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 2526.22
+              },
+              "accountHolderName": "William Soft Drinks (SEPA)"
+            },
+            {
+              "externalId": "8394871415",
+              "IBAN": "NL35BCKB8394871415",
+              "name": "Liability EUR 1415",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "67014822",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 235.5
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 314.23
+              },
+              "accountHolderName": "William Soft Drinks (SEPA)"
+            },
+            {
+              "externalId": "5819234459",
+              "IBAN": "NL69BCKB5819234459",
+              "name": "Equity EUR 4459",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 1000.5
+              },
+              "accruedInterest": 1.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 4567.0
+              },
+              "accountHolderName": "William Soft Drinks (SEPA)"
+            }
+          ],
+          "savingAccounts": [
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212001-s",
+          "addressLine1": "3324 Ersel Street",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "David A. Walker",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 676 0202",
+          "emailId": "David@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262001-s",
+              "name": "Checking USD 5957",
+              "alias": "Alias Account 1 ",
+              "accountNumber": "9928292850835957",
+              "accountType": "Checking",
+              "bankCode": 11103093,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01720",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212002-s",
+          "addressLine1": "4551 Stoney Lane",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 75002,
+          "town": "Allen",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Raymond A. Davis",
+          "contactPerson": "N/A",
+          "phoneNumber": "760 775 4156",
+          "emailId": "Ray@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262002-s",
+              "name": "Checking USD 0012",
+              "alias": "",
+              "accountNumber": "1123194942560012",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30101",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212003-s",
+          "addressLine1": "1296 Java Lane",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 29810,
+          "town": "Allendale",
+          "countrySubDivision": "SC",
+          "country": "US",
+          "name": "Charles J. Bowen",
+          "contactPerson": "N/A",
+          "phoneNumber": "909 860 9484",
+          "emailId": "Charles@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262003-s",
+              "name": "Checking USD 0972",
+              "alias": "Charles",
+              "accountNumber": "0495182512350972",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212004-s",
+          "addressLine1": "1190 Clearview Drive",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 80510,
+          "town": "Allenspark",
+          "countrySubDivision": "CO",
+          "country": "US",
+          "name": "Lauren P. McCroskey",
+          "contactPerson": "N/A",
+          "phoneNumber": "415 452 0256",
+          "emailId": "123Lau@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262004-s",
+              "name": "Checking USD 3409",
+              "alias": "Lauras good one",
+              "accountNumber": "7556105223953409",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212005-s",
+          "addressLine1": "3701 Renwick Drive",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 18109,
+          "town": "Allentown",
+          "countrySubDivision": "PA",
+          "country": "US",
+          "name": "Barbara K. Alber",
+          "contactPerson": "N/A",
+          "phoneNumber": "620 325 2292",
+          "emailId": "Barb@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262005-s",
+              "name": "Checking USD 1945",
+              "alias": "Barbed wire account",
+              "accountNumber": "9586857323041945",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30101",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "KS",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212006-s",
+          "addressLine1": "3917 Berkley Street",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 18106,
+          "town": "Allentown",
+          "countrySubDivision": "PA",
+          "country": "US",
+          "name": "Melanie J. Trejo",
+          "contactPerson": "N/A",
+          "phoneNumber": "801 450 1535",
+          "emailId": "MelanieJ@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262006-s",
+              "name": "Checking USD 0562",
+              "alias": "Melanie Joint",
+              "accountNumber": "0571205029510562",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212007-s",
+          "addressLine1": "1907 E Pepper Tree Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 92324,
+          "town": "Colton",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Andrew M. Zeitz",
+          "contactPerson": "N/A",
+          "phoneNumber": "623 509 1515",
+          "emailId": "Andrewm@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262007-s",
+              "name": "Checking USD 2955",
+              "alias": "Andrew",
+              "accountNumber": "0348598304092955",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Columbia",
+              "bankCountrySubDivision": "SC",
+              "bankCountry": "US"
+            },
+            {
+              "externalId": "a8141b9e06632d262008-s",
+              "name": "Checking USD 9958",
+              "alias": "Andrew",
+              "accountNumber": "1456256723469958",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Columbia",
+              "bankCountrySubDivision": "SC",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212009-s",
+          "addressLine1": "19070 Benedict Dr, Woodbridge",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 95258,
+          "town": "Woodbridge",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Lynette G. McCumber",
+          "contactPerson": "N/A",
+          "phoneNumber": "843 705 2039",
+          "emailId": "Lynett@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262009-s",
+              "name": "Checking USD 1059",
+              "alias": "Checking ",
+              "accountNumber": "0595295829291059",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "24095",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "OH",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212010-s",
+          "addressLine1": "1908 W Quartermaster St",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 92324,
+          "town": "Colton",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Helen R. Womack",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 992 5086",
+          "emailId": "Helen@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262010-s",
+              "name": "Checking USD 2349",
+              "alias": "My account",
+              "accountNumber": "1235789978902349",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212011-s",
+          "addressLine1": "1908 Bartley Ct,",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 95355,
+          "town": "Modesto",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Carl J. Bethea",
+          "contactPerson": "N/A",
+          "phoneNumber": "843 705 5096",
+          "emailId": "CarlJ@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262011-s",
+              "name": "Checking USD 2859",
+              "alias": "Business",
+              "accountNumber": "0978176510592859",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "29401",
+              "bankTown": "Charleston",
+              "bankCountrySubDivision": "SC",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212012-s",
+          "addressLine1": "1909 Pepperdale Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91748,
+          "town": "Rowland Heights",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Richard D. Noack",
+          "contactPerson": "N/A",
+          "phoneNumber": "627 509 1234",
+          "emailId": "RicharD@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262012-s",
+              "name": "Checking USD 5959",
+              "alias": "Richard and Deb",
+              "accountNumber": "0194928526275959",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Louisiana",
+              "bankCountrySubDivision": "LA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212013-s",
+          "addressLine1": "19087 Allegheny Rd #APT 12,",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 92307,
+          "town": "Apple Valley",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Carl J. Bethea",
+          "contactPerson": "N/A",
+          "phoneNumber": "628 509 5955",
+          "emailId": "CarlB@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262013-s",
+              "name": "Checking USD 2758",
+              "alias": "CarlB  Checking",
+              "accountNumber": "1235508298752758",
+              "accountType": "Checking",
+              "bankCode": 11103093,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212014-s",
+          "addressLine1": "19075 Caramba Rd,",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 96080,
+          "town": "Red Bluff",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Darci J. Wilson",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 676 0505",
+          "emailId": "Darci@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262014-s",
+              "name": "Checking USD 2309",
+              "alias": "",
+              "accountNumber": "0987678423042309",
+              "accountType": "Checking",
+              "bankCode": 11103093,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS33",
+              "bankAddressLine1": "736 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01720",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "MA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212015-s",
+          "addressLine1": "1030 Southwood Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 93401,
+          "town": "San Luis Obispo",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Dawn E. Gibson",
+          "contactPerson": "N/A",
+          "phoneNumber": "760 775 0105",
+          "emailId": "Dawne@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262015-s",
+              "name": "Checking USD 9857",
+              "alias": "Dawn account 1 ",
+              "accountNumber": "0984987387129857",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30101",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212016-s",
+          "addressLine1": "1930 Sea Way",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 94923,
+          "town": "Bodega Bay",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "John M. Avery",
+          "contactPerson": "N/A",
+          "phoneNumber": "909 860 2356",
+          "emailId": "JohmG@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262016-s",
+              "name": "Checking USD 2805",
+              "alias": "Jhons good one ",
+              "accountNumber": "0982587639852805",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212017-s",
+          "addressLine1": "1130 Burnett Ave",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 94520,
+          "town": "Concord",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Domingo P. Oates",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 676 0282",
+          "emailId": "Sundayxd@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262017-s",
+              "name": "Checking USD 2235",
+              "alias": "",
+              "accountNumber": "1234194950592235",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            },
+            {
+              "externalId": "a8141b9e06632d262018-s",
+              "name": "Checking USD 9919",
+              "alias": "",
+              "accountNumber": "1445645740599919",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            },
+            {
+              "externalId": "a8141b9e06632d262019-s",
+              "name": "Checking USD 1122",
+              "alias": "",
+              "accountNumber": "0294283719281122",
+              "accountType": "Checking",
+              "bankCode": 11103094,
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212020-s",
+          "addressLine1": "9640 Topanga Canyon",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91311,
+          "town": "Chatsworth",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Gwendolyn L. Osorio",
+          "contactPerson": "N/A",
+          "phoneNumber": "760 775 2335",
+          "emailId": "Gwenn@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262020-s",
+              "name": "Checking USD 5008",
+              "alias": "Gweeen's Checking",
+              "accountNumber": "9871135912395008",
+              "accountType": "Checking",
+              "bankCode": 121042882,
+              "bankName": "Wells Fargo",
+              "BIC": "WFBIUS6S",
+              "bankAddressLine1": "512 Hanifan Lane",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30101",
+              "bankTown": "Acworth",
+              "bankCountrySubDivision": "KS",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212021-s",
+          "addressLine1": "855 Oak Grove Ave #105",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 94025,
+          "town": "Menlo Park",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Pedro M. Lichtenstein",
+          "contactPerson": "N/A",
+          "phoneNumber": "909 860 1123",
+          "emailId": "Peter@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262021-s",
+              "name": "Checking USD 5097",
+              "alias": "",
+              "accountNumber": "0983958020985097",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            },
+            {
+              "externalId": "a8141b9e06632d262022-s",
+              "name": "Checking USD 1286",
+              "alias": "",
+              "accountNumber": "0204205920391268",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c212023-s",
+          "addressLine1": "101 Beechwood Ave",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 94025,
+          "town": "Long Beach",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Alita R. Woody",
+          "contactPerson": "N/A",
+          "phoneNumber": "801 450 9292",
+          "emailId": "Wing@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d262023-s",
+              "name": "Checking USD 1209",
+              "alias": "",
+              "accountNumber": "9585102856781209",
+              "accountType": "Checking",
+              "bankCode": 121000358,
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 California St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "94111",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css"
+    height="2920px" preserveAspectRatio="none" style="width:1000px;height:1554px;background:#FFFFFF;" version="1.1"
+    viewBox="0 0 1000 1554" width="1770px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <rect fill="none" height="1553.2185" style="stroke:#1281AC;stroke-width:0.6574621959237343;" width="999.3425"
+            x="0" y="0"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" font-weight="bold" lengthAdjust="spacing"
+            textLength="386.5878" x="304.405" y="18.4057">Portfolio Bundle, Orders, Trading Account, Position Bundle and
+            Holdings
+        </text>
+        <rect fill="#F3F3F3" height="1522.1226" style="stroke:#1281AC;stroke-width:0.32873109796186717;" width="72.9783"
+            x="0.6575" y="28.4661"/>
+        <text fill="#1281AC" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="38.7903" x="17.7515" y="36.3996">Custom
+        </text>
+        <rect fill="#F3F3F3" height="1522.1226" style="stroke:#1281AC;stroke-width:0.32873109796186717;" width="130.835"
+            x="183.432" y="28.4661"/>
+        <text fill="#1281AC" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="126.8902" x="185.4043" y="36.3996">Wealth Data Sync Service
+        </text>
+        <rect fill="#F3F3F3" height="1522.1226" style="stroke:#1281AC;stroke-width:0.32873109796186717;"
+            width="332.0184" x="475.3452" y="28.4661"/>
+        <text fill="#1281AC" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="46.6798" x="618.0145" y="36.3996">Backbase
+        </text>
+        <rect fill="#F3F3F3" height="1522.1226" style="stroke:#1281AC;stroke-width:0.32873109796186717;" width="69.0335"
+            x="808.6785" y="28.4661"/>
+        <text fill="#1281AC" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="63.7738" x="811.3083" y="36.3996">Drive Wealth
+        </text>
+        <rect fill="#F3F3F3" height="1522.1226" style="stroke:#1281AC;stroke-width:0.32873109796186717;" width="49.3097"
+            x="879.027" y="28.4661"/>
+        <text fill="#1281AC" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="36.8179" x="885.2728" y="36.3996">Stream
+        </text>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="568.3761" y="531.5428"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="568.3761" y="927.0217"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="568.3761" y="1481.7349"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="657.7909" y="310.2451"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="657.7909" y="483.2861"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="761.67" y="246.122"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="197.8653"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="435.0294"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="767.7874"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="806.0949"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="1169.3582"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="1238.0835"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="1405.7774"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="900.3945" y="680.6531"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="900.3945" y="1308.6939"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="954.3064" y="1056.4082"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="518.0802"
+            x="207.1006" y="275.1377"/>
+        <rect fill="none" height="305.1446" style="stroke:#000000;stroke-width:0.9861932938856015;" width="725.1808"
+            x="207.1006" y="399.9219"/>
+        <rect fill="none" height="213.4081" style="stroke:#000000;stroke-width:0.9861932938856015;" width="681.1308"
+            x="200.526" y="742.6292"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="396.4497"
+            x="207.1006" y="891.9142"/>
+        <rect fill="none" height="87.2216" style="stroke:#000000;stroke-width:0.9861932938856015;" width="782.38"
+            x="207.1006" y="993.6"/>
+        <rect fill="none" height="214.723" style="stroke:#000000;stroke-width:0.9861932938856015;" width="731.7554"
+            x="200.526" y="1118.3843"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="674.5562"
+            x="207.1006" y="1134.2507"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="674.5562"
+            x="207.1006" y="1202.976"/>
+        <rect fill="none" height="135.4783" style="stroke:#000000;stroke-width:0.9861932938856015;" width="674.5562"
+            x="207.1006" y="1370.67"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="36.8179"
+            x2="36.8179" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="248.5207"
+            x2="248.5207" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="500.9862"
+            x2="500.9862" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="571.3346"
+            x2="571.3346" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="660.7495"
+            x2="660.7495" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="764.6285"
+            x2="764.6285" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="842.8665"
+            x2="842.8665" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="903.3531"
+            x2="903.3531" y1="72.3363" y2="1517.3252"/>
+        <line style="stroke:#000000;stroke-width:0.32873109796186717;stroke-dasharray:5.0,5.0;" x1="957.265"
+            x2="957.265" y1="72.3363" y2="1517.3252"/>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="67.7186" x="3.2873" y="41.0452"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="55.8843"
+            x="7.8895" y="54.1912">Login event
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="36.8179"
+            x="18.7377" y="64.9058">emitter
+        </text>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="67.7186" x="3.2873" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="55.8843"
+            x="7.8895" y="1529.8137">Login event
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="36.8179"
+            x="18.7377" y="1540.5283">emitter
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="70.3485" x="213.6752" y="51.7597"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="61.144"
+            x="218.2774" y="64.9058">Sync Process
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="70.3485" x="213.6752" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="61.144"
+            x="218.2774" y="1529.8137">Sync Process
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="46.6798" x="477.975" y="51.7597"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="37.4753"
+            x="482.5773" y="64.9058">Identity
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="46.6798" x="477.975" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="37.4753"
+            x="482.5773" y="1529.8137">Identity
+        </text>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="50.6246" x="546.3511" y="41.0452"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="19.7239"
+            x="560.4865" y="54.1912">DBS
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="41.4201"
+            x="550.9533" y="64.9058">Portfolio
+        </text>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="50.6246" x="546.3511" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="19.7239"
+            x="560.4865" y="1529.8137">DBS
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="41.4201"
+            x="550.9533" y="1540.5283">Portfolio
+        </text>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="115.0559" x="603.5503" y="41.0452"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="19.7239"
+            x="649.9014" y="54.1912">DBS
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="105.8514"
+            x="608.1525" y="64.9058">Arrangement Manager
+        </text>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="115.0559" x="603.5503" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="19.7239"
+            x="649.9014" y="1529.8137">DBS
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="105.8514"
+            x="608.1525" y="1540.5283">Arrangement Manager
+        </text>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="79.5529" x="725.1808" y="41.0452"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="19.7239"
+            x="753.7804" y="54.1912">DBS
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="70.3485"
+            x="729.783" y="64.9058">Access Control
+        </text>
+        <rect fill="#E2E2F0" height="30.6336" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="79.5529" x="725.1808" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="19.7239"
+            x="753.7804" y="1529.8137">DBS
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="70.3485"
+            x="729.783" y="1540.5283">Access Control
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="63.7738" x="811.3083" y="51.7597"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="54.5694"
+            x="815.9106" y="64.9058">Back Office
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="63.7738" x="811.3083" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="54.5694"
+            x="815.9106" y="1529.8137">Back Office
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="44.05" x="881.6568" y="51.7597"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="34.8455"
+            x="886.259" y="64.9058">Stream
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="44.05" x="881.6568" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="34.8455"
+            x="886.259" y="1529.8137">Stream
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="50.6246" x="932.2814" y="51.7597"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="41.4201"
+            x="936.8836" y="64.9058">Portfolio
+        </text>
+        <rect fill="#E2E2F0" height="19.919" rx="1.6437" ry="1.6437"
+            style="stroke:#181818;stroke-width:0.32873109796186717;" width="50.6246" x="932.2814" y="1516.6677"/>
+        <text fill="#000000" font-family="sans-serif" font-size="9.2045" lengthAdjust="spacing" textLength="41.4201"
+            x="936.8836" y="1529.8137">Portfolio
+        </text>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="568.3761" y="531.5428"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="568.3761" y="927.0217"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="568.3761" y="1481.7349"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="657.7909" y="310.2451"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="657.7909" y="483.2861"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="761.67" y="246.122"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="197.8653"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="435.0294"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="767.7874"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="806.0949"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="1169.3582"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="1238.0835"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="839.908" y="1405.7774"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="900.3945" y="680.6531"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="900.3945" y="1308.6939"/>
+        <rect fill="#FFFFFF" height="19.1537" style="stroke:#000000;stroke-width:0.6574621959237343;" width="6.5746"
+            x="954.3064" y="1056.4082"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="37.1466" x2="64.76" y1="92.8049"
+            y2="92.8049"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="64.76" x2="64.76" y1="92.8049" y2="101.3519"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="37.8041" x2="64.76" y1="101.3519"
+            y2="101.3519"/>
+        <polygon fill="#181818" points="44.3787,98.7221,37.8041,101.3519,44.3787,103.9818,41.7488,101.3519"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="41.7488" y="89.4742">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="19.0664"
+            x="50.2959" y="89.4742">User
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="69.3623" y="89.4742">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="22.3537"
+            x="71.9921" y="89.4742">Login
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="94.3458" y="89.4742">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="24.3261"
+            x="96.9757" y="89.4742">Event
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="121.3018" y="89.4742">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="8.547"
+            x="123.9316" y="89.4742">or
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="132.4786" y="89.4742">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="28.2709"
+            x="135.1085" y="89.4742">Create
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="163.3794" y="89.4742">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="23.6686"
+            x="166.0092" y="89.4742">Order
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="189.6778" y="89.4742">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="24.3261"
+            x="192.3077" y="89.4742">Event
+        </text>
+        <polygon fill="#181818" points="240.9599,117.8758,247.5345,120.5056,240.9599,123.1355,243.5897,120.5056"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="37.1466" x2="244.9047" y1="120.5056"
+            y2="120.5056"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="91.3872" y="117.175">2
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="94.6746"
+            x="99.9343" y="117.175">triggerSynchronization
+        </text>
+        <polygon fill="#181818" points="493.4254,146.9788,500,149.6086,493.4254,152.2385,496.0552,149.6086"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="497.3702" y1="149.6086"
+            y2="149.6086"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.2597" x="270.5457" y="141.3033">3
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="278.4352" y="136.3287">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="293.5569" y="136.3287">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="296.1867" y="136.3287">DW
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="311.3083" y="136.3287">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="18.4089"
+            x="313.9382" y="136.3287">user
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="332.3471" y="136.3287">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="7.2321"
+            x="334.977" y="136.3287">Id
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="278.4352" y="146.278">GET
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="295.5293" y="146.278">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="181.4596"
+            x="298.1591" y="146.278">/service-api/v2/users/identities/{internalId}
+        </text>
+        <polygon fill="#181818" points="256.0815,166.1325,249.5069,168.7623,256.0815,171.3922,253.4517,168.7623"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="252.1368" x2="500.6575" y1="168.7623"
+            y2="168.7623"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="332.0184" y="165.4317">4
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="38.7903"
+            x="340.5654" y="165.4317">dwUserId
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="379.3557" y="165.4317">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="36.1604"
+            x="381.9855" y="165.4317">attribute
+        </text>
+        <polygon fill="#181818" points="832.0184,195.2355,838.593,197.8653,832.0184,200.4952,834.6483,197.8653"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="835.9632" y1="197.8653"
+            y2="197.8653"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="451.6765" y="189.56">5
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="460.2235" y="184.5854">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="475.3452" y="184.5854">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="19.0664"
+            x="477.975" y="184.5854">User
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="497.0414" y="184.5854">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="38.7903"
+            x="499.6713" y="184.5854">Accounts
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="460.2235" y="194.5347">GET
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="477.3176" y="194.5347">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="157.1335"
+            x="479.9474" y="194.5347">/back-office/users/{userID}/accounts
+        </text>
+        <polygon fill="#181818" points="256.0815,214.3892,249.5069,217.019,256.0815,219.6489,253.4517,217.019"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="842.5378" y1="217.019" y2="217.019"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="505.2597" y="213.6884">6
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="3.2873"
+            x="513.8067" y="213.6884">:
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="517.094" y="213.6884">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="14.4642"
+            x="519.7239" y="213.6884">List
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="534.188" y="213.6884">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="8.547"
+            x="536.8179" y="213.6884">of
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="545.3649" y="213.6884">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="38.7903"
+            x="547.9947" y="213.6884">Accounts
+        </text>
+        <polygon fill="#181818" points="753.7804,243.4922,760.355,246.122,753.7804,248.7518,756.4103,246.122"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="757.7252" y1="246.122"
+            y2="246.122"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="364.5628" y="237.8167">7
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="373.1098" y="232.8421">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="388.2314" y="232.8421">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="19.0664"
+            x="390.8613" y="232.8421">User
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="409.9277" y="232.8421">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="60.4865"
+            x="412.5575" y="232.8421">Arrangements
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="473.044" y="232.8421">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.7515"
+            x="475.6739" y="232.8421">with
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="493.4254" y="232.8421">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="32.8731"
+            x="496.0552" y="232.8421">Manage
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="528.9283" y="232.8421">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.8455"
+            x="531.5582" y="232.8421">Portfolio
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="566.4037" y="232.8421">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="50.6246"
+            x="569.0335" y="232.8421">Permissions
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="373.1098" y="242.7914">GET
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="390.2038" y="242.7914">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="253.1229"
+            x="392.8337" y="242.7914">/service-api/v2/accessgroups/users/privileges/arrangements
+        </text>
+        <polygon fill="#181818" points="256.0815,262.6459,249.5069,265.2757,256.0815,267.9056,253.4517,265.2757"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="764.2998" y1="265.2757" y2="265.2757"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="455.2926" y="261.9451">8
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="3.2873"
+            x="463.8396" y="261.9451">:
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="467.1269" y="261.9451">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="14.4642"
+            x="469.7567" y="261.9451">List
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="484.2209" y="261.9451">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="8.547"
+            x="486.8508" y="261.9451">of
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="495.3978" y="261.9451">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="60.4865"
+            x="498.0276" y="261.9451">Arrangements
+        </text>
+        <path
+            d="M207.1006,275.1377 L258.3826,275.1377 L258.3826,279.8272 L251.808,286.4018 L207.1006,286.4018 L207.1006,275.1377 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="518.0802"
+            x="207.1006" y="275.1377"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="21.6963" x="216.9625" y="283.7286">loop
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="103.879" x="268.2446" y="283.1656">[for Each Arrangement]
+        </text>
+        <polygon fill="#181818" points="649.9014,307.6153,656.476,310.2451,649.9014,312.875,652.5312,310.2451"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="653.8462" y1="310.2451"
+            y2="310.2451"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="5.9172" x="366.2064" y="301.9398">9
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="374.7535" y="296.9652">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="389.8751" y="296.9652">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="25.641"
+            x="392.5049" y="296.9652">User's
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="418.146" y="296.9652">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="60.4865"
+            x="420.7758" y="296.9652">Arrangements
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="374.7535" y="306.9145">GET
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="391.8475" y="306.9145">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="145.9566"
+            x="394.4773" y="306.9145">/service-api/v2/arrangements/{id}
+        </text>
+        <polygon fill="#181818" points="256.0815,326.769,249.5069,329.3988,256.0815,332.0287,253.4517,329.3988"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="660.4208" y1="329.3988" y2="329.3988"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="12.4918" x="398.7508" y="326.0682">10
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="3.2873"
+            x="413.8725" y="326.0682">:
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="417.1598" y="326.0682">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="22.3537"
+            x="419.7896" y="326.0682">BBAN
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="442.1433" y="326.0682">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="8.547"
+            x="444.7732" y="326.0682">of
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="453.3202" y="326.0682">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="55.2268"
+            x="455.95" y="326.0682">arrangement
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="353.1548"
+            y2="353.1548"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="353.1548"
+            y2="361.7018"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="361.7018"
+            y2="361.7018"/>
+        <polygon fill="#181818" points="256.0815,359.072,249.5069,361.7018,256.0815,364.3316,253.4517,361.7018"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="253.4517" y="349.8241">11
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.188"
+            x="267.9158" y="349.8241">Account
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="302.1039" y="349.8241">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="6.5746"
+            x="304.7337" y="349.8241">is
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="311.3083" y="349.8241">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="7.2321"
+            x="313.9382" y="349.8241">in
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="321.1703" y="349.8241">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="21.0388"
+            x="323.8001" y="349.8241">open
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="344.8389" y="349.8241">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="21.6963"
+            x="347.4688" y="349.8241">state
+        </text>
+        <rect fill="#EEEEEE" height="1.9724" style="stroke:#EEEEEE;stroke-width:0.6574621959237343;" width="996.0552"
+            x="0" y="380.4831"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="380.4831" y2="380.4831"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="382.4555" y2="382.4555"/>
+        <rect fill="#EEEEEE" height="15.2089" style="stroke:#000000;stroke-width:1.3149243918474687;" width="131.4924"
+            x="432.2814" y="373.5361"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="119.0007" x="436.2262" y="384.0995">Upsert Portfolio Bundle
+        </text>
+        <path
+            d="M207.1006,399.9219 L258.3826,399.9219 L258.3826,404.6115 L251.808,411.1861 L207.1006,411.1861 L207.1006,399.9219 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="305.1446" style="stroke:#000000;stroke-width:0.9861932938856015;" width="725.1808"
+            x="207.1006" y="399.9219"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="21.6963" x="216.9625" y="408.5129">loop
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="82.1828" x="268.2446" y="407.9498">[For Each Account]
+        </text>
+        <polygon fill="#181818" points="832.0184,432.3995,838.593,435.0294,832.0184,437.6592,834.6483,435.0294"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="835.9632" y1="435.0294"
+            y2="435.0294"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="427.3504" y="426.7241">12
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="441.8146" y="421.7495">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="456.9362" y="421.7495">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.188"
+            x="459.5661" y="421.7495">Account
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="493.7541" y="421.7495">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="41.4201"
+            x="496.384" y="421.7495">Summary
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="441.8146" y="431.6987">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="456.9362" y="431.6987">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="201.8409"
+            x="459.5661" y="431.6987">/back-office/accounts/{{accountID}}/summary
+        </text>
+        <polygon fill="#181818" points="256.0815,451.5533,249.5069,454.1831,256.0815,456.813,253.4517,454.1831"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="842.5378" y1="454.1831" y2="454.1831"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="537.8041" y="450.8525">13
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="551.6108" y="450.8525">&#160;
+        </text>
+        <polygon fill="#181818" points="649.9014,480.6562,656.476,483.2861,649.9014,485.9159,652.5312,483.2861"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="653.8462" y1="483.2861"
+            y2="483.2861"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="380.3419" y="474.9808">14
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="394.806" y="470.0062">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="409.9277" y="470.0062">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="55.8843"
+            x="412.5575" y="470.0062">Arrangement
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="468.4418" y="470.0062">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="10.5194"
+            x="471.0717" y="470.0062">By
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="481.5911" y="470.0062">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="42.0776"
+            x="484.2209" y="470.0062">ExternalId
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="394.806" y="479.9554">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="124.2604"
+            x="397.4359" y="479.9554">/service-api/v2/arrangements
+        </text>
+        <polygon fill="#181818" points="256.0815,499.81,249.5069,502.4398,256.0815,505.0696,253.4517,502.4398"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="660.4208" y1="502.4398" y2="502.4398"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="403.0243" y="499.1092">15
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="3.2873"
+            x="417.4885" y="499.1092">:
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="420.7758" y="499.1092">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="25.641"
+            x="423.4057" y="499.1092">return
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="449.0467" y="499.1092">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="55.2268"
+            x="451.6765" y="499.1092">arrangement
+        </text>
+        <polygon fill="#181818" points="560.4865,528.9129,567.0611,531.5428,560.4865,534.1726,563.1164,531.5428"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="564.4313" y1="531.5428"
+            y2="531.5428"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="314.9244" y="523.2375">16
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="30.2433"
+            x="329.3886" y="518.2629">Update
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="359.6318" y="518.2629">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.8455"
+            x="362.2617" y="518.2629">Portfolio
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="397.1072" y="518.2629">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="54.5694"
+            x="399.737" y="518.2629">Performance
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="16.4366"
+            x="329.3886" y="528.2121">PUT
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="345.8251" y="528.2121">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="153.8462"
+            x="348.455" y="528.2121">/integration-api/v1/portfolios/{code}
+        </text>
+        <polygon fill="#181818" points="256.0815,548.0667,249.5069,550.6965,256.0815,553.3263,253.4517,550.6965"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="571.0059" y1="550.6965" y2="550.6965"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="401.7094" y="547.3658">17
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="416.1736" y="547.3658">&#160;
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="569.8502"
+            y2="569.8502"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="569.8502"
+            y2="578.3972"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="578.3972"
+            y2="578.3972"/>
+        <polygon fill="#181818" points="256.0815,575.7674,249.5069,578.3972,256.0815,581.0271,253.4517,578.3972"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="253.4517" y="566.5196">18
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="108.4813"
+            x="267.9158" y="566.5196">mapPortfolioPerformance
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="597.551"
+            y2="597.551"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="597.551"
+            y2="606.098"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="606.098"
+            y2="606.098"/>
+        <polygon fill="#181818" points="256.0815,603.4681,249.5069,606.098,256.0815,608.7278,253.4517,606.098"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="253.4517" y="594.2203">19
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="94.6746"
+            x="267.9158" y="594.2203">mapPortfolioAllocation
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="625.2517"
+            y2="625.2517"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="625.2517"
+            y2="633.7987"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="633.7987"
+            y2="633.7987"/>
+        <polygon fill="#181818" points="256.0815,631.1688,249.5069,633.7987,256.0815,636.4285,253.4517,633.7987"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="12.4918" x="253.4517" y="621.921">20
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="94.0171"
+            x="268.5733" y="621.921">mapPortfolioHierarchy
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="652.9524"
+            y2="652.9524"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="652.9524"
+            y2="661.4994"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="661.4994"
+            y2="661.4994"/>
+        <polygon fill="#181818" points="256.0815,658.8696,249.5069,661.4994,256.0815,664.1293,253.4517,661.4994"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="253.4517" y="649.6218">21
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="26.956"
+            x="267.9158" y="649.6218">create
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="294.8718" y="649.6218">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.8455"
+            x="297.5016" y="649.6218">portfolio
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="332.3471" y="649.6218">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="28.2709"
+            x="334.977" y="649.6218">Bundle
+        </text>
+        <polygon fill="#181818" points="892.5049,678.0233,899.0796,680.6531,892.5049,683.283,895.1348,680.6531"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="896.4497" y1="680.6531"
+            y2="680.6531"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="519.3951" y="677.3225">22
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="27.6134"
+            x="533.8593" y="677.3225">Upsert
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="561.4727" y="677.3225">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.8455"
+            x="564.1026" y="677.3225">Portfolio
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="598.9481" y="677.3225">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="28.2709"
+            x="601.5779" y="677.3225">Bundle
+        </text>
+        <polygon fill="#181818" points="256.0815,697.177,249.5069,699.8069,256.0815,702.4367,253.4517,699.8069"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="903.0243" y1="699.8069" y2="699.8069"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="568.0473" y="696.4762">23
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="581.854" y="696.4762">&#160;
+        </text>
+        <rect fill="#EEEEEE" height="1.9724" style="stroke:#EEEEEE;stroke-width:0.6574621959237343;" width="996.0552"
+            x="0" y="723.1904"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="723.1904" y2="723.1904"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="725.1628" y2="725.1628"/>
+        <rect fill="#EEEEEE" height="15.2089" style="stroke:#000000;stroke-width:1.3149243918474687;" width="128.8626"
+            x="433.5963" y="716.2434"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="116.3708" x="437.5411" y="726.8068">Update Portfolio Order
+        </text>
+        <path
+            d="M200.526,742.6292 L251.808,742.6292 L251.808,747.3188 L245.2334,753.8934 L200.526,753.8934 L200.526,742.6292 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="213.4081" style="stroke:#000000;stroke-width:0.9861932938856015;" width="681.1308"
+            x="200.526" y="742.6292"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="21.6963" x="210.3879" y="751.2202">loop
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="82.1828" x="261.67" y="750.6571">[For Each Account]
+        </text>
+        <polygon fill="#181818" points="832.0184,765.1576,838.593,767.7874,832.0184,770.4173,834.6483,767.7874"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="835.9632" y1="767.7874"
+            y2="767.7874"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="480.6049" y="764.4568">24
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="495.069" y="764.4568">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="510.1907" y="764.4568">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="23.6686"
+            x="512.8205" y="764.4568">Order
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="536.4892" y="764.4568">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="11.8343"
+            x="539.119" y="764.4568">Ids
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="550.9533" y="764.4568">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="10.5194"
+            x="553.5832" y="764.4568">By
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="564.1026" y="764.4568">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="41.4201"
+            x="566.7324" y="764.4568">AccountId
+        </text>
+        <polygon fill="#181818" points="256.0815,784.3113,249.5069,786.9412,256.0815,789.571,253.4517,786.9412"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="842.5378" y1="786.9412" y2="786.9412"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="517.4227" y="783.6105">25
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="3.2873"
+            x="531.8869" y="783.6105">:
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="535.1742" y="783.6105">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="22.3537"
+            x="537.8041" y="783.6105">order
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="560.1578" y="783.6105">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="11.8343"
+            x="562.7876" y="783.6105">Ids
+        </text>
+        <polygon fill="#181818" points="832.0184,803.465,838.593,806.0949,832.0184,808.7247,834.6483,806.0949"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="835.9632" y1="806.0949"
+            y2="806.0949"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="482.5773" y="802.7642">26
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="497.0414" y="802.7642">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="512.1631" y="802.7642">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="39.4477"
+            x="514.7929" y="802.7642">Individual
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="554.2406" y="802.7642">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="23.6686"
+            x="556.8705" y="802.7642">Order
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="580.5391" y="802.7642">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="23.0112"
+            x="583.169" y="802.7642">detail
+        </text>
+        <polygon fill="#181818" points="256.0815,822.6188,249.5069,825.2486,256.0815,827.8785,253.4517,825.2486"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="842.5378" y1="825.2486" y2="825.2486"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="537.4753" y="821.918">27
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="551.9395" y="821.918">&#160;
+        </text>
+        <polygon fill="#181818" points="563.7738,851.7217,570.3485,854.3516,563.7738,856.9814,566.4037,854.3516"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="567.7186" y1="854.3516"
+            y2="854.3516"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="270.5457" y="846.0463">28
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="32.2156"
+            x="285.0099" y="841.0717">Change
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="317.2255" y="841.0717">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="23.6686"
+            x="319.8554" y="841.0717">Order
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="343.524" y="841.0717">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="26.956"
+            x="346.1538" y="841.0717">Status
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="285.0099" y="851.0209">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="16.4366"
+            x="287.6397" y="851.0209">PUT
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="304.0763" y="851.0209">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="243.261"
+            x="306.7061" y="851.0209">/integration-api/v1/external-trade-orders/{orderId}/status
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="873.5053"
+            y2="873.5053"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="873.5053"
+            y2="882.0523"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="882.0523"
+            y2="882.0523"/>
+        <polygon fill="#181818" points="256.0815,879.4225,249.5069,882.0523,256.0815,884.6822,253.4517,882.0523"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="253.4517" y="870.1747">29
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="25.641"
+            x="267.9158" y="870.1747">Check
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="293.5569" y="870.1747">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="13.8067"
+            x="296.1867" y="870.1747">the
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="309.9934" y="870.1747">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="26.2985"
+            x="312.6233" y="870.1747">status
+        </text>
+        <path
+            d="M207.1006,891.9142 L250.4931,891.9142 L250.4931,896.6038 L243.9185,903.1784 L207.1006,903.1784 L207.1006,891.9142 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="396.4497"
+            x="207.1006" y="891.9142"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="13.8067" x="216.9625" y="900.5052">alt
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="64.4313" x="260.355" y="899.9422">[status is 404]
+        </text>
+        <polygon fill="#181818" points="560.4865,924.3918,567.0611,927.0217,560.4865,929.6515,563.1164,927.0217"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="564.4313" y1="927.0217"
+            y2="927.0217"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="302.4326" y="918.7164">30
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="28.2709"
+            x="316.8968" y="913.7418">Create
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="345.1677" y="913.7418">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="23.6686"
+            x="347.7975" y="913.7418">Order
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="316.8968" y="923.691">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="22.3537"
+            x="319.5266" y="923.691">POST
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="341.8803" y="923.691">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="170.2827"
+            x="344.5102" y="923.691">/integration-api/v1/external-trade-orders
+        </text>
+        <polygon fill="#181818" points="256.0815,943.5456,249.5069,946.1754,256.0815,948.8053,253.4517,946.1754"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="571.0059" y1="946.1754" y2="946.1754"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="402.0381" y="942.8448">31
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="415.8448" y="942.8448">&#160;
+        </text>
+        <rect fill="#EEEEEE" height="1.9724" style="stroke:#EEEEEE;stroke-width:0.6574621959237343;" width="996.0552"
+            x="0" y="974.1612"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="974.1612" y2="974.1612"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="976.1336" y2="976.1336"/>
+        <rect fill="#EEEEEE" height="15.2089" style="stroke:#000000;stroke-width:1.3149243918474687;" width="182.7745"
+            x="406.6404" y="967.2142"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="170.2827" x="410.5851" y="977.7776">Update Portfolio Trading Account
+        </text>
+        <path
+            d="M207.1006,993.6 L258.3826,993.6 L258.3826,998.2896 L251.808,1004.8642 L207.1006,1004.8642 L207.1006,993.6 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="87.2216" style="stroke:#000000;stroke-width:0.9861932938856015;" width="782.38"
+            x="207.1006" y="993.6"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="21.6963" x="216.9625" y="1002.191">loop
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="82.1828" x="268.2446" y="1001.6279">[For Each Account]
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="1018.7582"
+            y2="1018.7582"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="1018.7582"
+            y2="1027.3052"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="1027.3052"
+            y2="1027.3052"/>
+        <polygon fill="#181818" points="256.0815,1024.6754,249.5069,1027.3052,256.0815,1029.9351,253.4517,1027.3052"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="253.4517" y="1015.4276">32
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="267.2584" y="1015.4276">Map
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="284.3524" y="1015.4276">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="31.5582"
+            x="286.9822" y="1015.4276">Trading
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="318.5404" y="1015.4276">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="33.5306"
+            x="321.1703" y="1015.4276">account
+        </text>
+        <polygon fill="#181818" points="946.4168,1053.7784,952.9915,1056.4082,946.4168,1059.0381,949.0467,1056.4082"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="950.3616" y1="1056.4082"
+            y2="1056.4082"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="10.5194" x="478.3037" y="1048.1029">33
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="30.2433"
+            x="491.453" y="1043.1283">Update
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="521.6963" y="1043.1283">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="31.5582"
+            x="524.3261" y="1043.1283">Trading
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="555.8843" y="1043.1283">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="33.5306"
+            x="558.5141" y="1043.1283">account
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="16.4366"
+            x="491.453" y="1053.0776">PUT
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="507.8895" y="1053.0776">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="214.3327"
+            x="510.5194" y="1053.0776">/integration-api/v1/portfolios/{id}/trading-accounts
+        </text>
+        <polygon fill="#181818" points="256.0815,1072.9321,249.5069,1075.5619,256.0815,1078.1918,253.4517,1075.5619"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="956.9362" y1="1075.5619" y2="1075.5619"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="595.0033" y="1072.2313">34
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="608.81" y="1072.2313">&#160;
+        </text>
+        <rect fill="#EEEEEE" height="1.9724" style="stroke:#EEEEEE;stroke-width:0.6574621959237343;" width="996.0552"
+            x="0" y="1098.9455"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="1098.9455"
+            y2="1098.9455"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="1100.9179"
+            y2="1100.9179"/>
+        <rect fill="#EEEEEE" height="15.2089" style="stroke:#000000;stroke-width:1.3149243918474687;" width="128.8626"
+            x="433.5963" y="1091.9985"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="116.3708" x="437.5411" y="1102.5619">Update Position Bundle
+        </text>
+        <path
+            d="M200.526,1118.3843 L251.808,1118.3843 L251.808,1123.0738 L245.2334,1129.6485 L200.526,1129.6485 L200.526,1118.3843 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="214.723" style="stroke:#000000;stroke-width:0.9861932938856015;" width="731.7554"
+            x="200.526" y="1118.3843"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="21.6963" x="210.3879" y="1126.9753">loop
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="82.1828" x="261.67" y="1126.4122">[For Each Account]
+        </text>
+        <path
+            d="M207.1006,1134.2507 L253.1229,1134.2507 L253.1229,1138.9403 L246.5483,1145.5149 L207.1006,1145.5149 L207.1006,1134.2507 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="674.5562"
+            x="207.1006" y="1134.2507"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="16.4366" x="216.9625" y="1142.8417">par
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="127.5477" x="262.9849" y="1142.2786">[Update Portfolio Positions]
+        </text>
+        <polygon fill="#181818" points="832.0184,1166.7283,838.593,1169.3582,832.0184,1171.988,834.6483,1169.3582"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="835.9632" y1="1169.3582"
+            y2="1169.3582"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="432.6101" y="1161.0529">35
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="446.4168" y="1156.0783">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="461.5385" y="1156.0783">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.8455"
+            x="464.1683" y="1156.0783">Portfolio
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="499.0138" y="1156.0783">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="37.4753"
+            x="501.6437" y="1156.0783">Positions
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="446.4168" y="1166.0275">GET
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="463.5108" y="1166.0275">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="190.0066"
+            x="466.1407" y="1166.0275">/back-office/accounts/{accountID}/summary
+        </text>
+        <polygon fill="#181818" points="256.0815,1185.882,249.5069,1188.5119,256.0815,1191.1417,253.4517,1188.5119"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="842.5378" y1="1188.5119" y2="1188.5119"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="537.8041" y="1185.1812">36
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="551.6108" y="1185.1812">&#160;
+        </text>
+        <path
+            d="M207.1006,1202.976 L253.1229,1202.976 L253.1229,1207.6656 L246.5483,1214.2402 L207.1006,1214.2402 L207.1006,1202.976 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="59.5209" style="stroke:#000000;stroke-width:0.9861932938856015;" width="674.5562"
+            x="207.1006" y="1202.976"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="16.4366" x="216.9625" y="1211.567">par
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="143.3268" x="262.9849" y="1211.004">[Update Portfolio Transactions]
+        </text>
+        <polygon fill="#181818" points="832.0184,1235.4536,838.593,1238.0835,832.0184,1240.7133,834.6483,1238.0835"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="835.9632" y1="1238.0835"
+            y2="1238.0835"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="427.0217" y="1229.7782">37
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="440.8284" y="1224.8036">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="455.95" y="1224.8036">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.8455"
+            x="458.5799" y="1224.8036">Portfolio
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="493.4254" y="1224.8036">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="53.9119"
+            x="496.0552" y="1224.8036">Transactions
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="440.8284" y="1234.7528">GET
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="457.9224" y="1234.7528">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="201.1834"
+            x="460.5523" y="1234.7528">/back-office/accounts/{accountID}/transactions
+        </text>
+        <polygon fill="#181818" points="256.0815,1254.6074,249.5069,1257.2372,256.0815,1259.8671,253.4517,1257.2372"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="842.5378" y1="1257.2372" y2="1257.2372"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="537.8041" y="1253.9066">38
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="551.6108" y="1253.9066">&#160;
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="1280.9932"
+            y2="1280.9932"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="1280.9932"
+            y2="1289.5402"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="1289.5402"
+            y2="1289.5402"/>
+        <polygon fill="#181818" points="256.0815,1286.9103,249.5069,1289.5402,256.0815,1292.17,253.4517,1289.5402"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="253.4517" y="1277.6625">39
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="17.094"
+            x="267.2584" y="1277.6625">Map
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="284.3524" y="1277.6625">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="32.8731"
+            x="286.9822" y="1277.6625">Position
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="319.8554" y="1277.6625">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="28.2709"
+            x="322.4852" y="1277.6625">Bundle
+        </text>
+        <polygon fill="#181818" points="892.5049,1306.0641,899.0796,1308.6939,892.5049,1311.3238,895.1348,1308.6939"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="896.4497" y1="1308.6939"
+            y2="1308.6939"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="12.4918" x="499.0138" y="1305.3633">40
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="27.6134"
+            x="514.1354" y="1305.3633">Upsert
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="541.7488" y="1305.3633">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.8455"
+            x="544.3787" y="1305.3633">Portfolio
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="579.2242" y="1305.3633">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="37.4753"
+            x="581.854" y="1305.3633">Positions
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="619.3294" y="1305.3633">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="28.2709"
+            x="621.9592" y="1305.3633">bundle
+        </text>
+        <polygon fill="#181818" points="256.0815,1325.2178,249.5069,1327.8476,256.0815,1330.4775,253.4517,1327.8476"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="903.0243" y1="1327.8476" y2="1327.8476"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="567.7186" y="1324.517">41
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="582.1828" y="1324.517">&#160;
+        </text>
+        <rect fill="#EEEEEE" height="1.9724" style="stroke:#EEEEEE;stroke-width:0.6574621959237343;" width="996.0552"
+            x="0" y="1351.2312"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="1351.2312"
+            y2="1351.2312"/>
+        <line style="stroke:#000000;stroke-width:0.6574621959237343;" x1="0" x2="996.0552" y1="1353.2036"
+            y2="1353.2036"/>
+        <rect fill="#EEEEEE" height="15.2089" style="stroke:#000000;stroke-width:1.3149243918474687;" width="153.1887"
+            x="421.4333" y="1344.2842"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="140.6969" x="425.378" y="1354.8476">Update Instrument Holdings
+        </text>
+        <path
+            d="M207.1006,1370.67 L258.3826,1370.67 L258.3826,1375.3595 L251.808,1381.9342 L207.1006,1381.9342 L207.1006,1370.67 "
+            fill="#EEEEEE" style="stroke:#000000;stroke-width:0.9861932938856015;"/>
+        <rect fill="none" height="135.4783" style="stroke:#000000;stroke-width:0.9861932938856015;" width="674.5562"
+            x="207.1006" y="1370.67"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="21.6963" x="216.9625" y="1379.261">loop
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="7.2321" font-weight="bold" lengthAdjust="spacing"
+            textLength="82.1828" x="268.2446" y="1378.6979">[For Each Account]
+        </text>
+        <polygon fill="#181818" points="832.0184,1403.1476,838.593,1405.7774,832.0184,1408.4073,834.6483,1405.7774"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="835.9632" y1="1405.7774"
+            y2="1405.7774"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="427.3504" y="1397.4722">42
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="441.8146" y="1392.4975">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="456.9362" y="1392.4975">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="34.188"
+            x="459.5661" y="1392.4975">Account
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="493.7541" y="1392.4975">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="41.4201"
+            x="496.384" y="1392.4975">Summary
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="15.1216"
+            x="441.8146" y="1402.4468">Get
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="456.9362" y="1402.4468">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="201.8409"
+            x="459.5661" y="1402.4468">/back-office/accounts/{{accountID}}/summary
+        </text>
+        <polygon fill="#181818" points="256.0815,1422.3013,249.5069,1424.9312,256.0815,1427.561,253.4517,1424.9312"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="842.5378" y1="1424.9312" y2="1424.9312"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.1769" x="537.8041" y="1421.6005">43
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="551.6108" y="1421.6005">&#160;
+        </text>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="276.4629" y1="1444.0849"
+            y2="1444.0849"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="276.4629" x2="276.4629" y1="1444.0849"
+            y2="1452.6319"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="249.5069" x2="276.4629" y1="1452.6319"
+            y2="1452.6319"/>
+        <polygon fill="#181818" points="256.0815,1450.0021,249.5069,1452.6319,256.0815,1455.2618,253.4517,1452.6319"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="253.4517" y="1440.7542">44
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="38.7903"
+            x="267.9158" y="1440.7542">Calculate
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="306.7061" y="1440.7542">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="50.6246"
+            x="309.336" y="1440.7542">Instruments
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="359.9606" y="1440.7542">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="35.503"
+            x="362.5904" y="1440.7542">Holdings
+        </text>
+        <polygon fill="#181818" points="560.4865,1479.105,567.0611,1481.7349,560.4865,1484.3647,563.1164,1481.7349"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;" x1="248.8494" x2="564.4313" y1="1481.7349"
+            y2="1481.7349"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="307.0348" y="1473.4296">45
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="30.2433"
+            x="321.499" y="1468.455">Update
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="351.7423" y="1468.455">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="50.6246"
+            x="354.3721" y="1468.455">Instruments
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="404.9967" y="1468.455">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="35.503"
+            x="407.6266" y="1468.455">Holdings
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="22.3537"
+            x="321.499" y="1478.4042">POST
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="343.8527" y="1478.4042">&#160;
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="163.7081"
+            x="346.4826" y="1478.4042">/integration-api/v1/instrument-holdings
+        </text>
+        <polygon fill="#181818" points="256.0815,1498.2588,249.5069,1500.8886,256.0815,1503.5185,253.4517,1500.8886"
+            style="stroke:#181818;stroke-width:0.6574621959237343;"/>
+        <line style="stroke:#181818;stroke-width:0.6574621959237343;stroke-dasharray:2.0,2.0;" x1="252.1368"
+            x2="571.0059" y1="1500.8886" y2="1500.8886"/>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" font-weight="bold" lengthAdjust="spacing"
+            textLength="11.8343" x="401.7094" y="1497.558">46
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="8.547" lengthAdjust="spacing" textLength="2.6298"
+            x="416.1736" y="1497.558">&#160;
+        </text><!--SRC=[tLbBRziu4BxhLn3fOIyDdAJPHL6W2zX9sXf8sw1EqCjUQ8csYKgabgJoQ93_liE798eY7QURnHPD3h4v3tupyysGKXHL9K4NNAWLBob7iuOL9Nc9Fek22FaINGfSKBP6qppd3LClGLLIHJbpcWYp0dtWfLQI6MuKPqsr92AJtoYhiS0Lgl3jHo8bNfC5_KxG7mS7dd29yszh0QwB4rvoWT2BcmrL9Cko9Rz59urKlCeG_82weZcjCLDexvolAKFaci2NlnYfg594x24iKKb8HW0IM5iNUry9BjK6dMA5qUAEvMX1n3NDoTxOhH5V29u3NEEj02C9Yu7B6O1UOXbpCIy04rLtnfowBsErqza2W7TfDzfr-osbFXK2ipMfTDGVCOE4sfXnl-wManvo7HewuKm9NbfZi-HMWZXF1Rqco2Om4gjE0_gyMkbaQbTB7jWlb22uYYNQ2hIHD1zxmmmgYFR_r8L4Rn2waaGWM-upKsxWo0bOA68fQbTRexPUOAa4NKCcT4atWZFw7MlMPbcd0kfjVK3zFL7ez2jgz7Rp0bBr_kmIJQIboZwkwUJwQAAbSkAiA96JUyg0U0oNy-8XopftGoJ5ZGu2d685e9QDPhUFOidT_YPMrsYoXQ0RP9-R9Blzx_MV-Ud313lL3EUANkkKG0K4KOrWuF6SIiZMgdCut7HGzi7-FPaakg7GEPPJteou8AAYKa8wPI9Hrhlkwrewr3LmYPPa3Ldp-EfX7n9n78Plb9MSrsW5N3Z3-SQNPK2sGPoZtl22_KqEmqq4uwb0nQ7I2FMeOxtNWP_DffyqUEm31AeFQ-5nnHKBKHWU3F6QC6WGREQXRgAtRz5L3V3KQ6A3o6ZOpBphCcFzMMlz4oLUk-kYgIeixdGUO7L0lPPha_jxzn4O-32Hrg9pxpEnNRFPwBv6eIJBvC-ysHqwkstx3K1khTGOKc9CzX1XI_S13marnjlDQh2vgWljVj0VGCqAivpe8Ny5bD9pOYtC2B9W3oUT2yXfpWloC4OyF16yN6PRKjb-VWC7Rzs1yZ0zmMfQbZotWtDtem-K22popTqZDhaTutN0v7Z2xJ5XiXtb_pXvxc29iD1qODTEGV7igR93DsrlAUjcNaZDMcStBtRe4x3dhUtsdkdschC2PclHuD9jMn25QRbBKpvAxfEDRWJdTm6Zg97GU2bE4zUU-mgkZMJV10BqDd_XY9n8us0hByoU12uMQaDGe0-XbCejwX5vV73ioP8XUDS5ZVtpuWdW_RtJRJaQSWYr77C5j5C_HRhWblqZmzpBtqTSTnxTi8wQN8o7M62su_Y2Ct6YhEL-ToaPfUqYESrCRaR96Jvdx98Ik6D6fh5p97VeseXLx1xM7uRzMVZKex3bHvO43hLWKdjvAdRVS6VuAjpjgJ4yGiYWdjj7MthQztLP_jZS7n5jpi2YCHUCzZbMasqRqVxZIrGgyu_DRN-4uZ9loc5uidzEt_5A4xFL8o4rGMcdlxy9jzhXKcFA8tCCtLxXMtHuS700Jo25scnvNs3V5lJonGON_4QFi1KkfI-PQID8yopmO8WFAlgk5z4snu3LV75uzFeGvvxMASMGWcgxKa5Mk2dL9PmlqvAkcQ5QJlIJem-S_DqGk9svLoL6SwprXQo8q6fsoyiDpRyn_KX_b7bQqlb2zoR7qrnn4Hgy2aL3-BrmIxewfNVmr9Qmrw9Fk2Be2rzonOU2XRehDSNB8bZNBueExU4-NSDM8Oh1DaBmcmI2LZHms2q6k-lrX0y_qNhn2yaLN8nA4a_hZD-E4AzUwTzEdCWvYEAXE46OIhSSXDAkcgZ_S4jn-W_tI9FUbwSGWjGAnoYjuGBOJBYwgqdSnKc9fKpjViAhcZDDXeJ2gRu5an5ZxOZm5HwnZvRK2UEuFM4OkYSovUXgv0jCzHmzt-kt9Yc8dZ2af17547G2lmcwnSGU7mXEHXieHFVhnQDTFT6GjUTqHSuf8uFWboMKSoWE6TmNk5NfSG-0N_Jl85C9zbMIFFAKmWX3qJ32G1fcBX1lHnSbmPRpGOiNDxGgCKj8B_N_0k8RTw8GSYUmINZTBuPx_9uzU4SKuyeUJwDglZC_MX8jKUZs4DRWkLICGC_moFPiFFHYuOxZ75OvAAmVbhdbw5V0pn7QyKyLccYFl5ymjhpaJV5BnWNdwI_OPdbx5OZ6zkJWZfuVeNwoqlyYZ2U_kml-R_XMGjjfSD5hxxz5VFpyY1aljW6EfEofd7zcm3Lih_znTl-pmXFAlf7vcIZw3m00]-->
+    </g>
+</svg>

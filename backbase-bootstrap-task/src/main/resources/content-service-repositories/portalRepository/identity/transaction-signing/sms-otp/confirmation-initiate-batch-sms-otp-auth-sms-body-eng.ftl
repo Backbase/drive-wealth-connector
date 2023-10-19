@@ -1,0 +1,1 @@
+Your verification code is ${otpCode}. If you did not request this code please contact us.

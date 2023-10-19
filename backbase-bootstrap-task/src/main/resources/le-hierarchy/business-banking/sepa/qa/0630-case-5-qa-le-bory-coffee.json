@@ -1,0 +1,2993 @@
+{
+  "name": "Financial Institute Branch 1",
+  "realmName": "employee",
+  "externalId": "financial-institute-branch1",
+  "legalEntityType": "BANK",
+  "subsidiaries": [
+    {
+      "name": "Bory Coffee Company Ltd QA (SEPA)",
+      "realmName": "customer",
+      "externalId": "bory-coffee-qa-s",
+      "legalEntityType": "CUSTOMER",
+      "customerCategory": "BUSINESS",
+      "parentExternalId": "financial-institute-branch1",
+      "administrators": [
+        {
+          "externalId": "bbsa01-s-web",
+          "fullName": "Bob Bory (SEPA)",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "bbsa01-s-web@rmail.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        },
+        {
+          "externalId": "bbsa02-s-web",
+          "fullName": "Caroline Bory (SEPA)",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "bbsa02-s-web@rmail.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "bbsa01-s-web",
+            "fullName": "Bob Bory (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "bbsa01-s-web@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "bbsa01-s-web@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "admin"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "bbsa02-s-web",
+            "fullName": "Caroline Bory (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "bbsa02-s-web@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "bbsa02-s-web@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "admin"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "frankceo-s-web",
+            "fullName": "Frank Bory (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "frankceo-s-web@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "frankceo-s-web@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "frankceo-s-apk",
+            "fullName": "Frank Bory APK (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "frankceo-s-apk@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "frankceo-s-apk@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "frankceo-s-ios",
+            "fullName": "Frank Bory iOS (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "frankceo-s-ios@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "frankceo-s-ios@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "kristelcfo-s-web",
+            "fullName": "Kristel Jewel (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "kristelcfo-s-web@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Miss",
+              "personalInformation": {
+                "gender": "female",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "kristelcfo-s-web@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "kristelcfo-s-ios",
+            "fullName": "Kristel Jewel (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "kristelcfo-s-ios@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Miss",
+              "personalInformation": {
+                "gender": "female",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "kristelcfo-s-ios@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "kristelcfo-s-apk",
+            "fullName": "Kristel Jewel (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "kristelcfo-s-apk@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Miss",
+              "personalInformation": {
+                "gender": "female",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "kristelcfo-s-apk@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "janeheadfa-s-web",
+            "fullName": "Jane FA (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "janeheadfa-s-web@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Miss",
+              "personalInformation": {
+                "gender": "female",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "janeheadfa-s-web@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "lewisclrk-s-web",
+            "fullName": "Lewis Clerk (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "lewisclrk-s-web@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "lewisclrk-s-web@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "lewisclrk-s-apk",
+            "fullName": "Lewis Clerk APK (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "lewisclrk-s-apk@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "lewisclrk-s-apk@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "lewisclrk-s-ios",
+            "fullName": "Lewis Clerk iOS (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "lewisclrk-s-ios@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "lewisclrk-s-ios@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "user": {
+            "externalId": "joclrk-s-web",
+            "fullName": "Jo Clerk (SEPA)",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "joclrk-s-web@rmail.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "title": "Mr",
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "NL"
+              },
+              "locale": "nl-NL",
+              "additionalEmails": [
+                {
+                  "value": "joclrk-s-web@rmail.com"
+                }
+              ],
+              "additionalPhoneNumbers": [
+                {
+                  "value": "012121212"
+                }
+              ],
+              "addresses": [
+                {
+                  "streetAddress": "Fake Street 123",
+                  "locality": "Utrecht",
+                  "country": "NL",
+                  "type": "home",
+                  "primary": "true"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "masterServiceAgreement": {
+        "externalId": "bory_coffee_company_qa-s",
+        "name": "Bory Coffee Company Ltd QA (SEPA)",
+        "description": "Single Service Agreement for Bory Coffee Company Ltd QA (SEPA)",
+        "status": "ENABLED",
+        "isMaster": true,
+        "jobRoles": [
+          {
+            "name": "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+            "description": "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 100000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "daily": 200000,
+                          "transactional": 15000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1051",
+                    "name": "Manage Devices",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      },
+                      {
+                        "privilege": "cancel"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1082",
+                    "name": "Manage Arrangement Alias",
+                    "privileges": [
+                      {
+                        "privilege": "edit"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1129",
+                    "name": "Messages",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "edit"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "create"
+                      },
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "delete"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+            "description": "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+            "functionGroups": [
+              {
+                "name": "Products, payments, txn, contacts, actions, user profile, devices",
+                "functions": [
+                  {
+                    "functionId": "1002",
+                    "name": "SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1003",
+                    "name": "Transactions",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1005",
+                    "name": "Contacts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1006",
+                    "name": "Product Summary",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1016",
+                    "name": "Manage Statements",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1018",
+                    "name": "US Foreign Wire",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 10000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1037",
+                    "name": "Batch - SEPA CT",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 100000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1043",
+                    "name": "SEPA CT - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1045",
+                    "name": "US Foreign Wire - Intracompany",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 30000.00
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1052",
+                    "name": "SEPA CT - closed",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve",
+                        "limit": {
+                          "currencyCode": "EUR",
+                          "transactional": 200000.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1068",
+                    "name": "Cash Flow Forecasting",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1071",
+                    "name": "Payment Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1079",
+                    "name": "Batch - Intracompany Payments",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1089",
+                    "name": "Manage Cards",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1090",
+                    "name": "Places",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1095",
+                    "name": "Batch Templates",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      },
+                      {
+                        "privilege": "approve"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1097",
+                    "name": "Manage Account Reconciliation",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1098",
+                    "name": "Batch - List Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1099",
+                    "name": "Batch - Manage Confidential",
+                    "privileges": [
+                      {
+                        "privilege": "execute"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1115",
+                    "name": "Batch Upload Mappings",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  },
+                  {
+                    "functionId": "1118",
+                    "name": "Manage External Accounts",
+                    "privileges": [
+                      {
+                        "privilege": "view"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "limit": {
+          "currencyCode": "EUR",
+          "daily": 250000.00
+        },
+        "participants": [
+          {
+            "externalId": "bory-coffee-qa-s",
+            "sharingUsers": true,
+            "sharingAccounts": true,
+            "admins": [
+              "bbsa01-s-web",
+              "bbsa02-s-web"
+            ],
+            "users": []
+          }
+        ]
+      },
+      "productGroups": [
+        {
+          "internalId": "bbldag1qa-s",
+          "name": "My business incoming payments accounts - QA (SEPA)",
+          "description": "The accounts of my business I use for incoming payments - QA (SEPA)",
+          "users": [
+            {
+              "user": {
+                "externalId": "frankceo-s-web",
+                "fullName": "Frank Bory (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "frankceo-s-apk",
+                "fullName": "Frank Bory APK (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "frankceo-s-ios",
+                "fullName": "Frank Bory iOS (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-web",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-ios",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-apk",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "janeheadfa-s-web",
+                "fullName": "Jane FA (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "janeheadfa-s-web",
+                "fullName": "Lewis Clerk (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-web",
+                "fullName": "Lewis Clerk (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-apk",
+                "fullName": "Lewis Clerk APK (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-ios",
+                "fullName": "Lewis Clerk iOS (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "joqa-s",
+                "fullName": "Jo Clerk (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "8103918502",
+              "IBAN": "NL65BCKB8103918502",
+              "name": "Checking Account EUR 8502",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2400.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 3500.0
+              },
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            },
+            {
+              "externalId": "7102518102",
+              "IBAN": "NL19BCKB7102518102",
+              "name": "Checking Account EUR 8102",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 224.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 7500.0
+              },
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            }
+          ]
+        },
+        {
+          "internalId": "bbldag2qa-s",
+          "name": "My business bill payment accounts - QA (SEPA)",
+          "description": "Accounts used for bill payments / Payroll Account - QA (SEPA)",
+          "users": [
+            {
+              "user": {
+                "externalId": "frankceo-s-web",
+                "fullName": "Frank Bory (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "frankceo-s-apk",
+                "fullName": "Frank Bory APK (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "frankceo-s-ios",
+                "fullName": "Frank Bory iOS (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-web",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-ios",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-apk",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "janeheadfa-s-web",
+                "fullName": "Jane FA (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-web",
+                "fullName": "Lewis Clerk (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-apk",
+                "fullName": "Lewis Clerk APK (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-ios",
+                "fullName": "Lewis Clerk iOS (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "joclrk-s-web",
+                "fullName": "Jo Clerk (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            }
+          ],
+          "currentAccounts": [
+            {
+              "externalId": "9185017299",
+              "IBAN": "NL25BCKB9185017299",
+              "name": "Checking Account EUR 7299",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 500000.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 1000000.0
+              },
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            },
+            {
+              "externalId": "9185012188",
+              "IBAN": "NL88BCKB9185012188",
+              "name": "Checking Account EUR Salary 2188",
+              "productTypeExternalId": "current-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "842461373",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 500000.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 1000000.0
+              },
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            }
+          ],
+          "savingAccounts": [
+            {
+              "externalId": "7259711010",
+              "IBAN": "NL22BCKB7259711010",
+              "name": "Savings Account EUR 1010",
+              "productTypeExternalId": "savings-account",
+              "BIC": "BCKB0618",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": true,
+              "creditAccount": true,
+              "availableBalance": {
+                "currencyCode": "EUR",
+                "amount": 2245.0
+              },
+              "accruedInterest": 0.0,
+              "creditLimit": {
+                "currencyCode": "EUR",
+                "amount": 4500.0
+              },
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            }
+          ],
+          "loans": [
+            {
+              "externalId": "9212514456",
+              "IBAN": "NL42BCKB9212514456",
+              "name": "Loan Account EUR 4456",
+              "productTypeExternalId": "loan",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": false,
+              "productNumber": "8a19a6878774bbed018775af39aa7d81",
+              "creditAccount": true,
+              "principalAmount": {
+                "currencyCode": "EUR",
+                "amount": 25000.0
+              },
+              "bookedBalance": {
+                "currencyCode": "EUR",
+                "amount": 10000.5
+              },
+              "interestSettlementAccount": "9185017299",
+              "accountInterestRate": 2.05,
+              "termUnit": "Monthly",
+              "termNumber": 36,
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            }
+          ]
+        },
+        {
+          "internalId": "bbldag3qa-s",
+          "name": "My business loans - QA (SEPA)",
+          "description": "The loans of my business - QA (SEPA)",
+          "users": [
+            {
+              "user": {
+                "externalId": "frankceo-s-web",
+                "fullName": "Frank Bory (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "frankceo-s-apk",
+                "fullName": "Frank Bory APK (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "frankceo-s-ios",
+                "fullName": "Frank Bory iOS (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-web",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-ios",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "kristelcfo-s-apk",
+                "fullName": "Kristel Jewel (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Payment Approver Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "janeheadfa-s-web",
+                "fullName": "Jane FA (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-web",
+                "fullName": "Lewis Clerk (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-apk",
+                "fullName": "Lewis Clerk APK (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "lewisclrk-s-ios",
+                "fullName": "Lewis Clerk iOS (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            },
+            {
+              "user": {
+                "externalId": "joclrk-s-web",
+                "fullName": "Jo Clerk (SEPA)"
+              },
+              "referenceJobRoleNames": [
+                "Accounts and Payments Bory Coffee Company Ltd QA (SEPA)",
+                "Loan Management"
+              ]
+            }
+          ],
+          "loans": [
+            {
+              "externalId": "9212514456",
+              "IBAN": "NL42BCKB9212514456",
+              "name": "Loan Account EUR 4456",
+              "productTypeExternalId": "loan",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": false,
+              "productNumber": "8a19a6878774bbed018775af39aa7d81",
+              "creditAccount": true,
+              "principalAmount": {
+                "currencyCode": "EUR",
+                "amount": 25000.0
+              },
+              "bookedBalance": {
+                "currencyCode": "EUR",
+                "amount": 10000.5
+              },
+              "interestSettlementAccount": "9185017299",
+              "accountInterestRate": 2.05,
+              "termUnit": "Monthly",
+              "termNumber": 36,
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            },
+            {
+              "externalId": "9112515456",
+              "IBAN": "NL61BCKB9112515456",
+              "name": "Loan Account EUR 5456",
+              "productTypeExternalId": "loan",
+              "currency": "EUR",
+              "bankBranchCode": "11103093",
+              "externalTransferAllowed": true,
+              "debitAccount": false,
+              "productNumber": "8a19c2dc877a89d001877a8eacd300eb",
+              "creditAccount": true,
+              "principalAmount": {
+                "currencyCode": "EUR",
+                "amount": 450000.0
+              },
+              "bookedBalance": {
+                "currencyCode": "EUR",
+                "amount": 10000.5
+              },
+              "interestSettlementAccount": "9185017299",
+              "accountInterestRate": 2.05,
+              "termUnit": "Monthly",
+              "termNumber": 36,
+              "accountHolderName": "Bory Coffee Company Ltd QA (SEPA)"
+            }
+          ]
+        }
+      ],
+      "contacts": [
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412001_s",
+          "addressLine1": "99 Isla Rd East",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Neomi C. Barton",
+          "contactPerson": "N/A",
+          "phoneNumber": "623 509 6878",
+          "emailId": "ne@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462001_s",
+              "name": "Checking USD 0025",
+              "alias": "",
+              "accountNumber": "2512948592850025",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412002_s",
+          "addressLine1": "9292 Dream Avenue",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Merlin A. Wenzel",
+          "contactPerson": "N/A",
+          "phoneNumber": "843 705 1234",
+          "emailId": "Mer@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462002_s",
+              "name": "Checking USD 0026",
+              "alias": "",
+              "accountNumber": "2512948592850026",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412003_s",
+          "addressLine1": "2354 Dream Avenue",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Edith J. Geller",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 992 5325",
+          "emailId": "ed@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462003_s",
+              "name": "Checking USD 0027",
+              "alias": "",
+              "accountNumber": "2512948592850027",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412004_s",
+          "addressLine1": "9225 Dream Avenue",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Abigail S. Roberts",
+          "contactPerson": "N/A",
+          "phoneNumber": "843 705 6342",
+          "emailId": "Abigail@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462004_s",
+              "name": "Checking USD 0028",
+              "alias": "",
+              "accountNumber": "2512948592850028",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412005_s",
+          "addressLine1": "1234 Redemption Road",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Arthur Morgan",
+          "contactPerson": "N/A",
+          "phoneNumber": "627 509 7517",
+          "emailId": "Arthur@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462005_s",
+              "name": "Checking USD 0029",
+              "alias": "",
+              "accountNumber": "2512948592850029",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412006_s",
+          "addressLine1": "0199 Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Bill B. Williamson",
+          "contactPerson": "N/A",
+          "phoneNumber": "628 509 2256",
+          "emailId": "Bill@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462006_s",
+              "name": "Checking USD 0030",
+              "alias": "",
+              "accountNumber": "2512948592850030",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412007_s",
+          "addressLine1": "22 El Camino Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": "01731",
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Charles S. Smith",
+          "contactPerson": "N/A",
+          "phoneNumber": "628 509 7477",
+          "emailId": "charles@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462007_s",
+              "name": "Checking USD 0031",
+              "alias": "",
+              "accountNumber": "2512948592850031",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412008_s",
+          "addressLine1": "2256 Actor St",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": "01731",
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Dutch Van Der Linde",
+          "contactPerson": "N/A",
+          "phoneNumber": "629 509 7252",
+          "emailId": "Dutch@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462008_s",
+              "name": "Checking USD 0032",
+              "alias": "",
+              "accountNumber": "2512948592850032",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412009_s",
+          "addressLine1": "5466 Actor St",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": "01731",
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Hosea R. Matthews",
+          "contactPerson": "N/A",
+          "phoneNumber": "629 509 1361",
+          "emailId": "Hosea@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462009_s",
+              "name": "Checking USD 0033",
+              "alias": "",
+              "accountNumber": "2512948592850033",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412010_s",
+          "addressLine1": "2050 Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Edwina N. Markley",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 676 8602",
+          "emailId": "ed@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462010_s",
+              "name": "Checking USD 0019",
+              "alias": "",
+              "accountNumber": "2512948592850019",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412011_s",
+          "addressLine1": "9857 Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Leroy T. Diaz",
+          "contactPerson": "N/A",
+          "phoneNumber": "760 775 6619",
+          "emailId": "le@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462011_s",
+              "name": "Checking USD 0020",
+              "alias": "",
+              "accountNumber": "2512948592850020",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412012_s",
+          "addressLine1": "0029 Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Floyd J. Oliveira",
+          "contactPerson": "N/A",
+          "phoneNumber": "909 860 0219",
+          "emailId": "fl@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462012_s",
+              "name": "Checking USD 0021",
+              "alias": "",
+              "accountNumber": "2512948592850021",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412013_s",
+          "addressLine1": "25 Isla Rd East",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Patrick B. Johnson",
+          "contactPerson": "N/A",
+          "phoneNumber": "415 452 0533",
+          "emailId": "pat@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462013_s",
+              "name": "Checking USD 0022",
+              "alias": "",
+              "accountNumber": "2512948592850022",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412014_s",
+          "addressLine1": "98 Isla Rd East",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "John L. Hypes",
+          "contactPerson": "N/A",
+          "phoneNumber": "620 325 2298",
+          "emailId": "jo@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462014_s",
+              "name": "Checking USD 0023",
+              "alias": "",
+              "accountNumber": "2512948592850023",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412015_s",
+          "addressLine1": "335 Isla Rd East",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 30010,
+          "town": "Columbus",
+          "countrySubDivision": "GA",
+          "country": "US",
+          "name": "Tammy R. Thomas",
+          "contactPerson": "N/A",
+          "phoneNumber": "801 450 1564",
+          "emailId": "ta@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462015_s",
+              "name": "Checking USD 0024",
+              "alias": "",
+              "accountNumber": "2512948592850024",
+              "accountType": "Checking",
+              "bankCode": "121000358",
+              "bankName": "Bank of America",
+              "BIC": "BOFAUS6H",
+              "bankAddressLine1": "50 Georgia St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "Atlanta",
+              "bankCountrySubDivision": "GA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412016_s",
+          "addressLine1": "1124 Actor St",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Jack P. Marston",
+          "contactPerson": "N/A",
+          "phoneNumber": "631 509 2346",
+          "emailId": "Jack@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462016_s",
+              "name": "Checking USD 0034",
+              "alias": "",
+              "accountNumber": "2512948592850035",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412017_s",
+          "addressLine1": "65 Actor St",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Javier E. Escuella ",
+          "contactPerson": "N/A",
+          "phoneNumber": "632 509 7457",
+          "emailId": "Javier@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462017_s",
+              "name": "Checking USD 0035",
+              "alias": "",
+              "accountNumber": "2512948592851209",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412018_s",
+          "addressLine1": "1123 Vista Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "John Marston",
+          "contactPerson": "N/A",
+          "phoneNumber": "633 509 7573",
+          "emailId": "JohnM@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462018_s",
+              "name": "Checking USD 1209",
+              "alias": "",
+              "accountNumber": "2512948592851239",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412019_s",
+          "addressLine1": "163 Vista Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Josiah E. Trelawny",
+          "contactPerson": "N/A",
+          "phoneNumber": "634 509 8654",
+          "emailId": "Josiah@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462019_s",
+              "name": "Checking USD 1239",
+              "alias": "",
+              "accountNumber": "2512948592850712",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412020_s",
+          "addressLine1": "11 Vista Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Karen S. Jones",
+          "contactPerson": "N/A",
+          "phoneNumber": "635 509 7643",
+          "emailId": "Karen@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462020_s",
+              "name": "Checking USD 0712",
+              "alias": "",
+              "accountNumber": "2512948592859576",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412021_s",
+          "addressLine1": "13 Vista Meadows Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Kieran T. Duffy",
+          "contactPerson": "N/A",
+          "phoneNumber": "636 509 7865",
+          "emailId": "Kieran@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462021_s",
+              "name": "Checking USD 9576",
+              "alias": "",
+              "accountNumber": "2512948592851029",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412022_s",
+          "addressLine1": "113 Waterpoint",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Leopold Strauss",
+          "contactPerson": "N/A",
+          "phoneNumber": "637 509 7823",
+          "emailId": "Leopold@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462022_s",
+              "name": "Checking USD 1029",
+              "alias": "",
+              "accountNumber": "2512948592859292",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412023_s",
+          "addressLine1": "924 Waterpoint",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Mary Beth Gaskill",
+          "contactPerson": "N/A",
+          "phoneNumber": "530 992 5325",
+          "emailId": "MaryB@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462023_s",
+              "name": "Checking USD 9292",
+              "alias": "",
+              "accountNumber": "2512948592855048",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412024_s",
+          "addressLine1": "666 Waterpoint",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 1731,
+          "town": "Acton",
+          "countrySubDivision": "TX",
+          "country": "US",
+          "name": "Micah F. Bell",
+          "contactPerson": "N/A",
+          "phoneNumber": "531 992 1313",
+          "emailId": "Micah@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462024_s",
+              "name": "Checking USD 5048",
+              "alias": "",
+              "accountNumber": "2512948592859818",
+              "accountType": "Checking",
+              "bankCode": "11103093",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS44",
+              "bankAddressLine1": "747 Levy Court",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "01731",
+              "bankTown": "Acton",
+              "bankCountrySubDivision": "TX",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412025_s",
+          "addressLine1": "1315 Vista St",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91916,
+          "town": "Chula Vista",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Molly O. Shea",
+          "contactPerson": "N/A",
+          "phoneNumber": "532 992 1515",
+          "emailId": "Molly@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462025_s",
+              "name": "Checking USD 0985",
+              "alias": "",
+              "accountNumber": "2512948592850985",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412026_s",
+          "addressLine1": "22 Meadows Drive",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91916,
+          "town": "Rancho Del Rey",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Andrey F. Pearson",
+          "contactPerson": "N/A",
+          "phoneNumber": "533 992 6464",
+          "emailId": "MrPearson@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462026_s",
+              "name": "Checking USD 5672",
+              "alias": "",
+              "accountNumber": "2512948592855672",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412027_s",
+          "addressLine1": "11 Jolla Road",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Bonita",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Sadie L. Adler",
+          "contactPerson": "N/A",
+          "phoneNumber": "534 992 4633",
+          "emailId": "Sadie@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462027_s",
+              "name": "Checking USD 9295",
+              "alias": "",
+              "accountNumber": "2512948592859295",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412028_s",
+          "addressLine1": "9929 View Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91916,
+          "town": "Rancho Del Rey",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Sean MacGuire",
+          "contactPerson": "N/A",
+          "phoneNumber": "535 992 1221",
+          "emailId": "Sean@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462028_s",
+              "name": "Checking USD 0101",
+              "alias": "",
+              "accountNumber": "2512948592850101",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412029_s",
+          "addressLine1": "1010 Jolla Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Bonita",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Sqan M. Grimshaw",
+          "contactPerson": "N/A",
+          "phoneNumber": "536 992 2345",
+          "emailId": "MissGrim@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462029_s",
+              "name": "Checking USD 0102",
+              "alias": "",
+              "accountNumber": "2512948592850102",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412030_s",
+          "addressLine1": "5523 Jolla Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Bonita",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Tilly Jackson F.",
+          "contactPerson": "N/A",
+          "phoneNumber": "537 992 4636",
+          "emailId": "Tilly@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462030_s",
+              "name": "Checking USD 0201",
+              "alias": "",
+              "accountNumber": "2512948592850201",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412031_s",
+          "addressLine1": "19 Dream Rd",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91916,
+          "town": "Rancho Del Rey",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Uncle T. Peterson",
+          "contactPerson": "N/A",
+          "phoneNumber": "538 992 7564",
+          "emailId": "UncleT@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462031_s",
+              "name": "Checking USD 0103",
+              "alias": "",
+              "accountNumber": "2512948592850103",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412032_s",
+          "addressLine1": "9928 Jewel Road",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Bonita",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Karen R. Swanson",
+          "contactPerson": "N/A",
+          "phoneNumber": "539 992 7785",
+          "emailId": "KanR@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462032_s",
+              "name": "Checking USD 0104",
+              "alias": "",
+              "accountNumber": "2512948592850104",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412033_s",
+          "addressLine1": "141 Estancia Dr",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91916,
+          "town": "Rancho Del Rey",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "James B. Sims",
+          "contactPerson": "N/A",
+          "phoneNumber": "540 992 1234",
+          "emailId": "Ja@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462033_s",
+              "name": "Checking USD 0105",
+              "alias": "",
+              "accountNumber": "2512948592850105",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        },
+        {
+          "category": "Employee",
+          "externalId": "a8141b9e06621c412034_s",
+          "addressLine1": "9919 CrossRoads Avenue",
+          "addressLine2": "",
+          "streetName": "",
+          "postCode": 91917,
+          "town": "Bonita",
+          "countrySubDivision": "CA",
+          "country": "US",
+          "name": "Sandra L. White",
+          "contactPerson": "N/A",
+          "phoneNumber": "541 992 4213",
+          "emailId": "Sandy@mail.com",
+          "accounts": [
+            {
+              "externalId": "a8141b9e06632d462034_s",
+              "name": "Checking USD 0106",
+              "alias": "",
+              "accountNumber": "2512948592850106",
+              "accountType": "Checking",
+              "bankCode": "11103094",
+              "bankName": "CitiBank",
+              "BIC": "CITIUS34",
+              "bankAddressLine1": "7123 Levy St",
+              "bankAddressLine2": "",
+              "bankStreetName": "",
+              "bankPostCode": "30102",
+              "bankTown": "San Francisco",
+              "bankCountrySubDivision": "CA",
+              "bankCountry": "US"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

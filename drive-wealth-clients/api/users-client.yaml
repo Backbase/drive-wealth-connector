@@ -1,0 +1,244 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Users API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Users
+    description: Users API
+
+paths:
+  /back-office/users/search:
+    get:
+      tags:
+        - Users
+      summary: Search User by username
+      operationId: searchUserByUsername
+      parameters:
+        - name: username
+          in: query
+          schema:
+            type: string
+          example: Daryl
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchUserResponse'
+  /back-office/users:
+    post:
+      tags:
+        - Users
+      summary: Create User
+      operationId: createUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateUserResponse'
+
+components:
+  schemas:
+    SearchUserResponse:
+      type: object
+      properties:
+        resultSet:
+          type: array
+          items:
+            type: object
+            properties:
+              countryID:
+                type: string
+              emailAddress:
+                type: string
+              firstName:
+                type: string
+              lastName:
+                type: string
+              parentIB:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  name:
+                    type: string
+              phoneNumber:
+                type: string
+              userID:
+                type: string
+              username:
+                type: string
+              userType:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  description:
+                    type: string
+              approvedWhen:
+                type: string
+              approvedBy:
+                type: string
+        count:
+          type: number
+    CreateUserRequest:
+      type: object
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+        userType:
+          type: string
+        documents:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+              data:
+                $ref: '#/components/schemas/data'
+    CreateUserResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        userType:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        status:
+          type: object
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+        parentIB:
+          type: object
+          properties:
+            id:
+              type: string
+            name:
+              type: string
+        documents:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+              data:
+                $ref: '#/components/schemas/data'
+              description:
+                type: string
+        wlpID:
+          type: string
+        referralCode:
+          type: string
+        createdWhen:
+          type: string
+        updatedWhen:
+          type: string
+    data:
+      type: object
+      properties:
+        firstName:
+          type: string
+        lastName:
+          type: string
+        country:
+          type: string
+        phone:
+          type: string
+        emailAddress:
+          type: string
+        language:
+          type: string
+        value:
+          type: string
+        type:
+          type: string
+        citizenship:
+          type: string
+        usTaxPayer:
+          type: boolean
+        birthDay:
+          type: integer
+          format: int32
+        birthMonth:
+          type: integer
+          format: int32
+        birthYear:
+          type: integer
+          format: int32
+        politicallyExposedNames:
+          type: string
+          format: nullable
+        street1:
+          type: string
+        city:
+          type: string
+        province:
+          type: string
+        postalCode:
+          type: string
+        status:
+          type: string
+        broker:
+          type: boolean
+        position:
+          type: string
+        investmentObjectives:
+          type: string
+        investmentExperience:
+          type: string
+        annualIncome:
+          type: integer
+          format: int32
+        networthLiquid:
+          type: integer
+          format: int32
+        networthTotal:
+          type: integer
+          format: int32
+        riskTolerance:
+          type: string
+        termsOfUse:
+          type: boolean
+        customerAgreement:
+          type: boolean
+        marketDataAgreement:
+          type: boolean
+        rule14b:
+          type: boolean
+        findersFee:
+          type: boolean
+        privacyPolicy:
+          type: boolean
+        dataSharing:
+          type: boolean
+        signedBy:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: [ ]

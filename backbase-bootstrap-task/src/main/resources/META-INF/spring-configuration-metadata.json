@@ -1,0 +1,291 @@
+{
+  "groups": [
+    {
+      "name": "admin",
+      "type": "com.backbase.productled.config.properties.AdminConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.AdminConfigurationProperties"
+    },
+    {
+      "name": "backbase.stream.bootstrap",
+      "type": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties"
+    },
+    {
+      "name": "backbase.stream.bootstrap.approvals",
+      "type": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$Approvals",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties",
+      "sourceMethod": "getApprovals()"
+    },
+    {
+      "name": "backbase.stream.bootstrap.global-limits",
+      "type": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$GlobalLimits",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties",
+      "sourceMethod": "getGlobalLimits()"
+    },
+    {
+      "name": "backbase.stream.bootstrap.legal-entity",
+      "type": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$LegalEntity",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties",
+      "sourceMethod": "getLegalEntity()"
+    },
+    {
+      "name": "backbase.stream.bootstrap.product-catalog",
+      "type": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$ProductCatalog",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties",
+      "sourceMethod": "getProductCatalog()"
+    },
+    {
+      "name": "card",
+      "type": "com.backbase.productled.config.properties.CardConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.CardConfigurationProperties"
+    },
+    {
+      "name": "environment",
+      "type": "com.backbase.productled.config.properties.EnvironmentConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.EnvironmentConfigurationProperties"
+    },
+    {
+      "name": "global-limits",
+      "type": "com.backbase.productled.config.properties.GlobalLimitsConfiguration",
+      "sourceType": "com.backbase.productled.config.properties.GlobalLimitsConfiguration"
+    },
+    {
+      "name": "mambu",
+      "type": "com.backbase.productled.config.properties.MambuConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "marqeta",
+      "type": "com.backbase.productled.config.properties.MarqetaConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.MarqetaConfigurationProperties"
+    },
+    {
+      "name": "payveris",
+      "type": "com.backbase.productled.config.properties.PayverisMockConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.PayverisMockConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "admin.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.AdminConfigurationProperties"
+    },
+    {
+      "name": "admin.bootstrap-manual-steps-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.AdminConfigurationProperties"
+    },
+    {
+      "name": "admin.default-user-password",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.AdminConfigurationProperties"
+    },
+    {
+      "name": "admin.password",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.AdminConfigurationProperties"
+    },
+    {
+      "name": "admin.username",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.AdminConfigurationProperties"
+    },
+    {
+      "name": "backbase.stream.bootstrap.approvals.bootstrap-resources-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$Approvals"
+    },
+    {
+      "name": "backbase.stream.bootstrap.approvals.location",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$Approvals"
+    },
+    {
+      "name": "backbase.stream.bootstrap.global-limits.bootstrap-resources-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$GlobalLimits"
+    },
+    {
+      "name": "backbase.stream.bootstrap.global-limits.location",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$GlobalLimits"
+    },
+    {
+      "name": "backbase.stream.bootstrap.legal-entity.bootstrap-resources-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$LegalEntity"
+    },
+    {
+      "name": "backbase.stream.bootstrap.legal-entity.location",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$LegalEntity"
+    },
+    {
+      "name": "backbase.stream.bootstrap.product-catalog.bootstrap-resources-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$ProductCatalog"
+    },
+    {
+      "name": "backbase.stream.bootstrap.product-catalog.location",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.backbase.productled.config.properties.BootstrapDataConfigurationProperties$ProductCatalog"
+    },
+    {
+      "name": "card.amount-limit",
+      "type": "java.math.BigDecimal",
+      "sourceType": "com.backbase.productled.config.properties.CardConfigurationProperties"
+    },
+    {
+      "name": "card.currency-code",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.CardConfigurationProperties"
+    },
+    {
+      "name": "card.meta-data",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.backbase.productled.config.properties.CardConfigurationProperties"
+    },
+    {
+      "name": "card.name",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.CardConfigurationProperties"
+    },
+    {
+      "name": "card.usage-limit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.backbase.productled.config.properties.CardConfigurationProperties"
+    },
+    {
+      "name": "environment.installation",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.EnvironmentConfigurationProperties"
+    },
+    {
+      "name": "environment.runtime",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.EnvironmentConfigurationProperties"
+    },
+    {
+      "name": "global-limits.access-control-url",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.GlobalLimitsConfiguration"
+    },
+    {
+      "name": "global-limits.baas-header",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.GlobalLimitsConfiguration"
+    },
+    {
+      "name": "global-limits.bootstrap-resources-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.GlobalLimitsConfiguration"
+    },
+    {
+      "name": "global-limits.limits-url",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.GlobalLimitsConfiguration"
+    },
+    {
+      "name": "mambu.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.bootstrap-resources-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.branch-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.credit-card-account-product-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.current-account-product-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.line-of-credit-product-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.mortgage-product-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.password",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.savings-account-product-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.term-loan-product-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.transactions-beneficiary-account-key",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "mambu.username",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MambuConfigurationProperties"
+    },
+    {
+      "name": "marqeta.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MarqetaConfigurationProperties"
+    },
+    {
+      "name": "marqeta.bootstrap-resources-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.MarqetaConfigurationProperties"
+    },
+    {
+      "name": "marqeta.card",
+      "type": "com.backbase.productled.config.properties.CardConfigurationProperties",
+      "sourceType": "com.backbase.productled.config.properties.MarqetaConfigurationProperties"
+    },
+    {
+      "name": "marqeta.debug-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.MarqetaConfigurationProperties"
+    },
+    {
+      "name": "marqeta.password",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MarqetaConfigurationProperties"
+    },
+    {
+      "name": "marqeta.username",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.MarqetaConfigurationProperties"
+    },
+    {
+      "name": "payveris.bootstrap-payveris-mock-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.backbase.productled.config.properties.PayverisMockConfigurationProperties"
+    },
+    {
+      "name": "payveris.payveris-base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.backbase.productled.config.properties.PayverisMockConfigurationProperties"
+    }
+  ],
+  "hints": []
+}

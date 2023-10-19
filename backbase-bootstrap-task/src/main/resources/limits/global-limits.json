@@ -1,0 +1,34 @@
+{
+  "limits": [
+    {
+      "entities": [
+        {
+          "type": "USER"
+        }
+      ],
+      "periodic-limits-bounds": {
+        "daily": "10000000.0"
+      }
+    },
+    {
+      "entities": [
+        {
+          "type": "SA"
+        }
+      ],
+      "transactional-limits-bound": {
+        "amount": "2000000.0"
+      }
+    },
+    {
+      "entities": [
+        {
+          "type": "LE"
+        }
+      ],
+      "transactional-limits-bound": {
+        "amount": "1000000.0"
+      }
+    }
+  ]
+}

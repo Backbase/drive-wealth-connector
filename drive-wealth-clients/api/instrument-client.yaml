@@ -1,0 +1,213 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Instrument API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Instrument
+    description: Allow retrieval of Instrument related data
+
+paths:
+  /back-office/instruments:
+    get:
+      tags:
+        - Instrument
+      summary: Get All Instruments
+      operationId: getAllInstruments
+      parameters:
+        - name: status
+          in: query
+          schema:
+            type: string
+          example: ACTIVE
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Instrument'
+  /back-office/instruments/{instrumentId}?options=Fundamentals:
+    get:
+      tags:
+        - Instrument
+      summary: Get Instrument Detail
+      operationId: getInstrumentById
+      parameters:
+        - name: instrumentId
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InstrumentDetail'
+  /back-office/instruments/{symbol}:
+    get:
+      tags:
+        - Instrument
+      summary: Get Instrument Detail
+      operationId: getInstrumentBySymbol
+      parameters:
+        - name: symbol
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InstrumentDetail'
+
+components:
+  schemas:
+    InstrumentDetail:
+      type: object
+      properties:
+        symbol:
+          type: string
+        reutersPrimaryRic:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        sector:
+          type: string
+        longOnly:
+          type: boolean
+        orderSizeMax:
+          type: integer
+          format: int32
+        orderSizeMin:
+          type: number
+        orderSizeStep:
+          type: number
+        exchangeNickelSpread:
+          type: boolean
+        close:
+          type: number
+        descriptionChinese:
+          type: string
+        enableExtendedHoursNotionalStatus:
+          type: string
+        id:
+          type: string
+        type:
+          type: string
+        exchange:
+          type: string
+        url:
+          type: string
+        status:
+          type: string
+        exchangeThresholdOverride:
+          type: number
+        closePrior:
+          type: number
+        image:
+          type: string
+        ISIN:
+          type: string
+        houseThresholdOverride:
+          type: string
+        fundamentalDataModel:
+          $ref: '#/components/schemas/FundamentalDataModel'
+    Instrument:
+      type: object
+      properties:
+        symbol:
+          type: string
+        name:
+          type: string
+        enableExtendedHoursNotionalStatus:
+          type: string
+        id:
+          type: string
+        type:
+          type: string
+        status:
+          type: string
+        ISIN:
+          type: string
+    GetInstrumentsResponse:
+      type: array
+      items:
+        $ref: '#/components/schemas/Instrument'
+    FundamentalDataModel:
+      type: object
+      properties:
+        instrumentID:
+          type: string
+        symbol:
+          type: string
+        openPrice:
+          type: number
+        bidPrice:
+          type: number
+        askPrice:
+          type: number
+        lowPrice:
+          type: number
+        highPrice:
+          type: number
+        fiftyTwoWeekLowPrice:
+          type: number
+        fiftyTwoWeekHighPrice:
+          type: number
+        cumulativeVolume:
+          type: number
+        marketCap:
+          type: number
+        peRatio:
+          type: number
+        dividendYield:
+          type: number
+        earningsPerShare:
+          type: number
+        dividend:
+          type: number
+        sharesOutstanding:
+          type: number
+        timeLastUpdate:
+          type: string
+        bookValuePerShare:
+          type: string
+        cashFlowPerShare:
+          type: string
+        operatingIncome:
+          type: string
+        pbRatio:
+          type: string
+        volumeMovingAverage10Day:
+          type: number
+        volumeMovingAverage25Day:
+          type: number
+        volumeMovingAverage50Day:
+          type: number
+        priceMovingAverage50Day:
+          type: number
+        priceMovingAverage150Day:
+          type: number
+        priceMovingAverage200Day:
+          type: number
+        roe:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: [ ]

@@ -1,0 +1,192 @@
+openapi: 3.0.0
+info:
+  title: Yahoo Finance API (Market News)
+  version: 1.0.0
+servers:
+  - url: https://query1.finance.yahoo.com
+
+paths:
+  /v1/finance/search:
+    get:
+      tags:
+        - default
+      summary: Search Market News
+      operationId: getMarketNews
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/searchResponse'
+
+components:
+  schemas:
+    searchResponse:
+      type: object
+      properties:
+        explains:
+          type: array
+          items: {}
+        count:
+          type: integer
+        quotes:
+          type: array
+          items:
+            type: object
+            properties:
+              exchange:
+                type: string
+                example: NMS
+              shortname:
+                type: string
+                example: Apple Inc.
+              quoteType:
+                type: string
+                example: EQUITY
+              symbol:
+                type: string
+                example: AAPL
+              index:
+                type: string
+                example: quotes
+              score:
+                type: number
+                example: 60973500
+              typeDisp:
+                type: string
+                example: Equity
+              longname:
+                type: string
+                example: Apple Inc.
+              exchDisp:
+                type: string
+                example: NASDAQ
+              sector:
+                type: string
+                example: Technology
+              industry:
+                type: string
+                example: Consumer Electronics
+              dispSecIndFlag:
+                type: boolean
+              isYahooFinance:
+                type: boolean
+        news:
+          type: array
+          items:
+            type: object
+            properties:
+              uuid:
+                type: string
+              title:
+                type: string
+              publisher:
+                type: string
+              link:
+                type: string
+              providerPublishTime:
+                type: integer
+              type:
+                type: string
+              thumbnail:
+                type: object
+                properties:
+                  resolutions:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        url:
+                          type: string
+                        width:
+                          type: integer
+                        height:
+                          type: integer
+                        tag:
+                          type: string
+                      required:
+                        - url
+                        - width
+                        - height
+                        - tag
+                required:
+                  - resolutions
+              relatedTickers:
+                type: array
+                items:
+                  type: string
+            required:
+              - uuid
+              - title
+              - publisher
+              - link
+              - providerPublishTime
+              - type
+              - thumbnail
+              - relatedTickers
+        nav:
+          type: array
+          items:
+            type: object
+            properties:
+              navName:
+                type: string
+                example: Economic News
+              navUrl:
+                type: string
+                example: https://finance.yahoo.com/topic/economic-news
+        lists:
+          type: array
+          items: {}
+        researchReports:
+          type: array
+          items: {}
+        screenerFieldResults:
+          type: array
+          items: {}
+        totalTime:
+          type: integer
+        timeTakenForQuotes:
+          type: integer
+        timeTakenForNews:
+          type: integer
+        timeTakenForAlgowatchlist:
+          type: integer
+        timeTakenForPredefinedScreener:
+          type: integer
+        timeTakenForCrunchbase:
+          type: integer
+        timeTakenForNav:
+          type: integer
+        timeTakenForResearchReports:
+          type: integer
+        timeTakenForScreenerField:
+          type: integer
+        timeTakenForCulturalAssets:
+          type: integer
+      required:
+        - explains
+        - count
+        - quotes
+        - news
+        - nav
+        - lists
+        - researchReports
+        - screenerFieldResults
+        - totalTime
+        - timeTakenForQuotes
+        - timeTakenForNews
+        - timeTakenForAlgowatchlist
+        - timeTakenForPredefinedScreener
+        - timeTakenForCrunchbase
+        - timeTakenForNav
+        - timeTakenForResearchReports
+        - timeTakenForScreenerField
+        - timeTakenForCulturalAssets

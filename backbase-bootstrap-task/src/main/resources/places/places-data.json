@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "atm-de-boelelaan",
+    "name": "De Boelelaan 1117",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "De Boelelaan 1117",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "Noord Holland",
+      "postcode": "1081 HV",
+      "country": "The Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_coordinates_Centres",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "latitude_Centres",
+            "value": "52.334224"
+          },
+          {
+            "customFieldId": "longitude_Centres",
+            "value": "4.919731"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "419021855"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atm-helmholtzstraat",
+    "name": "Helmholtzstraat 63",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Helmholtzstraat 63",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1098 LE",
+      "country": "The Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_coordinates_Centres",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "latitude_Centres",
+            "value": "52.350057"
+          },
+          {
+            "customFieldId": "longitude_Centres",
+            "value": "4.939726"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "419021855"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atm-kleine-wittenburgerstraat",
+    "name": "Kleine Wittenburgerstraat 14",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Kleine Wittenburgerstraat 14",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "Noord Holland",
+      "postcode": "1018 LV",
+      "country": "The Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_coordinates_Centres",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "latitude_Centres",
+            "value": "52.369836"
+          },
+          {
+            "customFieldId": "longitude_Centres",
+            "value": "4.919731"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "419021855"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "branch-beukenplein",
+    "name": "Beukenplein 6",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Beukenplein 6",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "Noord Holland",
+      "postcode": "1091 KG",
+      "country": "The Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_coordinates_Centres",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "latitude_Centres",
+            "value": "52.357386"
+          },
+          {
+            "customFieldId": "longitude_Centres",
+            "value": "4.917528"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-20:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:30"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-14:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "branch-damrak",
+    "name": "Damrak 13-15",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Damrak 13-15",
+      "line2": "",
+      "city": "",
+      "region": "",
+      "postcode": "",
+      "country": ""
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_coordinates_Centres",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "latitude_Centres",
+            "value": "52.376297"
+          },
+          {
+            "customFieldId": "longitude_Centres",
+            "value": "4.897236"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "monday",
+            "value": "09:30-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "branch-reigersbos",
+    "name": "Reigersbos 56-58A",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Reigersbos 56-58A",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "Noord Holland",
+      "postcode": "1106 AS",
+      "country": "The Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_coordinates_Centres",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "latitude_Centres",
+            "value": "52.296479"
+          },
+          {
+            "customFieldId": "longitude_Centres",
+            "value": "4.9757"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:30-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-20:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:30"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-14:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "branch-van-limburg",
+    "name": "Van Limburg Stirumplein 123",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Van Limburg Stirumplein 123",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "Noord Holland",
+      "postcode": "1051 BD",
+      "country": "The Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_coordinates_Centres",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "latitude_Centres",
+            "value": "52.384313"
+          },
+          {
+            "customFieldId": "longitude_Centres",
+            "value": "4.875509"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "817596341"
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "21645005"
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "424624201"
+              }
+            ]
+          },
+          {
+            "index": 7,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1366405965"
+              }
+            ]
+          },
+          {
+            "index": 8,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "2142322882"
+              }
+            ]
+          },
+          {
+            "index": 9,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "13295789"
+              }
+            ]
+          },
+          {
+            "index": 10,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "208970442"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CSE-AMS-1",
+    "name": "Amsterdam Main Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "cs-enablement",
+    "address": {
+      "line1": "Michelangelostraat 91 ",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "postcode": "1077 BZ",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-14:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "2142322882"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "13295789"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CSE-AMS-2",
+    "name": "Amsterdam Far Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "cs-enablement",
+    "address": {
+      "line1": "Uitdammerdijk 14",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1026 CP",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-13:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "2142322882"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CSE-AMS-ATM-1",
+    "name": "Amsterdam ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "cs-enablement",
+    "address": {
+      "line1": "Beethovenstraat 72",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 JM",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CSE-NY-1",
+    "name": "New York Main",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "cs-enablement",
+    "address": {
+      "line1": "151 W 34th St",
+      "line2": "",
+      "city": " New York",
+      "region": "New York",
+      "postcode": "NY 10001",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-14:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CSE-NY-ATM-1",
+    "name": "New York Queens ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "cs-enablement",
+    "address": {
+      "line1": "16417 Union Tpke",
+      "line2": "",
+      "city": "New York",
+      "region": "New York",
+      "postcode": "NY 11366",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "817596341"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DT1",
+    "name": "Down Town",
+    "state": "ACTIVE",
+    "meetingDay": "FRIDAY",
+    "assignedBranchId": "demoBranchId",
+    "address": {
+      "line1": "Tavcarjeva 93",
+      "city": "Slovenj Gradec",
+      "postcode": "2380"
+    }
+  },
+  {
+    "id": "MP1",
+    "name": "Market Place",
+    "state": "ACTIVE",
+    "notes": "All clients and officers gather in the market to discuss loans and savings situation.",
+    "assignedBranchId": "2",
+    "address": {
+      "line1": "Hegyalja út 95.",
+      "city": "Debrecen",
+      "postcode": "4032"
+    }
+  },
+  {
+    "id": "PL-AMS-1",
+    "name": "Amsterdam Main Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Michelangelostraat 91 ",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 BZ",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PL-AMS-2",
+    "name": "Amsterdam Far Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Uitdammerdijk 14",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1026 CP",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PL-AMS-ATM-1",
+    "name": "Amsterdam ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Beethovenstraat 72",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 JM",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PL-KRK-1",
+    "name": "Cracow Old City Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Floriańska 5",
+      "line2": "",
+      "city": "Cracow",
+      "region": "",
+      "postcode": "31-019",
+      "country": "Poland"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PL-KRK-2",
+    "name": "Cracow Bonarka Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Puszkarska 1",
+      "line2": "",
+      "city": "Cracow",
+      "region": "",
+      "postcode": "30-524",
+      "country": "Poland"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PL-KRK-ATM-1",
+    "name": "Cracow Old City ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "ul. Szewska 1",
+      "line2": "",
+      "city": "Cracow",
+      "region": "",
+      "postcode": "31-009",
+      "country": "Poland"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PL-NY-1",
+    "name": "New York Main",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "151 W 34th St",
+      "line2": "",
+      "city": " New York",
+      "region": "New York",
+      "postcode": "NY 10001",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PL-NY-ATM-1",
+    "name": "New York Queens ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "16417 Union Tpke",
+      "line2": "",
+      "city": "New York",
+      "region": "New York",
+      "postcode": "NY 11366",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pl-ny-demo",
+    "name": "New York Main",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led-demo",
+    "address": {
+      "line1": "151 W 34th St",
+      "line2": "",
+      "city": " New York",
+      "region": " New York",
+      "postcode": "NY 10001",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SSB-AMS-1",
+    "name": "Amsterdam Main Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ssb",
+    "address": {
+      "line1": "Michelangelostraat 91 ",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "postcode": "1077 BZ",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SSB-AMS-2",
+    "name": "Amsterdam Far Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ssb",
+    "address": {
+      "line1": "Uitdammerdijk 14",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1026 CP",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SSB-AMS-ATM-1",
+    "name": "Amsterdam ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ssb",
+    "address": {
+      "line1": "Beethovenstraat 72",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 JM",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SSB-NY-1",
+    "name": "New York Main",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ssb",
+    "address": {
+      "line1": "151 W 34th St",
+      "line2": "",
+      "city": " New York",
+      "region": " New York",
+      "postcode": "NY 10001",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SSB-NY-ATM-1",
+    "name": "New York Queens ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ssb",
+    "address": {
+      "line1": "16417 Union Tpke",
+      "line2": "",
+      "city": "New York",
+      "region": "New York",
+      "postcode": "NY 11366",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-centre-1",
+    "name": "test-centre",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "Goudastraat 5",
+      "line2": "",
+      "city": "Almere",
+      "region": "test",
+      "postcode": "1324LM",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "21645005"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "13295789"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "208970442"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UD-AMS-1",
+    "name": "Amsterdam Main Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ud",
+    "address": {
+      "line1": "Michelangelostraat 91 ",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "postcode": "1077 BZ",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "419021855"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "208970442"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UD-AMS-2",
+    "name": "Amsterdam Far Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ud",
+    "address": {
+      "line1": "Uitdammerdijk 14",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1026 CP",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "424624201"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UD-AMS-ATM-1",
+    "name": "Amsterdam ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ud",
+    "address": {
+      "line1": "Beethovenstraat 72",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 JM",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UD-NY-1",
+    "name": "New York Main",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ud",
+    "address": {
+      "line1": "151 W 34th St",
+      "line2": "",
+      "city": " New York",
+      "region": " New York",
+      "postcode": "NY 10001",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "10:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "419021855"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "639545456"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UD-NY-ATM-1",
+    "name": "New York Queens ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "ud",
+    "address": {
+      "line1": "16417 Union Tpke",
+      "line2": "",
+      "city": "New York",
+      "region": "New York",
+      "postcode": "NY 11366",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1366405965"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VBT-AMS-1",
+    "name": "Amsterdam Main Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "vbt",
+    "address": {
+      "line1": "Michelangelostraat 91",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 BZ",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "424624201"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "2142322882"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VBT-AMS-atm",
+    "name": "Amsterdam ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "vbt",
+    "address": {
+      "line1": "Beethovenstraat 72",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 JM",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WSECU-AMS-1",
+    "name": "Amsterdam Main Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "wsecu",
+    "address": {
+      "line1": "Michelangelostraat 91 ",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "postcode": "1077 BZ",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "817596341"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WSECU-AMS-2",
+    "name": "Amsterdam Far Branch",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "wsecu",
+    "address": {
+      "line1": "Uitdammerdijk 14",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1026 CP",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "817596341"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WSECU-AMS-ATM-1",
+    "name": "Amsterdam ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "wsecu",
+    "address": {
+      "line1": "Beethovenstraat 72",
+      "line2": "",
+      "city": "Amsterdam",
+      "region": "",
+      "postcode": "1077 JM",
+      "country": "Netherlands"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1366405965"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WSECU-NY-1",
+    "name": "New York Main",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "wsecu",
+    "address": {
+      "line1": "151 W 34th St",
+      "line2": "",
+      "city": " New York",
+      "region": "New York",
+      "postcode": "NY 10001",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "2142322882"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "13295789"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WSECU-NY-ATM-1",
+    "name": "New York Queens ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "wsecu",
+    "address": {
+      "line1": "16417 Union Tpke",
+      "line2": "",
+      "city": "New York",
+      "region": "New York",
+      "postcode": "NY 11366",
+      "country": "United States"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "424624201"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atm-hardik-crown-madhapur-1",
+    "name": "Madhapur Main ATM",
+    "state": "ACTIVE",
+    "notes": "",
+    "assignedBranchId": "product-led",
+    "address": {
+      "line1": "PN 18, Hardik Crown, Hi Tech City",
+      "line2": "Madhapur",
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "postcode": "500081",
+      "country": "India"
+    },
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "index": 0,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "817596341"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atm-huda-enclave-hitec-city-1",
+    "meetingDay": "",
+    "name": "HITEC City Main ATM",
+    "notes": "",
+    "state": "ACTIVE",
+    "address": {
+      "city": "Hyderabad",
+      "country": "India",
+      "line1": "5A, Mindspace, HUDA Techno Enclave",
+      "line2": "HITEC City",
+      "postcode": "500081",
+      "region": "Telangana"
+    },
+    "assignedBranchId": "product-led",
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "1228849113"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "monday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "friday",
+            "value": "09:00-17:00"
+          },
+          {
+            "customFieldId": "saturday",
+            "value": "00:00-23:59"
+          },
+          {
+            "customFieldId": "sunday",
+            "value": "00:00-23:59"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ],
+            "index": 0
+          },
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ],
+            "index": 1
+          },
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ],
+            "index": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "branch-huda-enclave-hitec-city-1",
+    "meetingDay": "",
+    "name": "HITEC City Main Branch",
+    "notes": "",
+    "state": "ACTIVE",
+    "address": {
+      "city": "Hyderabad",
+      "country": "India",
+      "line1": "Sun Towers, Ground, HUDA Techno Enclave",
+      "line2": "Sector 1",
+      "postcode": "500081",
+      "region": "Telangana"
+    },
+    "assignedBranchId": "product-led",
+    "customFieldValueSets": [
+      {
+        "id": "_centreDetails",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "centreType",
+            "value": "263499186"
+          }
+        ]
+      },
+      {
+        "id": "_openingHours",
+        "standardCustomFieldValues": [
+          {
+            "customFieldId": "monday",
+            "value": "10:00-17:30"
+          },
+          {
+            "customFieldId": "tuesday",
+            "value": "10:00-17:30"
+          },
+          {
+            "customFieldId": "wednesday",
+            "value": "10:00-17:30"
+          },
+          {
+            "customFieldId": "thursday",
+            "value": "10:00-17:30"
+          },
+          {
+            "customFieldId": "friday",
+            "value": "10:00-17:30"
+          }
+        ]
+      },
+      {
+        "id": "_services",
+        "groupedCustomFieldValues": [
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "139391526"
+              }
+            ],
+            "index": 0
+          },
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "915017181"
+              }
+            ],
+            "index": 1
+          },
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "418382316"
+              }
+            ],
+            "index": 2
+          },
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "1000990419"
+              }
+            ],
+            "index": 3
+          },
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "817596341"
+              }
+            ],
+            "index": 4
+          },
+          {
+            "customFieldValues": [
+              {
+                "customFieldId": "serviceType",
+                "value": "21645005"
+              }
+            ],
+            "index": 5
+          }
+        ]
+      }
+    ]
+  }
+]
+
+
+
+

@@ -1,0 +1,26 @@
+spring:
+  config:
+    import: optional:drive-wealth.properties
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: false
+
+eureka:
+  client:
+    enabled: false
+
+logging:
+  level:
+    root: INFO
+    com.backbase: INFO
+    org.springframework: INFO
+    org.springframework.web.client.RestTemplate: INFO
+    org.apache.http: INFO
+    httpclient.wire: INFO
+    org.springframework.web.filter.CommonsRequestLoggingFilter: INFO
+
+backbase:
+  security:
+    public:
+      paths: /**

@@ -1,0 +1,114 @@
+{
+  "transaction-categories": [
+    {
+      "key": "CSR",
+      "alias": "CSR",
+      "description": "A deposit"
+    },
+    {
+      "key": "CSD",
+      "alias": "CSD",
+      "description": "A withdrawal"
+    },
+    {
+      "key": "FEE",
+      "alias": "FEE",
+      "description": "A fee was deducted from the account. Fee types can include AUM and withdrawal fees"
+    },
+    {
+      "key": "JNLC",
+      "alias": "JNLC",
+      "description": "A cash journal was made from one account to another"
+    },
+    {
+      "key": "CADJ",
+      "alias": "CADJ",
+      "description": "A credit adjustment was made, generally used for returned ACH transactions"
+    },
+    {
+      "key": "INT",
+      "alias": "INT",
+      "description": "An interest adjustment"
+    },
+    {
+      "key": "SPUR",
+      "alias": "SPUR",
+      "description": "A security (stock/ETF/ADR) was bought"
+    },
+    {
+      "key": "SSAL",
+      "alias": "SSAL",
+      "description": "A security (stock/ETF/ADR) was sold"
+    },
+    {
+      "key": "MERGER_ACQUISITION",
+      "alias": "MERGER_ACQUISITION",
+      "description": "A merger or acquisition has taken place"
+    },
+    {
+      "key": "DIV",
+      "alias": "DIV",
+      "description": "A dividend payment"
+    },
+    {
+      "key": "DIVTAX",
+      "alias": "DIVTAX",
+      "description": "A tax withholding on a dividend"
+    },
+    {
+      "key": "DIVNRA",
+      "alias": "DIVNRA",
+      "description": "A tax withholding on a dividend for a non-resident alien"
+    },
+    {
+      "key": "STCK",
+      "alias": "STCK",
+      "description": "A stock price adjustment"
+    },
+    {
+      "key": "COMM",
+      "alias": "COMM",
+      "description": "A commission"
+    },
+    {
+      "key": "SPINOFF",
+      "alias": "SPINOFF",
+      "description": "Stock spinoff"
+    },
+    {
+      "key": "STOCK_SPLIT",
+      "alias": "STOCK_SPLIT",
+      "description": "Stock split/reverse stock split"
+    },
+    {
+      "key": "ACATS_CASH",
+      "alias": "ACATS_CASH",
+      "description": "ACATS cash delivery or receive"
+    },
+    {
+      "key": "ACATS_STOCK",
+      "alias": "ACATS_STOCK",
+      "description": "ACATS stock delivery or receive"
+    },
+    {
+      "key": "CCPUR",
+      "alias": "CCPUR",
+      "description": "Crypto Currency Purchase"
+    },
+    {
+      "key": "CCSAL",
+      "alias": "CCSAL",
+      "description": "Crypto Currency Sale"
+    },
+    {
+      "key": "SLIP",
+      "alias": "SLIP",
+      "description": "An interest payment for security lending rebates"
+    },
+    {
+      "key": "DIVM",
+      "alias": "DIVM",
+      "description": "A dividend that is received when shares are on loan as part of the fully paid security lending program"
+    }
+  ]
+}

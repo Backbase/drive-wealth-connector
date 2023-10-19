@@ -1,0 +1,434 @@
+{
+  "name": "Financial Institute Branch 1",
+  "realmName": "employee",
+  "externalId": "financial-institute-branch1",
+  "legalEntityType": "BANK",
+  "subsidiaries": [
+    {
+      "name": "James",
+      "realmName": "customer",
+      "externalId": "james-uat",
+      "legalEntityType": "CUSTOMER",
+      "administrators": [
+        {
+          "externalId": "james-uat",
+          "fullName": "James Uat",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "james-uat@modelbank.backbase.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "james-uat",
+            "fullName": "James Uat",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "james-uat@modelbank.backbase.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "US"
+              },
+              "addresses": [
+                {
+                  "streetAddress": "630 Bellaire Drive",
+                  "locality": "Hurst Texas 76053",
+                  "country": "USA",
+                  "type": "home",
+                  "postalCode": "76053",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Portfolio - Owner",
+            "Wealth User"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "internalId": "james-uatdag1",
+          "name": "James Portfolios",
+          "description": "Product group containing James portfolio arrangements",
+          "investmentAccounts": [
+            {
+              "externalId": "741531316",
+              "BBAN": "741531316",
+              "name": "College Portfolio",
+              "productTypeExternalId": "investment-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "debitAccount": true,
+              "creditAccount": true,
+              "currentInvestment": {
+                "currencyCode": "USD",
+                "amount": 10000.0
+              },
+                "accountHolderNames": "James Uat",
+              "accountHolderCountry": "US",
+              "additions" : {
+                "ignoreMarketHoursForTest" : "true",
+                "riskLevel": ""
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "471362585",
+              "BBAN": "471362585",
+              "name": "Retirement Portfolio",
+              "productTypeExternalId": "investment-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "debitAccount": true,
+              "creditAccount": true,
+              "currentInvestment": {
+                "currencyCode": "USD",
+                "amount": 40000.0
+              },
+                "accountHolderNames": "James Uat",
+              "accountHolderCountry": "US",
+              "additions" : {
+                "ignoreMarketHoursForTest" : "true",
+                "riskLevel": "Medium"
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ]
+        }
+      ],
+      "subsidiaries": [
+        {
+          "name": "Naomi",
+          "realmName": "customer",
+          "externalId": "naomi-uat",
+          "legalEntityType": "CUSTOMER",
+          "administrators": [
+            {
+              "externalId": "naomi-uat",
+              "fullName": "Naomi Uat",
+              "identityLinkStrategy": "CREATE_IN_IDENTITY",
+              "emailAddress": {
+                "address": "naomi-uatn@modelbank.backbase.com"
+              },
+              "mobileNumber": {
+                "number": "1234567890"
+              }
+            }
+          ],
+          "users": [
+            {
+              "user": {
+                "externalId": "naomi-uat",
+                "fullName": "Naomi Uat",
+                "identityLinkStrategy": "CREATE_IN_IDENTITY",
+                "emailAddress": {
+                  "address": "naomi-uatn@modelbank.backbase.com"
+                },
+                "mobileNumber": {
+                  "number": "1234567890"
+                },
+                "userProfile": {
+                  "personalInformation": {
+                    "gender": "female",
+                    "dateOfBirth": "1995-12-30",
+                    "countryOfBirth": "US"
+                  },
+                  "addresses": [
+                    {
+                      "streetAddress": "630 Bellaire Drive",
+                      "locality": "Hurst Texas 76053",
+                      "country": "USA",
+                      "type": "home",
+                      "postalCode": "76053",
+                      "primary": "true"
+                    }
+                  ]
+                }
+              },
+              "referenceJobRoleNames": [
+                "Portfolio - Investor",
+                "Wealth User"
+              ]
+            }
+          ],
+          "productGroups": [
+            {
+              "internalId": "naomi-uatdag1",
+              "name": "Naomi Portfolios",
+              "description": "Product group containing Naomi portfolio arrangements",
+              "investmentAccounts": [
+                {
+                  "externalId": "741531316",
+                  "BBAN": "741531316",
+                  "name": "College Portfolio",
+                  "productTypeExternalId": "investment-account",
+                  "BIC": "CITIUS33",
+                  "currency": "USD",
+                  "debitAccount": true,
+                  "creditAccount": true,
+                  "currentInvestment": {
+                    "currencyCode": "USD",
+                    "amount": 10000.0
+                  },
+                    "accountHolderNames": "James Uat",
+                  "accountHolderCountry": "US",
+                  "additions" : {
+                    "ignoreMarketHoursForTest" : "true",
+                    "riskLevel": ""
+                  },
+                  "state": {
+                    "externalStateId": "Active",
+                    "state": "ACTIVE"
+                  }
+                },
+                {
+                  "externalId": "471362585",
+                  "BBAN": "471362585",
+                  "name": "Retirement Portfolio",
+                  "productTypeExternalId": "investment-account",
+                  "BIC": "CITIUS33",
+                  "currency": "USD",
+                  "debitAccount": true,
+                  "creditAccount": true,
+                  "currentInvestment": {
+                    "currencyCode": "USD",
+                    "amount": 40000.0
+                  },
+                    "accountHolderNames": "James Uat",
+                  "accountHolderCountry": "US",
+                  "additions" : {
+                    "ignoreMarketHoursForTest" : "true",
+                    "riskLevel": "Medium"
+                  },
+                  "state": {
+                    "externalStateId": "Active",
+                    "state": "ACTIVE"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amos",
+      "realmName": "customer",
+      "externalId": "amos-uat",
+      "legalEntityType": "CUSTOMER",
+      "administrators": [
+        {
+          "externalId": "amos-uat",
+          "fullName": "Amos Uat",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "amos-uat@modelbank.backbase.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "amos-uat",
+            "fullName": "Amos Uat",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "amos-uat@modelbank.backbase.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "US"
+              },
+              "addresses": [
+                {
+                  "streetAddress": "630 Bellaire Drive",
+                  "locality": "Hurst Texas 76053",
+                  "country": "USA",
+                  "type": "home",
+                  "postalCode": "76053",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Portfolio - Investor",
+            "Wealth User"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "internalId": "amos-uatdag1",
+          "name": "Amos Portfolios",
+          "description": "Product group containing Amos portfolio arrangements",
+          "investmentAccounts": [
+            {
+              "externalId": "127105943",
+              "BBAN": "127105943",
+              "name": "Trading Portfolio",
+              "productTypeExternalId": "investment-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "debitAccount": true,
+              "creditAccount": true,
+              "currentInvestment": {
+                "currencyCode": "USD",
+                "amount": 100000.0
+              },
+              "accountHolderNames": "Amos Uat",
+              "accountHolderCountry": "US",
+              "additions" : {
+                "ignoreMarketHoursForTest" : "true",
+                "riskLevel": "medium"
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alex",
+      "realmName": "customer",
+      "externalId": "alex-uat",
+      "legalEntityType": "CUSTOMER",
+      "administrators": [
+        {
+          "externalId": "alex-uat",
+          "fullName": "Alex Uat",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "alex-uat@modelbank.backbase.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "alex-uat",
+            "fullName": "Alex Uat",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "alex-uat@modelbank.backbase.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            },
+            "userProfile": {
+              "personalInformation": {
+                "gender": "male",
+                "dateOfBirth": "1995-12-30",
+                "countryOfBirth": "US"
+              },
+              "addresses": [
+                {
+                  "streetAddress": "630 Bellaire Drive",
+                  "locality": "Hurst Texas 76053",
+                  "country": "USA",
+                  "type": "home",
+                  "postalCode": "76053",
+                  "primary": "true"
+                }
+              ]
+            }
+          },
+          "referenceJobRoleNames": [
+            "Portfolio - Owner",
+            "Wealth User"
+          ]
+        }
+      ],
+      "productGroups": [
+        {
+          "internalId": "alex-uatdag1",
+          "name": "Alex Portfolios",
+          "description": "Product group containing Alex portfolio arrangements",
+          "investmentAccounts": [
+            {
+              "externalId": "595696898",
+              "BBAN": "595696898",
+              "name": "Investment Portfolio",
+              "productTypeExternalId": "investment-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "debitAccount": true,
+              "creditAccount": true,
+              "currentInvestment": {
+                "currencyCode": "USD",
+                "amount": 200000.0
+              },
+              "accountHolderNames": "Alex Uat",
+              "accountHolderCountry": "US",
+              "additions" : {
+                "ignoreMarketHoursForTest" : "true",
+                "riskLevel": "Low"
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            },
+            {
+              "externalId": "864204256",
+              "BBAN": "864204256",
+              "name": "Investment Portfolio",
+              "productTypeExternalId": "investment-account",
+              "BIC": "CITIUS33",
+              "currency": "USD",
+              "debitAccount": true,
+              "creditAccount": true,
+              "currentInvestment": {
+                "currencyCode": "USD",
+                "amount": 500000.0
+              },
+              "accountHolderNames": "Alex Uat",
+              "accountHolderCountry": "US",
+              "additions" : {
+                "ignoreMarketHoursForTest" : "true",
+                "riskLevel": "High"
+              },
+              "state": {
+                "externalStateId": "Active",
+                "state": "ACTIVE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

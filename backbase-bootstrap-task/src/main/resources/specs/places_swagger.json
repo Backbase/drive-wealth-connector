@@ -1,0 +1,165 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Places Mock API",
+    "description": "Dummy spec to generate model classes for places data provided in places-data.json file",
+    "version": "3.0.0"
+  },
+  "tags": [
+    {
+      "name": "Mock"
+    }
+  ],
+  "paths": {
+    "/mock/places": {
+      "post": {
+        "tags": [
+          "Mock"
+        ],
+        "summary": "Dummy spec",
+        "operationId": "resetData",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {}
+          },
+          "400": {
+            "description": "User input error/Bad request",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {}
+          },
+          "500": {
+            "description": "Server error",
+            "content": {}
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PlaceCustomFieldValueConfiguration": {
+        "description": "Representation of Custom field value configuration to be used in Branch or ATM request",
+        "type": "object",
+        "properties": {
+          "customFieldId": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      },
+      "PlaceCustomFieldValueGroupConfiguration": {
+        "description": "Representation of Custom field value group configuration to be used in Branch or ATM request",
+        "type": "object",
+        "properties": {
+          "customFieldValues": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlaceCustomFieldValueConfiguration"
+            }
+          },
+          "index": {
+            "type": "integer"
+          }
+        }
+      },
+      "PlaceCustomFieldValueSetConfiguration": {
+        "description": "Representation of Custom field value set configuration to be used in Branch or ATM request",
+        "type": "object",
+        "properties": {
+          "groupedCustomFieldValues": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlaceCustomFieldValueGroupConfiguration"
+            }
+          },
+          "id": {
+            "type": "string"
+          },
+          "standardCustomFieldValues": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlaceCustomFieldValueConfiguration"
+            }
+          }
+        }
+      },
+      "PlaceAddress": {
+        "description": "Model representation for a place (Branch or ATM) address",
+        "title": "Place Address",
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "line1": {
+            "type": "string"
+          },
+          "line2": {
+            "type": "string"
+          },
+          "postcode": {
+            "type": "string"
+          },
+          "region": {
+            "type": "string"
+          }
+        }
+      },
+      "PlaceConfiguration": {
+        "description": "Model representation of the configuration for a place (Branch or ATM)",
+        "title": "Place Configuration",
+        "type": "object",
+        "properties": {
+          "address": {
+            "$ref": "#/components/schemas/PlaceAddress"
+          },
+          "assignedBranchId": {
+            "type": "string"
+          },
+          "customFieldValueSets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlaceCustomFieldValueSetConfiguration"
+            }
+          },
+          "id": {
+            "type": "string"
+          },
+          "meetingDay": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}

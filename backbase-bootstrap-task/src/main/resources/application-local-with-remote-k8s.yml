@@ -1,0 +1,100 @@
+spring:
+  # Task specific configuration for running task locally with reference to services running on k8s cluster
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    config:
+      enabled: false
+    kubernetes:
+      enabled: true
+    discovery:
+      client:
+        simple:
+          instances:
+            user-manager:
+              - uri: http://localhost:18081
+            access-control:
+              - uri: http://localhost:18082
+            arrangement-manager:
+              - uri: http://localhost:18083
+            limit:
+              - uri: http://localhost:18084
+            contact-manager:
+              - uri: http://localhost:18085
+            approvals-base:
+              - uri: http://localhost:18088
+            messages-service:
+              - uri: http://localhost:18090
+            identity-integration-service:
+              - uri: http://localhost:18086
+            fido-service:
+              - uri: http://localhost:18089
+            token-converter:
+              - uri: http://localhost:18080
+            content-service:
+              - uri: http://localhost:19090
+            push-integration-service:
+              - uri: http://localhost:17090
+            portfolio:
+              - uri: http://localhost:18091
+eureka:
+  client:
+    enabled: false
+global-limits:
+  bootstrapResourcesEnabled: false
+  accessControlUrl: https://app.${environment.runtime}.reference.azure.backbaseservices.com/api/access-control
+  limitsUrl: https://app.${environment.runtime}.reference.azure.backbaseservices.com/api/limit
+
+payveris:
+  bootstrapPayverisMockEnabled: false
+  payverisBaseUrl: http://localhost:18086
+
+environment:
+  enrichment:
+    exclude-list: ACH,admin
+  installation:
+  runtime:
+
+admin:
+  bootstrapManualStepsEnabled: false
+  baseUrl: http://localhost:18087/auth
+  username: admin
+  password:
+  defaultUserPassword: Pass1234
+
+mambu:
+  bootstrap-resources-enabled: false
+  baseUrl: https://projectmoustache.sandbox.mambu.com/api
+  username:
+  password:
+  currentAccountProductKey: 8a19ade27796501e017796a8891321b0
+  savingsAccountProductKey: 8a19ddf377b43f9a0177b456b491054d
+  branchKey: 8a19d4237651743d017651b1d7f40386
+  transactionsBeneficiaryAccountKey: 8a19a6ed7651e85701765258571d01f4
+  mortgageProductKey: 8a19a72d805b946701805b988deb0cdf
+  lineOfCreditProductKey: 8a19cd5681aa98e40181b18da1983106
+  termLoanProductKey: 8a19cd5681aa98e40181b3914a3e6846
+  currentAccountProductKeys:
+    USD: 8a19ade27796501e017796a8891321b0
+    EUR: 8a19dd8683ef2acf0183f02e52ed6b59
+  savingsAccountProductKeys:
+    USD: 8a19ddf377b43f9a0177b456b491054d
+    EUR: 8a19dfa6859a240201859af717b57318
+  transactionsBeneficiaryAccountKeys:
+    USD: 8a19a6ed7651e85701765258571d01f4
+    EUR: 8a19b208855cc20101855d86c48740a1
+
+marqeta:
+  bootstrapResourcesEnabled: false
+  baseUrl: https://sandbox-api.marqeta.com/v3
+  username: ede3b3c0-791e-42c8-99d9-2709b3f2b0df
+  password: 92e2471b-6310-4706-9ff1-f7331ffb2533
+logging:
+  level:
+    ROOT: DEBUG
+    com.backbase: DEBUG
+    org.springframework: DEBUG
+    org.springframework.web.client.RestTemplate: TRACE
+    org.springframework.boot.autoconfigure.logging: INFO
+
+enableExperimentalUniversalSupport: false

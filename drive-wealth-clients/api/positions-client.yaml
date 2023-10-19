@@ -1,0 +1,88 @@
+openapi: 3.0.0
+info:
+  title: Drive Wealth Positions API Specs
+  version: 1.0.0
+servers:
+  - url: https://bo-api.drivewealth.io
+tags:
+  - name: Positions
+    description: Allow retrieval of Account Positions
+paths:
+  /back-office/accounts/{accountID}/summary/positions:
+    get:
+      tags:
+        - Positions
+      summary: List Positions by Account Id
+      operationId: listPositionsByAccountId
+      parameters:
+        - name: accountID
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PositionsResponse'
+components:
+  schemas:
+    PositionsResponse:
+      type: object
+      properties:
+        accountID:
+          type: string
+        accountNo:
+          type: string
+        tradingType:
+          type: string
+        equityValue:
+          type: number
+        updated:
+          type: string
+          format: date-time
+        equityPositions:
+          type: array
+          items:
+            type: object
+            properties:
+              symbol:
+                type: string
+              instrumentID:
+                type: string
+              openQty:
+                type: number
+              availableForWithdrawalQty:
+                type: string
+                format: nullable
+              costBasis:
+                type: number
+              marketValue:
+                type: number
+              side:
+                type: string
+              priorClose:
+                type: number
+              availableForTradingQty:
+                type: number
+              avgPrice:
+                type: number
+              mktPrice:
+                type: number
+              unrealizedPL:
+                type: number
+              unrealizedDayPLPercent:
+                type: number
+              unrealizedDayPL:
+                type: number
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []

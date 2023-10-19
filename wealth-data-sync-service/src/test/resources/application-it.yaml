@@ -1,0 +1,42 @@
+spring:
+  cloud:
+    kubernetes:
+      discovery:
+        enabled: false
+
+eureka:
+  client:
+    enabled: false
+
+backbase:
+  security:
+    public:
+      paths: /client-api/v1/**
+
+drive-wealth:
+  baseUrl: https://bo-api.drivewealth.io
+  transactions:
+    daysRefreshWindow:
+      - eventName: Attempt Login Authentication
+        period: 365
+      - eventName: Create Order
+        period: 1
+  orders:
+    monthsRefreshWindow:
+      - eventName: Attempt Login Authentication
+        period: 12
+      - eventName: Create Order
+        period: 1
+  dwClientAppKey: testClientAppKey
+  clientID: testClientId
+  clientSecret: testClientSecret
+
+cloud:
+  aws:
+    sqs:
+      enabled: true
+    listener:
+      auto-startup: false
+    region:
+      static: <>
+      auto: false

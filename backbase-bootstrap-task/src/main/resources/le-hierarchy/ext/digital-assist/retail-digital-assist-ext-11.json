@@ -1,0 +1,110 @@
+{
+  "name": "Financial Institute Head Office",
+  "externalId": "financial-institute-head-office",
+  "realmName": "employee",
+  "legalEntityType": "BANK",
+  "subsidiaries": [
+    {
+      "name": "Financial Institute Branch 1",
+      "realmName": "employee",
+      "externalId": "financial-institute-branch1",
+      "legalEntityType": "BANK",
+      "administrators": [
+        {
+          "externalId": "ext11-fib1sa01",
+          "fullName": "Lisa Morellik",
+          "identityLinkStrategy": "CREATE_IN_IDENTITY",
+          "emailAddress": {
+            "address": "ext11fib1sa01@email.com"
+          },
+          "mobileNumber": {
+            "number": "1234567890"
+          }
+        }
+      ],
+      "users": [
+        {
+          "user": {
+            "externalId": "ext11-fib1sa01",
+            "fullName": "Lisa Morellik",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext11fib1sa01@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "admin",
+            "Bank Admin",
+            "Bank Employee - Emulation",
+            "Bank Admin - Conversation History",
+            "Bank Admin - RTC",
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "ext11-jbranch",
+            "fullName": "Jane Branchk",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext11jbranch@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Bank Employee",
+            "Bank Employee - Emulation",
+            "Bank Employee - Conversation History",
+            "Bank Employee - RTC",
+            "Case Manager - All permissions"
+          ]
+        },
+        {
+          "user": {
+            "externalId": "ext11-gmorrison",
+            "fullName": "Gayle Morrisonk",
+            "identityLinkStrategy": "CREATE_IN_IDENTITY",
+            "emailAddress": {
+              "address": "ext11gmorrison@email.com"
+            },
+            "mobileNumber": {
+              "number": "1234567890"
+            }
+          },
+          "referenceJobRoleNames": [
+            "Bank Employee",
+            "Bank Employee - Emulation",
+            "Bank Employee - Conversation History",
+            "Bank Employee - RTC",
+            "Case Manager - All permissions"
+          ]
+        }
+      ],
+      "productGroups": [],
+      "masterServiceAgreement": {
+        "externalId": "financial-institute-branch1",
+        "name": "Financial Institute Branch 1",
+        "description": "Single Service Agreement for Financial Institute Branch 1",
+        "status": "ENABLED",
+        "isMaster": true,
+        "participants": [
+          {
+            "externalId": "financial-institute-branch1",
+            "sharingUsers": true,
+            "sharingAccounts": true,
+            "admins": [
+              "ext11-fib1sa01"
+            ],
+            "users": []
+          }
+        ]
+      }
+    }
+  ]
+}
+  
